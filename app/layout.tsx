@@ -6,6 +6,7 @@ import SmoothScroll from "@/components/ui/SmoothScroll";
 import CustomCursor from "@/components/ui/CustomCursor";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import PageTransition from "@/components/providers/PageTransition";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -93,7 +94,9 @@ export default function RootLayout({
         <SmoothScroll>
           <CustomCursor />
           <Header />
-          <main id="main">{children}</main>
+          <PageTransition>
+            <main id="main">{children}</main>
+          </PageTransition>
           <Footer />
         </SmoothScroll>
       </body>

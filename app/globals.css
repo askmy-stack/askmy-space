@@ -8,11 +8,15 @@
 @theme {
   --color-bg: #0A0A0B;
   --color-bg-elevated: #131316;
+  --color-base: #0A0A0B;
+  --color-surface: #111112;
   --color-fg: #F5F1EA;
   --color-fg-muted: #8A8680;
+  --color-muted: #3A3A3A;
   --color-accent: #FF6B35;
   --color-accent-soft: rgba(255, 107, 53, 0.12);
-  --color-border: #2A2A2E;
+  --color-border: #1E1E1F;
+  --color-mono: #4ADE80;
 
   --font-display: var(--font-fraunces), Georgia, serif;
   --font-body: var(--font-geist-sans), system-ui, sans-serif;
@@ -26,11 +30,20 @@
 :root {
   --bg: #0A0A0B;
   --bg-elevated: #131316;
+  --base: #0A0A0B;
+  --surface: #111112;
   --fg: #F5F1EA;
   --fg-muted: #8A8680;
+  --muted: #3A3A3A;
   --accent: #FF6B35;
   --accent-soft: rgba(255, 107, 53, 0.12);
-  --border: #2A2A2E;
+  --border: #1E1E1F;
+  --mono: #4ADE80;
+
+  --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 200ms;
+  --duration-base: 400ms;
+  --duration-slow: 800ms;
 
   --fs-display-xl: clamp(4rem, 12vw, 12rem);
   --fs-display-lg: clamp(2.5rem, 6vw, 6rem);
@@ -247,6 +260,19 @@ svg {
 @keyframes pulse-dot {
   0%, 100% { opacity: 1; transform: scale(1); }
   50%      { opacity: 0.4; transform: scale(0.7); }
+}
+
+@keyframes glitch {
+  0%   { transform: translate(0); }
+  20%  { transform: translate(-2px, 2px); clip-path: inset(20% 0 40% 0); }
+  40%  { transform: translate(2px, -2px); clip-path: inset(60% 0 20% 0); }
+  60%  { transform: translate(0); clip-path: inset(0); }
+  80%  { transform: translate(-1px, 1px); }
+  100% { transform: translate(0); }
+}
+
+.glitch-once {
+  animation: glitch 0.3s ease-out 0.8s 1;
 }
 
 @keyframes blob-float {

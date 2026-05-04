@@ -1,5 +1,6 @@
 import { aboutParagraphs } from "@/content/about";
 import AnimatedHeading from "@/components/ui/AnimatedHeading";
+import StatCounter from "@/components/ui/StatCounter";
 import Principles from "./Principles";
 
 export default function About(): JSX.Element {
@@ -55,6 +56,14 @@ export default function About(): JSX.Element {
               </p>
             ))}
           </div>
+        </div>
+
+        {/* Stat counters — animate when in view */}
+        <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 pt-12 border-t border-[var(--border)]">
+          <StatCounter end={0.948} decimals={3} label="mAP@50 (BYU)" />
+          <StatCounter end={916} label="Hours of EEG" />
+          <StatCounter end={99.9} decimals={1} suffix="%" label="Pipeline Reliability" />
+          <StatCounter end={85} suffix="%" label="Faster Deploys" />
         </div>
 
         <Principles />

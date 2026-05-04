@@ -1,0 +1,54 @@
+"use client";
+
+import { motion } from "framer-motion";
+
+interface Entity {
+  name: string;
+  type: "company" | "school" | "cert" | "award";
+}
+
+const entities: readonly Entity[] = [
+  { name: "Jio Platforms", type: "company" },
+  { name: "George Washington University", type: "school" },
+  { name: "Follett Higher Education", type: "company" },
+  { name: "PHN Technologies", type: "company" },
+  { name: "AWS AI Practitioner", type: "cert" },
+  { name: "Global Leaders Award", type: "award" },
+  { name: "Red Hat Certified", type: "cert" },
+  { name: "Google Advanced Data Analytics", type: "cert" },
+];
+
+export default function SocialProofBar(): JSX.Element {
+  return (
+    <section className="py-16 border-y border-[var(--border)] overflow-hidden">
+      <p className="text-center text-[10px] font-mono text-[var(--fg-muted)] tracking-[0.3em] uppercase mb-8">
+        Previously shipped at · Studied at · Certified by
+      </p>
+
+      <div className="relative flex overflow-hidden">
+        <motion.div
+          className="flex gap-16 pr-16 whitespace-nowrap"
+          animate={{ x: ["0%", "-50%"] }}
+          transition={{ duration: 30, ease: "linear", repeat: Infinity }}
+        >
+          {[...entities, ...entities].map((entity, i) => (
+            <div key={i} className="flex items-center gap-3 group cursor-default">
+              <span
+                className={`w-1.5 h-1.5 rounded-full shrink-0 ${
+                  entity.type === "award"
+                    ? "bg-[var(--accent)]"
+                    : entity.type === "cert"
+                      ? "bg-[var(--mono)]"
+                      : "bg-[var(--fg-muted)]"
+                }`}
+              />
+              <span className="text-sm font-mono text-[var(--fg-muted)] group-hover:text-[var(--fg)] transition-colors duration-200">
+                {entity.name}
+              </span>
+            </div>
+          ))}
+        </motion.div>
+      </div>
+    </section>
+  );
+}

@@ -1,24 +1,25 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import HeroBlob from "./HeroBlob";
-import { heroStats, heroSubtitles } from "@/content/about";
+import { heroStats } from "@/content/about";
 import { siteConfig } from "@/content/site";
 import { easeOutExpo } from "@/lib/motion";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 
 export default function Hero(): JSX.Element {
-  const [subIndex, setSubIndex] = useState(0);
   const reduced = useReducedMotion();
 
-  useEffect(() => {
+  const handleMouseMove = (e: React.MouseEvent<HTMLHeadingElement>) => {
     if (reduced) return;
-    const id = setInterval(() => {
-      setSubIndex((i) => (i + 1) % heroSubtitles.length);
-    }, 3000);
-    return () => clearInterval(id);
-  }, [reduced]);
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = (e.clientX - rect.left) / rect.width - 0.5;
+    const target = e.currentTarget;
+    target.style.filter = `blur(${Math.abs(x) * 2}px)`;
+    window.setTimeout(() => {
+      target.style.filter = "blur(0px)";
+    }, 150);
+  };
 
   return (
     <section className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
@@ -41,31 +42,26 @@ export default function Hero(): JSX.Element {
           </span>
         </motion.div>
 
-        {/* Name — display xl */}
+        {/* Name — display xl, glitch once on mount, cursor-reactive blur */}
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: easeOutExpo, delay: 0.3 }}
-          className="text-display-xl text-[var(--fg)] leading-[0.9]"
+          onMouseMove={handleMouseMove}
+          className="text-display-xl text-[var(--fg)] leading-[0.9] glitch-once transition-[filter] duration-150 will-change-[filter]"
         >
           {siteConfig.alias}
         </motion.h1>
 
-        {/* Rotating subtitle */}
-        <div className="mt-8 h-10 md:h-12 relative overflow-hidden">
-          <AnimatePresence mode="wait">
-            <motion.p
-              key={subIndex}
-              initial={{ y: "100%", opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: "-100%", opacity: 0 }}
-              transition={{ duration: 0.6, ease: easeOutExpo }}
-              className="absolute inset-0 font-mono text-base md:text-lg text-[var(--fg-muted)] tracking-wide"
-            >
-              {heroSubtitles[subIndex]}
-            </motion.p>
-          </AnimatePresence>
-        </div>
+        {/* Subtitle — single line, fixed copy */}
+        <motion.p
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.8 }}
+          className="mt-8 font-display italic text-2xl md:text-3xl text-[var(--fg)]/80 max-w-2xl leading-snug"
+        >
+          Building AI/ML systems that ship to real users.
+        </motion.p>
 
         {/* Stat strip */}
         <motion.div

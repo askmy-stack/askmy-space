@@ -2,7 +2,7 @@ import type { Experience } from "@/lib/types";
 
 export const experience: readonly Experience[] = [
   {
-    title: "Operations Analytics Associate (Part-time)",
+    title: "Operations Analytics Associate",
     company: "Follett Higher Education Group",
     dates: "May 2025 — Present",
     location: "Washington, DC",
@@ -13,7 +13,7 @@ export const experience: readonly Experience[] = [
     ],
   },
   {
-    title: "Data Ops Engineer",
+    title: "Data Operations Engineer",
     company: "Jio Platforms Limited",
     dates: "Jul 2023 — Jul 2024",
     location: "Navi Mumbai, India",

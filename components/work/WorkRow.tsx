@@ -1,9 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { useRef } from "react";
+import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
 import type { Project } from "@/lib/types";
 import { easeOutExpo } from "@/lib/motion";
+
+const MotionLink = motion(Link);
 
 interface Props {
   project: Project;
@@ -12,56 +15,100 @@ interface Props {
 
 export default function WorkRow({ project, index }: Props): JSX.Element {
   const num = String(index + 1).padStart(2, "0");
+  const ref = useRef<HTMLAnchorElement>(null);
+
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+  const rotateX = useSpring(useTransform(y, [-100, 100], [3, -3]), {
+    stiffness: 200,
+    damping: 20,
+  });
+  const rotateY = useSpring(useTransform(x, [-100, 100], [-3, 3]), {
+    stiffness: 200,
+    damping: 20,
+  });
+
+  function handleMouseMove(e: React.MouseEvent<HTMLAnchorElement>) {
+    if (!ref.current) return;
+    const rect = ref.current.getBoundingClientRect();
+    x.set(e.clientX - rect.left - rect.width / 2);
+    y.set(e.clientY - rect.top - rect.height / 2);
+  }
+
+  function handleMouseLeave() {
+    x.set(0);
+    y.set(0);
+  }
 
   return (
     <motion.div
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.8, ease: easeOutExpo }}
+      transition={{ duration: 0.6, delay: index * 0.1, ease: easeOutExpo }}
       className="group relative"
     >
-      <Link
+      <MotionLink
+        ref={ref}
         href={`/work/${project.slug}`}
-        className="block py-10 md:py-14 border-t border-[var(--border)] group-hover:border-[var(--accent)] transition-colors"
+        onMouseMove={handleMouseMove}
+        onMouseLeave={handleMouseLeave}
+        className="relative block py-12 md:py-14 border-t border-[var(--border)] group-hover:border-[var(--accent)] transition-colors"
+        style={{ rotateX, rotateY, transformStyle: "preserve-3d", perspective: 1000 }}
       >
-        <div className="grid grid-cols-12 gap-4 md:gap-8 items-baseline">
-          {/* Number */}
-          <div className="col-span-2 md:col-span-1">
-            <span className="font-mono text-xs text-[var(--fg-muted)]">{num}</span>
-          </div>
-
-          {/* Title + subtitle */}
-          <div className="col-span-10 md:col-span-6">
-            <h3 className="text-display-md text-[var(--fg)] group-hover:text-[var(--accent)] transition-colors">
-              {project.title}
-            </h3>
-            <p className="font-mono text-sm text-[var(--fg-muted)] mt-2">
-              {project.subtitle}
-            </p>
-          </div>
-
-          {/* Meta */}
-          <div className="col-span-7 md:col-span-3 mt-2 md:mt-0">
-            <p className="font-mono text-xs uppercase tracking-[0.2em] text-[var(--fg-muted)]">
-              {project.category}
-            </p>
-            <p className="font-mono text-xs text-[var(--fg-muted)] mt-1">
-              {project.heroMetric}
-            </p>
-          </div>
-
-          {/* Year + arrow */}
-          <div className="col-span-5 md:col-span-2 flex items-center justify-end gap-4 mt-2 md:mt-0">
-            <span className="font-mono text-xs text-[var(--fg-muted)]">
-              {project.year}
+        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8">
+          {/* Left: number + title + narrative + tags */}
+          <div className="flex items-start gap-6 flex-1">
+            <span className="font-mono text-xs text-[var(--fg-muted)] mt-2 w-8 shrink-0 tabular-nums">
+              {num}
             </span>
-            <span className="text-[var(--accent)] text-lg group-hover:translate-x-1 transition-transform">
-              →
-            </span>
+            <div className="flex-1">
+              <h3 className="text-2xl md:text-3xl font-[family-name:var(--font-display)] italic text-[var(--fg)] group-hover:text-[var(--accent)] transition-colors duration-300 mb-3 leading-tight">
+                {project.title}
+              </h3>
+              <p className="text-sm text-[var(--fg-muted)] max-w-xl leading-relaxed">
+                {project.narrative}
+              </p>
+              <div className="flex flex-wrap gap-2 mt-5">
+                {project.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="text-[10px] font-mono uppercase tracking-[0.15em] px-2.5 py-1 border border-[var(--border)] text-[var(--fg-muted)]"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Right: metrics + year + arrow */}
+          <div className="shrink-0 md:text-right md:min-w-[260px]">
+            <div className="flex flex-col gap-1.5 mb-5">
+              {project.metrics.map((m) => (
+                <span key={m} className="text-xs font-mono text-[var(--fg-muted)]">
+                  {m}
+                </span>
+              ))}
+            </div>
+            <div className="flex items-center md:justify-end gap-3">
+              <span className="font-mono text-xs text-[var(--fg-muted)] tabular-nums">
+                {project.year}
+              </span>
+              <span className="text-[var(--accent)] text-lg group-hover:translate-x-1 transition-transform">
+                →
+              </span>
+            </div>
           </div>
         </div>
-      </Link>
+
+        {/* Hover accent hairline at bottom edge */}
+        <span
+          aria-hidden="true"
+          className="absolute left-0 right-0 bottom-0 h-px scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"
+          style={{ backgroundColor: project.color }}
+        />
+      </MotionLink>
     </motion.div>
   );
 }
