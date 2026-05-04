@@ -43,7 +43,7 @@ export default function Header(): JSX.Element {
             aria-label="Home — Abhinaysai Kamineni"
             className="font-[family-name:var(--font-display)] italic text-2xl text-[var(--fg)] hover:text-[var(--accent)] transition-colors leading-none"
           >
-            AK<span className="text-[var(--accent)]">.</span>
+            ASK<span className="text-[var(--accent)]">.</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -101,7 +101,7 @@ export default function Header(): JSX.Element {
                 aria-label="Home"
                 className="font-[family-name:var(--font-display)] italic text-2xl leading-none"
               >
-                AK<span className="text-[var(--accent)]">.</span>
+                ASK<span className="text-[var(--accent)]">.</span>
               </Link>
               <button
                 type="button"
