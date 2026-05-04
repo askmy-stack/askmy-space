@@ -33,15 +33,15 @@ export default function Header(): JSX.Element {
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
           scrolled
-            ? "bg-[var(--bg)]/80 backdrop-blur-xl border-b border-[var(--border)]"
-            : "bg-transparent",
+            ? "bg-[var(--bg)]/90 backdrop-blur-xl border-b border-[var(--border)]"
+            : "bg-[var(--bg)]/40 backdrop-blur-sm",
         )}
       >
         <div className="container-editorial flex items-center justify-between h-16">
           <Link
             href="/"
             aria-label="Home — Abhinaysai Kamineni"
-            className="font-mono font-semibold text-base tracking-[0.15em] text-[var(--fg)] hover:text-[var(--accent)] transition-colors leading-none"
+            className="font-mono font-bold text-lg md:text-xl tracking-[0.12em] text-[var(--fg)] hover:text-[var(--accent)] transition-colors leading-none"
           >
             ASK<span className="text-[var(--accent)]">.</span>
           </Link>
@@ -99,7 +99,7 @@ export default function Header(): JSX.Element {
                 href="/"
                 onClick={() => setMenuOpen(false)}
                 aria-label="Home"
-                className="font-mono font-semibold text-base tracking-[0.15em] leading-none"
+                className="font-mono font-bold text-lg tracking-[0.12em] text-[var(--fg)] leading-none"
               >
                 ASK<span className="text-[var(--accent)]">.</span>
               </Link>
