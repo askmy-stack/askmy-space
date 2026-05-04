@@ -37,7 +37,9 @@ export default function Footer(): JSX.Element {
             </p>
             <div className="flex flex-col gap-2 text-sm">
               <a
-                href={`mailto:${siteConfig.email}`}
+                href={`https://mail.google.com/mail/?view=cm&fs=1&to=${siteConfig.email}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-[var(--fg)] hover:text-[var(--accent)] transition-colors break-all"
               >
                 {siteConfig.email}

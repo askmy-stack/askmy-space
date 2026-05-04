@@ -30,10 +30,11 @@ export default function Contact(): JSX.Element {
         </p>
 
         <div className="mt-12 flex flex-wrap gap-3">
-          <Button href={siteConfig.calendly} external variant="primary">
-            Book a 20-min call
-          </Button>
-          <Button href={`mailto:${siteConfig.email}`} variant="outline">
+          <Button
+            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${siteConfig.email}`}
+            external
+            variant="primary"
+          >
             Reach out ↗
           </Button>
           <Button href={siteConfig.resume} variant="ghost">
