@@ -13,32 +13,8 @@ export const principles: readonly Principle[] = [
   { title: "Metrics without context are vanity. Real systems, real users, real impact." },
 ] as const;
 
-export const heroSubtitles: readonly string[] = [
-  "AI/ML Engineer",
-  "Cryo-ET Detector Builder",
-  "Production MLOps Craftsman",
-  "Agentic AI Tinkerer",
-] as const;
-
 export const heroStats: readonly string[] = [
   "3+ yrs production ML",
   "First-principles for product",
   "100K events/sec",
-] as const;
-
-export const techStack: readonly string[] = [
-  "PyTorch",
-  "Docker",
-  "Kubernetes",
-  "Airflow",
-  "AWS",
-  "Terraform",
-  "Spark",
-  "Kafka",
-  "MLflow",
-  "CenterNet",
-  "YOLOv10",
-  "Hugging Face",
-  "GitHub Actions",
-  "BigQuery",
 ] as const;

@@ -45,8 +45,8 @@ export default function Header(): JSX.Element {
             askmystack
           </Link>
 
-          {/* Available badge — center */}
-          <div className="hidden md:flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--mono)]">
+          {/* Available badge — center, lg+ only to avoid tablet overflow */}
+          <div className="hidden lg:flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--mono)]">
             <span className="w-1.5 h-1.5 rounded-full bg-[var(--mono)] animate-pulse-dot" />
             <span>Available · Summer 2026 · OPT</span>
           </div>
