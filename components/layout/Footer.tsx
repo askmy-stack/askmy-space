@@ -71,7 +71,7 @@ export default function Footer(): JSX.Element {
             </p>
             <div className="flex items-center gap-2 text-sm">
               <span className="w-1.5 h-1.5 bg-[var(--accent)] rounded-full animate-pulse-dot" />
-              <span className="text-[var(--fg)]">Open to roles · Summer 2026</span>
+              <span className="text-[var(--fg)]">Open to collaborations · Building big</span>
             </div>
           </div>
         </div>
