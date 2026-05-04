@@ -41,7 +41,7 @@ export default function Header(): JSX.Element {
           <Link
             href="/"
             aria-label="Home — Abhinaysai Kamineni"
-            className="font-[family-name:var(--font-display)] italic text-2xl text-[var(--fg)] hover:text-[var(--accent)] transition-colors leading-none"
+            className="font-mono font-semibold text-base tracking-[0.15em] text-[var(--fg)] hover:text-[var(--accent)] transition-colors leading-none"
           >
             ASK<span className="text-[var(--accent)]">.</span>
           </Link>
@@ -99,7 +99,7 @@ export default function Header(): JSX.Element {
                 href="/"
                 onClick={() => setMenuOpen(false)}
                 aria-label="Home"
-                className="font-[family-name:var(--font-display)] italic text-2xl leading-none"
+                className="font-mono font-semibold text-base tracking-[0.15em] leading-none"
               >
                 ASK<span className="text-[var(--accent)]">.</span>
               </Link>
