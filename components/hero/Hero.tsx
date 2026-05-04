@@ -71,8 +71,7 @@ export default function Hero(): JSX.Element {
         >
           <p className="font-mono text-xs md:text-sm text-[var(--fg)] tracking-wide">
             Research <span className="text-[var(--fg-muted)]">·</span> Engineering{" "}
-            <span className="text-[var(--fg-muted)]">·</span> Product{" "}
-            <span className="text-[var(--fg-muted)]">— all three, depending on what the problem needs.</span>
+            <span className="text-[var(--fg-muted)]">·</span> Product
           </p>
         </motion.div>
 
