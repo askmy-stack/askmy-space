@@ -70,6 +70,14 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
                 {project.narrative}
               </p>
               <div className="flex flex-wrap gap-2 mt-5">
+                {project.pillars.map((p) => (
+                  <span
+                    key={p}
+                    className="text-[10px] font-mono uppercase tracking-[0.15em] px-2.5 py-1 border border-[var(--mono)]/40 text-[var(--mono)]"
+                  >
+                    {p}
+                  </span>
+                ))}
                 {project.tags.map((tag) => (
                   <span
                     key={tag}

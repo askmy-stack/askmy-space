@@ -12,9 +12,25 @@ export const projects: readonly Project[] = [
     heroMetric: "AUROC 0.740 across 15+ architectures",
     metrics: ["AUROC 0.740", "15+ architectures", "916 hours CHB-MIT", "24 patients"],
     tags: ["Deep Learning", "Neural Signal Processing", "PyTorch"],
+    pillars: ["Research", "Engineering"],
     color: "#4ADE80",
     github: "https://github.com/askmy-stack/spring-2026-group2",
     gradient: "from-orange-500/20 via-rose-500/10 to-transparent",
+    problem:
+      "Seizure detection from scalp EEG is hard precisely because the seizure signature is patient-specific, time-varying, and buried in heavy artifact. Most published models report headline numbers on a single architecture or a single subject — leaving clinicians and researchers without a clear answer to a simple question: which class of model actually generalizes across patients in production-like conditions.",
+    approach: [
+      "Built a unified preprocessing pipeline on the CHB-MIT corpus (24 patients, 916 hours of recording) using MNE for filtering, artifact handling, and windowing — so every architecture trains on byte-identical inputs.",
+      "Benchmarked 15+ architectures across four families — LSTM/GRU recurrent, Transformer, Mamba/state-space, and Mixture-of-Experts — with patient-disjoint splits to measure cross-subject generalization, not memorization.",
+      "Containerized training with version-pinned environments and tracked every run, so swapping an architecture is one config change and a full re-evaluation is reproducible end-to-end.",
+    ],
+    results: [
+      "AUROC 0.740 (best family, patient-disjoint evaluation)",
+      "15+ architectures benchmarked under identical preprocessing",
+      "916 hours of CHB-MIT EEG processed across 24 pediatric subjects",
+      "Reproducible: any run can be re-executed from the locked environment",
+    ],
+    learnings:
+      "Architecture choice matters less than preprocessing rigor and patient-disjoint evaluation — several models that look state-of-the-art on shuffled splits collapse on held-out patients. The infrastructure to run a fair comparison is the actual scientific contribution; the model rankings are downstream of that.",
   },
   {
     slug: "byu-flagellar-motors",
@@ -27,9 +43,25 @@ export const projects: readonly Project[] = [
     heroMetric: "mAP@50 = 0.948 · Precision = 1.00",
     metrics: ["mAP@50 = 0.948", "Precision = 1.00", "CenterNet · YOLOv10 · Faster R-CNN"],
     tags: ["Computer Vision", "Biomedical Imaging", "CenterNet"],
+    pillars: ["Research", "Engineering"],
     color: "#FF6B35",
     github: "https://github.com/askmy-stack/byu-flagellar-motors",
     gradient: "from-cyan-400/20 via-blue-500/10 to-transparent",
+    problem:
+      "Bacterial flagellar motors are tiny, sparse, and embedded in volumetric cryo-ET data with extreme noise and missing-wedge artifacts. Manually annotating them across thousands of tomogram slices is slow and inconsistent — and a precision-1.00 detector is the only kind a structural biologist will trust enough to put in the loop.",
+    approach: [
+      "Compared three families of detectors on the same tomographic dataset — anchor-based (Faster R-CNN), anchor-free (CenterNet), and a modern one-stage detector (YOLOv10) — to isolate which inductive biases hold up under cryo-ET noise.",
+      "Tuned input resolution, augmentation, and post-processing per architecture rather than using off-the-shelf defaults, because cryo-ET slices look nothing like natural images and standard augmentations actively hurt performance.",
+      "Containerized the full pipeline and ran training on AWS GPU instances, so the entire experiment is reproducible from a single Docker image and a config file.",
+    ],
+    results: [
+      "mAP@50 = 0.948 on held-out tomograms",
+      "Precision = 1.00 — zero false positives at the operating threshold",
+      "Three architectures benchmarked under identical preprocessing",
+      "Reproducible: Dockerized, AWS-ready, single-config re-run",
+    ],
+    learnings:
+      "On scientific imaging, architecture matters less than calibrating the precision/recall trade-off to what the downstream user actually trusts. A biologist will use a detector with perfect precision and missing recall; they won’t use one with 0.95 precision no matter how high the recall climbs.",
   },
   {
     slug: "nasa-landslide",
@@ -42,24 +74,60 @@ export const projects: readonly Project[] = [
     heroMetric: "70% faster iteration · 100% IaC coverage",
     metrics: ["70% faster iteration", "100% IaC coverage", "GitHub Actions · Jenkins"],
     tags: ["Time-Series", "MLOps", "Terraform"],
+    pillars: ["Engineering", "Research"],
     color: "#818CF8",
     github: "https://github.com/askmy-stack/nasa-landslide",
     gradient: "from-emerald-400/20 via-teal-500/10 to-transparent",
+    problem:
+      "Geospatial risk models rot faster than the science behind them. New satellite passes, new ground-truth data, new feature engineering ideas — all of it stalls when re-training takes a day, deployment takes an afternoon, and nobody trusts that the staging environment matches production. The bottleneck is not the model; it’s the path from notebook to running service.",
+    approach: [
+      "Provisioned the full training and serving environment in Terraform on AWS, so the infrastructure is one PR away from being torn down and rebuilt identically.",
+      "Containerized training and inference, then wired GitHub Actions and Jenkins for CI/CD so a model change goes through the same review-and-deploy path as application code.",
+      "Added basic observability — metrics, alerts, lineage — so a regression in production triggers a page, not a slack screenshot three days later.",
+    ],
+    results: [
+      "~70% faster iteration cycle (notebook → deployed model)",
+      "100% infrastructure-as-code coverage",
+      "CI/CD parity between application and ML deploys",
+      "Repeatable teardown / rebuild from a single Terraform plan",
+    ],
+    learnings:
+      "On time-series risk problems, half the modeling battle is freshness — a slightly worse model retrained weekly beats a better model retrained quarterly. Optimizing the deploy loop is doing science, not avoiding it.",
   },
   {
     slug: "agentic-job-search",
     title: "Hybrid Agentic Job Search Pipeline",
     subtitle: "Local Ollama + Anthropic API for Personal Automation",
     narrative:
-      "Local Ollama + Anthropic API hybrid architecture — keeping cost low and privacy high while benefiting from frontier reasoning where it matters.",
+      "A personal AI agent that handles the tedious half of job searching — built on a hybrid local+cloud architecture where privacy and cost stay in your control.",
     year: 2026,
     category: "Agentic AI · LLM Tooling",
-    heroMetric: "Personal AI agent · Hybrid local+cloud architecture",
-    metrics: ["Hybrid local+cloud", "Ollama · Anthropic API", "Go"],
+    heroMetric: "Hybrid local+cloud agent · cost- and privacy-aware",
+    metrics: [
+      "Hybrid local + cloud routing",
+      "Ollama (local) · Anthropic API (frontier)",
+      "Tool-use · RAG · cost-aware routing",
+    ],
     tags: ["Agentic AI", "LLM Tooling", "Go"],
+    pillars: ["Product", "Engineering"],
     color: "#F472B6",
     github: "https://github.com/askmy-stack/job-search-pipeline",
     gradient: "from-amber-400/20 via-orange-500/10 to-transparent",
+    problem:
+      "Modern job search is a low-density information problem dressed up as a high-volume one — hundreds of postings, most irrelevant, each requiring slightly different framing. Frontier LLMs can do the reading and the drafting, but running everything against a paid API is wasteful for the easy steps and uncomfortable for the private ones.",
+    approach: [
+      "Split the agent across two backends: a local Ollama model for cheap, privacy-sensitive operations (parsing resumes, screening listings, drafting first passes) and the Anthropic API for the hard reasoning (tailored cover letters, structured comparisons).",
+      "Implemented in Go for a tight, fast control loop — tool-use, retrieval, and routing live in code, not in a prompt.",
+      "Cost-aware routing rules pick the cheapest backend that meets the quality bar for each step, so frontier calls are reserved for the work that actually needs them.",
+    ],
+    results: [
+      "Functional end-to-end personal agent (parse → screen → draft → review)",
+      "Hybrid routing: local-first, frontier where it matters",
+      "Privacy: resume + personal data never leave the local node",
+      "Cost: pay-per-token only on the steps that genuinely benefit from frontier models",
+    ],
+    learnings:
+      "Agent design is mostly routing and constraints, not prompting. The interesting question isn’t “can the LLM do this” — it’s “which LLM, on which machine, with which tools, under which budget.”",
   },
 ] as const;
 

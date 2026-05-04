@@ -6,7 +6,7 @@ import { easeOutExpo } from "@/lib/motion";
 const nowItems = [
   { label: "Building", text: "Agentic research assistant with tool-use + RAG" },
   { label: "Finishing", text: "EEG seizure detection paper draft for publication" },
-  { label: "Targeting", text: "Full-time AI/ML Engineer roles, summer 2026" },
+  { label: "Open to", text: "Roles where research, engineering, and product thinking are all valued" },
   { label: "Reading", text: "The Pragmatic Programmer (re-read for taste)" },
   { label: "Based in", text: "Arlington, VA" },
 ] as const;

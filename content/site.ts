@@ -10,6 +10,7 @@ export const siteConfig = {
   social: {
     linkedin: "https://linkedin.com/in/abhinaysai-kamineni",
     github: "https://github.com/askmy-stack",
+    medium: "https://medium.com/@kamineniabhinaysai",
   },
   resume: "/resume.pdf",
   /** TODO: replace with real Calendly URL */

@@ -24,9 +24,9 @@ export default function Contact(): JSX.Element {
         </AnimatedHeading>
 
         <p className="text-body-lg text-[var(--fg-muted)] max-w-2xl leading-relaxed">
-          Looking for full-time AI/ML Engineer roles starting summer 2026. Especially excited
-          about teams shipping ML to real users in healthcare, robotics, scientific computing,
-          or developer tools.
+          Open to research collaborations, product-ML builds, and teams working at the
+          research-to-product boundary. If the problem is hard and the work is honest —
+          reach out.
         </p>
 
         <div className="mt-12 flex flex-wrap gap-3">
@@ -35,10 +35,16 @@ export default function Contact(): JSX.Element {
             external
             variant="primary"
           >
-            Reach out ↗
+            Email ↗
+          </Button>
+          <Button href={siteConfig.social.linkedin} external variant="outline">
+            LinkedIn ↗
+          </Button>
+          <Button href={siteConfig.social.github} external variant="outline">
+            GitHub ↗
           </Button>
           <Button href={siteConfig.resume} variant="ghost">
-            Resume.pdf ↓
+            Resume ↓
           </Button>
         </div>
       </div>

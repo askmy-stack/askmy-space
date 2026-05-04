@@ -2,7 +2,7 @@ import type { Experience } from "@/lib/types";
 
 export const experience: readonly Experience[] = [
   {
-    title: "Operations Analytics Associate",
+    title: "Sales Operations Analyst",
     company: "Follett Higher Education Group",
     dates: "May 2025 — Present",
     location: "Washington, DC",
@@ -27,13 +27,13 @@ export const experience: readonly Experience[] = [
     ],
   },
   {
-    title: "Data Analyst Intern",
+    title: "Data Analyst",
     company: "PHN Technologies",
     dates: "Mar 2023 — Jun 2023",
     location: "Pune, India",
     bullets: [
       "Optimized ETL pipelines in BigQuery, improving processing efficiency 30% and cutting analytics latency 40%.",
-      "Built 10+ interactive dashboards for real-time KPI tracking.",
+      "Built 10+ monitoring dashboards surfacing data-quality issues and pipeline drift signals — enabling the team to catch regressions before they reached downstream consumers.",
       "Implemented key-based auth in Airflow, securing 75% of critical pipelines.",
     ],
   },

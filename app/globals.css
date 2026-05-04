@@ -280,6 +280,20 @@ svg {
   animation: pulse-dot 2s ease-in-out infinite;
 }
 
+/* Compress giant py-32 / py-40 / py-[120px] section padding on mobile */
+@media (max-width: 768px) {
+  section.py-32,
+  section.py-40,
+  section[class*="py-[120px]"] {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  }
+  section[class*="md:py-40"] {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  }
+}
+
 .animate-blob {
   animation: blob-float 18s ease-in-out infinite;
 }

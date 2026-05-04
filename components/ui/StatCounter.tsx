@@ -1,7 +1,5 @@
 "use client";
 
-import { useInView } from "framer-motion";
-import { useRef } from "react";
 import CountUp from "react-countup";
 
 interface Props {
@@ -12,6 +10,12 @@ interface Props {
   label: string;
 }
 
+/**
+ * Animated stat counter using react-countup's built-in IntersectionObserver
+ * (enableScrollSpy). The previous implementation gated CountUp behind
+ * framer-motion's useInView, which intermittently failed to fire under Lenis
+ * smooth scroll — leaving every counter stuck at 0.
+ */
 export default function StatCounter({
   end,
   suffix = "",
@@ -19,24 +23,19 @@ export default function StatCounter({
   decimals = 0,
   label,
 }: Props): JSX.Element {
-  const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
-
   return (
-    <div ref={ref} className="text-left">
-      <div className="text-4xl md:text-5xl font-mono text-[var(--fg)] mb-2 tabular-nums">
-        {isInView ? (
-          <CountUp
-            start={0}
-            end={end}
-            duration={2}
-            suffix={suffix}
-            prefix={prefix}
-            decimals={decimals}
-          />
-        ) : (
-          `${prefix}0${suffix}`
-        )}
+    <div className="text-left">
+      <div className="text-4xl md:text-5xl font-mono text-[var(--mono)] mb-2 tabular-nums">
+        <CountUp
+          start={0}
+          end={end}
+          duration={2}
+          suffix={suffix}
+          prefix={prefix}
+          decimals={decimals}
+          enableScrollSpy
+          scrollSpyOnce
+        />
       </div>
       <p className="text-[10px] font-mono text-[var(--fg-muted)] uppercase tracking-[0.25em]">
         {label}

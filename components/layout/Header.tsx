@@ -40,12 +40,13 @@ export default function Header(): JSX.Element {
         <div className="container-editorial flex items-center justify-between h-16">
           <Link
             href="/"
-            className="font-mono text-sm tracking-[0.2em] text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
+            aria-label="Home — Abhinaysai Kamineni"
+            className="font-[family-name:var(--font-display)] italic text-2xl text-[var(--fg)] hover:text-[var(--accent)] transition-colors leading-none"
           >
-            askmystack
+            AK<span className="text-[var(--accent)]">.</span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-10">
+          <nav className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -55,6 +56,14 @@ export default function Header(): JSX.Element {
                 {link.label}
               </a>
             ))}
+            <a
+              href={siteConfig.social.medium}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-xs uppercase tracking-[0.2em] text-[var(--fg-muted)] hover:text-[var(--fg)] transition-colors"
+            >
+              Writing ↗
+            </a>
             <a
               href={siteConfig.resume}
               download
@@ -89,9 +98,10 @@ export default function Header(): JSX.Element {
               <Link
                 href="/"
                 onClick={() => setMenuOpen(false)}
-                className="font-mono text-sm tracking-[0.2em]"
+                aria-label="Home"
+                className="font-[family-name:var(--font-display)] italic text-2xl leading-none"
               >
-                askmystack
+                AK<span className="text-[var(--accent)]">.</span>
               </Link>
               <button
                 type="button"
@@ -117,13 +127,25 @@ export default function Header(): JSX.Element {
                 </a>
               ))}
               <a
+                href={siteConfig.social.medium}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMenuOpen(false)}
+                className="text-display-md text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
+              >
+                <span className="font-mono text-sm text-[var(--fg-muted)] mr-4">
+                  05
+                </span>
+                Writing ↗
+              </a>
+              <a
                 href={siteConfig.resume}
                 download
                 onClick={() => setMenuOpen(false)}
                 className="text-display-md text-[var(--accent)]"
               >
                 <span className="font-mono text-sm text-[var(--fg-muted)] mr-4">
-                  05
+                  06
                 </span>
                 Resume ↗
               </a>

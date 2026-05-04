@@ -52,9 +52,19 @@ export default function WorkCaseStudyPage({ params }: Props) {
           <h1 className="text-display-lg text-[var(--fg)] leading-[1] mb-6">
             {project.title}
           </h1>
-          <p className="text-display-md text-[var(--fg-muted)] leading-tight max-w-[28ch]">
+          <p className="text-display-md text-[var(--fg-muted)] leading-tight max-w-[28ch] mb-8">
             {project.subtitle}
           </p>
+          <div className="flex flex-wrap gap-2">
+            {project.pillars.map((p) => (
+              <span
+                key={p}
+                className="font-mono text-[10px] uppercase tracking-[0.25em] px-2.5 py-1 border border-[var(--border)] text-[var(--mono)]"
+              >
+                {p}
+              </span>
+            ))}
+          </div>
         </header>
 
         {/* Hero visual */}
@@ -74,8 +84,7 @@ export default function WorkCaseStudyPage({ params }: Props) {
             Problem
           </p>
           <p className="md:col-span-9 text-display-md text-[var(--fg)] leading-tight">
-            [CASE_STUDY_PROBLEM_PARAGRAPH — 2–3 sentences on the real-world need this project
-            addresses.]
+            {project.problem}
           </p>
         </section>
 
@@ -85,9 +94,9 @@ export default function WorkCaseStudyPage({ params }: Props) {
             Approach
           </p>
           <div className="md:col-span-9 space-y-6 text-body-lg text-[var(--fg-muted)] leading-relaxed">
-            <p>[CASE_STUDY_APPROACH_PARAGRAPH_1 — technical decision #1.]</p>
-            <p>[CASE_STUDY_APPROACH_PARAGRAPH_2 — technical decision #2.]</p>
-            <p>[CASE_STUDY_APPROACH_PARAGRAPH_3 — technical decision #3.]</p>
+            {project.approach.map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
           </div>
         </section>
 
@@ -114,10 +123,16 @@ export default function WorkCaseStudyPage({ params }: Props) {
             <p className="text-display-md text-[var(--fg)] leading-tight mb-10">
               {project.heroMetric}
             </p>
-            <div className="grid grid-cols-2 gap-6 font-mono text-sm text-[var(--fg-muted)]">
-              <p>[SECONDARY_METRIC_1]</p>
-              <p>[SECONDARY_METRIC_2]</p>
-            </div>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 font-mono text-sm text-[var(--fg-muted)]">
+              {project.results.map((r) => (
+                <li key={r} className="flex gap-3">
+                  <span className="text-[var(--mono)]" aria-hidden="true">
+                    •
+                  </span>
+                  <span>{r}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
 
@@ -144,8 +159,7 @@ export default function WorkCaseStudyPage({ params }: Props) {
             What I learned
           </p>
           <p className="md:col-span-9 text-body-lg text-[var(--fg-muted)] leading-relaxed">
-            [CASE_STUDY_REFLECTION — 3–4 sentence reflection on what worked, what didn’t, and what
-            you’d do differently.]
+            {project.learnings}
           </p>
         </section>
 

@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import HeroBlob from "./HeroBlob";
-import { heroStats } from "@/content/about";
 import { siteConfig } from "@/content/site";
 import { easeOutExpo } from "@/lib/motion";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
@@ -63,24 +62,18 @@ export default function Hero(): JSX.Element {
           Building AI/ML systems that ship to real users.
         </motion.p>
 
-        {/* Stat strip */}
+        {/* Pillar strip — the three-pillar brand statement */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: easeOutExpo, delay: 1 }}
-          className="mt-16 flex flex-wrap items-center gap-x-6 gap-y-3 pt-6 border-t border-[var(--border)] max-w-3xl"
+          className="mt-16 pt-6 border-t border-[var(--border)] max-w-3xl"
         >
-          {heroStats.map((stat, i) => (
-            <span
-              key={stat}
-              className="font-mono text-xs md:text-sm text-[var(--fg)] tracking-wide"
-            >
-              {stat}
-              {i < heroStats.length - 1 && (
-                <span className="ml-6 text-[var(--fg-muted)]">·</span>
-              )}
-            </span>
-          ))}
+          <p className="font-mono text-xs md:text-sm text-[var(--fg)] tracking-wide">
+            Research <span className="text-[var(--fg-muted)]">·</span> Engineering{" "}
+            <span className="text-[var(--fg-muted)]">·</span> Product{" "}
+            <span className="text-[var(--fg-muted)]">— all three, depending on what the problem needs.</span>
+          </p>
         </motion.div>
 
         {/* Scroll cue */}

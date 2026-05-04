@@ -14,25 +14,25 @@ const capabilities: readonly Capability[] = [
     label: "Computer Vision",
     description:
       "CenterNet, YOLO family, Faster R-CNN. 3D detection on cryo-ET. mAP@50 of 0.948 on noisy small-object benchmarks.",
-    tag: "CV",
+    tag: "VISION",
   },
   {
     label: "Time-Series + Signals",
     description:
       "LSTM, Mamba, MoE, Transformers on clinical EEG. Geospatial risk modeling. 916 hours of pediatric signal data.",
-    tag: "TS",
+    tag: "SIGNALS",
   },
   {
     label: "MLOps + Infrastructure",
     description:
       "Docker, Kubernetes, Terraform, Airflow. 99.9% pipeline reliability. 85% faster deploys. Multi-cloud AWS/GCP/Azure.",
-    tag: "OPS",
+    tag: "MLOPS",
   },
   {
     label: "Agentic AI",
     description:
       "Hybrid local+cloud LLM architectures. Tool-use, reasoning chains, cost-aware routing. Ollama + Anthropic API.",
-    tag: "AGI",
+    tag: "AGENTS",
   },
 ];
 

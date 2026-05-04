@@ -10,6 +10,8 @@ export interface Project {
   /** Crisp metric pills shown on the WorkRow right-side rail. */
   metrics: readonly string[];
   tags: readonly string[];
+  /** Three-pillar lens: which pillars this project demonstrates, in order. */
+  pillars: readonly ("Research" | "Engineering" | "Product")[];
   /** Hex accent color used for the row's hover hairline. */
   color: string;
   github?: string;
@@ -17,6 +19,12 @@ export interface Project {
   image?: string;
   /** Accent gradient for hero fallback. */
   gradient?: string;
+
+  /** Case-study prose (rendered on /work/[slug]). */
+  problem: string;
+  approach: readonly string[];
+  results: readonly string[];
+  learnings: string;
 }
 
 export interface ExperienceBullet {
