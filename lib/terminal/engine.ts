@@ -42,7 +42,7 @@ export interface Response {
   captureName?: string;
 }
 
-export interface ExecCtx extends TerminalSession {}
+export type ExecCtx = TerminalSession;
 
 // ───────────────────────────────────────────────────────────────────────────
 // Helpers
@@ -614,7 +614,7 @@ function suggestCommand(input: string): string | null {
 // Main entry
 // ───────────────────────────────────────────────────────────────────────────
 
-export function execute(rawInput: string, ctx: ExecCtx): Response {
+export function execute(rawInput: string, _ctx: ExecCtx): Response {
   const input = rawInput.trim();
   if (!input) return { lines: [] };
 

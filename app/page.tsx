@@ -8,6 +8,7 @@ import About from "@/components/about/About";
 import Experience from "@/components/experience/Experience";
 import NowBlock from "@/components/now/NowBlock";
 import Contact from "@/components/contact/Contact";
+import ReportIssue from "@/components/report/ReportIssue";
 
 export default function HomePage() {
   return (
@@ -23,6 +24,7 @@ export default function HomePage() {
         <Experience />
         <NowBlock />
         <Contact />
+        <ReportIssue />
       </div>
     </>
   );

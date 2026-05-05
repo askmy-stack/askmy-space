@@ -23,6 +23,9 @@ export default function HeroScene(): JSX.Element {
   const sy = useSpring(my, { stiffness: 60, damping: 20, mass: 0.6 });
   const rotateY = useTransform(sx, [-0.5, 0.5], [-6, 6]);
   const rotateX = useTransform(sy, [-0.5, 0.5], [4, -4]);
+  // Layer 2 (orbits) — stronger parallax, opposite direction
+  const orbitsRotateX = useTransform(sy, [-0.5, 0.5], [8, -8]);
+  const orbitsRotateY = useTransform(sx, [-0.5, 0.5], [-12, 12]);
 
   useEffect(() => {
     if (reduced) return;
@@ -59,8 +62,8 @@ export default function HeroScene(): JSX.Element {
       <motion.div
         className="absolute inset-0"
         style={{
-          rotateX: useTransform(sy, [-0.5, 0.5], [8, -8]),
-          rotateY: useTransform(sx, [-0.5, 0.5], [-12, 12]),
+          rotateX: orbitsRotateX,
+          rotateY: orbitsRotateY,
           transformStyle: "preserve-3d",
         }}
       >

@@ -41,6 +41,9 @@ export default function Footer(): JSX.Element {
               <a href="#now" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 Now
               </a>
+              <a href="#report" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+                Report an issue
+              </a>
             </div>
           </div>
 

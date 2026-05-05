@@ -154,6 +154,16 @@ export default function Header(): JSX.Element {
                 </span>
                 Resume ↗
               </a>
+              <a
+                href="#report"
+                onClick={() => setMenuOpen(false)}
+                className="text-display-md text-[var(--fg-muted)] hover:text-[var(--accent)] transition-colors"
+              >
+                <span className="font-mono text-sm text-[var(--fg-muted)] mr-4">
+                  07
+                </span>
+                Report ↗
+              </a>
             </nav>
           </motion.div>
         )}
