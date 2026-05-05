@@ -14,7 +14,7 @@ const capabilities: readonly Capability[] = [
   {
     label: "Computer Vision",
     description:
-      "3D object detection on cryo-electron tomography — mAP@50 of 0.948. Built for structural biologists who need results they can trust.",
+      "3D object detection on cryo-electron tomography. mAP@50 of 0.948. Built for structural biologists who need results they can trust.",
     tag: "VISION",
   },
   {
@@ -26,13 +26,13 @@ const capabilities: readonly Capability[] = [
   {
     label: "MLOps + Infrastructure",
     description:
-      "The infrastructure that ships models and keeps them running. 100+ Airflow DAGs, Docker, K8s, Terraform, AWS/Azure/GCP — observable at 3am.",
+      "The infrastructure that ships models and keeps them running. 100+ Airflow DAGs, Docker, K8s, Terraform, AWS/Azure/GCP. Observable at 3am.",
     tag: "MLOPS",
   },
   {
     label: "Agentic AI",
     description:
-      "AI agents that route work between local and frontier — privacy where it matters, reasoning where it counts.",
+      "AI agents that route work between local and frontier. Privacy where it matters, reasoning where it counts.",
     tag: "AGENTS",
   },
 ];
