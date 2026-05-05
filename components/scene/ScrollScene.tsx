@@ -106,11 +106,14 @@ export default function ScrollScene(): JSX.Element | null {
   const x = useTransform(sp, [0, 0.08, 0.15], ["0vw", "0vw", "38vw"]);
   const y = useTransform(sp, [0, 0.08, 0.15], ["0vh", "0vh", "-32vh"]);
   const scale = useTransform(sp, [0, 0.08, 0.15, 1], [1, 1, 0.32, 0.32]);
-  // Hero opacity: visible 0–15%, fade out, fade back in subtly past hero as docked instrument
+  // Opacity story
+  //  Hero (0–8%):    1.0 — full statement
+  //  Transit:        ramp down then back up smoothly
+  //  Docked:         0.75 — always clearly visible as a page instrument
   const opacity = useTransform(
     sp,
-    [0, 0.08, 0.13, 0.18, 1],
-    [0.85, 0.85, 0.45, 0.55, 0.45],
+    [0, 0.08, 0.13, 0.2, 1],
+    [1, 1, 0.65, 0.78, 0.7],
   );
 
   // Scroll progress hairline — only visible past hero
@@ -119,13 +122,13 @@ export default function ScrollScene(): JSX.Element | null {
   const lineHeight = useMotionTemplate`${linePct}%`;
 
   // Mobile hero-only lattice opacity (hooks must run unconditionally)
-  const mobileOpacity = useTransform(sp, [0, 0.08, 0.12], [0.65, 0.5, 0]);
+  const mobileOpacity = useTransform(sp, [0, 0.08, 0.12], [0.95, 0.7, 0]);
 
   if (!mounted || reduced) return null;
 
   return (
     <div
-      className="fixed inset-0 z-0 pointer-events-none overflow-hidden"
+      className="fixed inset-0 z-30 pointer-events-none overflow-hidden"
       style={{ perspective: 1800 }}
       aria-hidden="true"
     >
@@ -142,7 +145,7 @@ export default function ScrollScene(): JSX.Element | null {
           display: isMobile ? "none" : undefined,
         }}
       >
-        <NeuralLattice tint={tint} scale={1} glow={0.85} />
+        <NeuralLattice tint={tint} scale={1} glow={1.1} />
       </motion.div>
 
       {/* Scroll-progress hairline — page-instrument feel, top-right gutter */}

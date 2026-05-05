@@ -92,8 +92,8 @@ export default function NeuralLattice({
               className="absolute top-1/2 left-1/2"
               style={{
                 width: length,
-                height: 1,
-                background: `linear-gradient(90deg, rgba(${tint},0.05), rgba(${tint},0.35), rgba(${tint},0.05))`,
+                height: 1.25,
+                background: `linear-gradient(90deg, rgba(${tint},0.15), rgba(${tint},0.7), rgba(${tint},0.15))`,
                 transformOrigin: "0 50%",
                 transform: `
                   translate3d(${x1 * SCALE}px, ${y1 * SCALE}px, ${z1 * SCALE}px)
@@ -111,10 +111,10 @@ export default function NeuralLattice({
             key={`node-${i}`}
             className="absolute top-1/2 left-1/2 rounded-full"
             style={{
-              width: 6,
-              height: 6,
-              marginLeft: -3,
-              marginTop: -3,
+              width: 8,
+              height: 8,
+              marginLeft: -4,
+              marginTop: -4,
               background: `rgb(${tint})`,
               boxShadow: `0 0 ${12 * glow}px rgba(${tint},${0.8 * glow}), 0 0 ${24 * glow}px rgba(${tint},${0.4 * glow})`,
               transform: `translate3d(${x * SCALE}px, ${y * SCALE}px, ${z * SCALE}px)`,

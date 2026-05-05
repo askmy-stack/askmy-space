@@ -74,7 +74,7 @@ export default function HeroScene(): JSX.Element {
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(ellipse at center, transparent 40%, var(--bg) 90%)",
+            "radial-gradient(ellipse at center, transparent 65%, var(--bg) 100%)",
         }}
       />
     </div>
