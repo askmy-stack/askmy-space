@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import HeroBlob from "./HeroBlob";
+import HeroScene from "./HeroScene";
 import { siteConfig } from "@/content/site";
 import { easeOutExpo } from "@/lib/motion";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
@@ -24,7 +24,7 @@ export default function Hero(): JSX.Element {
     <section className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
       {/* 3D placeholder blob (CP2: swap for R3F HeroSphere) */}
       <div className="absolute inset-0 z-0">
-        <HeroBlob />
+        <HeroScene />
       </div>
 
       <div className="container-editorial relative z-10">

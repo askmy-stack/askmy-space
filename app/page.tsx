@@ -2,6 +2,7 @@ import Hero from "@/components/hero/Hero";
 import SocialProofBar from "@/components/social-proof/SocialProofBar";
 import CapabilitiesStrip from "@/components/capabilities/CapabilitiesStrip";
 import SelectedWork from "@/components/work/SelectedWork";
+import SkillsSection from "@/components/skills/SkillsSection";
 import About from "@/components/about/About";
 import Experience from "@/components/experience/Experience";
 import NowBlock from "@/components/now/NowBlock";
@@ -14,6 +15,7 @@ export default function HomePage() {
       <SocialProofBar />
       <CapabilitiesStrip />
       <SelectedWork />
+      <SkillsSection />
       <About />
       <Experience />
       <NowBlock />

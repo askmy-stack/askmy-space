@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import EntityLogo from "./EntityLogo";
 
 interface Entity {
   name: string;
@@ -36,14 +37,16 @@ export default function SocialProofBar(): JSX.Element {
           {[...entities, ...entities].map((entity, i) => (
             <div key={i} className="flex items-center gap-3 group cursor-default">
               <span
-                className={`w-1.5 h-1.5 rounded-full shrink-0 ${
+                className={`shrink-0 transition-colors duration-200 ${
                   entity.type === "award"
-                    ? "bg-[var(--accent)]"
+                    ? "text-[var(--accent)] group-hover:text-[var(--fg)]"
                     : entity.type === "cert"
-                      ? "bg-[var(--mono)]"
-                      : "bg-[var(--fg-muted)]"
+                      ? "text-[var(--mono)] group-hover:text-[var(--fg)]"
+                      : "text-[var(--fg-muted)] group-hover:text-[var(--fg)]"
                 }`}
-              />
+              >
+                <EntityLogo name={entity.name} />
+              </span>
               <span className="t-label group-hover:text-[var(--fg)] transition-colors duration-200">
                 {entity.name}
               </span>

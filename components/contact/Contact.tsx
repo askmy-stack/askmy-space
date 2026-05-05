@@ -8,19 +8,19 @@ export default function Contact(): JSX.Element {
       <div className="container-editorial">
         <AnimatedHeading
           as="h2"
-          className="text-display-xl text-[var(--fg)] leading-[0.95] mb-4"
+          className="t-display mb-4"
         >
           Let’s build
         </AnimatedHeading>
         <AnimatedHeading
           as="h2"
-          className="text-display-xl text-[var(--accent)] leading-[0.95] mb-12"
+          className="t-display text-[var(--accent)] mb-12"
           delay={0.15}
         >
           something real.
         </AnimatedHeading>
 
-        <p className="text-body-lg text-[var(--fg-muted)] max-w-2xl leading-relaxed">
+        <p className="t-body-lg max-w-2xl">
           Open to research collaborations, product-ML builds, and teams working at the
           research-to-product boundary. If the problem is hard and the work is honest —
           reach out.

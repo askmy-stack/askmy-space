@@ -8,15 +8,13 @@ export default function Footer(): JSX.Element {
       <div className="container-editorial">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           <div>
-            <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--fg-muted)] mb-4">
-              Elsewhere
-            </p>
-            <div className="flex flex-col gap-2 text-sm">
+            <p className="t-label mb-4">Elsewhere</p>
+            <div className="flex flex-col gap-2">
               <a
                 href={siteConfig.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
+                className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
               >
                 LinkedIn ↗
               </a>
@@ -24,7 +22,7 @@ export default function Footer(): JSX.Element {
                 href={siteConfig.social.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
+                className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
               >
                 GitHub ↗
               </a>
@@ -32,40 +30,32 @@ export default function Footer(): JSX.Element {
           </div>
 
           <div>
-            <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--fg-muted)] mb-4">
-              Site
-            </p>
-            <div className="flex flex-col gap-2 text-sm">
-              <a href="#work" className="text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+            <p className="t-label mb-4">Site</p>
+            <div className="flex flex-col gap-2">
+              <a href="#work" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 Work
               </a>
-              <a href="#about" className="text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+              <a href="#about" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 About
               </a>
-              <a href="#now" className="text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+              <a href="#now" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 Now
               </a>
             </div>
           </div>
 
           <div>
-            <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--fg-muted)] mb-4">
-              Status
-            </p>
-            <div className="flex items-center gap-2 text-sm">
+            <p className="t-label mb-4">Status</p>
+            <div className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-[var(--accent)] rounded-full animate-pulse-dot" />
-              <span className="text-[var(--fg)]">Open to collaborations · Building big</span>
+              <span className="t-caption text-[var(--fg)]">Open to collaborations · Building big</span>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mt-16 pt-6 border-t border-[var(--border)]">
-          <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--fg-muted)]">
-            © {year} {siteConfig.name}
-          </p>
-          <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--fg-muted)]">
-            Next.js · TypeScript · Framer Motion
-          </p>
+          <p className="t-label">© {year} {siteConfig.name}</p>
+          <p className="t-label">Next.js · TypeScript · Framer Motion</p>
         </div>
       </div>
     </footer>

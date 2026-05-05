@@ -31,7 +31,7 @@ export default function About(): JSX.Element {
                   AK
                 </span>
               </div>
-              <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--fg-muted)]">
+              <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between t-label">
                 <span>/ Abhinaysai Kamineni</span>
                 <span>2026</span>
               </div>
@@ -43,11 +43,7 @@ export default function About(): JSX.Element {
             {aboutParagraphs.map((p, i) => (
               <p
                 key={i}
-                className={
-                  i === 0
-                    ? "text-display-md text-[var(--fg)] leading-tight"
-                    : "t-body-lg"
-                }
+                className={i === 0 ? "t-body-lg text-[var(--fg)] text-[clamp(1.1rem,1.6vw,1.35rem)] leading-snug" : "t-body-lg"}
               >
                 {p}
               </p>
