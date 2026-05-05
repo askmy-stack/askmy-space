@@ -43,7 +43,7 @@ export default function NowBlock(): JSX.Element {
                 <span className="t-label text-[var(--accent)] w-24 shrink-0 pt-1">
                   {item.label}
                 </span>
-                <span className="t-body" style={{ fontFamily: "var(--font-body)", color: "var(--fg)" }}>
+                <span className="t-body" style={{ color: "var(--fg)" }}>
                   {item.text}
                 </span>
               </motion.div>

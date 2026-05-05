@@ -21,13 +21,11 @@ export default function Principles(): JSX.Element {
           </span>
           <p
             className="text-[var(--fg)] leading-snug text-[clamp(1.05rem,1.3vw,1.25rem)]"
-            style={{ fontFamily: "var(--font-body)" }}
           >
             {p.lead}
           </p>
           <p
             className="t-body-lg"
-            style={{ fontFamily: "var(--font-body)" }}
           >
             {p.follow}
           </p>

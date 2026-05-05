@@ -66,7 +66,7 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
               <h3 className="t-headline group-hover:text-[var(--accent)] transition-colors duration-300 mb-3">
                 {project.title}
               </h3>
-              <p className="t-body max-w-xl" style={{ fontFamily: "var(--font-body)" }}>
+              <p className="t-body max-w-xl">
                 {project.narrative}
               </p>
               <div className="flex flex-wrap gap-2 mt-5">

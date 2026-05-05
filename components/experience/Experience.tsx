@@ -29,7 +29,7 @@ export default function Experience(): JSX.Element {
                   <h3 className="t-headline">
                     {job.title}
                   </h3>
-                  <p className="t-body mt-2" style={{ fontFamily: "var(--font-body)" }}>
+                  <p className="t-body mt-2">
                     {job.company}
                   </p>
                   <ul className="mt-6 space-y-3">
@@ -37,7 +37,6 @@ export default function Experience(): JSX.Element {
                       <li
                         key={i}
                         className="t-body pl-5 relative"
-                        style={{ fontFamily: "var(--font-body)" }}
                       >
                         <span
                           className="absolute left-0 top-[0.7em] w-2 h-px bg-[var(--accent)]"
@@ -64,7 +63,7 @@ export default function Experience(): JSX.Element {
                 key={c.name}
                 className="flex items-start justify-between gap-4 py-3 border-b border-[var(--border)]"
               >
-                <span className="t-body text-[var(--fg)]" style={{ fontFamily: "var(--font-body)" }}>{c.name}</span>
+                <span className="t-body text-[var(--fg)]">{c.name}</span>
                 <span className="t-mono shrink-0">
                   {c.issuer}
                 </span>

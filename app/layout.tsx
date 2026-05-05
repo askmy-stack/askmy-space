@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import { fraunces, geistSans, geistMono } from "@/lib/fonts";
+import { fraunces, geistMono } from "@/lib/fonts";
 import { siteConfig } from "@/content/site";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import CustomCursor from "@/components/ui/CustomCursor";
@@ -81,7 +81,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${fraunces.variable} ${geistSans.variable} ${geistMono.variable}`}
+      className={`${fraunces.variable} ${geistMono.variable}`}
     >
       <body>
         <script

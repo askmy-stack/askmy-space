@@ -63,7 +63,7 @@ export default function CapabilitiesStrip(): JSX.Element {
               <h3 className="t-headline mb-3 group-hover:text-[var(--accent)] transition-colors duration-200">
                 {cap.label}
               </h3>
-              <p className="t-body" style={{ fontFamily: "var(--font-body)" }}>
+              <p className="t-body">
                 {cap.description}
               </p>
             </motion.div>

@@ -1,5 +1,4 @@
 import { Fraunces } from "next/font/google";
-import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 
 /**
@@ -14,7 +13,6 @@ export const fraunces = Fraunces({
   axes: ["opsz", "SOFT"],
 });
 
-export const geistSans = GeistSans;
 export const geistMono = GeistMono;
 
-export const fontVariables = `${fraunces.variable} ${geistSans.variable} ${geistMono.variable}`;
+export const fontVariables = `${fraunces.variable} ${geistMono.variable}`;

@@ -24,7 +24,6 @@ export default function About(): JSX.Element {
               <p
                 key={i}
                 className={i === 0 ? "t-body-lg text-[var(--fg)] text-[clamp(1.1rem,1.6vw,1.35rem)] leading-snug" : "t-body-lg"}
-                style={{ fontFamily: "var(--font-body)" }}
               >
                 {p}
               </p>
