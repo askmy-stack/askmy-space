@@ -100,20 +100,6 @@ export default function WorkCaseStudyPage({ params }: Props) {
           </div>
         </section>
 
-        {/* Architecture */}
-        <section className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-20">
-          <p className="md:col-span-3 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--accent)]">
-            Architecture
-          </p>
-          <div className="md:col-span-9">
-            <div className="aspect-[16/9] bg-[var(--bg-elevated)] border border-[var(--border)] flex items-center justify-center">
-              <p className="font-mono text-xs uppercase tracking-[0.25em] text-[var(--fg-muted)]">
-                [ ARCHITECTURE_DIAGRAM_PLACEHOLDER — drop SVG in /public/images/projects/{project.slug}-arch.svg ]
-              </p>
-            </div>
-          </div>
-        </section>
-
         {/* Results */}
         <section className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-20">
           <p className="md:col-span-3 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--accent)]">
