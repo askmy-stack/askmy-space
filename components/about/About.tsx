@@ -36,7 +36,7 @@ export default function About(): JSX.Element {
         <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 pt-12 border-t border-[var(--border)]">
           <StatCounter end={0.948} decimals={3} label="mAP@50 — BYU cryo-ET" />
           <StatCounter end={916} decimals={0} label="Hours of clinical EEG" />
-          <StatCounter end={99.9} decimals={1} suffix="%" label="Pipeline reliability" />
+          <StatCounter end={94} decimals={0} suffix="%" label="Pipeline reliability" />
           <StatCounter end={85} decimals={0} suffix="%" label="Faster model deploys" />
         </div>
 
