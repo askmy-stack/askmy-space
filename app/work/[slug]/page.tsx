@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { projects, getProject } from "@/content/projects";
 
@@ -71,11 +72,22 @@ export default function WorkCaseStudyPage({ params }: Props) {
         <div
           className={`relative aspect-[16/9] w-full mb-20 overflow-hidden bg-gradient-to-br ${project.gradient ?? "from-[var(--bg-elevated)] to-transparent"} border border-[var(--border)]`}
         >
-          <div className="absolute inset-0 flex items-end p-8 md:p-12">
-            <p className="font-mono text-xs uppercase tracking-[0.25em] text-[var(--fg-muted)]">
-              [ PROJECT_HERO_IMAGE_PLACEHOLDER — drop in /public/images/projects/{project.slug}.jpg ]
-            </p>
-          </div>
+          {project.image ? (
+            <Image
+              src={project.image}
+              alt={project.title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 1280px"
+              priority
+            />
+          ) : (
+            <div className="absolute inset-0 flex items-end p-8 md:p-12">
+              <p className="font-mono text-xs uppercase tracking-[0.25em] text-[var(--fg-muted)]">
+                {project.title}
+              </p>
+            </div>
+          )}
         </div>
 
         {/* Problem */}

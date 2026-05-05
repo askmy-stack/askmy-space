@@ -15,6 +15,7 @@ export const projects: readonly Project[] = [
     pillars: ["Research", "Engineering"],
     color: "#4ADE80",
     github: "https://github.com/askmy-stack/spring-2026-group2",
+    image: "/info/projects/EEG Seizure Detection.jpg",
     gradient: "from-orange-500/20 via-rose-500/10 to-transparent",
     problem:
       "Most published seizure-detection models report numbers on a single architecture or subject — leaving a critical question unanswered: which model class actually generalizes across patients in real conditions?",
@@ -50,6 +51,7 @@ export const projects: readonly Project[] = [
     pillars: ["Product", "Engineering"],
     color: "#F472B6",
     github: "https://github.com/askmy-stack/job-search-pipeline",
+    image: "/info/projects/Hybrid Agentic Job Search Pipeline.jpg",
     gradient: "from-amber-400/20 via-orange-500/10 to-transparent",
     problem:
       "Hundreds of job postings, most irrelevant, each needing slightly different framing. Frontier LLMs can help — but running every step through a paid API is wasteful for easy tasks and uncomfortable for private data.",
@@ -81,6 +83,7 @@ export const projects: readonly Project[] = [
     pillars: ["Research", "Engineering"],
     color: "#FF6B35",
     github: "https://github.com/askmy-stack/byu-flagellar-motors",
+    image: "/info/projects/Locating Bacterial Flagellar Motors.jpg",
     gradient: "from-cyan-400/20 via-blue-500/10 to-transparent",
     problem:
       "Flagellar motors are tiny, sparse, and buried in noisy cryo-ET volumes. Manual annotation is slow and inconsistent — and a structural biologist will only trust a detector with near-perfect precision.",
@@ -112,6 +115,7 @@ export const projects: readonly Project[] = [
     pillars: ["Engineering", "Research"],
     color: "#818CF8",
     github: "https://github.com/askmy-stack/nasa-landslide",
+    image: "/info/projects/NASA Landslide Predictive Analysis.jpg",
     gradient: "from-emerald-400/20 via-teal-500/10 to-transparent",
     problem:
       "Geospatial risk models rot without fresh data, but re-training and deployment pipelines are often slow, fragile, and environment-inconsistent. The bottleneck isn't the model — it's the path from notebook to running service.",
