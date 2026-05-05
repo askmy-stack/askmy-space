@@ -153,9 +153,9 @@ function whoamiResponse(): Response {
       out("Before grad school: ML infra at Jio Platforms."),
       out("Before that: biomedical imaging, clinical EEG, agentic systems."),
       divider,
-      muted("research without shipping is a paper."),
-      muted("shipping without research is a guess."),
-      accent("the work that matters does both."),
+      muted("research — define the intelligence."),
+      muted("engineering — scale the execution."),
+      accent("product — deliver the experience."),
     ],
   };
 }

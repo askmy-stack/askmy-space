@@ -5,22 +5,29 @@ export const aboutParagraphs: readonly string[] = [
 ] as const;
 
 export interface PhilosophyCell {
+  pillar: string;
   lead: string;
   follow: string;
 }
 
 export const principles: readonly PhilosophyCell[] = [
   {
-    lead: "Research without shipping is a paper.",
-    follow: "Reproducibility is infrastructure, not a nice-to-have.",
+    pillar: "Research",
+    lead: "Define the intelligence.",
+    follow:
+      "Grounding complex algorithms in robust logic, reproducible experimentation, and uncompromising mathematical evaluation.",
   },
   {
-    lead: "Observable, version-pinned, containerized.",
-    follow: "Or it didn't happen.",
+    pillar: "Engineering",
+    lead: "Scale the execution.",
+    follow:
+      "Building the automated, self-healing cloud architectures that allow models to survive contact with real-time traffic.",
   },
   {
-    lead: "The work that matters does both.",
-    follow: "Six months later, you can still run it.",
+    pillar: "Product",
+    lead: "Deliver the experience.",
+    follow:
+      "Bridging the gap between an engineering breakthrough and a tangible solution that solves a real human problem.",
   },
 ] as const;
 
