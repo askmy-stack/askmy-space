@@ -2,6 +2,8 @@ export const siteConfig = {
   name: "Abhinaysai Kamineni",
   alias: "ABHINAYSAI",
   role: "AI/ML Engineer",
+  /** Short, brand-led tagline used in tab titles + social cards. */
+  tagShort: "Research · Engineering · Product",
   tagline:
     "Abhinaysai Kamineni. AI/ML Engineer and researcher. Computer vision (mAP@50 0.948), clinical EEG benchmarking (AUROC 0.740), production MLOps at Jio Platforms. GWU MS Data Science, Global Leaders Award. Open to research collaborations and applied ML builds.",
   email: "kamineniabhinaysai@gmail.com",
