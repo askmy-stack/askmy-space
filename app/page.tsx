@@ -1,4 +1,5 @@
 import Hero from "@/components/hero/Hero";
+import ScrollScene from "@/components/scene/ScrollScene";
 import SocialProofBar from "@/components/social-proof/SocialProofBar";
 import CapabilitiesStrip from "@/components/capabilities/CapabilitiesStrip";
 import SelectedWork from "@/components/work/SelectedWork";
@@ -11,15 +12,18 @@ import Contact from "@/components/contact/Contact";
 export default function HomePage() {
   return (
     <>
-      <Hero />
-      <SocialProofBar />
-      <CapabilitiesStrip />
-      <SelectedWork />
-      <SkillsSection />
-      <About />
-      <Experience />
-      <NowBlock />
-      <Contact />
+      <ScrollScene />
+      <div className="relative z-10">
+        <Hero />
+        <SocialProofBar />
+        <CapabilitiesStrip />
+        <SelectedWork />
+        <SkillsSection />
+        <About />
+        <Experience />
+        <NowBlock />
+        <Contact />
+      </div>
     </>
   );
 }

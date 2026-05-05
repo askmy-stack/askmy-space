@@ -32,10 +32,24 @@ const EDGES: [number, number][] = [
   [8, 9], [10, 11],
 ];
 
-const SCALE = 120; // radius in px
+const BASE_SCALE = 120; // radius in px
 
-export default function NeuralLattice(): JSX.Element {
+interface Props {
+  /** Tint as "r,g,b" — defaults to accent orange */
+  tint?: string;
+  /** Multiplier on base radius */
+  scale?: number;
+  /** Glow halo strength on nodes (0–1) */
+  glow?: number;
+}
+
+export default function NeuralLattice({
+  tint = "255,107,53",
+  scale = 1,
+  glow = 1,
+}: Props = {}): JSX.Element {
   const reduced = useReducedMotion();
+  const SCALE = BASE_SCALE * scale;
 
   return (
     <div
@@ -79,8 +93,7 @@ export default function NeuralLattice(): JSX.Element {
               style={{
                 width: length,
                 height: 1,
-                background:
-                  "linear-gradient(90deg, rgba(255,107,53,0.05), rgba(255,107,53,0.35), rgba(255,107,53,0.05))",
+                background: `linear-gradient(90deg, rgba(${tint},0.05), rgba(${tint},0.35), rgba(${tint},0.05))`,
                 transformOrigin: "0 50%",
                 transform: `
                   translate3d(${x1 * SCALE}px, ${y1 * SCALE}px, ${z1 * SCALE}px)
@@ -102,8 +115,8 @@ export default function NeuralLattice(): JSX.Element {
               height: 6,
               marginLeft: -3,
               marginTop: -3,
-              background: "var(--accent)",
-              boxShadow: "0 0 12px rgba(255,107,53,0.8), 0 0 24px rgba(255,107,53,0.4)",
+              background: `rgb(${tint})`,
+              boxShadow: `0 0 ${12 * glow}px rgba(${tint},${0.8 * glow}), 0 0 ${24 * glow}px rgba(${tint},${0.4 * glow})`,
               transform: `translate3d(${x * SCALE}px, ${y * SCALE}px, ${z * SCALE}px)`,
             }}
           />

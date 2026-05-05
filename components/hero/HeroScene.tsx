@@ -3,7 +3,6 @@
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useEffect } from "react";
 import HeroBlob from "./HeroBlob";
-import NeuralLattice from "./NeuralLattice";
 import DataOrbits from "./DataOrbits";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 
@@ -68,17 +67,7 @@ export default function HeroScene(): JSX.Element {
         <DataOrbits />
       </motion.div>
 
-      {/* Parallax layer 3 — neural lattice (closest / strongest response) */}
-      <motion.div
-        className="absolute inset-0"
-        style={{
-          rotateX: useTransform(sy, [-0.5, 0.5], [12, -12]),
-          rotateY: useTransform(sx, [-0.5, 0.5], [-18, 18]),
-          transformStyle: "preserve-3d",
-        }}
-      >
-        <NeuralLattice />
-      </motion.div>
+      {/* (Lattice moved to global ScrollScene for cross-page narrative) */}
 
       {/* Vignette — focuses attention on the center */}
       <div
