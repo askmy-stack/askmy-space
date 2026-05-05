@@ -6,19 +6,30 @@ import { easeOutExpo } from "@/lib/motion";
 
 export default function Principles(): JSX.Element {
   return (
-    <div className="mt-24 md:mt-32 grid grid-cols-1 gap-10 md:gap-14">
+    <div className="mt-20 md:mt-24 grid grid-cols-1 md:grid-cols-3 gap-px bg-[var(--border)] border border-[var(--border)]">
       {principles.map((p, i) => (
         <motion.div
-          key={p.title}
-          initial={{ opacity: 0, y: 20 }}
+          key={p.lead}
+          initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.8, ease: easeOutExpo, delay: i * 0.1 }}
-          className="flex items-start gap-6 md:gap-10"
+          transition={{ duration: 0.6, ease: easeOutExpo, delay: i * 0.08 }}
+          className="bg-[var(--bg)] p-8 md:p-10 flex flex-col gap-3"
         >
-          <span className="mt-3 md:mt-5 shrink-0 hairline-accent" aria-hidden="true" />
-          <p className="text-display-md text-[var(--fg)] leading-[1.15] max-w-[22ch]">
-            {p.title}
+          <span className="t-label text-[var(--accent)]">
+            {String(i + 1).padStart(2, "0")}
+          </span>
+          <p
+            className="text-[var(--fg)] leading-snug text-[clamp(1.05rem,1.3vw,1.25rem)]"
+            style={{ fontFamily: "var(--font-body)" }}
+          >
+            {p.lead}
+          </p>
+          <p
+            className="t-body-lg"
+            style={{ fontFamily: "var(--font-body)" }}
+          >
+            {p.follow}
           </p>
         </motion.div>
       ))}
