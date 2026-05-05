@@ -1,68 +1,97 @@
-# personal-portfolio
+# ASK. — Personal Portfolio
 
-> Personal portfolio site for Abhinaysai Kamineni — AI/ML Engineer.
+> **Research · Engineering · Product**
+> Building AI/ML systems that ship to real users.
 
-**Live:** https://personal-portfolio-six-tan-92.vercel.app/
+**Live → [askmystack.space](https://www.askmystack.space)**
+
+---
+
+![ASK. Portfolio Hero](https://www.askmystack.space/opengraph-image)
+
+---
 
 ## Stack
 
-- **Framework:** Next.js 14 (App Router) · React 18
-- **Language:** TypeScript (strict)
-- **Styling:** Tailwind CSS v4 + CSS variables (dark/light theme)
-- **Motion:** Framer Motion · Lenis (smooth scroll)
-- **Typography:** Fraunces (display) · Geist Mono (UI/body)
-- **Hosting:** Vercel (static export)
+| Layer | Technology |
+|---|---|
+| **Framework** | Next.js 14 (App Router) · React 18 |
+| **Language** | TypeScript (strict) |
+| **Styling** | Tailwind CSS v4 · CSS variables (dark / light) |
+| **Motion** | Framer Motion · Lenis smooth scroll |
+| **Typography** | Fraunces (display) · Geist Mono (UI / body) |
+| **Analytics** | Vercel Analytics · Vercel Speed Insights |
+| **Hosting** | Vercel (static export) |
 
-## Local development
+---
+
+## Getting Started
 
 ```bash
 git clone https://github.com/askmy-stack/personal-portfolio.git
 cd personal-portfolio
 npm install
-npm run dev          # http://localhost:3000
+npm run dev          # → http://localhost:3000
 ```
 
 ### Scripts
 
-| Command | What it does |
+| Command | Description |
 |---|---|
 | `npm run dev` | Start dev server with HMR |
 | `npm run build` | Production build + typecheck + lint |
-| `npm run start` | Run production build locally |
-| `npm run lint` | ESLint over all source |
+| `npm run start` | Serve production build locally |
+| `npm run lint` | ESLint across all source files |
 
-## Project structure
+---
+
+## Project Structure
 
 ```
-app/                 Pages, layouts, metadata, sitemap, OG image
-components/          Section components (hero, work, about, …)
-  about/             Interactive terminal + bio + principles
-  hero/              3D-feel hero (CSS transforms, no WebGL)
-  scene/             Persistent right-gutter prism (scroll-driven)
-  report/            "Report an issue" form (mailto-based)
-content/             Site copy: projects, experience, skills, about
-data/                Static reference data (skills, etc.)
-hooks/               useTerminal, useReducedMotion
-lib/                 Fonts, motion, terminal engine + session
-public/              Static assets (favicon, info/projects/*)
+app/                    Pages, layouts, metadata, sitemap, OG image
+components/
+  about/                Interactive terminal · bio · principles
+  capabilities/         Capability strip with icons
+  experience/           Jobs + certifications
+  hero/                 3D-feel hero scene (pure CSS transforms)
+  layout/               Header · Footer
+  now/                  "What I'm doing now" block
+  report/               Report-an-issue (mailto, no backend)
+  scene/                Scroll-driven prism (right gutter)
+  skills/               Skill groups grid
+  work/                 Selected work rows + case-study pages
+content/                All site copy — projects, experience, about, site config
+data/                   Static reference data (skills)
+hooks/                  useTerminal · useReducedMotion
+lib/
+  terminal/             Engine · session · intent routing · fuzzy suggestions
+  fonts.ts              Two-font system (Fraunces + Geist Mono)
+  motion.ts             Shared Framer Motion variants
+public/
+  info/projects/        Hero images + resume PDF
 ```
 
-## Adding a project
+---
 
-1. Add an entry to `content/projects.ts` (see `Project` type in `lib/types.ts`).
-2. Drop a 16:9 hero image into `public/info/projects/` and reference it via `image`.
-3. The case-study page at `/work/[slug]` is generated automatically.
+## Guides
 
-## Replacing the resume
+### Adding a Project
 
-Drop your PDF at `public/info/projects/<filename>.pdf` and update `siteConfig.resume`
-in `content/site.ts`. The header, contact section, and terminal `resume` command
-all read from this single source.
+1. Add an entry to `content/projects.ts` (see `Project` type in `lib/types.ts`)
+2. Drop a **16:9 hero image** into `public/info/projects/` and set the `image` field
+3. The case-study page at `/work/[slug]` generates automatically — no routing needed
 
-## Reporting issues
+### Updating the Resume
 
-Found a bug, broken layout, or typo? Use the **Report an issue** section at the
-bottom of the live site, or open a PR / issue on GitHub.
+Drop your PDF into `public/info/projects/` and update `siteConfig.resume` in `content/site.ts`.
+The header button, contact section, and terminal `resume` command all read from this single source.
+
+### Reporting an Issue
+
+Found a bug, broken layout, or typo?
+Use the **Report an issue** section at the bottom of the live site — or open a [GitHub issue](https://github.com/askmy-stack/personal-portfolio/issues).
+
+---
 
 ## License
 
@@ -70,4 +99,8 @@ MIT
 
 ---
 
-Built by [Abhinaysai Kamineni](https://github.com/askmy-stack)
+<div align="center">
+
+Built with focus by [Abhinaysai Kamineni](https://www.askmystack.space) · Arlington, VA
+
+</div>
