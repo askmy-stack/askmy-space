@@ -6,7 +6,7 @@ import { easeOutExpo } from "@/lib/motion";
 const nowItems = [
   { label: "Building", text: "Agentic research assistant with tool-use + RAG" },
   { label: "Finishing", text: "EEG seizure detection paper draft for publication" },
-  { label: "Open to", text: "Roles where research, engineering, and product thinking are all valued" },
+  { label: "Open to", text: "Collaborations at the research-to-product boundary" },
   { label: "Reading", text: "The Pragmatic Programmer (re-read for taste)" },
   { label: "Based in", text: "Arlington, VA" },
 ] as const;
@@ -18,17 +18,14 @@ export default function NowBlock(): JSX.Element {
   });
 
   return (
-    <section id="now" className="py-[120px] border-t border-[var(--border)]">
+    <section id="now" className="pt-[120px] pb-10 md:pb-12 border-t border-[var(--border)]">
       <div className="container-editorial">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
           <div>
-            <span className="text-[10px] font-mono text-[var(--fg-muted)] tracking-[0.3em] uppercase block mb-4">
-              04 — Now
-            </span>
-            <h2 className="text-display-lg font-[family-name:var(--font-display)] italic text-[var(--fg)] leading-[1]">
+            <h2 className="t-display">
               What I&apos;m up to.
             </h2>
-            <p className="text-[var(--fg-muted)] text-sm mt-6 font-mono">
+            <p className="t-caption mt-6">
               Updated {updated}
             </p>
           </div>
@@ -43,10 +40,10 @@ export default function NowBlock(): JSX.Element {
                 viewport={{ once: true, margin: "-80px" }}
                 transition={{ duration: 0.4, delay: i * 0.08, ease: easeOutExpo }}
               >
-                <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--accent)] w-24 shrink-0 pt-1">
+                <span className="t-label text-[var(--accent)] w-24 shrink-0 pt-1">
                   {item.label}
                 </span>
-                <span className="text-sm text-[var(--fg)]/80 leading-relaxed">
+                <span className="t-body text-[var(--fg)]">
                   {item.text}
                 </span>
               </motion.div>

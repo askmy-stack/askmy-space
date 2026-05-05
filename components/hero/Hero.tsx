@@ -69,7 +69,7 @@ export default function Hero(): JSX.Element {
           transition={{ duration: 0.8, ease: easeOutExpo, delay: 1 }}
           className="mt-16 pt-6 border-t border-[var(--border)] max-w-3xl"
         >
-          <p className="font-mono text-xs md:text-sm text-[var(--fg)] tracking-wide">
+          <p className="font-[family-name:var(--font-display)] italic text-[0.9375rem] md:text-[1.125rem] text-[var(--fg)] tracking-wide">
             Research <span className="text-[var(--fg-muted)]">·</span> Engineering{" "}
             <span className="text-[var(--fg-muted)]">·</span> Product
           </p>

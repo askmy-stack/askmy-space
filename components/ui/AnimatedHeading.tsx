@@ -46,7 +46,7 @@ export default function AnimatedHeading({
       }}
     >
       {words.map((word, i) => (
-        <span key={i} className="inline-block overflow-hidden align-baseline">
+        <span key={i} className="inline-block overflow-hidden align-baseline pb-[0.15em] mb-[-0.15em]">
           <motion.span
             className="inline-block"
             variants={{

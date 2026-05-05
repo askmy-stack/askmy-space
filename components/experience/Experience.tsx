@@ -4,12 +4,9 @@ import AnimatedHeading from "@/components/ui/AnimatedHeading";
 
 export default function Experience(): JSX.Element {
   return (
-    <section id="experience" className="py-32 md:py-40">
+    <section id="experience" className="pt-16 pb-32 md:pt-20 md:pb-40">
       <div className="container-editorial">
-        <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--fg-muted)] mb-6">
-          03 — Experience
-        </p>
-        <AnimatedHeading as="h2" className="text-display-lg text-[var(--fg)] mb-16">
+        <AnimatedHeading as="h2" className="t-display mb-16">
           Where I’ve shipped.
         </AnimatedHeading>
 
@@ -21,25 +18,25 @@ export default function Experience(): JSX.Element {
                 className="grid grid-cols-1 md:grid-cols-12 gap-6 pt-10 border-t border-[var(--border)]"
               >
                 <div className="md:col-span-4">
-                  <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--accent)]">
+                  <p className="t-label text-[var(--accent)]">
                     {job.dates}
                   </p>
-                  <p className="font-mono text-xs uppercase tracking-[0.2em] text-[var(--fg-muted)] mt-2">
+                  <p className="t-caption mt-2">
                     {job.location}
                   </p>
                 </div>
                 <div className="md:col-span-8">
-                  <h3 className="text-display-md text-[var(--fg)] leading-tight">
+                  <h3 className="t-headline">
                     {job.title}
                   </h3>
-                  <p className="font-mono text-sm text-[var(--fg-muted)] mt-2">
+                  <p className="t-body mt-2">
                     {job.company}
                   </p>
                   <ul className="mt-6 space-y-3">
                     {job.bullets.map((b, i) => (
                       <li
                         key={i}
-                        className="text-body text-[var(--fg-muted)] leading-relaxed pl-5 relative"
+                        className="t-body pl-5 relative"
                       >
                         <span
                           className="absolute left-0 top-[0.7em] w-2 h-px bg-[var(--accent)]"
@@ -57,7 +54,7 @@ export default function Experience(): JSX.Element {
 
         {/* Certifications */}
         <div className="mt-24 pt-10 border-t border-[var(--border)]">
-          <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--fg-muted)] mb-8">
+          <p className="t-label mb-8">
             Certifications
           </p>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
@@ -66,8 +63,8 @@ export default function Experience(): JSX.Element {
                 key={c.name}
                 className="flex items-start justify-between gap-4 py-3 border-b border-[var(--border)]"
               >
-                <span className="text-body text-[var(--fg)]">{c.name}</span>
-                <span className="font-mono text-xs text-[var(--fg-muted)] shrink-0">
+                <span className="t-body text-[var(--fg)]">{c.name}</span>
+                <span className="t-mono shrink-0">
                   {c.issuer}
                 </span>
               </li>

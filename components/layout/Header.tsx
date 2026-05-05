@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { navLinks, siteConfig } from "@/content/site";
 import { cn } from "@/lib/utils";
+import ThemeToggle from "@/components/ui/ThemeToggle";
 
 export default function Header(): JSX.Element {
   const [scrolled, setScrolled] = useState(false);
@@ -71,17 +72,21 @@ export default function Header(): JSX.Element {
             >
               Resume ↗
             </a>
+            <ThemeToggle />
           </nav>
 
-          <button
-            type="button"
-            onClick={() => setMenuOpen(true)}
-            aria-label="Open menu"
-            className="md:hidden flex flex-col gap-1.5 w-8 h-8 items-center justify-center"
-          >
-            <span className="block w-5 h-px bg-[var(--fg)]" />
-            <span className="block w-5 h-px bg-[var(--fg)]" />
-          </button>
+          <div className="md:hidden flex items-center gap-3">
+            <ThemeToggle />
+            <button
+              type="button"
+              onClick={() => setMenuOpen(true)}
+              aria-label="Open menu"
+              className="flex flex-col gap-1.5 w-8 h-8 items-center justify-center"
+            >
+              <span className="block w-5 h-px bg-[var(--fg)]" />
+              <span className="block w-5 h-px bg-[var(--fg)]" />
+            </button>
+          </div>
         </div>
       </header>
 

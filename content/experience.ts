@@ -7,9 +7,9 @@ export const experience: readonly Experience[] = [
     dates: "May 2025 — Present",
     location: "Washington, DC",
     bullets: [
-      "Operate fulfillment and inventory data workflows during peak academic cycles across online and on-campus systems.",
-      "Maintain process-level data integrity across receiving, disposition, and reconciliation, reducing discrepancies during peak periods.",
-      "Apply CourseTracks adoption data for demand planning and accuracy.",
+      "Operate fulfillment and inventory data workflows during peak academic cycles — online and on-campus — maintaining process-level data integrity for hundreds of SKUs per cycle.",
+      "Apply CourseTracks adoption analytics for demand planning, check-in accuracy, and inventory reconciliation across multiple enterprise data sources.",
+      "Adhere to PCI-compliant processes and IAM-aligned access control — zero security incidents across all operational periods.",
     ],
   },
   {
@@ -32,9 +32,9 @@ export const experience: readonly Experience[] = [
     dates: "Mar 2023 — Jun 2023",
     location: "Pune, India",
     bullets: [
-      "Optimized ETL pipelines in BigQuery, improving processing efficiency 30% and cutting analytics latency 40%.",
-      "Built 10+ monitoring dashboards surfacing data-quality issues and pipeline drift signals — enabling the team to catch regressions before they reached downstream consumers.",
-      "Implemented key-based auth in Airflow, securing 75% of critical pipelines.",
+      "Engineered data pipelines in BigQuery achieving 30% efficiency gains and 40% latency reduction — enabling faster ML feature computation for downstream model serving.",
+      "Built 10+ real-time monitoring dashboards surfacing data quality issues and model drift signals — enabling the team to catch performance regressions before they reached users.",
+      "Implemented key-based authentication in Airflow, securing 75% of critical data and ML pipelines while maintaining CI/CD velocity.",
     ],
   },
 ] as const;

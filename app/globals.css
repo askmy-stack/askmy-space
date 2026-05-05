@@ -38,7 +38,7 @@
   --accent: #FF6B35;
   --accent-soft: rgba(255, 107, 53, 0.12);
   --border: #1E1E1F;
-  --mono: #4ADE80;
+  --mono: #16a34a;
 
   --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
   --duration-fast: 200ms;
@@ -54,6 +54,22 @@
 
   --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ─── LIGHT MODE TOKENS ─── */
+html.light {
+  color-scheme: light;
+  --bg: #F9F7F4;
+  --bg-elevated: #F0EDE8;
+  --base: #F9F7F4;
+  --surface: #EAE6E0;
+  --fg: #1A1816;
+  --fg-muted: #6B6560;
+  --muted: #C8C4BF;
+  --accent: #E85D20;
+  --accent-soft: rgba(232, 93, 32, 0.10);
+  --border: #D8D4CE;
+  --mono: #16a34a;
 }
 
 /* ═══════════════════════════════════════════════════════════════════
@@ -94,11 +110,12 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
-  font-family: var(--font-body);
+  font-family: var(--font-mono);
   font-size: var(--fs-body);
   line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 ::selection {
@@ -162,6 +179,97 @@ svg {
 
 .font-mono {
   font-family: var(--font-mono);
+}
+
+/* ─── DISPLAY — section hero headlines ─── */
+.t-display {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(2.25rem, 4.5vw, 4.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  color: var(--fg);
+}
+
+/* ─── HEADLINE — card titles, project names ─── */
+.t-headline {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--fg);
+}
+
+/* ─── BODY — paragraphs, descriptions ─── */
+.t-body {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: clamp(0.875rem, 1.2vw, 0.9375rem);
+  line-height: 1.85;
+  color: var(--fg-muted);
+}
+
+/* ─── BODY LARGE — intro paragraphs only ─── */
+.t-body-lg {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: clamp(1rem, 1.4vw, 1.0625rem);
+  line-height: 1.8;
+  color: var(--fg-muted);
+}
+
+/* ─── LABEL — mono caps: section numbers, tags, badges ─── */
+.t-label {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 0.6875rem;
+  line-height: 1;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+}
+
+/* ─── METRIC — big numbers: AUROC, mAP, percentages ─── */
+.t-metric {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  color: var(--mono);
+}
+
+/* ─── METRIC LABEL — below big numbers ─── */
+.t-metric-label {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 0.625rem;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+}
+
+/* ─── CAPTION — small helper text, dates, locations ─── */
+.t-caption {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--fg-muted);
+}
+
+/* ─── MONO — inline code, stack tags ─── */
+.t-mono {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--fg-muted);
 }
 
 /* ═══════════════════════════════════════════════════════════════════

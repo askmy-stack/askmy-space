@@ -12,6 +12,8 @@ const entities: readonly Entity[] = [
   { name: "George Washington University", type: "school" },
   { name: "Follett Higher Education", type: "company" },
   { name: "PHN Technologies", type: "company" },
+  { name: "TEDx", type: "award" },
+  { name: "Google Developer Club", type: "award" },
   { name: "AWS AI Practitioner", type: "cert" },
   { name: "Global Leaders Award", type: "award" },
   { name: "Red Hat Certified", type: "cert" },
@@ -21,8 +23,8 @@ const entities: readonly Entity[] = [
 export default function SocialProofBar(): JSX.Element {
   return (
     <section className="py-16 border-y border-[var(--border)] overflow-hidden">
-      <p className="text-center text-[10px] font-mono text-[var(--fg-muted)] tracking-[0.3em] uppercase mb-8">
-        Previously shipped at · Studied at · Certified by
+      <p className="t-label text-center mb-8">
+        Worked at · Studied at · Certified by
       </p>
 
       <div className="relative flex overflow-hidden">
@@ -42,7 +44,7 @@ export default function SocialProofBar(): JSX.Element {
                       : "bg-[var(--fg-muted)]"
                 }`}
               />
-              <span className="text-sm font-mono text-[var(--fg-muted)] group-hover:text-[var(--fg)] transition-colors duration-200">
+              <span className="t-label group-hover:text-[var(--fg)] transition-colors duration-200">
                 {entity.name}
               </span>
             </div>

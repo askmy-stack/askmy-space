@@ -59,21 +59,21 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8">
           {/* Left: number + title + narrative + tags */}
           <div className="flex items-start gap-6 flex-1">
-            <span className="font-mono text-xs text-[var(--fg-muted)] mt-2 w-8 shrink-0 tabular-nums">
+            <span className="t-label mt-2 w-8 shrink-0 tabular-nums">
               {num}
             </span>
             <div className="flex-1">
-              <h3 className="text-2xl md:text-3xl font-[family-name:var(--font-display)] italic text-[var(--fg)] group-hover:text-[var(--accent)] transition-colors duration-300 mb-3 leading-tight">
+              <h3 className="t-headline group-hover:text-[var(--accent)] transition-colors duration-300 mb-3">
                 {project.title}
               </h3>
-              <p className="text-sm text-[var(--fg-muted)] max-w-xl leading-relaxed">
+              <p className="t-body max-w-xl">
                 {project.narrative}
               </p>
               <div className="flex flex-wrap gap-2 mt-5">
                 {project.pillars.map((p) => (
                   <span
                     key={p}
-                    className="text-[10px] font-mono uppercase tracking-[0.15em] px-2.5 py-1 border border-[var(--mono)]/40 text-[var(--mono)]"
+                    className="t-mono uppercase tracking-[0.15em] px-2.5 py-1 border border-[var(--mono)]/40 text-[var(--mono)]"
                   >
                     {p}
                   </span>
@@ -81,7 +81,7 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="text-[10px] font-mono uppercase tracking-[0.15em] px-2.5 py-1 border border-[var(--border)] text-[var(--fg-muted)]"
+                    className="t-mono uppercase tracking-[0.15em] px-2.5 py-1 border border-[var(--border)] text-[var(--fg-muted)]"
                   >
                     {tag}
                   </span>
@@ -94,13 +94,13 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
           <div className="shrink-0 md:text-right md:min-w-[260px]">
             <div className="flex flex-col gap-1.5 mb-5">
               {project.metrics.map((m) => (
-                <span key={m} className="text-xs font-mono text-[var(--fg-muted)]">
+                <span key={m} className="t-mono">
                   {m}
                 </span>
               ))}
             </div>
             <div className="flex items-center md:justify-end gap-3">
-              <span className="font-mono text-xs text-[var(--fg-muted)] tabular-nums">
+              <span className="t-caption tabular-nums">
                 {project.year}
               </span>
               <span className="text-[var(--accent)] text-lg group-hover:translate-x-1 transition-transform">

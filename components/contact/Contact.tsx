@@ -4,11 +4,8 @@ import { siteConfig } from "@/content/site";
 
 export default function Contact(): JSX.Element {
   return (
-    <section id="contact" className="py-32 md:py-40">
+    <section id="contact" className="pt-10 pb-16 md:pt-12 md:pb-20">
       <div className="container-editorial">
-        <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--fg-muted)] mb-6">
-          05 — Contact
-        </p>
         <AnimatedHeading
           as="h2"
           className="text-display-xl text-[var(--fg)] leading-[0.95] mb-4"

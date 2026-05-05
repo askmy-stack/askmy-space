@@ -13,25 +13,25 @@ const capabilities: readonly Capability[] = [
   {
     label: "Computer Vision",
     description:
-      "CenterNet, YOLO family, Faster R-CNN. 3D detection on cryo-ET. mAP@50 of 0.948 on noisy small-object benchmarks.",
+      "3D object detection on cryo-electron tomography — mAP@50 of 0.948 on noisy small-object biomedical benchmarks. Architecture comparison across CenterNet, YOLOv10, and Faster R-CNN under real research constraints.",
     tag: "VISION",
   },
   {
     label: "Time-Series + Signals",
     description:
-      "LSTM, Mamba, MoE, Transformers on clinical EEG. Geospatial risk modeling. 916 hours of pediatric signal data.",
+      "Clinical EEG benchmarking across 15+ architectures — LSTM, Mamba, MoE, Transformers — on 916 hours of pediatric signal data. Subject-independent evaluation because real generalization is the only honest test.",
     tag: "SIGNALS",
   },
   {
     label: "MLOps + Infrastructure",
     description:
-      "Docker, Kubernetes, Terraform, Airflow. 99.9% pipeline reliability. 85% faster deploys. Multi-cloud AWS/GCP/Azure.",
+      "Shipping ML to production and keeping it there. 100+ Airflow DAGs at 99.9% reliability. 85% faster deploys. Containerized, version-pinned, observable at 3am. AWS, Azure, GCP — wherever the model needs to run.",
     tag: "MLOPS",
   },
   {
     label: "Agentic AI",
     description:
-      "Hybrid local+cloud LLM architectures. Tool-use, reasoning chains, cost-aware routing. Ollama + Anthropic API.",
+      "Hybrid local+cloud agent architecture — local Ollama for privacy-sensitive work, frontier API where reasoning depth matters. Tool-use, RAG, cost-aware routing. Built for real workflows, not demos.",
     tag: "AGENTS",
   },
 ];
@@ -40,7 +40,7 @@ export default function CapabilitiesStrip(): JSX.Element {
   return (
     <section className="py-[120px] border-b border-[var(--border)]">
       <div className="container-editorial">
-        <span className="text-[10px] font-mono text-[var(--fg-muted)] tracking-[0.3em] uppercase block mb-12">
+        <span className="t-label block mb-12">
           What I build
         </span>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-[var(--border)]">
@@ -53,13 +53,13 @@ export default function CapabilitiesStrip(): JSX.Element {
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.5, delay: i * 0.1, ease: easeOutExpo }}
             >
-              <span className="text-[10px] font-mono text-[var(--accent)] mb-4 block tracking-[0.25em] uppercase">
+              <span className="t-label text-[var(--accent)] mb-4 block">
                 {cap.tag}
               </span>
-              <h3 className="text-xl font-[family-name:var(--font-display)] italic text-[var(--fg)] mb-3 group-hover:text-[var(--accent)] transition-colors duration-200">
+              <h3 className="t-headline mb-3 group-hover:text-[var(--accent)] transition-colors duration-200">
                 {cap.label}
               </h3>
-              <p className="text-xs text-[var(--fg-muted)] leading-relaxed">
+              <p className="t-body">
                 {cap.description}
               </p>
             </motion.div>

@@ -4,19 +4,14 @@ import WorkRow from "./WorkRow";
 
 export default function SelectedWork(): JSX.Element {
   return (
-    <section id="work" className="py-32 md:py-40">
+    <section id="work" className="pt-32 pb-16 md:pt-40 md:pb-20">
       <div className="container-editorial">
-        <div className="flex items-end justify-between mb-20">
-          <div>
-            <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--fg-muted)] mb-6">
-              01 — Selected Work
-            </p>
-            <AnimatedHeading as="h2" className="text-display-lg text-[var(--fg)]">
-              Systems that shipped.
-            </AnimatedHeading>
-          </div>
-          <p className="hidden md:block font-mono text-xs text-[var(--fg-muted)] max-w-[18rem] leading-relaxed">
-            End-to-end projects spanning computer vision, time-series, MLOps, and agentic AI.
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-20">
+          <AnimatedHeading as="h2" className="t-display">
+            Systems that shipped.
+          </AnimatedHeading>
+          <p className="t-body max-w-xs md:max-w-[22rem] md:pb-1">
+            End-to-end projects in computer vision, clinical signal analysis, MLOps, and agentic AI. Each one grounded in honest evaluation and a real user at the end.
           </p>
         </div>
 

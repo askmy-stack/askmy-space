@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useInView } from "framer-motion";
 import CountUp from "react-countup";
 
-interface Props {
+interface StatCounterProps {
   end: number;
   suffix?: string;
   prefix?: string;
@@ -17,45 +18,39 @@ export default function StatCounter({
   prefix = "",
   decimals = 0,
   label,
-}: Props): JSX.Element {
+}: StatCounterProps) {
   const ref = useRef<HTMLDivElement>(null);
+  const isInView = useInView(ref, { once: true, amount: 0.2 });
   const [started, setStarted] = useState(false);
 
   useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setStarted(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.2 },
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
+    if (isInView && !started) {
+      setStarted(true);
+    }
+  }, [isInView, started]);
 
   return (
-    <div ref={ref} className="text-left">
-      <div className="text-4xl md:text-5xl font-mono text-[var(--mono)] mb-2 tabular-nums">
+    <div ref={ref} className="flex flex-col gap-3">
+      <div className="t-metric">
         {started ? (
           <CountUp
             start={0}
             end={end}
-            duration={2}
+            duration={2.2}
             suffix={suffix}
             prefix={prefix}
             decimals={decimals}
+            useEasing
           />
         ) : (
-          <span>{prefix}0{suffix}</span>
+          <span style={{ opacity: 0 }}>
+            {prefix}
+            {end.toFixed(decimals)}
+            {suffix}
+          </span>
         )}
       </div>
-      <p className="text-[10px] font-mono text-[var(--fg-muted)] uppercase tracking-[0.25em]">
-        {label}
-      </p>
+      <p className="t-metric-label">{label}</p>
     </div>
   );
 }

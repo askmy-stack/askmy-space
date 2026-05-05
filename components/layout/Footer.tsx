@@ -4,9 +4,9 @@ export default function Footer(): JSX.Element {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-[var(--border)] py-12 mt-32">
+    <footer className="border-t border-[var(--border)] py-12 mt-10 md:mt-12">
       <div className="container-editorial">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           <div>
             <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--fg-muted)] mb-4">
               Elsewhere
@@ -28,23 +28,6 @@ export default function Footer(): JSX.Element {
               >
                 GitHub ↗
               </a>
-            </div>
-          </div>
-
-          <div>
-            <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--fg-muted)] mb-4">
-              Reach out
-            </p>
-            <div className="flex flex-col gap-2 text-sm">
-              <a
-                href={`https://mail.google.com/mail/?view=cm&fs=1&to=${siteConfig.email}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[var(--fg)] hover:text-[var(--accent)] transition-colors break-all"
-              >
-                {siteConfig.email}
-              </a>
-              <span className="text-[var(--fg-muted)]">{siteConfig.location}</span>
             </div>
           </div>
 

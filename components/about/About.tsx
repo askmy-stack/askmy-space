@@ -5,12 +5,9 @@ import Principles from "./Principles";
 
 export default function About(): JSX.Element {
   return (
-    <section id="about" className="py-32 md:py-40">
+    <section id="about" className="pt-16 pb-16 md:pt-20 md:pb-20">
       <div className="container-editorial">
-        <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--fg-muted)] mb-6">
-          02 — About
-        </p>
-        <AnimatedHeading as="h2" className="text-display-lg text-[var(--fg)] mb-16 max-w-[18ch]">
+        <AnimatedHeading as="h2" className="t-display mb-16 max-w-[18ch]">
           Rigorous engineer with taste.
         </AnimatedHeading>
 
@@ -49,7 +46,7 @@ export default function About(): JSX.Element {
                 className={
                   i === 0
                     ? "text-display-md text-[var(--fg)] leading-tight"
-                    : "text-body-lg text-[var(--fg-muted)]"
+                    : "t-body-lg"
                 }
               >
                 {p}
@@ -60,10 +57,10 @@ export default function About(): JSX.Element {
 
         {/* Stat counters — animate when in view */}
         <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 pt-12 border-t border-[var(--border)]">
-          <StatCounter end={0.948} decimals={3} label="mAP@50 (BYU)" />
-          <StatCounter end={916} label="Hours of EEG" />
-          <StatCounter end={99.9} decimals={1} suffix="%" label="Pipeline Reliability" />
-          <StatCounter end={85} suffix="%" label="Faster Deploys" />
+          <StatCounter end={0.948} decimals={3} label="mAP@50 — BYU cryo-ET" />
+          <StatCounter end={916} decimals={0} label="Hours of clinical EEG" />
+          <StatCounter end={94} decimals={0} suffix="%" label="Pipeline reliability" />
+          <StatCounter end={85} decimals={0} suffix="%" label="Faster model deploys" />
         </div>
 
         <Principles />

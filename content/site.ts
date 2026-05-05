@@ -3,7 +3,7 @@ export const siteConfig = {
   alias: "ABHINAYSAI",
   role: "AI/ML Engineer",
   tagline:
-    "I build AI/ML systems that survive production — computer vision, time-series, agentic AI, MLOps.",
+    "Abhinaysai Kamineni — AI/ML Engineer and researcher. Computer vision (mAP@50 0.948), clinical EEG benchmarking (AUROC 0.740), production MLOps at Jio Platforms. GWU MS Data Science, Global Leaders Award. Open to research collaborations and applied ML builds.",
   email: "kamineniabhinaysai@gmail.com",
   location: "Arlington, VA",
   url: "https://abhinaysai.dev",
