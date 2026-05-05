@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useScroll, useTransform, useSpring, useMotionTemplate } from "framer-motion";
+import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import { useEffect, useState } from "react";
 import NeuralLattice from "@/components/hero/NeuralLattice";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
@@ -99,27 +99,10 @@ export default function ScrollScene(): JSX.Element | null {
     return () => unsub();
   }, [sp, productTint]);
 
-  // Position progression — hero centered → docked top-right past hero
-  // Below 8% scroll: centered, full size
-  // Above 12% scroll: docked top-right, small
-  // Smooth transition between
-  const x = useTransform(sp, [0, 0.08, 0.15], ["0vw", "0vw", "38vw"]);
-  const y = useTransform(sp, [0, 0.08, 0.15], ["0vh", "0vh", "-32vh"]);
-  const scale = useTransform(sp, [0, 0.08, 0.15, 1], [1, 1, 0.32, 0.32]);
-  // Opacity story
-  //  Hero (0–8%):    1.0 — full statement
-  //  Transit:        ramp down then back up smoothly
-  //  Docked:         0.75 — always clearly visible as a page instrument
-  const opacity = useTransform(
-    sp,
-    [0, 0.08, 0.13, 0.2, 1],
-    [1, 1, 0.65, 0.78, 0.7],
-  );
-
-  // Scroll progress hairline — only visible past hero
-  const lineOpacity = useTransform(sp, [0.13, 0.18, 0.95, 1], [0, 0.6, 0.6, 0]);
-  const linePct = useTransform(sp, [0, 1], [0, 100]);
-  const lineHeight = useMotionTemplate`${linePct}%`;
+  // Fixed right-gutter positioning — never overlaps reading column.
+  // Lattice is pinned to right edge of viewport at vertical center.
+  // Rotation + tint shifts carry the motion; position stays put.
+  const opacity = useTransform(sp, [0, 0.05, 1], [0.95, 0.85, 0.85]);
 
   // Mobile hero-only lattice opacity (hooks must run unconditionally)
   const mobileOpacity = useTransform(sp, [0, 0.08, 0.12], [0.95, 0.7, 0]);
@@ -132,37 +115,22 @@ export default function ScrollScene(): JSX.Element | null {
       style={{ perspective: 1800 }}
       aria-hidden="true"
     >
-      {/* Single persistent lattice */}
+      {/* Single persistent lattice — pinned to right gutter, vertically centered */}
       <motion.div
-        className="absolute inset-0"
+        className="absolute top-1/2 right-8 md:right-12 -translate-y-1/2"
         style={{
-          x,
-          y,
-          scale,
+          width: 180,
+          height: 180,
           opacity,
-          transformStyle: "preserve-3d",
-          willChange: "transform, opacity",
+          willChange: "opacity",
           display: isMobile ? "none" : undefined,
         }}
       >
-        <NeuralLattice tint={tint} scale={1} glow={1.1} />
+        {/* Lattice renders self-centered within this 180x180 box */}
+        <div className="relative w-full h-full">
+          <NeuralLattice tint={tint} scale={0.3} glow={1} />
+        </div>
       </motion.div>
-
-      {/* Scroll-progress hairline — page-instrument feel, top-right gutter */}
-      {!isMobile && (
-        <motion.div
-          className="absolute top-32 right-10 w-px h-[40vh] bg-[var(--border)]"
-          style={{ opacity: lineOpacity }}
-        >
-          <motion.div
-            className="absolute top-0 left-0 w-px"
-            style={{
-              height: lineHeight,
-              backgroundColor: "var(--accent)",
-            }}
-          />
-        </motion.div>
-      )}
 
       {/* Mobile-only: tiny ambient lattice in hero only */}
       {isMobile && (
