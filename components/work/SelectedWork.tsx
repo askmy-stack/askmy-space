@@ -11,7 +11,7 @@ export default function SelectedWork(): JSX.Element {
             Systems that shipped.
           </AnimatedHeading>
           <p className="t-body max-w-xs md:max-w-[22rem] md:pb-1">
-            End-to-end projects in computer vision, clinical signal analysis, MLOps, and agentic AI. Each one grounded in honest evaluation and a real user at the end.
+            End-to-end projects in computer vision, clinical signal analysis, MLOps, and agentic AI. Each one grounded in honest evaluation. A real user at the end.
           </p>
         </div>
 

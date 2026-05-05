@@ -22,8 +22,8 @@ export default function Contact(): JSX.Element {
 
         <p className="t-body-lg max-w-2xl">
           Open to research collaborations, product-ML builds, and teams working at the
-          research-to-product boundary. If the problem is hard and the work is honest —
-          reach out.
+          research-to-product boundary. If the problem is hard and the work is honest.
+          Reach out.
         </p>
 
         <div className="mt-12 flex flex-wrap gap-3">
