@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import { fraunces, geistMono } from "@/lib/fonts";
 import { siteConfig } from "@/content/site";
 import SmoothScroll from "@/components/ui/SmoothScroll";
@@ -104,6 +105,7 @@ export default function RootLayout({
           </PageTransition>
           <Footer />
         </SmoothScroll>
+        <Analytics />
       </body>
     </html>
   );
