@@ -119,16 +119,16 @@ export default function ScrollScene(): JSX.Element | null {
       <motion.div
         className="absolute top-1/2 right-8 md:right-12 -translate-y-1/2"
         style={{
-          width: 180,
-          height: 180,
+          width: 210,
+          height: 210,
           opacity,
           willChange: "opacity",
           display: isMobile ? "none" : undefined,
         }}
       >
-        {/* Lattice renders self-centered within this 180x180 box */}
+        {/* Lattice renders self-centered within this 210x210 box */}
         <div className="relative w-full h-full">
-          <NeuralLattice tint={tint} scale={0.3} glow={1} />
+          <NeuralLattice tint={tint} scale={0.345} glow={1} />
         </div>
       </motion.div>
 
