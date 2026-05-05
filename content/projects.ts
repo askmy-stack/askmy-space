@@ -17,7 +17,7 @@ export const projects: readonly Project[] = [
     github: "https://github.com/askmy-stack/spring-2026-group2",
     gradient: "from-orange-500/20 via-rose-500/10 to-transparent",
     problem:
-      "Seizure detection from scalp EEG is hard precisely because the seizure signature is patient-specific, time-varying, and buried in heavy artifact. Most published models report headline numbers on a single architecture or a single subject. Leaving clinicians and researchers without a clear answer to a simple question: which class of model actually generalizes across patients in production-like conditions.",
+      "Most published seizure-detection models report numbers on a single architecture or subject — leaving a critical question unanswered: which model class actually generalizes across patients in real conditions?",
     approach: [
       "Built a unified preprocessing pipeline on the CHB-MIT corpus (24 patients, 916 hours of recording) using MNE for filtering, artifact handling, and windowing. So every architecture trains on byte-identical inputs.",
       "Benchmarked 15+ architectures across four families. LSTM/GRU recurrent, Transformer, Mamba/state-space, and Mixture-of-Experts. With patient-disjoint splits to measure cross-subject generalization, not memorization.",
@@ -52,7 +52,7 @@ export const projects: readonly Project[] = [
     github: "https://github.com/askmy-stack/job-search-pipeline",
     gradient: "from-amber-400/20 via-orange-500/10 to-transparent",
     problem:
-      "Modern job search is a low-density information problem dressed up as a high-volume one. Hundreds of postings, most irrelevant, each requiring slightly different framing. Frontier LLMs can do the reading and the drafting, but running everything against a paid API is wasteful for the easy steps and uncomfortable for the private ones.",
+      "Hundreds of job postings, most irrelevant, each needing slightly different framing. Frontier LLMs can help — but running every step through a paid API is wasteful for easy tasks and uncomfortable for private data.",
     approach: [
       "Split the agent across two backends: a local Ollama model for cheap, privacy-sensitive operations (parsing resumes, screening listings, drafting first passes) and the Anthropic API for the hard reasoning (tailored cover letters, structured comparisons).",
       "Implemented in Go for a tight, fast control loop — tool-use, retrieval, and routing live in code, not in a prompt.",
@@ -83,7 +83,7 @@ export const projects: readonly Project[] = [
     github: "https://github.com/askmy-stack/byu-flagellar-motors",
     gradient: "from-cyan-400/20 via-blue-500/10 to-transparent",
     problem:
-      "Bacterial flagellar motors are tiny, sparse, and embedded in volumetric cryo-ET data with extreme noise and missing-wedge artifacts. Manually annotating them across thousands of tomogram slices is slow and inconsistent. A precision-1.00 detector is the only kind a structural biologist will trust enough to put in the loop.",
+      "Flagellar motors are tiny, sparse, and buried in noisy cryo-ET volumes. Manual annotation is slow and inconsistent — and a structural biologist will only trust a detector with near-perfect precision.",
     approach: [
       "Compared three families of detectors on the same tomographic dataset. Anchor-based (Faster R-CNN), anchor-free (CenterNet), and a modern one-stage detector (YOLOv10). To isolate which inductive biases hold up under cryo-ET noise.",
       "Tuned input resolution, augmentation, and post-processing per architecture rather than using off-the-shelf defaults, because cryo-ET slices look nothing like natural images and standard augmentations actively hurt performance.",
@@ -114,7 +114,7 @@ export const projects: readonly Project[] = [
     github: "https://github.com/askmy-stack/nasa-landslide",
     gradient: "from-emerald-400/20 via-teal-500/10 to-transparent",
     problem:
-      "Geospatial risk models rot faster than the science behind them. New satellite passes, new ground-truth data, new feature engineering ideas. All of it stalls when re-training takes a day, deployment takes an afternoon, and nobody trusts that the staging environment matches production. The bottleneck is not the model; it's the path from notebook to running service.",
+      "Geospatial risk models rot without fresh data, but re-training and deployment pipelines are often slow, fragile, and environment-inconsistent. The bottleneck isn't the model — it's the path from notebook to running service.",
     approach: [
       "Provisioned the full training and serving environment in Terraform on AWS, so the infrastructure is one PR away from being torn down and rebuilt identically.",
       "Containerized training and inference, then wired GitHub Actions and Jenkins for CI/CD so a model change goes through the same review-and-deploy path as application code.",

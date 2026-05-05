@@ -83,7 +83,7 @@ export default function WorkCaseStudyPage({ params }: Props) {
           <p className="md:col-span-3 font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--accent)]">
             Problem
           </p>
-          <p className="md:col-span-9 text-display-md text-[var(--fg)] leading-tight">
+          <p className="md:col-span-9 text-body-lg text-[var(--fg)] leading-relaxed">
             {project.problem}
           </p>
         </section>
