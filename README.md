@@ -7,10 +7,6 @@
 
 ---
 
-![ASK. Portfolio Hero](https://www.askmystack.space/opengraph-image)
-
----
-
 ## Overview
 
 A single-page portfolio for an AI/ML engineer and researcher. The site is content-driven — copy, projects, experience, and site config live in `content/` and `data/`, so updates rarely touch component code.
@@ -142,6 +138,6 @@ MIT
 
 <div align="center">
 
-Built with focus by [Abhinaysai Kamineni](https://www.askmystack.space) · Arlington, VA
+Built with focus by [Abhinaysai Kamineni](https://www.askmystack.space)
 
 </div>
