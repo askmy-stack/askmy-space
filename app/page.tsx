@@ -7,6 +7,7 @@ import SkillsSection from "@/components/skills/SkillsSection";
 import About from "@/components/about/About";
 import Experience from "@/components/experience/Experience";
 import NowBlock from "@/components/now/NowBlock";
+import OpenSource from "@/components/open-source/OpenSource";
 import Contact from "@/components/contact/Contact";
 import ReportIssue from "@/components/report/ReportIssue";
 
@@ -23,6 +24,7 @@ export default function HomePage() {
         <About />
         <Experience />
         <NowBlock />
+        <OpenSource />
         <Contact />
         <ReportIssue />
       </div>
