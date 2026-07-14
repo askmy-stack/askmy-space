@@ -1,5 +1,6 @@
 import { Fraunces } from "next/font/google";
 import { GeistMono } from "geist/font/mono";
+import { GeistSans } from "geist/font/sans";
 
 /**
  * Fraunces — variable serif, used as fallback for PP Editorial New.
@@ -14,5 +15,6 @@ export const fraunces = Fraunces({
 });
 
 export const geistMono = GeistMono;
+export const geistSans = GeistSans;
 
-export const fontVariables = `${fraunces.variable} ${geistMono.variable}`;
+export const fontVariables = `${fraunces.variable} ${geistMono.variable} ${geistSans.variable}`;
