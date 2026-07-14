@@ -1,18 +1,20 @@
-name: PR Tests
+name: CI
 
 on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
 
 jobs:
-  build:
+  lint-and-build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 20
           cache: npm
 
       - name: Install deps
@@ -21,6 +23,5 @@ jobs:
       - name: Lint
         run: npm run lint
 
-      # next build type-checks the whole app; failing types fail the job
       - name: Build
         run: npm run build
