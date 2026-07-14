@@ -19,7 +19,7 @@
   {
    "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
    "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
-   "summary": "A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown.\n\nThe attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no acces…",
+   "summary": "A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown. The attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no acces…",
    "score": 8,
    "category": "top-news",
    "tags": [
@@ -47,7 +47,7 @@
   {
    "title": "How Open Models Are Driving AI Research",
    "url": "https://blogs.nvidia.com/blog/open-models-icml-2026/",
-   "summary": "Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work.  This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have become foundational to how mo…",
+   "summary": "Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have become foundational to how mo…",
    "score": 8,
    "category": "research-highlight",
    "tags": [
@@ -99,7 +99,7 @@
   {
    "title": "Japan Pioneered Humanoid Robots—Can It Now Catch China?",
    "url": "https://spectrum.ieee.org/humanoid-robots-japan",
-   "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-middle-aged-asian-man-seated-next-to-an-uncanny-humanoid-robot-dressed-in-identical-glasses-hair-and-clothing.jpg?id=67080305&amp;width=1245&amp;height=700&amp;coordinates=0%2C187%2C0%2C188\" /><br /><br /><p>“In the future, the…",
+   "summary": "“In the future, the…",
    "score": 7,
    "category": "opinion",
    "tags": [

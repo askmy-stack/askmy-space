@@ -22,8 +22,38 @@ export interface IntelFeed {
   items: IntelItem[];
 }
 
+/**
+ * Feed summaries originate from scraped RSS — some carry raw HTML fragments.
+ * The exporter strips markup upstream (askmy-brain#11), but sanitize here
+ * too so the UI stays clean regardless of the committed feed's vintage.
+ */
+const ENTITIES: Record<string, string> = {
+  "&amp;": "&",
+  "&lt;": "<",
+  "&gt;": ">",
+  "&quot;": '"',
+  "&#39;": "'",
+  "&nbsp;": " ",
+};
+
+export function plainText(value: string): string {
+  return value
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&(amp|lt|gt|quot|#39|nbsp);/g, (m) => ENTITIES[m] ?? m)
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export function getIntelFeed(): IntelFeed {
-  return feed as IntelFeed;
+  const raw = feed as IntelFeed;
+  return {
+    ...raw,
+    items: raw.items.map((item) => ({
+      ...item,
+      title: plainText(item.title),
+      summary: plainText(item.summary),
+    })),
+  };
 }
 
 /** Category -> item count, ordered by count descending. */
