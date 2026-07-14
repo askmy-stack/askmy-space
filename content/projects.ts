@@ -14,7 +14,7 @@ export const projects: readonly Project[] = [
     tags: ["Deep Learning", "Neural Signal Processing", "PyTorch"],
     pillars: ["Research", "Engineering"],
     color: "#4ADE80",
-    github: "https://github.com/askmy-stack/spring-2026-group2",
+    github: "https://github.com/askmy-stack/eeg-seizure-detection",
     image: "/info/projects/EEG Seizure Detection.jpg",
     gradient: "from-orange-500/20 via-rose-500/10 to-transparent",
     problem:
