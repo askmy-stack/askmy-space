@@ -104,5 +104,20 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
 
   const data = await res.json();
   const reply: string = data?.choices?.[0]?.message?.content?.trim() ?? "";
-  return NextResponse.json({ reply });
+
+  // Deterministic citations: feed items whose title words appear in the
+  // reply (never model-generated — no fabricated sources).
+  const replyLower = reply.toLowerCase();
+  const sources = getIntelFeed()
+    .items.map((item) => {
+      const words = item.title.toLowerCase().split(/\W+/).filter((w) => w.length > 4);
+      const hits = words.filter((w) => replyLower.includes(w)).length;
+      return { item, hits, needed: Math.min(2, Math.max(1, words.length)) };
+    })
+    .filter(({ hits, needed }) => hits >= needed)
+    .sort((a, b) => b.hits - a.hits)
+    .slice(0, 3)
+    .map(({ item }) => ({ title: item.title, url: item.url }));
+
+  return NextResponse.json({ reply, sources });
 }
