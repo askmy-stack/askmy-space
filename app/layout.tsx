@@ -6,6 +6,7 @@ import { fraunces, geistMono, geistSans } from "@/lib/fonts";
 import { siteConfig } from "@/content/site";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import Header from "@/components/layout/Header";
+import SignalField from "@/components/scene/SignalField";
 import Footer from "@/components/layout/Footer";
 import PageTransition from "@/components/providers/PageTransition";
 
@@ -98,6 +99,7 @@ export default function RootLayout({
           Skip to content
         </a>
         <SmoothScroll>
+          <SignalField />
           <Header />
           <PageTransition>
             <main id="main">{children}</main>
