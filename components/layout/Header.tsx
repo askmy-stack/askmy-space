@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { navLinks, siteConfig } from "@/content/site";
@@ -8,15 +9,8 @@ import { cn } from "@/lib/utils";
 import ThemeToggle from "@/components/ui/ThemeToggle";
 
 export default function Header(): JSX.Element {
-  const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  const pathname = usePathname();
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
@@ -28,65 +22,77 @@ export default function Header(): JSX.Element {
     };
   }, [menuOpen]);
 
+  const isActive = (href: string): boolean =>
+    href.startsWith("/#") ? false : pathname === href;
+
   return (
     <>
-      <header
-        className={cn(
-          "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-          scrolled
-            ? "bg-[var(--bg)]/90 backdrop-blur-xl border-b border-[var(--border)]"
-            : "bg-[var(--bg)]/40 backdrop-blur-sm",
-        )}
-      >
-        <div className="container-editorial flex items-center justify-between h-16">
+      <header className="fixed top-3 left-0 right-0 z-50 flex justify-center px-4 pointer-events-none">
+        <div
+          className="pointer-events-auto flex items-center gap-1 rounded-full border border-[var(--border)] bg-[var(--bg)]/75 px-2.5 py-1.5 shadow-[0_8px_28px_rgba(0,0,0,0.18)] backdrop-blur-xl"
+          style={{ WebkitBackdropFilter: "blur(20px) saturate(1.5)" }}
+        >
           <Link
             href="/"
             aria-label="Home — Abhinaysai Kamineni"
-            className="font-mono font-bold text-lg md:text-xl tracking-[0.12em] text-[var(--fg)] hover:text-[var(--accent)] transition-colors leading-none"
+            className="px-3 font-mono text-sm font-bold tracking-[0.08em] text-[var(--fg)] transition-colors hover:text-[var(--accent)]"
           >
             ASK<span className="text-[var(--accent)]">.</span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="font-mono text-xs uppercase tracking-[0.2em] text-[var(--fg-muted)] hover:text-[var(--fg)] transition-colors"
-              >
-                {link.label}
-              </a>
-            ))}
-            <a
-              href={siteConfig.social.medium}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-mono text-xs uppercase tracking-[0.2em] text-[var(--fg-muted)] hover:text-[var(--fg)] transition-colors"
-            >
-              Writing ↗
-            </a>
+          <nav className="hidden items-center gap-0.5 md:flex">
+            {navLinks.map((link) =>
+              link.href.startsWith("/#") ? (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="rounded-full px-3.5 py-2 text-[13px] font-medium text-[var(--fg-muted)] transition-colors hover:text-[var(--fg)]"
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  aria-current={isActive(link.href) ? "page" : undefined}
+                  className={cn(
+                    "rounded-full px-3.5 py-2 text-[13px] font-medium transition-colors",
+                    isActive(link.href)
+                      ? "bg-[var(--accent-soft)] font-semibold text-[var(--accent)]"
+                      : "text-[var(--fg-muted)] hover:text-[var(--fg)]",
+                  )}
+                >
+                  {link.label}
+                </Link>
+              ),
+            )}
             <a
               href={siteConfig.resume}
               download
-              className="font-mono text-xs uppercase tracking-[0.2em] text-[var(--accent)] hover:text-[var(--fg)] transition-colors"
+              className="rounded-full px-3.5 py-2 text-[13px] font-medium text-[var(--accent)] transition-colors hover:text-[var(--fg)]"
             >
               Resume ↗
             </a>
-            <ThemeToggle />
+            <span
+              className="hidden items-center gap-2 px-3 font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--fg-muted)] lg:inline-flex"
+              title="The intelligence pipeline behind /signals is running"
+            >
+              <span className="live-dot" aria-hidden="true" />
+              live
+            </span>
           </nav>
 
-          <div className="md:hidden flex items-center gap-3">
-            <ThemeToggle />
-            <button
-              type="button"
-              onClick={() => setMenuOpen(true)}
-              aria-label="Open menu"
-              className="flex flex-col gap-1.5 w-8 h-8 items-center justify-center"
-            >
-              <span className="block w-5 h-px bg-[var(--fg)]" />
-              <span className="block w-5 h-px bg-[var(--fg)]" />
-            </button>
-          </div>
+          <ThemeToggle />
+
+          <button
+            type="button"
+            onClick={() => setMenuOpen(true)}
+            aria-label="Open menu"
+            className="flex h-9 w-9 flex-col items-center justify-center gap-1.5 md:hidden"
+          >
+            <span className="block h-px w-5 bg-[var(--fg)]" />
+            <span className="block h-px w-5 bg-[var(--fg)]" />
+          </button>
         </div>
       </header>
 
@@ -139,7 +145,7 @@ export default function Header(): JSX.Element {
                 className="text-display-md text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
               >
                 <span className="font-mono text-sm text-[var(--fg-muted)] mr-4">
-                  05
+                  06
                 </span>
                 Writing ↗
               </a>
@@ -150,19 +156,9 @@ export default function Header(): JSX.Element {
                 className="text-display-md text-[var(--accent)]"
               >
                 <span className="font-mono text-sm text-[var(--fg-muted)] mr-4">
-                  06
-                </span>
-                Resume ↗
-              </a>
-              <a
-                href="#report"
-                onClick={() => setMenuOpen(false)}
-                className="text-display-md text-[var(--fg-muted)] hover:text-[var(--accent)] transition-colors"
-              >
-                <span className="font-mono text-sm text-[var(--fg-muted)] mr-4">
                   07
                 </span>
-                Report ↗
+                Resume ↗
               </a>
             </nav>
           </motion.div>

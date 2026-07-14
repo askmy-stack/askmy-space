@@ -6,7 +6,24 @@ import { siteConfig } from "@/content/site";
 import { easeOutExpo } from "@/lib/motion";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 
-export default function Hero(): JSX.Element {
+interface HeroProps {
+  intel?: { generatedAt: string; count: number };
+}
+
+function runLabel(iso: string): string {
+  const t = new Date(iso);
+  if (Number.isNaN(t.getTime())) return "recently";
+  return (
+    t.toLocaleString("en-US", {
+      hour: "2-digit",
+      minute: "2-digit",
+      timeZone: "UTC",
+      hour12: false,
+    }) + " UTC"
+  );
+}
+
+export default function Hero({ intel }: HeroProps): JSX.Element {
   const reduced = useReducedMotion();
 
   const handleMouseMove = (e: React.MouseEvent<HTMLHeadingElement>) => {
@@ -33,11 +50,13 @@ export default function Hero(): JSX.Element {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.2 }}
-          className="flex items-center gap-3 mb-10"
+          className="mb-10"
         >
-          <span className="w-1.5 h-1.5 bg-[var(--accent)] rounded-full animate-pulse-dot" />
-          <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--fg-muted)]">
-            {siteConfig.location}
+          <span className="inline-flex items-center gap-2.5 rounded-full border border-[var(--border)] bg-[var(--bg-elevated)]/80 px-4 py-2 font-mono text-[11px] tracking-[0.06em] text-[var(--fg-muted)]">
+            <span className="live-dot" aria-hidden="true" />
+            {intel
+              ? `Pipeline live · run ${runLabel(intel.generatedAt)} · ${intel.count} signals briefed`
+              : `Pipeline live · ${siteConfig.location}`}
           </span>
         </motion.div>
 
@@ -61,6 +80,27 @@ export default function Hero(): JSX.Element {
         >
           Building AI/ML systems that ship to real users.
         </motion.p>
+
+        {/* Platform CTAs — route into the product */}
+        <motion.div
+          initial={{ opacity: 0, y: 14 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.9 }}
+          className="mt-10 flex flex-wrap gap-3"
+        >
+          <a
+            href="/ask"
+            className="inline-flex min-h-[44px] items-center gap-2 rounded-full bg-[var(--accent)] px-6 py-3 text-sm font-semibold text-white transition-transform duration-200 hover:scale-[1.02] active:scale-[0.97]"
+          >
+            Ask my agent →
+          </a>
+          <a
+            href="/signals"
+            className="inline-flex min-h-[44px] items-center rounded-full border border-[var(--border)] px-6 py-3 text-sm font-medium text-[var(--fg)] transition-colors duration-200 hover:border-[var(--accent)]/50"
+          >
+            Read today&apos;s signals
+          </a>
+        </motion.div>
 
         {/* Pillar strip — the three-pillar brand statement */}
         <motion.div
