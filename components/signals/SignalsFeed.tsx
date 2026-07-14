@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { easeOutExpo } from "@/lib/motion";
 import { intelAge, intelCategories, type IntelItem } from "@/lib/intel";
@@ -14,6 +14,21 @@ interface Props {
 export default function SignalsFeed({ items, generatedAt }: Props): JSX.Element {
   const [category, setCategory] = useState<string>("all");
   const [query, setQuery] = useState<string>("");
+  const [settling, setSettling] = useState(false);
+  const firstRender = useRef(true);
+
+  // Geometry-matched skeletons briefly bridge filter changes so results
+  // feel like focus resolving, not a page swap.
+  useEffect(() => {
+    if (firstRender.current) {
+      firstRender.current = false;
+      return;
+    }
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    setSettling(true);
+    const t = window.setTimeout(() => setSettling(false), 380);
+    return () => window.clearTimeout(t);
+  }, [category]);
 
   const categories = useMemo(() => intelCategories(items), [items]);
   const visible = useMemo(() => {
@@ -70,7 +85,7 @@ export default function SignalsFeed({ items, generatedAt }: Props): JSX.Element 
                 key={cat}
                 onClick={() => setCategory(cat)}
                 className={cn(
-                  "flex min-h-[44px] items-center justify-between gap-3 rounded-xl px-3 text-left font-mono text-xs uppercase tracking-[0.12em] transition-colors md:w-full",
+                  "active:scale-[0.97] flex min-h-[44px] items-center justify-between gap-3 rounded-xl px-3 text-left font-mono text-xs uppercase tracking-[0.12em] transition-colors md:w-full",
                   category === cat
                     ? "bg-[var(--accent-soft)] text-[var(--accent)]"
                     : "text-[var(--fg-muted)] hover:text-[var(--fg)]",
@@ -83,8 +98,22 @@ export default function SignalsFeed({ items, generatedAt }: Props): JSX.Element 
           </div>
         </aside>
 
-        <div aria-live="polite">
-          {visible.length === 0 ? (
+        <div aria-live="polite" aria-busy={settling}>
+          {settling ? (
+            <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+              {[0, 1, 2, 3].map((i) => (
+                <div
+                  key={i}
+                  className="flex flex-col gap-3 rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-6"
+                >
+                  <span className="skel h-3 w-2/5" />
+                  <span className="skel h-4 w-11/12" />
+                  <span className="skel h-3 w-4/5" />
+                  <span className="skel mt-1 h-6 w-1/3 rounded-full" />
+                </div>
+              ))}
+            </div>
+          ) : visible.length === 0 ? (
             <div className="rounded-2xl border border-[var(--border)] p-10 text-center">
               <p className="t-body" style={{ color: "var(--fg-muted)" }}>
                 {items.length === 0

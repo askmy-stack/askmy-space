@@ -195,6 +195,19 @@ svg {
   color: var(--fg);
 }
 
+/* ─── SKELETON — geometry-matched loading shimmer ─── */
+.skel {
+  display: block;
+  border-radius: 7px;
+  background: linear-gradient(100deg, var(--bg-elevated) 40%, var(--border) 50%, var(--bg-elevated) 60%);
+  background-size: 200% 100%;
+  animation: shimmer 1.2s linear infinite;
+}
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
 /* ─── LIVE DOT — green only ever means alive ─── */
 .live-dot {
   position: relative;

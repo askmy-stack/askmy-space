@@ -2,9 +2,15 @@
 
 import { useEffect, useRef, useState } from "react";
 
+interface Source {
+  title: string;
+  url: string;
+}
+
 interface Message {
   role: "user" | "agent";
   text: string;
+  sources?: Source[];
 }
 
 const SUGGESTIONS = [
@@ -22,6 +28,7 @@ export default function AskAgent(): JSX.Element {
   const [messages, setMessages] = useState<Message[]>([INTRO]);
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
+  const [status, setStatus] = useState("");
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -34,6 +41,7 @@ export default function AskAgent(): JSX.Element {
     setBusy(true);
     setInput("");
     setMessages((m) => [...m, { role: "user", text }]);
+    setStatus("searching signals · groq");
     try {
       const res = await fetch("/api/assistant/chat", {
         method: "POST",
@@ -44,13 +52,15 @@ export default function AskAgent(): JSX.Element {
       const reply: string = res.ok
         ? data.reply || "…I came back empty. Try rephrasing?"
         : data.error || "The agent hit a snag — try again in a moment.";
-      setMessages((m) => [...m, { role: "agent", text: reply }]);
+      const sources: Source[] = res.ok && Array.isArray(data.sources) ? data.sources : [];
+      setMessages((m) => [...m, { role: "agent", text: reply, sources }]);
     } catch {
       setMessages((m) => [
         ...m,
         { role: "agent", text: "Network hiccup — the question never left your browser. Try again." },
       ]);
     } finally {
+      setStatus("");
       setBusy(false);
     }
   }
@@ -72,8 +82,29 @@ export default function AskAgent(): JSX.Element {
             }
           >
             {m.text}
+            {m.role === "agent" && m.sources && m.sources.length > 0 && (
+              <span className="mt-3 flex flex-wrap gap-1.5">
+                {m.sources.map((src) => (
+                  <a
+                    key={src.url}
+                    href={src.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-full border border-[var(--border)] px-2.5 py-1 font-mono text-[10px] text-[var(--fg-muted)] transition-colors hover:border-[var(--accent)]/50 hover:text-[var(--fg)]"
+                  >
+                    <i className="h-1.5 w-1.5 rounded-sm bg-[var(--accent)]" />
+                    {src.title.length > 44 ? `${src.title.slice(0, 43)}…` : src.title}
+                  </a>
+                ))}
+              </span>
+            )}
           </div>
         ))}
+        {busy && status && (
+          <div className="self-start px-2 font-mono text-[10.5px] tracking-[0.04em] text-[var(--fg-muted)]">
+            ▸ {status}
+          </div>
+        )}
         {busy && (
           <div className="self-start rounded-2xl rounded-bl-md border border-[var(--border)] bg-[var(--bg)] px-5 py-4">
             <span className="inline-flex gap-1.5" aria-label="Agent is thinking">
@@ -100,7 +131,7 @@ export default function AskAgent(): JSX.Element {
             key={s}
             onClick={() => ask(s)}
             disabled={busy}
-            className="min-h-[44px] rounded-full border border-[var(--border)] px-4 font-mono text-xs text-[var(--fg-muted)] transition-colors hover:border-[var(--accent)]/50 hover:text-[var(--fg)] disabled:opacity-40"
+            className="active:scale-[0.97] min-h-[44px] rounded-full border border-[var(--border)] px-4 font-mono text-xs text-[var(--fg-muted)] transition-colors hover:border-[var(--accent)]/50 hover:text-[var(--fg)] disabled:opacity-40"
           >
             {s}
           </button>
