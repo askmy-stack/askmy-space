@@ -195,6 +195,32 @@ svg {
   color: var(--fg);
 }
 
+/* ─── LIVE DOT — green only ever means alive ─── */
+.live-dot {
+  position: relative;
+  display: inline-block;
+  flex: none;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #34c77b;
+}
+.live-dot::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: 50%;
+  border: 1px solid #34c77b;
+  animation: ping 2.4s var(--ease-out-expo) infinite;
+}
+@keyframes ping {
+  0% { transform: scale(1); opacity: 0.9; }
+  70%, 100% { transform: scale(2.5); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .live-dot::after { animation: none; opacity: 0; }
+}
+
 /* ─── BODY — paragraphs, descriptions ─── */
 .t-body {
   font-family: var(--font-body);
