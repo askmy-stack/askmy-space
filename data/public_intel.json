@@ -1,5 +1,161 @@
 {
- "generated_at": "2026-07-13T18:00:00+00:00",
- "count": 0,
- "items": []
+ "generated_at": "2026-07-14T03:01:32+00:00",
+ "count": 12,
+ "items": [
+  {
+   "title": "AI law startup Norm raises $120M, hits unicorn valuation",
+   "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/",
+   "summary": "AI law startup Norm has raised a $120 million Series C round led by Khosla Ventures, valuing the startup at $1.2 billion.",
+   "score": 8,
+   "category": "funding",
+   "tags": [
+    "ai",
+    "law",
+    "unicorn",
+    "funding"
+   ],
+   "published": "2026-07-07T14:35:42Z"
+  },
+  {
+   "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
+   "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+   "summary": "A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown.\n\nThe attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no acces…",
+   "score": 8,
+   "category": "top-news",
+   "tags": [
+    "github",
+    "agentic workflows",
+    "private repo data",
+    "personal-relevant"
+   ],
+   "published": "2026-07-07T14:04:50Z"
+  },
+  {
+   "title": "The foundational elements of AI architecture that IT leaders need to scale",
+   "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+   "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six…",
+   "score": 8,
+   "category": "opinion",
+   "tags": [
+    "foundational elements",
+    "ai architecture",
+    "scaling ai",
+    "personal-relevant"
+   ],
+   "published": "2026-07-07T11:10:52Z"
+  },
+  {
+   "title": "How Open Models Are Driving AI Research",
+   "url": "https://blogs.nvidia.com/blog/open-models-icml-2026/",
+   "summary": "Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work.  This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have become foundational to how mo…",
+   "score": 8,
+   "category": "research-highlight",
+   "tags": [
+    "open models",
+    "ai research",
+    "nvidia"
+   ],
+   "published": "2026-07-06T16:00:00Z"
+  },
+  {
+   "title": "Why the rise of open source AI isn’t hurting Anthropic … yet",
+   "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+   "summary": "Open source models’ success isn’t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle.",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "open-source",
+    "ai-models",
+    "industry-trends"
+   ],
+   "published": "2026-07-07T20:04:32Z"
+  },
+  {
+   "title": "Savi’s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
+   "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
+   "summary": "The company just raised $7 million in seed funding, and is launching its app for iPhone and Android on Tuesday.",
+   "score": 7,
+   "category": "startup",
+   "tags": [
+    "ai-scams",
+    "savi",
+    "seed-funding"
+   ],
+   "published": "2026-07-07T12:00:00Z"
+  },
+  {
+   "title": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
+   "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
+   "summary": "Even Realities, an ex-Apple team building camera-free smart glasses, raised $150 million from Meituan and Tencent at a $1 billion valuation.",
+   "score": 7,
+   "category": "funding",
+   "tags": [
+    "smart-glasses",
+    "funding",
+    "valuation"
+   ],
+   "published": "2026-07-06T09:00:00Z"
+  },
+  {
+   "title": "Japan Pioneered Humanoid Robots—Can It Now Catch China?",
+   "url": "https://spectrum.ieee.org/humanoid-robots-japan",
+   "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-middle-aged-asian-man-seated-next-to-an-uncanny-humanoid-robot-dressed-in-identical-glasses-hair-and-clothing.jpg?id=67080305&amp;width=1245&amp;height=700&amp;coordinates=0%2C187%2C0%2C188\" /><br /><br /><p>“In the future, the…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "humanoid robots",
+    "japan",
+    "china"
+   ],
+   "published": "2026-07-04T11:00:01Z"
+  },
+  {
+   "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+   "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+   "summary": "",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "research partnership",
+    "google deepmind"
+   ],
+   "published": "2026-07-03T14:25:43Z"
+  },
+  {
+   "title": "DiffusionGemma: 4x faster text generation",
+   "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+   "summary": "",
+   "score": 7,
+   "category": "breakthrough",
+   "tags": [
+    "text generation",
+    "diffusion models"
+   ],
+   "published": "2026-06-10T16:24:11Z"
+  },
+  {
+   "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+   "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+   "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
+   "score": 7,
+   "category": "research-highlight",
+   "tags": [
+    "llm-architectures",
+    "open-weight-llms"
+   ],
+   "published": "2026-05-16T11:33:51Z"
+  },
+  {
+   "title": "A Visual Guide to Attention Variants in Modern LLMs",
+   "url": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
+   "summary": "From MHA and GQA to MLA, sparse attention, and hybrid architectures",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "attention variants",
+    "llm architectures"
+   ],
+   "published": "2026-03-22T11:55:40Z"
+  }
+ ]
 }
