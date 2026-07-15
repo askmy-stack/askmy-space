@@ -5,6 +5,8 @@ export interface Project {
   /** One-line narrative describing what the project actually does and why. */
   narrative: string;
   year: number;
+  /** ISO date used for sitemap lastModified (content freshness). */
+  updatedAt: string;
   category: string;
   heroMetric: string;
   /** Crisp metric pills shown on the WorkRow right-side rail. */

@@ -120,7 +120,7 @@ public/
 
 ### Updating the Resume
 
-Drop your PDF into `public/info/projects/` and update `siteConfig.resume` in `content/site.ts`.  
+Drop your PDF into `public/info/projects/` (URL-safe name, e.g. `abhinaysai-kamineni-resume.pdf`) and update `siteConfig.resume` in `content/site.ts`.  
 The header button, contact section, and terminal `resume` command all read from this single source.
 
 ### Reporting an Issue

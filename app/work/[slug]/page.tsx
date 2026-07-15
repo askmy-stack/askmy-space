@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { projects, getProject } from "@/content/projects";
+import ProjectGithubLink from "@/components/work/ProjectGithubLink";
 
 interface Props {
   params: { slug: string };
@@ -164,14 +165,7 @@ export default function WorkCaseStudyPage({ params }: Props) {
         {/* Links */}
         {project.github && (
           <section className="mb-20">
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-mono text-sm text-[var(--accent)] hover:text-[var(--fg)] transition-colors"
-            >
-              View on GitHub ↗
-            </a>
+            <ProjectGithubLink href={project.github} slug={project.slug} />
           </section>
         )}
 

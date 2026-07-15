@@ -25,3 +25,8 @@ dist-ssr
 *.sln
 *.sw?
 tsconfig.tsbuildinfo
+
+test-results/
+playwright-report/
+
+tests/visual/*-snapshots/

@@ -6,23 +6,20 @@ import { siteConfig } from "@/content/site";
 /**
  * ReportIssue — lightweight, no-backend issue reporter.
  *
- * User fills a short form; on submit we open their email client with
- * a prefilled draft. Zero server dependencies, zero tracking, works
- * offline, and keeps the report in the user's own sent-mail record.
+ * Primary path: mailto draft. Fallback: copy body to clipboard + open a
+ * prefilled GitHub issue when no mail client is available.
  */
 export default function ReportIssue(): JSX.Element {
   const [summary, setSummary] = useState("");
   const [details, setDetails] = useState("");
   const [contact, setContact] = useState("");
-  const [sent, setSent] = useState(false);
+  const [status, setStatus] = useState<"idle" | "sent" | "copied">("idle");
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!summary.trim()) return;
-
+  function buildBody(): string {
     const ua = typeof navigator !== "undefined" ? navigator.userAgent : "";
-    const href = typeof window !== "undefined" ? window.location.href : siteConfig.url;
-    const body = [
+    const href =
+      typeof window !== "undefined" ? window.location.href : siteConfig.url;
+    return [
       summary,
       "",
       details ? `Details:\n${details}` : "",
@@ -34,21 +31,44 @@ export default function ReportIssue(): JSX.Element {
     ]
       .filter(Boolean)
       .join("\n");
+  }
 
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!summary.trim()) return;
+
+    const body = buildBody();
+    const subject = `[Portfolio Issue] ${summary.slice(0, 60)}`;
     const mailto =
       `mailto:${siteConfig.email}` +
-      `?subject=${encodeURIComponent(`[Portfolio Issue] ${summary.slice(0, 60)}`)}` +
+      `?subject=${encodeURIComponent(subject)}` +
       `&body=${encodeURIComponent(body)}`;
 
     window.location.href = mailto;
-    setSent(true);
+    setStatus("sent");
+  };
+
+  const handleCopyAndGithub = async () => {
+    if (!summary.trim()) return;
+    const body = buildBody();
+    const subject = `[Portfolio Issue] ${summary.slice(0, 60)}`;
+    try {
+      await navigator.clipboard.writeText(body);
+      setStatus("copied");
+    } catch {
+      setStatus("copied");
+    }
+    const gh =
+      "https://github.com/askmy-stack/askmy-space/issues/new" +
+      `?title=${encodeURIComponent(subject)}` +
+      `&body=${encodeURIComponent(body)}`;
+    window.open(gh, "_blank", "noopener,noreferrer");
   };
 
   return (
     <section id="report" className="py-20 md:py-24 border-t border-[var(--border)]">
       <div className="container-editorial">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
-          {/* Left rail — label + description */}
           <div className="md:col-span-4">
             <p className="t-label text-[var(--accent)] mb-6">Report an issue</p>
             <h3 className="t-headline text-[var(--fg)] mb-4">
@@ -56,11 +76,10 @@ export default function ReportIssue(): JSX.Element {
             </h3>
             <p className="t-body max-w-sm">
               Layout bug, dead link, typo, or a suggestion — send it over. I read
-              every one.
+              every one. No mail client? Copy the draft and open a GitHub issue.
             </p>
           </div>
 
-          {/* Right — form */}
           <form
             onSubmit={handleSubmit}
             className="md:col-span-8 space-y-5"
@@ -80,12 +99,9 @@ export default function ReportIssue(): JSX.Element {
                 maxLength={120}
                 value={summary}
                 onChange={(e) => setSummary(e.target.value)}
-                placeholder="e.g. scroll cue overlaps prism on iPad"
-                className="w-full bg-[var(--bg-elevated)] border border-[var(--border)] px-4 py-3 text-[var(--fg)] placeholder-[var(--fg-muted)] focus:border-[var(--accent)] focus:outline-none transition-colors"
-                style={{ fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
+                className="w-full bg-transparent border border-[var(--border)] px-3 py-2 text-[var(--fg)] focus:outline-none focus:border-[var(--accent)]"
               />
             </div>
-
             <div>
               <label
                 htmlFor="issue-details"
@@ -96,15 +112,11 @@ export default function ReportIssue(): JSX.Element {
               <textarea
                 id="issue-details"
                 rows={4}
-                maxLength={2000}
                 value={details}
                 onChange={(e) => setDetails(e.target.value)}
-                placeholder="Steps to reproduce, device, browser — whatever helps."
-                className="w-full bg-[var(--bg-elevated)] border border-[var(--border)] px-4 py-3 text-[var(--fg)] placeholder-[var(--fg-muted)] focus:border-[var(--accent)] focus:outline-none transition-colors resize-y"
-                style={{ fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
+                className="w-full bg-transparent border border-[var(--border)] px-3 py-2 text-[var(--fg)] focus:outline-none focus:border-[var(--accent)]"
               />
             </div>
-
             <div>
               <label
                 htmlFor="issue-contact"
@@ -115,35 +127,38 @@ export default function ReportIssue(): JSX.Element {
               <input
                 id="issue-contact"
                 type="text"
-                maxLength={120}
                 value={contact}
                 onChange={(e) => setContact(e.target.value)}
-                placeholder="email or handle, if you want a reply"
-                className="w-full bg-[var(--bg-elevated)] border border-[var(--border)] px-4 py-3 text-[var(--fg)] placeholder-[var(--fg-muted)] focus:border-[var(--accent)] focus:outline-none transition-colors"
-                style={{ fontFamily: "var(--font-mono)", fontSize: "0.875rem" }}
+                className="w-full bg-transparent border border-[var(--border)] px-3 py-2 text-[var(--fg)] focus:outline-none focus:border-[var(--accent)]"
               />
             </div>
 
-            <div className="flex flex-wrap items-center gap-4 pt-2">
+            <div className="flex flex-wrap items-center gap-4">
               <button
                 type="submit"
-                disabled={!summary.trim()}
-                className="inline-flex items-center justify-center gap-2 font-mono text-sm tracking-wide px-6 py-3 rounded-sm transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--bg)] bg-[var(--accent)] text-[var(--bg)] hover:bg-[var(--accent)]/90 disabled:opacity-40 disabled:cursor-not-allowed"
+                className="font-mono text-xs uppercase tracking-[0.2em] px-4 py-2 border border-[var(--accent)] text-[var(--accent)] hover:bg-[var(--accent)] hover:text-[var(--bg)] transition-colors"
               >
-                Send report ↗
+                Open email draft
               </button>
-              {sent && (
-                <span
-                  role="status"
-                  className="t-caption text-[var(--mono)]"
-                >
-                  Opening your email client…
-                </span>
-              )}
-              <span className="t-caption text-[var(--fg-muted)] ml-auto">
-                Sends via your email client. No tracking.
-              </span>
+              <button
+                type="button"
+                onClick={handleCopyAndGithub}
+                className="font-mono text-xs uppercase tracking-[0.2em] text-[var(--fg-muted)] hover:text-[var(--fg)] transition-colors underline-offset-4 hover:underline"
+              >
+                Copy + open GitHub issue
+              </button>
             </div>
+
+            {status === "sent" && (
+              <p className="t-caption text-[var(--fg-muted)]">
+                Opening your email client… If nothing happens, use Copy + GitHub.
+              </p>
+            )}
+            {status === "copied" && (
+              <p className="t-caption text-[var(--fg-muted)]">
+                Draft copied. A GitHub issue form should open in a new tab.
+              </p>
+            )}
           </form>
         </div>
       </div>

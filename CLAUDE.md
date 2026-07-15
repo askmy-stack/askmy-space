@@ -1,42 +1,69 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Guidance for agents working in this repository.
 
 ## Commands
 
 ```bash
-npm run dev      # Start development server (Next.js)
+npm run dev      # Next.js dev server
 npm run build    # Production build
-npm run lint     # ESLint check
-npm run start    # Start production server
+npm run lint     # ESLint
+npm run test     # Vitest (terminal engine, etc.)
+npm run test:e2e # Playwright visual smoke (optional locally)
+npm run start    # Production server
 ```
 
-No test framework is configured.
+Use Node 20 (see `.nvmrc` / Netlify `NODE_VERSION`).
 
-## Environment Variables
+## Environment
 
-- `ANTHROPIC_API_KEY` — required for the AI chatbot (`/api/chat`). Set in `.env.local`.
+- `GROQ_API_KEY` — optional; powers `/api/assistant/chat` and the Ask agent UI.
+  Set in `.env.local`. Without it, Ask degrades gracefully.
 
 ## Architecture
 
-This is a **Next.js 14 App Router** portfolio site using TypeScript and Tailwind CSS v4.
+**Next.js 14 App Router** portfolio — TypeScript, Tailwind CSS v4, Framer Motion.
 
-**Route structure:**
-- `app/page.tsx` — Single-page home with all sections assembled in order
-- `app/projects/[slug]/` — Individual project detail pages (byu-flagellar-motors, eeg-seizure-detection, nasa-landslide)
-- `app/api/chat/route.ts` — Streaming SSE endpoint using Anthropic SDK (`claude-sonnet-4-20250514`), with in-memory IP-based rate limiting (30 req/hr)
+### Routes
 
-**Component model:**
-- All section components live flat in `components/` (Hero, About, Experience, Projects, Skills, etc.)
-- `lib/constants.ts` — Site-wide config (name, email, socials, nav links)
-- `lib/projects.ts` — Project data used by both the homepage featured section and individual project pages
+| Path | Purpose |
+|------|---------|
+| `/` | Home sections (hero → work → skills → about/terminal → experience → now → contact → report) |
+| `/work/[slug]` | Case studies from `content/projects.ts` |
+| `/signals` | Signals feed |
+| `/ask` | Conversational Ask agent (`components/ask/AskAgent.tsx`) |
+| `/api/assistant/chat` | Groq-backed chat API with rate limiting |
 
-**Theming:**
-- `next-themes` with `data-theme` attribute; dark mode default
-- CSS custom properties (`--bg`, `--fg`, `--accent`) defined in `app/globals.css`
-- Fonts: `Plus_Jakarta_Sans` (heading) and `JetBrains_Mono` (mono), exposed as CSS vars `--font-heading` / `--font-mono`
+### Content & data
 
-**Chatbot (AK-Bot):**
-- `components/ChatBot.tsx` — client-side chat UI
-- `app/api/chat/route.ts` — server-side streaming via Anthropic SDK
-- Full knowledge base (bio, experience, projects, skills) is embedded in the system prompt in `route.ts`; update it there when content changes
+- `content/site.ts` — site config, nav, resume path
+- `content/projects.ts` — featured projects + case-study prose
+- `content/experience.ts`, `content/about.ts`, `content/certifications.ts`
+- `data/` — skills and other structured lists
+
+### Interactive terminal (About)
+
+Deterministic, offline terminal — **no LLM**:
+
+- `lib/terminal/engine.ts` — `execute` / `greet` command router
+- `lib/terminal/session.ts` — visit/session helpers
+- `hooks/useTerminal.ts` — UI state
+- `components/about/AboutTerminal.tsx` — mount point
+
+### Theming & motion
+
+- CSS variables in `app/globals.css` (`--bg`, `--fg`, `--accent`, …)
+- Fonts: Fraunces + Geist Sans + Geist Mono (`lib/fonts.ts`)
+- `hooks/useReducedMotion.ts` gates Framer / canvas motion
+- Ambient `SignalField` in root layout; `ScrollScene` / `NeuralLattice` for hero storytelling
+
+### Analytics
+
+- `@vercel/analytics` + Speed Insights in `app/layout.tsx`
+- Custom event `project_github_click` on case-study GitHub links
+
+## Conventions
+
+- Prefer editing `content/` over hardcoding copy
+- Keep PRs scoped; link issues with `Fixes #N`
+- Never commit secrets
