@@ -8,6 +8,7 @@ export const projects: readonly Project[] = [
     narrative:
       "Benchmarking 15+ neural architectures on 916 hours of pediatric EEG. Finding what actually generalizes to real patients.",
     year: 2026,
+    updatedAt: "2026-07-01",
     category: "Deep Learning · Neural Signal Processing",
     heroMetric: "AUROC 0.740 across 15+ architectures",
     metrics: ["AUROC 0.740", "15+ architectures", "916 hours CHB-MIT", "24 patients"],
@@ -40,6 +41,7 @@ export const projects: readonly Project[] = [
     narrative:
       "A personal AI agent for job search automation. Hybrid local Ollama for parsing and ranking, Anthropic API for fit analysis and drafting. Privacy and cost stay local. Reasoning goes to the frontier.",
     year: 2026,
+    updatedAt: "2026-06-15",
     category: "Agentic AI · LLM Tooling",
     heroMetric: "Hybrid local+cloud agent · cost- and privacy-aware",
     metrics: [
@@ -76,6 +78,7 @@ export const projects: readonly Project[] = [
     narrative:
       "Locating bacterial flagellar motors in 3D cryo-electron tomography. Built for structural biologists who need precision, not just accuracy. mAP@50 = 0.948. Precision = 1.00. Zero tolerance for false positives in a scientist's workflow.",
     year: 2025,
+    updatedAt: "2025-12-01",
     category: "Computer Vision · Biomedical Imaging",
     heroMetric: "mAP@50 = 0.948 · Precision = 1.00",
     metrics: ["mAP@50 = 0.948", "Precision = 1.00", "CenterNet · YOLOv10 · Faster R-CNN"],
@@ -108,6 +111,7 @@ export const projects: readonly Project[] = [
     narrative:
       "Time-series geospatial risk modeling with automated MLOps. The model is secondary; the infrastructure that ships it is everything.",
     year: 2024,
+    updatedAt: "2024-11-01",
     category: "Time-Series · MLOps · Geospatial",
     heroMetric: "70% faster iteration · 100% IaC coverage",
     metrics: ["70% faster iteration", "100% IaC coverage", "GitHub Actions · Jenkins"],

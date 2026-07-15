@@ -5,6 +5,7 @@ import { useRef } from "react";
 import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
 import type { Project } from "@/lib/types";
 import { easeOutExpo } from "@/lib/motion";
+import ProjectGithubLink from "@/components/work/ProjectGithubLink";
 
 const MotionLink = motion(Link);
 
@@ -117,6 +118,17 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
           style={{ backgroundColor: project.color }}
         />
       </MotionLink>
+      {project.github ? (
+        <div className="pb-6 -mt-2 md:text-right">
+          <ProjectGithubLink
+            href={project.github}
+            slug={project.slug}
+            className="t-mono text-[var(--fg-muted)] hover:text-[var(--accent)] transition-colors"
+          >
+            GitHub ↗
+          </ProjectGithubLink>
+        </div>
+      ) : null}
     </motion.div>
   );
 }

@@ -1,0 +1,16 @@
+name: Feature request
+description: Idea or enhancement for the portfolio
+labels: ["category:feature"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / opportunity
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true

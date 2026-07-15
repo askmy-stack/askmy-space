@@ -95,8 +95,8 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
         />
-        <a href="#main" className="skip-to-content">
-          Skip to content
+        <a href="#work" className="skip-to-content">
+          Skip to work
         </a>
         <SmoothScroll>
           <SignalField />
