@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-02T20:13:59+00:00",
- "count": 124,
+ "generated_at": "2026-08-03T04:33:58+00:00",
+ "count": 127,
  "items": [
   {
    "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
@@ -241,6 +241,19 @@
    "published": ""
   },
   {
+   "title": "Californians' data deletion requests, DROP, become enforceable Aug. 1",
+   "url": "https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/",
+   "summary": "117 points, 53 comments",
+   "score": 8,
+   "category": "policy",
+   "tags": [
+    "data deletion",
+    "california",
+    "regulation"
+   ],
+   "published": ""
+  },
+  {
    "title": "Disrupting a Criminal Scam Operation",
    "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
    "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
@@ -252,6 +265,19 @@
     "scam-operation"
    ],
    "published": "2026-08-04T00:00:00Z"
+  },
+  {
+   "title": "Context degradation in LLMs: what the papers actually show, and the habits I built for long analysis sessions [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1vdsgcj/context_degradation_in_llms_what_the_papers/",
+   "summary": "submitted by /u/usernamehere93 [link] [comments]",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "context degradation",
+    "llms",
+    "analysis"
+   ],
+   "published": "2026-08-02T20:20:45Z"
   },
   {
    "title": "NVIDIA's AI Learns Why Copying Humans Isn't Enough",
@@ -1619,6 +1645,19 @@
     "authentication",
     "authorization",
     "security"
+   ],
+   "published": ""
+  },
+  {
+   "title": "EU Age Verification Project Mandates Hardware-Bound Attestation",
+   "url": "https://linuxiac.com/eu-age-verification-project-mandates-hardware-bound-attestation/",
+   "summary": "167 points, 118 comments",
+   "score": 7,
+   "category": "policy",
+   "tags": [
+    "age-verification",
+    "hardware-attestation",
+    "regulation"
    ],
    "published": ""
   }
