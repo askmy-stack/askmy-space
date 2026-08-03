@@ -66,13 +66,6 @@ export default function Header(): JSX.Element {
                 </Link>
               ),
             )}
-            <a
-              href={siteConfig.resume}
-              download
-              className="rounded-full px-3.5 py-2 text-[13px] font-medium text-[var(--accent)] transition-colors hover:text-[var(--fg)]"
-            >
-              Resume ↗
-            </a>
             <span
               className="hidden items-center gap-2 px-3 font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--fg-muted)] lg:inline-flex"
               title="The intelligence pipeline behind /signals is running"
@@ -148,17 +141,6 @@ export default function Header(): JSX.Element {
                   06
                 </span>
                 Writing ↗
-              </a>
-              <a
-                href={siteConfig.resume}
-                download
-                onClick={() => setMenuOpen(false)}
-                className="text-display-md text-[var(--accent)]"
-              >
-                <span className="font-mono text-sm text-[var(--fg-muted)] mr-4">
-                  07
-                </span>
-                Resume ↗
               </a>
             </nav>
           </motion.div>

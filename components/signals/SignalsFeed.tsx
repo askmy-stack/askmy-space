@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { easeOutExpo } from "@/lib/motion";
 import { intelAge, intelCategories, type IntelItem } from "@/lib/intel";
 import { cn } from "@/lib/utils";
+import SignalsGraph from "@/components/signals/SignalsGraph";
 
 interface Props {
   items: IntelItem[];
@@ -15,6 +16,7 @@ export default function SignalsFeed({ items, generatedAt }: Props): JSX.Element 
   const [category, setCategory] = useState<string>("all");
   const [query, setQuery] = useState<string>("");
   const [settling, setSettling] = useState(false);
+  const [view, setView] = useState<"feed" | "graph">("feed");
   const firstRender = useRef(true);
 
   // Geometry-matched skeletons briefly bridge filter changes so results
@@ -98,7 +100,36 @@ export default function SignalsFeed({ items, generatedAt }: Props): JSX.Element 
           </div>
         </aside>
 
-        <div aria-live="polite" aria-busy={settling}>
+        <div>
+          <div className="mb-4 flex justify-end">
+            <div
+              role="tablist"
+              aria-label="Signals view"
+              className="inline-flex rounded-full border border-[var(--border)] bg-[var(--bg-elevated)] p-1"
+            >
+              {(["feed", "graph"] as const).map((v) => (
+                <button
+                  key={v}
+                  role="tab"
+                  aria-selected={view === v}
+                  onClick={() => setView(v)}
+                  className={cn(
+                    "min-h-[36px] rounded-full px-4 font-mono text-[11px] uppercase tracking-[0.12em] transition-colors",
+                    view === v
+                      ? "bg-[var(--accent-soft)] text-[var(--accent)]"
+                      : "text-[var(--fg-muted)] hover:text-[var(--fg)]",
+                  )}
+                >
+                  {v === "feed" ? "Feed" : "Graph"}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {view === "graph" ? (
+            <SignalsGraph items={visible} />
+          ) : (
+            <div aria-live="polite" aria-busy={settling}>
           {settling ? (
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
               {[0, 1, 2, 3].map((i) => (
@@ -157,6 +188,8 @@ export default function SignalsFeed({ items, generatedAt }: Props): JSX.Element 
                   </div>
                 </motion.a>
               ))}
+            </div>
+          )}
             </div>
           )}
         </div>

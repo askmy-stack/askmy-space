@@ -14,7 +14,6 @@ export const siteConfig = {
     github: "https://github.com/askmy-stack",
     medium: "https://medium.com/@kamineniabhinaysai",
   },
-  resume: "/info/projects/abhinaysai-kamineni-resume.pdf",
   /** TODO: replace with real Calendly URL */
   calendly: "https://calendly.com/abhinaysai/20min",
 } as const;

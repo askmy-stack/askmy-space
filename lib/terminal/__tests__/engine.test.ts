@@ -39,15 +39,6 @@ describe("terminal engine", () => {
     );
   });
 
-  it("resume links to siteConfig resume path", () => {
-    const res = execute("resume", ctx);
-    expect(
-      res.lines.some(
-        (l) => l.kind === "link" && (l.href ?? "").includes("abhinaysai-kamineni-resume.pdf"),
-      ),
-    ).toBe(true);
-  });
-
   it("sudo hire-me returns a success-path response", () => {
     const res = execute("sudo hire-me", ctx);
     expect(res.lines.length).toBeGreaterThan(0);
