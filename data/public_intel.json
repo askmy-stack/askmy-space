@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-03T04:33:58+00:00",
- "count": 127,
+ "generated_at": "2026-08-03T10:50:48+00:00",
+ "count": 124,
  "items": [
   {
    "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
@@ -54,6 +54,59 @@
     "anthropic"
    ],
    "published": ""
+  },
+  {
+   "title": "The AI Productivity Gap",
+   "url": "https://bjorg.bjornroche.com/management/ai-productivity-gap/",
+   "summary": "Comments",
+   "score": 8,
+   "category": "opinion",
+   "tags": [
+    "ai",
+    "productivity",
+    "gap"
+   ],
+   "published": "2026-08-03T07:07:20Z"
+  },
+  {
+   "title": "Europe starts enforcing AI Act rules",
+   "url": "https://sifted.eu/articles/eu-ai-act-new-rules-transparency/",
+   "summary": "",
+   "score": 8,
+   "category": "policy",
+   "tags": [
+    "regulation",
+    "ai",
+    "europe"
+   ],
+   "published": "2026-08-03T05:00:00Z"
+  },
+  {
+   "title": "The James Webb Telescope Is Changing Astronomers’ Understanding of the Ancient Cosmos",
+   "url": "https://www.wired.com/story/james-webb-space-telescope-changing-astronomers-universe/",
+   "summary": "From how galaxies form to the beginnings of the universe, the images from the space telescope are giving cosmologists new data to explore—and theories to build out.",
+   "score": 8,
+   "category": "research-highlight",
+   "tags": [
+    "astronomy",
+    "space",
+    "telescope"
+   ],
+   "published": "2026-08-02T11:00:00Z"
+  },
+  {
+   "title": "FareedKhan-dev/kimi-k3-in-c — A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+   "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+   "summary": "618★ · C · topics: avx2, c99, cpu-inference, deep-learning, from-scratch",
+   "score": 8,
+   "category": "oss",
+   "tags": [
+    "inference",
+    "cpu",
+    "c99",
+    "deep-learning"
+   ],
+   "published": "2026-08-01T11:41:49Z"
   },
   {
    "title": "inclusionAI/OpenAoE-2000h",
@@ -135,20 +188,6 @@
    "published": "2026-07-27T13:00:00Z"
   },
   {
-   "title": "makecindy/cindy — Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-   "url": "https://github.com/makecindy/cindy",
-   "summary": "616★ · TypeScript · topics: agent, ai-agent, ai-assistant, android, claude-code",
-   "score": 8,
-   "category": "oss",
-   "tags": [
-    "ai-agent",
-    "personal-relevant",
-    "open-source",
-    "typescript"
-   ],
-   "published": "2026-07-27T03:19:52Z"
-  },
-  {
    "title": "A California aquifer may have crossed the point of no return",
    "url": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
    "summary": "Satellite data reveal in unprecedented detail how groundwater reservoirs permanently lose their ability to store water",
@@ -187,32 +226,6 @@
     "agentic-ai"
    ],
    "published": "2026-07-26T22:22:56Z"
-  },
-  {
-   "title": "veorq/awesome-post-quantum — A curated list of resources about post-quantum cryptography.",
-   "url": "https://github.com/veorq/awesome-post-quantum",
-   "summary": "494★ · n/a · topics: awesome, awesome-list, cryptography, post-quantum-cryptography, quantum-computing",
-   "score": 8,
-   "category": "oss",
-   "tags": [
-    "post-quantum-cryptography",
-    "awesome-list"
-   ],
-   "published": "2026-07-26T12:57:30Z"
-  },
-  {
-   "title": "The New AI Superpowers: Focus and Followthrough",
-   "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
-   "summary": "174 points, 50 comments",
-   "score": 8,
-   "category": "opinion",
-   "tags": [
-    "productivity",
-    "focus",
-    "personal-relevant",
-    "ai"
-   ],
-   "published": ""
   },
   {
    "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
@@ -265,6 +278,45 @@
     "scam-operation"
    ],
    "published": "2026-08-04T00:00:00Z"
+  },
+  {
+   "title": "Index Ventures doubles down on AI with fresh $2bn fundraise",
+   "url": "https://sifted.eu/articles/index-ventures-2bn-raise-ai/",
+   "summary": "",
+   "score": 7,
+   "category": "funding",
+   "tags": [
+    "venture capital",
+    "ai",
+    "investment"
+   ],
+   "published": "2026-08-03T05:00:13Z"
+  },
+  {
+   "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+   "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+   "summary": "Article URL: https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda Comments URL: https://news.ycombinator.com/item?id=49150561 Points: 181 # Comments: 81",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "openai",
+    "super pac",
+    "ai-generated content"
+   ],
+   "published": "2026-08-03T02:30:30Z"
+  },
+  {
+   "title": "U.S. wildfire season exceeds 10-year average as 99 large fires burn",
+   "url": "https://www.axios.com/2026/08/03/us-wildfire-season-large-fires-10-year-average",
+   "summary": "Wildfires in Washington and Oregon have forced evacuations, caused power outages, and burned hundreds of thousands of acres as firefighters battle dozens of massive fires across the Pacific Northwest. Why it matters: The blazes are among 99 active large fires burning across the…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "environment",
+    "wildfires",
+    "personal-relevant"
+   ],
+   "published": "2026-08-03T00:12:41Z"
   },
   {
    "title": "Context degradation in LLMs: what the papers actually show, and the habits I built for long analysis sessions [R]",
@@ -1477,97 +1529,6 @@
     "sustainability"
    ],
    "published": "2026-07-27T00:00:00Z"
-  },
-  {
-   "title": "US citizen charged after GrapheneOS phone wipes during airport search",
-   "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
-   "summary": "Article URL: https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html Comments URL: https://news.ycombinator.com/item?id=49063022 Points: 382 # Comments: 245",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "grapheneos",
-    "phone security",
-    "airport search"
-   ],
-   "published": "2026-07-26T22:21:41Z"
-  },
-  {
-   "title": "VictorTaelin/OptMem — Permanent memory for AI agents. A 426-token prompt, a script, plug and play.",
-   "url": "https://github.com/VictorTaelin/OptMem",
-   "summary": "389★ · Python · topics:",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "python",
-    "memory",
-    "personal-relevant",
-    "ai-agents"
-   ],
-   "published": "2026-07-26T21:03:38Z"
-  },
-  {
-   "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
-   "url": "https://arxiv.org/abs/2607.22525v1",
-   "summary": "To effectively integrate AI into high-stakes, critical environments such as healthcare, autonomous driving, and aviation--and to advance toward higher levels of automation and seamless human-AI collaboration--building trust in AI-driven solutions is essential. Trust, in turn, is…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "explainable ai",
-    "reinforcement learning",
-    "air traffic control"
-   ],
-   "published": "2026-07-24T17:56:38Z"
-  },
-  {
-   "title": "The V-fold jackknife for semiparametric inference: variance estimation, confidence intervals, and simultaneous confidence bands",
-   "url": "https://arxiv.org/abs/2607.22493v1",
-   "summary": "For decades, the bootstrap has been a default tool for statistical inference because of its broad applicability and minimal analytic requirements. Although its validity is well understood for smooth parametric estimators, its theoretical properties for many modern semiparametric…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "semiparametric inference",
-    "V-fold jackknife"
-   ],
-   "published": "2026-07-24T17:05:54Z"
-  },
-  {
-   "title": "Beyond Negative-Ridge Endpoints: Mixed-Sign Spectral Regularization via Negative-Shifted Gradient Descent",
-   "url": "https://arxiv.org/abs/2607.22474v1",
-   "summary": "In overparameterized linear regression, many weak spectral directions act like a ridge penalty on the signal-bearing spectrum; negative ridge is the natural correction, pushing filters above one. The stable negative-ridge endpoint, however, is structurally limited: its pole must…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "spectral regularization",
-    "negative-ridge endpoints",
-    "gradient descent"
-   ],
-   "published": "2026-07-24T16:42:46Z"
-  },
-  {
-   "title": "grapheme-kit: Grapheme-Level Metrics and Text Processing for Multilingual NLP",
-   "url": "https://arxiv.org/abs/2607.22456v1",
-   "summary": "Existing lexical distance, similarity, and evaluation metrics operate on Unicode code points, which can misrepresent errors in writing systems where a single grapheme is represented by multiple Unicode code points. We introduce grapheme-kit, an open-source Python library that ex…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "grapheme-level metrics",
-    "multilingual nlp",
-    "text processing"
-   ],
-   "published": "2026-07-24T16:14:37Z"
-  },
-  {
-   "title": "The relay market powering token resellers and fraud",
-   "url": "https://vectoral.com/blog/token-relay-market",
-   "summary": "173 points, 101 comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "fraud",
-    "security",
-    "market"
-   ],
-   "published": ""
   },
   {
    "title": "Chinese chipmaker shares surge 470%",
