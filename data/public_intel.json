@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T15:40:17+00:00",
+ "generated_at": "2026-08-03T20:31:23+00:00",
  "count": 124,
  "items": [
   {
@@ -553,6 +553,45 @@
    "published": "2026-07-31T17:30:49Z"
   },
   {
+   "title": "Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control",
+   "url": "https://arxiv.org/abs/2607.29625v1",
+   "summary": "The demand for humanoid loco-manipulation tasks with an object has recently increased, and most existing control approaches for stability in such tasks rely on heuristics or machine-learning techniques. This study rigorously analyzes and exploits the dynamic effects of the objec…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "humanoid balance",
+    "object mass",
+    "loco-manipulation tasks"
+   ],
+   "published": "2026-07-31T16:57:51Z"
+  },
+  {
+   "title": "When Does On-Policy Interaction Help? Representational Tradeoffs in Value-Based Imitation Learning",
+   "url": "https://arxiv.org/abs/2607.29617v1",
+   "summary": "Imitation learning (IL)---training an agent to replicate expert behavior from demonstrations---underpins applications from robotics to language model training. Standard approaches such as Behavior Cloning (BC) are known to suffer from compounding errors and performance plateaus,…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "imitation learning",
+    "value-based learning",
+    "on-policy interaction"
+   ],
+   "published": "2026-07-31T16:52:47Z"
+  },
+  {
+   "title": "ResKV: Reconstructing Omitted Attention Contributions for Fixed-Budget KV Cache Compression",
+   "url": "https://arxiv.org/abs/2607.29591v1",
+   "summary": "KV cache compression is essential for efficient long-context inference. Existing eviction methods permanently discard unselected tokens and consequently remove their aggregate contribution to attention. Merging-based alternatives preserve more information but can perturb retaine…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "kv cache compression",
+    "attention mechanisms",
+    "efficiency"
+   ],
+   "published": "2026-07-31T16:16:45Z"
+  },
+  {
    "title": "Siri AI could come with a paywall for power users",
    "url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
    "summary": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
@@ -564,6 +603,21 @@
     "subscriptions"
    ],
    "published": "2026-07-31T16:08:18Z"
+  },
+  {
+   "title": "SLIM: Saturation-Aware Lightweight Performance Modeling for LLM Serving",
+   "url": "https://arxiv.org/abs/2607.29575v1",
+   "summary": "Large language model (LLM) serving commonly increases batch size to improve throughput, but performance eventually reaches a deployment-dependent plateau beyond which larger batches provide marginal gains while increasing latency and GPU memory consumption. Previous studies have…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "performance",
+    "modeling",
+    "serving",
+    "llm",
+    "gpu"
+   ],
+   "published": "2026-07-31T16:02:31Z"
   },
   {
    "title": "A big win for Android interoperability",
@@ -1378,19 +1432,6 @@
    "published": "2026-07-27T17:51:15Z"
   },
   {
-   "title": "Built & Trained a Transformer from Scratch in Pure PyTorch for English-to-Tamil Machine Translation [Math + Code Breakdown] [P]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/",
-   "summary": "Hi everyone! 👋 I built and trained the complete Transformer architecture from scratch using pure PyTorch (`torch.nn` primitives) based on the original \" Attention Is All You Need \" paper. I trained the model on an English-to-Tamil parallel translation dataset (` gopi30/english-t…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "transformer architecture",
-    "pytorch",
-    "machine translation"
-   ],
-   "published": "2026-07-27T17:17:50Z"
-  },
-  {
    "title": "Evidence Attribution in Visual Document Understanding without Coordinates or Region Labels",
    "url": "https://arxiv.org/abs/2607.24651v1",
    "summary": "Reliable visual document understanding requires a model to attribute each answer to the evidence regions that support it. Recent benchmarks and systems express this step through a coordinate interface: the model outputs the coordinates of bounding boxes that mark the evidence re…",
@@ -1456,31 +1497,6 @@
    "published": "2026-07-27T15:34:26Z"
   },
   {
-   "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts",
-   "url": "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/",
-   "summary": "Article URL: https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/ Comments URL: https://news.ycombinator.com/item?id=49070427 Points: 223 # Comments: 266",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai-bubble",
-    "apple",
-    "ed-zitron"
-   ],
-   "published": "2026-07-27T14:42:41Z"
-  },
-  {
-   "title": "AI companies are shredding rare books",
-   "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
-   "summary": "https://xcancel.com/HedgieMarkets/status/2081534588485296565 Comments URL: https://news.ycombinator.com/item?id=49068738 Points: 696 # Comments: 440",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "book preservation",
-    "ai ethics"
-   ],
-   "published": "2026-07-27T12:32:12Z"
-  },
-  {
    "title": "Measles Is Becoming So Common That Treatments May Soon Be Needed",
    "url": "https://www.wired.com/story/measles-treatments-soon-needed/",
    "summary": "As the US sees its highest number of measles cases in decades and vaccination rates fall, researchers are developing drugs to help those who contract the virus or who are particularly vulnerable.",
@@ -1518,19 +1534,6 @@
     "publication transparency"
    ],
    "published": "2026-07-27T02:50:30Z"
-  },
-  {
-   "title": "Phase-homogeneous mixed halide perovskites for stable tandem photovoltaics",
-   "url": "https://www.nature.com/articles/s41586-026-10929-2",
-   "summary": "Nature, Published online: 27 July 2026; doi:10.1038/s41586-026-10929-2 Phase-homogeneous mixed halide perovskites for stable tandem photovoltaics",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "perovskites",
-    "photovoltaics",
-    "sustainability"
-   ],
-   "published": "2026-07-27T00:00:00Z"
   },
   {
    "title": "GrapheneOS Defends Data-Wiping Function That Blocked US Border Search",
