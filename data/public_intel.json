@@ -1,161 +1,1626 @@
 {
- "generated_at": "2026-07-14T03:01:32+00:00",
- "count": 12,
+ "generated_at": "2026-08-02T20:13:59+00:00",
+ "count": 124,
  "items": [
   {
-   "title": "AI law startup Norm raises $120M, hits unicorn valuation",
-   "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/",
-   "summary": "AI law startup Norm has raised a $120 million Series C round led by Khosla Ventures, valuing the startup at $1.2 billion.",
-   "score": 8,
-   "category": "funding",
+   "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1vahcwo/i_built_ganfs_a_python_package_that_uses_gans_to/",
+   "summary": "Hey everyone, I recently open-sourced a new Python package called ganfs (Generative Adversarial Network Feature Selection), and I wanted to share it with the community. The Problem: Selecting the best features in high-dimensional datasets is often a massive bottleneck. Tradition…",
+   "score": 9,
+   "category": "oss",
    "tags": [
-    "ai",
-    "law",
-    "unicorn",
-    "funding"
+    "gan",
+    "feature-selection",
+    "high-dimensional-datasets"
    ],
-   "published": "2026-07-07T14:35:42Z"
+   "published": "2026-07-30T02:54:23Z"
   },
   {
-   "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
-   "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
-   "summary": "A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown. The attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no acces…",
+   "title": "Open-source tabular model validation toolkit TanML needs feedback [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1va7w4p/opensource_tabular_model_validation_toolkit_tanml/",
+   "summary": "We’re developing TanML, an MIT-licensed automated model-validation toolkit for tabular machine-learning models. TanML runs locally and provides an end-to-end workflow covering data profiling, preprocessing, feature-power ranking, model development, evaluation, drift analysis, st…",
+   "score": 9,
+   "category": "oss",
+   "tags": [
+    "model-validation",
+    "toolkit",
+    "open-source",
+    "personal-relevant"
+   ],
+   "published": "2026-07-29T20:22:16Z"
+  },
+  {
+   "title": "KeygraphHQ/shannon — Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they ",
+   "url": "https://github.com/KeygraphHQ/shannon",
+   "summary": "46269★ · TypeScript · topics: agents, ai-penetration-testing, ai-security, cybersecurity, ethical-hacking",
+   "score": 9,
+   "category": "oss",
+   "tags": [
+    "ai-security",
+    "pentesting",
+    "cybersecurity",
+    "personal-relevant"
+   ],
+   "published": "2026-07-28T20:33:50Z"
+  },
+  {
+   "title": "Some thoughts about Anthropic's new cryptanalysis results",
+   "url": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
+   "summary": "117 points, 63 comments",
+   "score": 9,
+   "category": "opinion",
+   "tags": [
+    "cryptanalysis",
+    "anthropic"
+   ],
+   "published": ""
+  },
+  {
+   "title": "inclusionAI/OpenAoE-2000h",
+   "url": "https://huggingface.co/datasets/inclusionAI/OpenAoE-2000h",
+   "summary": "34529 downloads · dataset",
+   "score": 8,
+   "category": "oss",
+   "tags": [
+    "dataset",
+    "huggingface",
+    "popular"
+   ],
+   "published": "2026-07-29 04:02:49+00:00"
+  },
+  {
+   "title": "An Extreme Solar Storm May Be Even More Devastating Than Previously Imagined",
+   "url": "https://www.wired.com/story/an-extreme-solar-storm-may-be-even-more-devastating-than-previously-imagined/",
+   "summary": "Scientists have long assumed that there’s an upper limit to the intensity of the solar winds that reach Earth. New research suggests there’s not—and the implications are alarming.",
    "score": 8,
    "category": "top-news",
    "tags": [
-    "github",
-    "agentic workflows",
-    "private repo data",
-    "personal-relevant"
+    "solar storm",
+    "space weather",
+    "climate risk"
    ],
-   "published": "2026-07-07T14:04:50Z"
+   "published": "2026-07-28T09:00:00Z"
   },
   {
-   "title": "The foundational elements of AI architecture that IT leaders need to scale",
-   "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
-   "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six…",
+   "title": "quantumlib/qsim — Fast C++ and Python library for state-vector simulation of quantum circuits.",
+   "url": "https://github.com/quantumlib/qsim",
+   "summary": "680★ · C++ · topics: algorithms, api, cirq, cpp, google-quantum",
    "score": 8,
-   "category": "opinion",
+   "category": "oss",
    "tags": [
-    "foundational elements",
-    "ai architecture",
-    "scaling ai",
-    "personal-relevant"
+    "quantum-computing",
+    "c++",
+    "python",
+    "simulation"
    ],
-   "published": "2026-07-07T11:10:52Z"
+   "published": "2026-07-28T00:19:47Z"
   },
   {
-   "title": "How Open Models Are Driving AI Research",
-   "url": "https://blogs.nvidia.com/blog/open-models-icml-2026/",
-   "summary": "Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have become foundational to how mo…",
+   "title": "New Firefighting Technologies Could Help Battle Blazes Like Those in France and Spain",
+   "url": "https://www.wired.com/story/firefighting-technologies-battle-wildfires-france-spain/",
+   "summary": "Climate change is upping the odds of major wildfires, creating a need for new tools to combat them.",
+   "score": 8,
+   "category": "top-news",
+   "tags": [
+    "wildfires",
+    "climate change",
+    "firefighting technology"
+   ],
+   "published": "2026-07-27T21:06:54Z"
+  },
+  {
+   "title": "These 5 AI risks have the highest potential for catastrophe",
+   "url": "https://www.axios.com/2026/07/27/mit-study-ai-risks-urgent-weapons-cyber-attacks",
+   "summary": "Data: MIT IT FutureTech and the University of Queensland ; Chart: Herb Scribner/Axios There is a one-in-five chance of AI gaining dangerous weapons capabilities or causing mass harm that could kill millions in the next five years, per global experts surveyed for a recent MIT stu…",
+   "score": 8,
+   "category": "top-news",
+   "tags": [
+    "ai-risks",
+    "cybersecurity",
+    "expert-survey"
+   ],
+   "published": "2026-07-27T21:06:50Z"
+  },
+  {
+   "title": "We’re open-sourcing our privacy proxy CLI",
+   "url": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/",
+   "summary": "pvcli is a curl-like tool designed to simplify the testing of complex privacy protocols like OHTTP.",
+   "score": 8,
+   "category": "tool",
+   "tags": [
+    "open-source",
+    "privacy proxy",
+    "cli"
+   ],
+   "published": "2026-07-27T13:00:00Z"
+  },
+  {
+   "title": "makecindy/cindy — Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+   "url": "https://github.com/makecindy/cindy",
+   "summary": "616★ · TypeScript · topics: agent, ai-agent, ai-assistant, android, claude-code",
+   "score": 8,
+   "category": "oss",
+   "tags": [
+    "ai-agent",
+    "personal-relevant",
+    "open-source",
+    "typescript"
+   ],
+   "published": "2026-07-27T03:19:52Z"
+  },
+  {
+   "title": "A California aquifer may have crossed the point of no return",
+   "url": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
+   "summary": "Satellite data reveal in unprecedented detail how groundwater reservoirs permanently lose their ability to store water",
    "score": 8,
    "category": "research-highlight",
    "tags": [
-    "open models",
-    "ai research",
-    "nvidia"
+    "environment",
+    "groundwater",
+    "satellite data"
    ],
-   "published": "2026-07-06T16:00:00Z"
+   "published": "2026-07-27T03:00:00Z"
   },
   {
-   "title": "Why the rise of open source AI isn’t hurting Anthropic … yet",
-   "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
-   "summary": "Open source models’ success isn’t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle.",
+   "title": "Researchers are building computers that run on brain organoids — but have neglected a major ethical issue",
+   "url": "https://www.nature.com/articles/d41586-026-02316-8",
+   "summary": "Nature, Published online: 27 July 2026; doi:10.1038/d41586-026-02316-8 People who give tissue samples for biomedical research might have no idea that their cells are being used for biocomputers.",
+   "score": 8,
+   "category": "top-news",
+   "tags": [
+    "ethics",
+    "biocomputers",
+    "research"
+   ],
+   "published": "2026-07-27T00:00:00Z"
+  },
+  {
+   "title": "0xwilliamortiz/openclaude-improved — runs anywhere. uses anything",
+   "url": "https://github.com/0xwilliamortiz/openclaude-improved",
+   "summary": "577★ · TypeScript · topics: agentic-ai, ai, ai-agent, ai-coding, ai-coding-agent",
+   "score": 8,
+   "category": "oss",
+   "tags": [
+    "personal-relevant",
+    "typescript",
+    "ai-agent",
+    "agentic-ai"
+   ],
+   "published": "2026-07-26T22:22:56Z"
+  },
+  {
+   "title": "veorq/awesome-post-quantum — A curated list of resources about post-quantum cryptography.",
+   "url": "https://github.com/veorq/awesome-post-quantum",
+   "summary": "494★ · n/a · topics: awesome, awesome-list, cryptography, post-quantum-cryptography, quantum-computing",
+   "score": 8,
+   "category": "oss",
+   "tags": [
+    "post-quantum-cryptography",
+    "awesome-list"
+   ],
+   "published": "2026-07-26T12:57:30Z"
+  },
+  {
+   "title": "The New AI Superpowers: Focus and Followthrough",
+   "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
+   "summary": "174 points, 50 comments",
+   "score": 8,
+   "category": "opinion",
+   "tags": [
+    "productivity",
+    "focus",
+    "personal-relevant",
+    "ai"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
+   "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
+   "summary": "143 points, 47 comments",
+   "score": 8,
+   "category": "top-news",
+   "tags": [
+    "vulnerability",
+    "exploit",
+    "fleet management"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Underwater oxygen loss threatens earth's stability, researchers warn",
+   "url": "https://scripps.ucsd.edu/news/underwater-oxygen-loss-threatens-earths-stability-researchers-warn",
+   "summary": "138 points, 77 comments",
+   "score": 8,
+   "category": "research-highlight",
+   "tags": [
+    "environment",
+    "sustainability",
+    "ecosystem"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Disrupting a Criminal Scam Operation",
+   "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+   "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "openai",
+    "chatgpt",
+    "scam-operation"
+   ],
+   "published": "2026-08-04T00:00:00Z"
+  },
+  {
+   "title": "NVIDIA's AI Learns Why Copying Humans Isn't Enough",
+   "url": "https://www.youtube.com/watch?v=8B05cy3UuSE",
+   "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The paper is available here: https://jiashunwang.github.io/HIL/ 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible: Adam Bridges, Benji Rabhan, B Shang,…",
    "score": 7,
    "category": "opinion",
    "tags": [
-    "open-source",
-    "ai-models",
-    "industry-trends"
+    "ai",
+    "human-centric",
+    "video"
    ],
-   "published": "2026-07-07T20:04:32Z"
+   "published": "2026-08-02T15:01:10Z"
   },
   {
-   "title": "Savi’s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
-   "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
-   "summary": "The company just raised $7 million in seed funding, and is launching its app for iPhone and Android on Tuesday.",
+   "title": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
+   "url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
+   "summary": "Listen now | Tom Verrilli explains why fewer, more senior PMs doing real IC work outperform any ratio-driven org structure",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "product management",
+    "org structure"
+   ],
+   "published": "2026-08-02T12:32:02Z"
+  },
+  {
+   "title": "F*: A general-purpose proof-oriented programming language",
+   "url": "https://fstar-lang.org/",
+   "summary": "Comments",
+   "score": 7,
+   "category": "tool",
+   "tags": [
+    "proof-oriented programming",
+    "general-purpose language"
+   ],
+   "published": "2026-08-02T12:31:16Z"
+  },
+  {
+   "title": "Linux desktop market share has hit over 10% in North America",
+   "url": "https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/",
+   "summary": "Article URL: https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/ Comments URL: https://news.ycombinator.com/item?id=49140696 Points: 173 # Comments: 87",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "linux",
+    "desktop",
+    "market share"
+   ],
+   "published": "2026-08-02T03:10:00Z"
+  },
+  {
+   "title": "gopaljigaur/repro-cocoedit-content-consistent-image-editing-via-region-regularized-reinforcement-learning",
+   "url": "https://huggingface.co/spaces/gopaljigaur/repro-cocoedit-content-consistent-image-editing-via-region-regularized-reinforcement-learning",
+   "summary": "0 likes · static",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "reinforcement-learning",
+    "image-editing",
+    "open-source"
+   ],
+   "published": "2026-08-02 15:09:08+00:00"
+  },
+  {
+   "title": "Quoting Greg Brockman",
+   "url": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
+   "summary": "at openai, many people hook their chatgpt up to slack. people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker. reinforces how much people care about human re…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai-ethics",
+    "human relationships",
+    "openai"
+   ],
+   "published": "2026-08-01T22:29:44Z"
+  },
+  {
+   "title": "0xwilliamortiz/humanizer-cli — 33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies.",
+   "url": "https://github.com/0xwilliamortiz/humanizer-cli",
+   "summary": "517★ · JavaScript · topics: ai-slop, ai-slop-detection, ai-slop-detector, ai-slop-fixer, ai-slop-remover",
+   "score": 7,
+   "category": "tool",
+   "tags": [
+    "ai-detection",
+    "cli-tool",
+    "open-source"
+   ],
+   "published": "2026-08-01T21:41:13Z"
+  },
+  {
+   "title": "Sam Altman is still making the case for parenting via ChatGPT",
+   "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+   "summary": "OpenAI's CEO seemed excited to share a \"cool use case\" for parents.",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "chatgpt",
+    "parenting",
+    "use case"
+   ],
+   "published": "2026-08-01T17:07:34Z"
+  },
+  {
+   "title": "DeepSeek-V4-Flash-0731: Models you can run locally now have the intelligence score of the top frontier model from March 2026",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vchoua/deepseekv4flash0731_models_you_can_run_locally/",
+   "summary": "March 6th, 2026 the highest intelligence index score was 51 for frontier models. deepseek-ai/DeepSeek-V4-Flash-0731 that has an intelligence score of 50. If these benchmarks are accurate, models available to run locally on <8K USD (us prices - just guestimating/not exact) hardwa…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "deepseek-v4",
+    "local deployment",
+    "intelligence score"
+   ],
+   "published": "2026-08-01T08:27:40Z"
+  },
+  {
+   "title": "AI doesn't generate working products, that's still your job",
+   "url": "https://weeraman.com/the-prototype-isnt-the-product/",
+   "summary": "Article URL: https://weeraman.com/the-prototype-isnt-the-product/ Comments URL: https://news.ycombinator.com/item?id=49132130 Points: 215 # Comments: 207",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai",
+    "productivity",
+    "human-involvement"
+   ],
+   "published": "2026-08-01T07:52:10Z"
+  },
+  {
+   "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
+   "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+   "summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "vulnerability",
+    "code execution",
+    "adobe"
+   ],
+   "published": "2026-08-01T07:12:42Z"
+  },
+  {
+   "title": "0xwilliamortiz/ratchet — Your agent reads the rules. This checks whether it followed them.",
+   "url": "https://github.com/0xwilliamortiz/ratchet",
+   "summary": "402★ · JavaScript · topics: ai-agents, claude-code, claude-code-plugin, claude-skills, code-quality",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "personal-relevant",
+    "claude-code",
+    "code-quality",
+    "ai-agents"
+   ],
+   "published": "2026-07-31T20:31:05Z"
+  },
+  {
+   "title": "The NHTSA is investigating 1.2 million Tesla vehicles over suspension failure reports",
+   "url": "https://www.theverge.com/transportation/973887/nhtsa-tesla-investigation-suspension",
+   "summary": "The National Highway Traffic Safety Administration (NHTSA) is probing nearly 1.2 million Tesla vehicles after receiving complaints about a suspension failure that could cause \"a loss of vehicle directional control,\" as reported earlier by Reuters. The preliminary investigation i…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "tesla",
+    "nhtsa",
+    "suspension failure"
+   ],
+   "published": "2026-07-31T18:33:39Z"
+  },
+  {
+   "title": "Terraform Introduces tfpolicy, an HCL-based Policy-as-Code Framework",
+   "url": "https://www.infoq.com/news/2026/07/terraform-policy-as-code/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "HashiCorp has introduced tfpolicy, a new HCL-based policy-as-code framework for Terraform, now available in public beta within HCP Terraform. It is designed to simplify and modernize infrastructure governance by integrating policy creation and enforcement directly into Terraform…",
+   "score": 7,
+   "category": "tool",
+   "tags": [
+    "terraform",
+    "policy-as-code",
+    "infrastructure governance"
+   ],
+   "published": "2026-07-31T18:00:00Z"
+  },
+  {
+   "title": "The ban on robot vacuums won’t make them safer, only worse",
+   "url": "https://www.theverge.com/tech/973738/robot-vacuum-ban-fewer-choices-higher-prices",
+   "summary": "No other gadget knows as much about your home as a robot vacuum. They map your space, learn your routines, and many now carry a camera and microphone into every room in your house. As AI gives them a better understanding of what they see, the privacy and security risks these aut…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "robot vacuums",
+    "autonomous robots",
+    "security risks"
+   ],
+   "published": "2026-07-31T17:30:49Z"
+  },
+  {
+   "title": "Siri AI could come with a paywall for power users",
+   "url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
+   "summary": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "siri",
+    "ai",
+    "subscriptions"
+   ],
+   "published": "2026-07-31T16:08:18Z"
+  },
+  {
+   "title": "A big win for Android interoperability",
+   "url": "https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/",
+   "summary": "Comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "android",
+    "interoperability"
+   ],
+   "published": "2026-07-31T15:01:07Z"
+  },
+  {
+   "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+   "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+   "summary": "The startup is building voice models designed to make AI phone calls pass the Turing test.",
    "score": 7,
    "category": "startup",
    "tags": [
-    "ai-scams",
-    "savi",
-    "seed-funding"
+    "voice ai",
+    "turing test",
+    "funding"
    ],
-   "published": "2026-07-07T12:00:00Z"
+   "published": "2026-07-31T14:47:11Z"
   },
   {
-   "title": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
-   "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
-   "summary": "Even Realities, an ex-Apple team building camera-free smart glasses, raised $150 million from Meituan and Tencent at a $1 billion valuation.",
-   "score": 7,
-   "category": "funding",
-   "tags": [
-    "smart-glasses",
-    "funding",
-    "valuation"
-   ],
-   "published": "2026-07-06T09:00:00Z"
-  },
-  {
-   "title": "Japan Pioneered Humanoid Robots—Can It Now Catch China?",
-   "url": "https://spectrum.ieee.org/humanoid-robots-japan",
-   "summary": "“In the future, the…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "humanoid robots",
-    "japan",
-    "china"
-   ],
-   "published": "2026-07-04T11:00:01Z"
-  },
-  {
-   "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-   "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-   "summary": "",
+   "title": "IonQ Completes Acquisition of SkyWater Technology",
+   "url": "https://thequantuminsider.com/2026/07/31/ionq-completes-skywater-acquisition-quantum-manufacturing/",
+   "summary": "Insider Brief Press release – IonQ (NYSE: IONQ), the world’s leading quantum platform company, today completed its acquisition of SkyWater Technology (NASDAQ: SKYT), the largest exclusively U.S.-based semiconductor foundry. “Acquiring SkyWater crystalizes IonQ’s vision to serve…",
    "score": 7,
    "category": "top-news",
    "tags": [
-    "research partnership",
-    "google deepmind"
+    "ionq",
+    "acquisition",
+    "skywater-technology"
    ],
-   "published": "2026-07-03T14:25:43Z"
+   "published": "2026-07-31T13:31:58Z"
   },
   {
-   "title": "DiffusionGemma: 4x faster text generation",
-   "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-   "summary": "",
+   "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
+   "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
+   "summary": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial Telegram instruction, the agent found internet-facing systems and selected public exploits. The research…",
    "score": 7,
-   "category": "breakthrough",
+   "category": "top-news",
    "tags": [
-    "text generation",
-    "diffusion models"
+    "hacking",
+    "autonomous attacks",
+    "telegram"
    ],
-   "published": "2026-06-10T16:24:11Z"
+   "published": "2026-07-31T11:21:27Z"
   },
   {
-   "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
-   "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-   "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
+   "title": "Facial Recognition at Madison Square Garden",
+   "url": "https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html",
+   "summary": "Last month, the story broke (alternate link ) that Madison Square Garden uses facial recognition software on everyone entering the facility, and—among other groups—flags activists that oppose using facial recognition. Turns out that the system was shut off for Taylor Swift’s wed…",
    "score": 7,
-   "category": "research-highlight",
+   "category": "top-news",
    "tags": [
-    "llm-architectures",
-    "open-weight-llms"
+    "facial recognition",
+    "surveillance"
    ],
-   "published": "2026-05-16T11:33:51Z"
+   "published": "2026-07-31T11:08:44Z"
   },
   {
-   "title": "A Visual Guide to Attention Variants in Modern LLMs",
-   "url": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
-   "summary": "From MHA and GQA to MLA, sparse attention, and hybrid architectures",
+   "title": "How extreme weather is shaping tomorrow's electric grid",
+   "url": "https://www.axios.com/2026/07/31/us-electric-grid-extreme-weather",
+   "summary": "A series of dangerous heat waves this summer — including one that has left 17 states under an emergency federal order — are putting the electric grid under an intense real-world stress test. Why it matters: Successive summer heat waves are forcing utilities to rethink how they p…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "climate",
+    "electric",
+    "grid",
+    "heat",
+    "waves"
+   ],
+   "published": "2026-07-31T09:15:04Z"
+  },
+  {
+   "title": "QwenAudio/qwen-audio-agent — A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents",
+   "url": "https://github.com/QwenAudio/qwen-audio-agent",
+   "summary": "462★ · JavaScript · topics: agent, agentic-ai, voice-agent, voice-ai, voice-chat",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "personal-relevant",
+    "javascript",
+    "voice-agent",
+    "realtime"
+   ],
+   "published": "2026-07-31T03:45:10Z"
+  },
+  {
+   "title": "Meat allergy is on the rise — what scientists want to know",
+   "url": "https://www.nature.com/articles/d41586-026-02362-2",
+   "summary": "Nature, Published online: 31 July 2026; doi:10.1038/d41586-026-02362-2 The allergy is caused by ticks, but researchers have much to learn about it.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "allergy",
+    "science",
+    "ticks"
+   ],
+   "published": "2026-07-31T00:00:00Z"
+  },
+  {
+   "title": "Scientists using LLMs will ‘do more, less well’, modelling study predicts",
+   "url": "https://www.nature.com/articles/d41586-026-02397-5",
+   "summary": "Nature, Published online: 31 July 2026; doi:10.1038/d41586-026-02397-5 Research suggests that the combination of incentives to publish and the use of large language models will lead to more papers, but they will be less refined.",
    "score": 7,
    "category": "paper",
    "tags": [
-    "attention variants",
-    "llm architectures"
+    "llms",
+    "scientific publishing",
+    "research"
    ],
-   "published": "2026-03-22T11:55:40Z"
+   "published": "2026-07-31T00:00:00Z"
+  },
+  {
+   "title": "This AI notetaker won't sell surveillance to your boss",
+   "url": "https://www.platformer.news/granola-chris-pedregal-interview/",
+   "summary": "Granola CEO Chris Pedregal on invisible AI bots, the coming fight over who sees your transcripts, and why he turns down the companies that ask for them",
+   "score": 7,
+   "category": "startup",
+   "tags": [
+    "granola",
+    "ai",
+    "notetaker",
+    "privacy"
+   ],
+   "published": "2026-07-30T23:59:21Z"
+  },
+  {
+   "title": "Tim Cook says Apple may charge for AI Siri",
+   "url": "https://www.axios.com/2026/07/30/tim-cook-apple-may-charge-for-ai-siri",
+   "summary": "Apple hinted Thursday that heavy users of its revamped Siri may have to pay for access. Why it matters: It's the first time that Apple has confirmed it will charge for the new AI -powered voice assistant. What they're saying: In a conference call to discuss Apple's most recent q…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "ai",
+    "apple",
+    "personal-relevant",
+    "siri"
+   ],
+   "published": "2026-07-30T22:10:43Z"
+  },
+  {
+   "title": "MLVC: Multi-platform Learned Video Codec for Real-World Deployment [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1vb3xwd/mlvc_multiplatform_learned_video_codec_for/",
+   "summary": "I've always found it a little strange that AI is everywhere, but the codecs we use in practice are the traditional hand-engineered systems like h.264, h.265, av1. Alexnet started the wave of neural networks replacing hand-engineered systems, but 14 years later traditional codecs…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "mlvc",
+    "video-codec",
+    "learned-video-codec"
+   ],
+   "published": "2026-07-30T19:40:56Z"
+  },
+  {
+   "title": "Sample More, Reflect Less: Self-Refine and Reflexion Lose to Repeated Sampling at Equal Token Cost, from 1.5B to 7B",
+   "url": "https://arxiv.org/abs/2607.28576v1",
+   "summary": "Methods that make a language model plan, criticise and rewrite its own answer, reflect on mistakes, pick the best of several attempts, or debate with copies of itself nearly all make it generate far more text than a single chain of thought. Because generating more text raises ac…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "language models",
+    "self-refine",
+    "reflexion",
+    "sampling methods"
+   ],
+   "published": "2026-07-30T17:38:23Z"
+  },
+  {
+   "title": "X-NavDP: Generalizing Navigation Diffusion Policy to Novel Behavior and Embodiments with Group Q-score Reweighted Matching",
+   "url": "https://arxiv.org/abs/2607.28560v1",
+   "summary": "Pretraining navigation diffusion policies rely on large-scale expert demonstrations. These data are typically generated by a fully-informed oracle planner suited to a single nominal robot. This limits the policy's generalization to diverse embodiments and challenging scenarios (…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "navigation diffusion policy",
+    "reinforcement learning"
+   ],
+   "published": "2026-07-30T17:26:12Z"
+  },
+  {
+   "title": "Formalization of security",
+   "url": "https://arxiv.org/abs/2607.28551v1",
+   "summary": "Proof assistants are often used to validate that designs and implementations meet their expected security properties. A further motivation for using proof assistants is to support certification. This chapter focuses on their applications to system security, language-based securi…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "proof assistants",
+    "security",
+    "certification"
+   ],
+   "published": "2026-07-30T17:21:14Z"
+  },
+  {
+   "title": "A Sub-6G Mixer First RXFE with LO Overlap Reduction and 1.08 dB NF Degradation",
+   "url": "https://arxiv.org/abs/2607.28546v1",
+   "summary": "This work presents a mixer-first receiver front-end (RXFE) optimized for sub-6 GHz applications with minimized local oscillator (LO) pulse overlap. A design methodology is proposed to mitigate LO overlap-induced degradation in input matching and noise figure (NF), validated usin…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "personal-relevant",
+    "hardware",
+    "cmos",
+    "optimization"
+   ],
+   "published": "2026-07-30T17:14:08Z"
+  },
+  {
+   "title": "Implementing Homomorphic Encryption-Based Logic Locking in System-on-Chip Designs",
+   "url": "https://arxiv.org/abs/2607.28542v1",
+   "summary": "This study presents a logic locking scheme based on the binary Ring Learning With Errors algorithm, implemented in a RISC-V System-on-Chip design. Unlike traditional logic locking methods that require providing users with raw locking parameters, the proposed approach secures cri…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "homomorphic-encryption",
+    "logic-locking",
+    "system-on-chip"
+   ],
+   "published": "2026-07-30T17:11:14Z"
+  },
+  {
+   "title": "Graph Neural Network Force Fields for Spin Dynamics in Metallic Magnets",
+   "url": "https://arxiv.org/abs/2607.28537v1",
+   "summary": "Metallic magnets exhibit complex spin dynamics governed by electronically generated interactions. Predictive simulations of such dynamics typically require repeated solutions of an underlying electronic problem throughout the time evolution, creating a major computational bottle…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "graph neural networks",
+    "spin dynamics",
+    "metallic magnets"
+   ],
+   "published": "2026-07-30T17:04:56Z"
+  },
+  {
+   "title": "Safe Quotes for Retroactive Liquidity Pools",
+   "url": "https://arxiv.org/abs/2607.28522v1",
+   "summary": "Automated market makers exchange assets through liquidity pools whose quoted prices depend on their reserves, with constant product pools being the most common. When such pools reside on different blockchains or shards, a sequence of swaps cannot in general be executed atomicall…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "retroactive liquidity pools",
+    "safe quotes",
+    "automated market makers"
+   ],
+   "published": "2026-07-30T17:00:38Z"
+  },
+  {
+   "title": "American Being Prosecuted for Wiping His Phone Before Handing It Over to Border Officials",
+   "url": "https://www.schneier.com/blog/archives/2026/07/american-being-prosecuted-for-wiping-his-phone-before-handing-it-over-to-border-officials.html",
+   "summary": "He’s being prosecuted for giving border officials a code that wiped his phone : The case centers on a feature included in GrapheneOS, a custom Android operating system that runs in place of the software on most modern Google Pixel devices. Tunick’s attorneys confirmed GrapheneOS…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "border security",
+    "phone privacy",
+    "duress password"
+   ],
+   "published": "2026-07-30T16:20:30Z"
+  },
+  {
+   "title": "Pusan National University Researchers Have Developed a Hybrid Quantum Network with Indistinguishable Quantum Sources",
+   "url": "https://thequantuminsider.com/2026/07/30/pusan-national-university-researchers-have-developed-a-hybrid-quantum-network-with-indistinguishable-quantum-sources/",
+   "summary": "Insider Brief Press release – Large-scale quantum communication networks require both reliable quantum memories and coherent single-photon sources for efficient quantum information exchange. While various single photon sources have been developed recently, each has inherent limi…",
+   "score": 7,
+   "category": "breakthrough",
+   "tags": [
+    "hybrid quantum network",
+    "indistinguishable quantum sources"
+   ],
+   "published": "2026-07-30T14:29:14Z"
+  },
+  {
+   "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
+   "url": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/",
+   "summary": "We moved cdnjs, serving 9 billion requests a day, entirely onto Cloudflare's Developer Platform. That means we’re running one of the Internet's busiest open-source CDNs on our own building blocks, and we pushed Workflows and Workers limits higher for everyone.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "cloudflare",
+    "cdnjs",
+    "migration"
+   ],
+   "published": "2026-07-30T13:00:00Z"
+  },
+  {
+   "title": "The Network Has Become the Control Plane for AI Security",
+   "url": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
+   "summary": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect t…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "security",
+    "network",
+    "ai"
+   ],
+   "published": "2026-07-30T11:32:46Z"
+  },
+  {
+   "title": "Should You Use AI for a Task? Here’s a Simple Way to Decide",
+   "url": "https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html",
+   "summary": "This essay originally appeared in The Guardian . I teach public policy at the Harvard Kennedy School and the Munk School at the University of Toronto. And it will come as no surprise to you that my students regularly use AI to complete their writing assignments. Doing so is a wa…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai ethics",
+    "education",
+    "ai writing assistants"
+   ],
+   "published": "2026-07-30T11:01:32Z"
+  },
+  {
+   "title": "EXCLUSIVE: Congo’s Ebola epidemic started at least 4 months before it was detected",
+   "url": "https://www.science.org/content/article/exclusive-congo-s-ebola-epidemic-started-least-4-months-it-was-detected",
+   "summary": "A remote mining town gripped by fear saw hundreds of suspected cases before the government declared an outbreak, report says",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "ebola",
+    "epidemic",
+    "outbreak"
+   ],
+   "published": "2026-07-30T05:40:00Z"
+  },
+  {
+   "title": "U.S. launches fresh airstrikes in Iran",
+   "url": "https://www.axios.com/2026/07/29/us-airstrikes-iran-trump-resume",
+   "summary": "The U.S. military conducted \"a heavy wave\" of airstrikes in Iran on Wednesday evening, U.S. Central Command said in a statement . Why it matters: These are the first U.S. strikes in Iran since President Trump paused the bombing campaign Friday to give negotiations another chance…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "iran",
+    "us-military",
+    "airstrikes"
+   ],
+   "published": "2026-07-30T02:45:51Z"
+  },
+  {
+   "title": "Demand for lithium is surging: here’s how to make mining more sustainable",
+   "url": "https://www.nature.com/articles/d41586-026-02195-z",
+   "summary": "Nature, Published online: 30 July 2026; doi:10.1038/d41586-026-02195-z Researchers are looking for ways to extract the metal from underground reservoirs that use less water.",
+   "score": 7,
+   "category": "research-highlight",
+   "tags": [
+    "lithium mining",
+    "sustainability",
+    "environment"
+   ],
+   "published": "2026-07-30T00:00:00Z"
+  },
+  {
+   "title": "Somatic mutations reveal the ontogeny of microglia in human aging",
+   "url": "https://www.nature.com/articles/s41586-026-10939-0",
+   "summary": "Nature, Published online: 30 July 2026; doi:10.1038/s41586-026-10939-0 Somatic mutations reveal the ontogeny of microglia in human aging",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "aging",
+    "microglia",
+    "somatic mutations"
+   ],
+   "published": "2026-07-30T00:00:00Z"
+  },
+  {
+   "title": "Fires in Europe are breaking records: here’s what the future holds",
+   "url": "https://www.nature.com/articles/d41586-026-02361-3",
+   "summary": "Nature, Published online: 30 July 2026; doi:10.1038/d41586-026-02361-3 Countries such as Spain and France can expect fire regimes more like those of California as climate change favours hot, dry conditions, scientists suggest.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "climate change",
+    "wildfires",
+    "europe"
+   ],
+   "published": "2026-07-30T00:00:00Z"
+  },
+  {
+   "title": "LickyArc/arXiv-transformer-multimodal-rag",
+   "url": "https://huggingface.co/datasets/LickyArc/arXiv-transformer-multimodal-rag",
+   "summary": "1587 downloads · dataset",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "dataset",
+    "multimodal",
+    "personal-relevant",
+    "rag"
+   ],
+   "published": "2026-07-30 09:33:05+00:00"
+  },
+  {
+   "title": "jovaldivieso/double_integrator_casadi_diffusion_policy",
+   "url": "https://huggingface.co/jovaldivieso/double_integrator_casadi_diffusion_policy",
+   "summary": "706 downloads · robotics",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "robotics",
+    "open-source",
+    "diffusion-policy"
+   ],
+   "published": "2026-07-30 03:53:26+00:00"
+  },
+  {
+   "title": "ccnets/causal-gpt-rl",
+   "url": "https://huggingface.co/ccnets/causal-gpt-rl",
+   "summary": "178 downloads · reinforcement-learning",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "open-source",
+    "personal-relevant",
+    "reinforcement-learning"
+   ],
+   "published": "2026-07-30 03:53:16+00:00"
+  },
+  {
+   "title": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
+   "url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
+   "summary": "Andon Labs' latest vending machine simulation shows Opus 5 lied and colluded its way to become the best AI capitalist ever.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "personal-relevant",
+    "simulation",
+    "ai",
+    "vending machine"
+   ],
+   "published": "2026-07-29T18:45:27Z"
+  },
+  {
+   "title": "Function Privatization in the Local Model",
+   "url": "https://arxiv.org/abs/2607.27164v1",
+   "summary": "We study the problem of privately releasing functions, with a particular focus on curves, which are images of continuous functions on some finite interval. Many types of data exist naturally as curves, such as trajectory data or $1$D density curves. We shall primarily be interes…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "function privatization",
+    "local model",
+    "differential privacy"
+   ],
+   "published": "2026-07-29T17:39:50Z"
+  },
+  {
+   "title": "Parity-Based Time-Bin Encoding Enabling SWAP Between Polarization and Time-Bin Qubits",
+   "url": "https://arxiv.org/abs/2607.27144v1",
+   "summary": "Multi-degree-of-freedom photonic quantum processing requires routing between degree-of-freedom (DOF) qubit encodings on a single photon. A SWAP between polarization and time-bin qubits is Multi-degree-of-freedom photonic quantum processing requires routing between degree-of-free…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "quantum processing",
+    "parity-based time-bin encoding",
+    "qubits"
+   ],
+   "published": "2026-07-29T17:20:41Z"
+  },
+  {
+   "title": "AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching",
+   "url": "https://arxiv.org/abs/2607.27130v1",
+   "summary": "Ontology matching (OM) has traditionally been formulated as either equivalence discovery or subsumption matching. The existing OM systems identify only one type of semantic correspondence and cannot simultaneously discover equivalence and subsumption mappings. In this paper, we…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "ontology matching",
+    "large language models",
+    "multi-agent systems"
+   ],
+   "published": "2026-07-29T16:58:10Z"
+  },
+  {
+   "title": "Hardware-efficient erasure-error detection with an integer fluxonium",
+   "url": "https://arxiv.org/abs/2607.27123v1",
+   "summary": "Erasure-error detection can improve the efficiency of quantum error correction by revealing the times and locations of their error events. In this work, we demonstrate erasure conversions and mid-circuit erasure detections in a single integer fluxonium, in which the states $\\mat…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "erasure-error detection",
+    "quantum error correction"
+   ],
+   "published": "2026-07-29T16:49:25Z"
+  },
+  {
+   "title": "Keychron announces first open-source firmware for gaming mice",
+   "url": "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice",
+   "summary": "Comments",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "open-source",
+    "gaming-mice",
+    "firmware"
+   ],
+   "published": "2026-07-29T16:36:59Z"
+  },
+  {
+   "title": "Sky sphere representation in language models",
+   "url": "https://arxiv.org/abs/2607.27092v1",
+   "summary": "We analyze whether language models of size ~100B have a representation of the night sky map that is decodable from their residual stream. We find that most of the considered open-source models do have such a representation, and it often even surfaces to the top principal compone…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "language models",
+    "sky sphere representation"
+   ],
+   "published": "2026-07-29T16:19:43Z"
+  },
+  {
+   "title": "Generate Autonomous Business Insights with AI Agent and MCP Servers",
+   "url": "https://aws.amazon.com/blogs/machine-learning/generate-autonomous-business-insights-with-ai-agent-and-mcp-servers/",
+   "summary": "Learn how Amazon Bedrock AgentCore delivers autonomous, cross-system business intelligence through configuration rather than custom code. Using pre-built MCP server connectors, fine-grained access control, and persistent memory, enterprises can query multiple data sources with n…",
+   "score": 7,
+   "category": "big-tech",
+   "tags": [
+    "personal-relevant",
+    "mcp servers",
+    "ai agent",
+    "autonomous business insights"
+   ],
+   "published": "2026-07-29T15:34:18Z"
+  },
+  {
+   "title": "The Growing Quantum Security Challenge Facing Bitcoin and Digital Assets",
+   "url": "https://thequantuminsider.com/2026/07/29/growing-quantum-security-challenge-bitcoin-digital-assets/",
+   "summary": "Insider Brief Quantum computers and encryption debates normally revolve around governmental communications, banking systems, or healthcare data. The role of cryptocurrencies remains underexamined; however, a Google Quantum AI paper released in March 2026 hints at potential probl…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "quantum",
+    "security",
+    "bitcoin",
+    "digital assets"
+   ],
+   "published": "2026-07-29T14:24:22Z"
+  },
+  {
+   "title": "EY Announces On-Site Quantum Computing",
+   "url": "https://thequantuminsider.com/2026/07/29/ey-announces-on-site-quantum-computing/",
+   "summary": "Insider Brief PRESS RELEASE — The EY organization (EY) announces the expansion of its global quantum computing capabilities with the addition of an on-site quantum computer led by EY Canada and part of a global investment of more than US$3b in AI and other next frontier technolo…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "quantum",
+    "on-site",
+    "computing",
+    "ey"
+   ],
+   "published": "2026-07-29T13:53:28Z"
+  },
+  {
+   "title": "Horizon Quantum Partners With Quantum Machines to Improve Quantum Computer Operations",
+   "url": "https://thequantuminsider.com/2026/07/29/horizon-quantum-quantum-machines-calibration-technology/",
+   "summary": "Insider Brief Press release – Horizon Quantum Computing Pte. Ltd., the wholly-owned subsidiary of Horizon Quantum Holdings Ltd. (Nasdaq: HQ) (“Horizon Quantum”), a pioneer of software infrastructure for quantum applications and Q.M Technologies Ltd. (“Quantum Machines” or QM”),…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "quantum-computing",
+    "partnership",
+    "calibration-technology"
+   ],
+   "published": "2026-07-29T12:18:44Z"
+  },
+  {
+   "title": "The Sweet Science: Why The AI Era Belongs To Middleweights",
+   "url": "https://news.crunchbase.com/ai/era-middle-market-contenders-bernstein-ftv/",
+   "summary": "The biggest long-term gains from AI will not flow to heavyweight incumbents or many AI-native startups but to scrappy middle-market technology companies, the middleweights, argues Brad Bernstein, managing partner at FTV Capital. In this guest column he shares the five traits the…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai",
+    "middleweights",
+    "technology"
+   ],
+   "published": "2026-07-29T11:00:03Z"
+  },
+  {
+   "title": "My LLM kept implementing every method it found, so I added research and specification gates[D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1v9ib5f/my_llm_kept_implementing_every_method_it_found_so/",
+   "summary": "While building this workflow a thing that surprised me was that, initially I thought the pipeline was complete: From Goal to → Decompose → Research → Specification → Implementation It successfully broke the problem into relevant blocks, it found research for each block, and it p…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "llm",
+    "research",
+    "implementation"
+   ],
+   "published": "2026-07-29T01:54:42Z"
+  },
+  {
+   "title": "Papers with open peer-review reports are less likely to be retracted",
+   "url": "https://www.nature.com/articles/d41586-026-02282-1",
+   "summary": "Nature, Published online: 29 July 2026; doi:10.1038/d41586-026-02282-1 Researchers say that transparent publishing practices could be associated with research quality, but more evidence is needed.",
+   "score": 7,
+   "category": "research-highlight",
+   "tags": [
+    "open peer review",
+    "research quality"
+   ],
+   "published": "2026-07-29T00:00:00Z"
+  },
+  {
+   "title": "Diverse bacterial pattern recognition receptors sense the core phage proteome",
+   "url": "https://www.nature.com/articles/s41586-026-10852-6",
+   "summary": "Nature, Published online: 29 July 2026; doi:10.1038/s41586-026-10852-6 Systematic analysis of prokaryotic STAND NTPases — relatives of animal and plant immune receptors — uncovers diverse antiviral sensors that detect most of the core structural and replicative proteins of bacte…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "bacterial",
+    "pattern",
+    "recognition",
+    "receptors"
+   ],
+   "published": "2026-07-29T00:00:00Z"
+  },
+  {
+   "title": "jomasego/repro-warmserve-enabling-one-for-many-gpu-prewarming-for-multi-llm-serving",
+   "url": "https://huggingface.co/spaces/jomasego/repro-warmserve-enabling-one-for-many-gpu-prewarming-for-multi-llm-serving",
+   "summary": "0 likes · static",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "personal-relevant",
+    "hugging-face",
+    "gpu-prewarming",
+    "multi-llm-serving"
+   ],
+   "published": "2026-07-29 20:13:33+00:00"
+  },
+  {
+   "title": "Untangling Co-Drift: Proactive Multi-Intent Failure Prediction and Root-Cause Disambiguation for Self-Driving Networks",
+   "url": "https://arxiv.org/abs/2607.25989v1",
+   "summary": "The vision of self-driving networks that monitor, reason, and act upon themselves with minimal human intervention relies on tightly coupled monitoring, analytics, and actuation functions. In this work, we treat these functions as three operational macro-intents: continuous telem…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "self-driving networks",
+    "proactive failure prediction"
+   ],
+   "published": "2026-07-28T17:06:24Z"
+  },
+  {
+   "title": "Might need math+code benchmark for frontier model(LLMs Silently Replace Math)[D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1v94h9m/might_need_mathcode_benchmark_for_frontier/",
+   "summary": "Hello guys. I found some problems in current frontier models. And want to share. # math_code_hallucination > Record of a failure caused by combining mathematics and code in a single prompt. --- ## Case 1 ### Initial prompt ( `p0` ) If you enter the following prompt: ```python ma…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "math",
+    "code",
+    "benchmark",
+    "llm"
+   ],
+   "published": "2026-07-28T17:05:17Z"
+  },
+  {
+   "title": "From Role Prompt to Infinite Thinking: Exploiting Persona Conditioning for Inference Cost Attacks in LLMs",
+   "url": "https://arxiv.org/abs/2607.25936v1",
+   "summary": "LLMs are increasingly deployed in real-world applications, making inference efficiency and service reliability critical concerns due to their substantial computational costs. However, the autoregressive generation mechanism of LLMs enables malicious prompts to manipulate generat…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "persona conditioning",
+    "inference cost attacks"
+   ],
+   "published": "2026-07-28T16:20:01Z"
+  },
+  {
+   "title": "Faster, Higher, Stronger? The Impact of GenAI on Knowledge Work Productivity - Evidence from the Field",
+   "url": "https://arxiv.org/abs/2607.25922v1",
+   "summary": "The rise of generative artificial intelligence (GenAI) has fueled high expectations regarding its potential to enhance knowledge work productivity in terms of efficiency and quality. Building on task-technology fit (TTF) theory, we empirically examine the extent of GenAI's produ…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "generative ai",
+    "knowledge work productivity",
+    "task-technology fit"
+   ],
+   "published": "2026-07-28T16:13:15Z"
+  },
+  {
+   "title": "A walk through of the DeltaNet family of linear attention variants",
+   "url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
+   "summary": "Article URL: https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention Comments URL: https://news.ycombinator.com/item?id=49085909 Points: 246 # Comments: 101",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "linear attention variants",
+    "deltanet",
+    "kimi"
+   ],
+   "published": "2026-07-28T16:02:07Z"
+  },
+  {
+   "title": "0xwilliamortiz/ponytail-improved — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "url": "https://github.com/0xwilliamortiz/ponytail-improved",
+   "summary": "475★ · JavaScript · topics: agent-skills, claude-code, claude-code-plugin, claude-code-skill, claude-skills",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "personal-relevant",
+    "ai-agent",
+    "javascript",
+    "claude-code"
+   ],
+   "published": "2026-07-28T14:41:07Z"
+  },
+  {
+   "title": "NordForsk Joins G7 Initiative to Fund International Quantum Technology Research Projects",
+   "url": "https://thequantuminsider.com/2026/07/28/nordforsk-joins-g7-initiative-to-fund-international-quantum-technology-research-projects/",
+   "summary": "Insider Brief NordForsk has joined a new international research initiative with G7 funding agencies to support collaborative quantum technology research, committing funding for Nordic participation in up to 12 international projects spanning quantum computing, communications, se…",
+   "score": 7,
+   "category": "funding",
+   "tags": [
+    "quantum",
+    "funding",
+    "research"
+   ],
+   "published": "2026-07-28T13:33:51Z"
+  },
+  {
+   "title": "Four Quantum Companies Sign-on to New Mexico’s Open-Access Quantum Network",
+   "url": "https://thequantuminsider.com/2026/07/28/four-quantum-companies-sign-on-to-new-mexicos-open-access-quantum-network/",
+   "summary": "Insider Brief PRESS RELEASE — Four leading quantum companies have selected New Mexico’s ABQ-Net, the only open-access entanglement-based quantum network in the United States, to develop and validate next-generation security technologies. Launched through support from the New Mex…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "quantum",
+    "network",
+    "security"
+   ],
+   "published": "2026-07-28T13:05:00Z"
+  },
+  {
+   "title": "Gene may help lizards get a grip in hurricane-force winds",
+   "url": "https://www.science.org/content/article/gene-may-help-lizards-get-grip-hurricane-force-winds",
+   "summary": "“Huge” new study of Caribbean anole populations catches evolution in real time",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "evolution",
+    "biology",
+    "lizards"
+   ],
+   "published": "2026-07-28T11:00:00Z"
+  },
+  {
+   "title": "Are single GPU research still published in ML/DL and its applications nowadays? Which are the most notable recent ones? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1v8r7ab/are_single_gpu_research_still_published_in_mldl/",
+   "summary": "ML research is progressing at breakneck speed where frontier labs in both academia and industry have access to considerably large computes (GPUs). Where do small labs or independent researchers go in this context? Have you come across recent works in ML/DL and its applications (…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "research",
+    "compute",
+    "gpu"
+   ],
+   "published": "2026-07-28T07:33:05Z"
+  },
+  {
+   "title": "It’ll grow on you: live fungi formed into sustainable fashion",
+   "url": "https://www.nature.com/articles/d41586-026-02304-y",
+   "summary": "Nature, Published online: 28 July 2026; doi:10.1038/d41586-026-02304-y Textile made from fungal filaments can repair itself and is biodegradable.",
+   "score": 7,
+   "category": "research-highlight",
+   "tags": [
+    "biotechnology",
+    "fashion",
+    "sustainability"
+   ],
+   "published": "2026-07-28T00:00:00Z"
+  },
+  {
+   "title": "Conversational AI: align commercial incentives with public interests",
+   "url": "https://www.nature.com/articles/d41586-026-02348-0",
+   "summary": "Nature, Published online: 28 July 2026; doi:10.1038/d41586-026-02348-0 Conversational AI: align commercial incentives with public interests",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "conversational ai",
+    "public interest",
+    "commercial incentives"
+   ],
+   "published": "2026-07-28T00:00:00Z"
+  },
+  {
+   "title": "Anthropic CEO Dario Amodei says he does not support open-weight AI ban",
+   "url": "https://www.axios.com/2026/07/27/anthropic-open-weight-ban-china-dario-amodei",
+   "summary": "Anthropic CEO Dario Amodei said Monday that he has \"never advocated\" for a ban on open-weight AI models , rejecting accusations that his lab is seeking to shield its closed-model business from competition. Why it matters: Anthropic has become the most prominent holdout from a ne…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "open-weight-ai",
+    "anthropic",
+    "industry-push"
+   ],
+   "published": "2026-07-27T22:44:27Z"
+  },
+  {
+   "title": "Sample complexity of quantum resource testing via one-shot quantum blurring",
+   "url": "https://arxiv.org/abs/2607.24712v1",
+   "summary": "Quantum resource testing is a fundamental primitive of quantum information processing, profoundly connected to resource manipulation. Its goal is to discriminate $n$ copies of a given resourceful state $ρ$ from all free (i.e., resourceless) states; key instances for applications…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "quantum resource testing",
+    "one-shot quantum blurring"
+   ],
+   "published": "2026-07-27T17:51:15Z"
+  },
+  {
+   "title": "Built & Trained a Transformer from Scratch in Pure PyTorch for English-to-Tamil Machine Translation [Math + Code Breakdown] [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/",
+   "summary": "Hi everyone! 👋 I built and trained the complete Transformer architecture from scratch using pure PyTorch (`torch.nn` primitives) based on the original \" Attention Is All You Need \" paper. I trained the model on an English-to-Tamil parallel translation dataset (` gopi30/english-t…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "transformer architecture",
+    "pytorch",
+    "machine translation"
+   ],
+   "published": "2026-07-27T17:17:50Z"
+  },
+  {
+   "title": "Evidence Attribution in Visual Document Understanding without Coordinates or Region Labels",
+   "url": "https://arxiv.org/abs/2607.24651v1",
+   "summary": "Reliable visual document understanding requires a model to attribute each answer to the evidence regions that support it. Recent benchmarks and systems express this step through a coordinate interface: the model outputs the coordinates of bounding boxes that mark the evidence re…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "visual document understanding",
+    "evidence attribution"
+   ],
+   "published": "2026-07-27T16:49:36Z"
+  },
+  {
+   "title": "Efficiency Matters in Autonomous Research",
+   "url": "https://arxiv.org/abs/2607.24647v1",
+   "summary": "AI-driven autonomous research (AR) systems are becoming increasingly effective across a broad range of tasks. Their performance, however, is still evaluated primarily by the quality of the final outcome. In this paper, we argue that the efficiency of the solution-search process…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "autonomous research",
+    "efficiency",
+    "performance evaluation"
+   ],
+   "published": "2026-07-27T16:46:33Z"
+  },
+  {
+   "title": "Verification-Conditioned Use: A Qualitative Study on How Generative AI Reshapes Learning, Autonomy, and Market Entry for Junior Software Developers",
+   "url": "https://arxiv.org/abs/2607.24606v1",
+   "summary": "Objective: to investigate how the use of generative Artificial Intelligence (AI) tools affects the early stages of a career in software development, from the perspective of the newcomers themselves. Method: thirteen interns and junior developers were interviewed individually, by…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "generative ai",
+    "software development",
+    "learning"
+   ],
+   "published": "2026-07-27T16:07:21Z"
+  },
+  {
+   "title": "Evaluating the Impact of Explainable AI on Trust in AI-Assisted Code Review",
+   "url": "https://arxiv.org/abs/2607.24601v1",
+   "summary": "Background: Large language models (LLMs) are increasingly used to automate code review, but the reasoning behind their decisions remains hard to understand. Developers struggle to assess the validity of LLM-generated reviews, making it difficult to gauge how much trust to place…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "explainable ai",
+    "trust in ai",
+    "code review"
+   ],
+   "published": "2026-07-27T16:04:24Z"
+  },
+  {
+   "title": "deerwork-ai/deer-workflow — An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates semantic work to replaceable Agent runtimes.",
+   "url": "https://github.com/deerwork-ai/deer-workflow",
+   "summary": "348★ · TypeScript · topics: agent, ai, ai-agent, ai-agents, ai-coding",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "ai-agent",
+    "personal-relevant",
+    "typescript",
+    "agent"
+   ],
+   "published": "2026-07-27T15:34:26Z"
+  },
+  {
+   "title": "Pittsburgh Supercomputing Center Will Build New Hybrid Quantum-Classical Supercomputer",
+   "url": "https://thequantuminsider.com/2026/07/27/pittsburgh-supercomputing-center-will-build-new-hybrid-quantum-classical-supercomputer/",
+   "summary": "Insider Brief PRESS RELEASE — A hybrid quantum-classical computer will soon operate at the Pittsburgh Supercomputing Center, thanks to a $5-million grant from the National Science Foundation. To deliver on the grant, PSC, HPE, and Rigetti Computing will partner together to build…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "pittsburgh supercomputing center",
+    "hybrid quantum-classical supercomputer"
+   ],
+   "published": "2026-07-27T14:58:45Z"
+  },
+  {
+   "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts",
+   "url": "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/",
+   "summary": "Article URL: https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/ Comments URL: https://news.ycombinator.com/item?id=49070427 Points: 223 # Comments: 266",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai-bubble",
+    "apple",
+    "ed-zitron"
+   ],
+   "published": "2026-07-27T14:42:41Z"
+  },
+  {
+   "title": "AI companies are shredding rare books",
+   "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
+   "summary": "https://xcancel.com/HedgieMarkets/status/2081534588485296565 Comments URL: https://news.ycombinator.com/item?id=49068738 Points: 696 # Comments: 440",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "book preservation",
+    "ai ethics"
+   ],
+   "published": "2026-07-27T12:32:12Z"
+  },
+  {
+   "title": "Measles Is Becoming So Common That Treatments May Soon Be Needed",
+   "url": "https://www.wired.com/story/measles-treatments-soon-needed/",
+   "summary": "As the US sees its highest number of measles cases in decades and vaccination rates fall, researchers are developing drugs to help those who contract the virus or who are particularly vulnerable.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "measles",
+    "vaccination",
+    "public health"
+   ],
+   "published": "2026-07-27T09:30:00Z"
+  },
+  {
+   "title": "Multiverse Computing Announces Series C Fundraising Targeting up to $570 Million",
+   "url": "https://thequantuminsider.com/2026/07/27/multiverse-computing-announces-series-c-fundraising-targeting-up-to-570-million/",
+   "summary": "Insider Brief PRESS RELEASE — Multiverse Computing, the global leader in efficient AI, today announced a $570 million (€500M) Series C funding round at a $1.7 billion (€1.5B) pre-money valuation, a 5x step-up from its Series B. The round is co-led by Forgepoint Capital Internati…",
+   "score": 7,
+   "category": "funding",
+   "tags": [
+    "multiverse computing",
+    "series c",
+    "funding"
+   ],
+   "published": "2026-07-27T09:28:42Z"
+  },
+  {
+   "title": "Clear sighting of ‘wandering’ black hole reveals escapee from galaxy merger",
+   "url": "https://www.science.org/content/article/clear-sighting-wandering-black-hole-reveals-escapee-galaxy-merger",
+   "summary": "Stripped-down behemoth promises new insights into how galaxies grow, astronomers say",
+   "score": 7,
+   "category": "research-highlight",
+   "tags": [
+    "astronomy",
+    "black hole",
+    "galaxy merger"
+   ],
+   "published": "2026-07-27T04:20:00Z"
+  },
+  {
+   "title": "AI’s top startups are barely publishing their research",
+   "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+   "summary": "More than half of AI “unicorns” have never published a paper or preprint",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "ai research",
+    "startups",
+    "publication transparency"
+   ],
+   "published": "2026-07-27T02:50:30Z"
+  },
+  {
+   "title": "Phase-homogeneous mixed halide perovskites for stable tandem photovoltaics",
+   "url": "https://www.nature.com/articles/s41586-026-10929-2",
+   "summary": "Nature, Published online: 27 July 2026; doi:10.1038/s41586-026-10929-2 Phase-homogeneous mixed halide perovskites for stable tandem photovoltaics",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "perovskites",
+    "photovoltaics",
+    "sustainability"
+   ],
+   "published": "2026-07-27T00:00:00Z"
+  },
+  {
+   "title": "US citizen charged after GrapheneOS phone wipes during airport search",
+   "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+   "summary": "Article URL: https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html Comments URL: https://news.ycombinator.com/item?id=49063022 Points: 382 # Comments: 245",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "grapheneos",
+    "phone security",
+    "airport search"
+   ],
+   "published": "2026-07-26T22:21:41Z"
+  },
+  {
+   "title": "VictorTaelin/OptMem — Permanent memory for AI agents. A 426-token prompt, a script, plug and play.",
+   "url": "https://github.com/VictorTaelin/OptMem",
+   "summary": "389★ · Python · topics:",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "python",
+    "memory",
+    "personal-relevant",
+    "ai-agents"
+   ],
+   "published": "2026-07-26T21:03:38Z"
+  },
+  {
+   "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
+   "url": "https://arxiv.org/abs/2607.22525v1",
+   "summary": "To effectively integrate AI into high-stakes, critical environments such as healthcare, autonomous driving, and aviation--and to advance toward higher levels of automation and seamless human-AI collaboration--building trust in AI-driven solutions is essential. Trust, in turn, is…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "explainable ai",
+    "reinforcement learning",
+    "air traffic control"
+   ],
+   "published": "2026-07-24T17:56:38Z"
+  },
+  {
+   "title": "The V-fold jackknife for semiparametric inference: variance estimation, confidence intervals, and simultaneous confidence bands",
+   "url": "https://arxiv.org/abs/2607.22493v1",
+   "summary": "For decades, the bootstrap has been a default tool for statistical inference because of its broad applicability and minimal analytic requirements. Although its validity is well understood for smooth parametric estimators, its theoretical properties for many modern semiparametric…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "semiparametric inference",
+    "V-fold jackknife"
+   ],
+   "published": "2026-07-24T17:05:54Z"
+  },
+  {
+   "title": "Beyond Negative-Ridge Endpoints: Mixed-Sign Spectral Regularization via Negative-Shifted Gradient Descent",
+   "url": "https://arxiv.org/abs/2607.22474v1",
+   "summary": "In overparameterized linear regression, many weak spectral directions act like a ridge penalty on the signal-bearing spectrum; negative ridge is the natural correction, pushing filters above one. The stable negative-ridge endpoint, however, is structurally limited: its pole must…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "spectral regularization",
+    "negative-ridge endpoints",
+    "gradient descent"
+   ],
+   "published": "2026-07-24T16:42:46Z"
+  },
+  {
+   "title": "grapheme-kit: Grapheme-Level Metrics and Text Processing for Multilingual NLP",
+   "url": "https://arxiv.org/abs/2607.22456v1",
+   "summary": "Existing lexical distance, similarity, and evaluation metrics operate on Unicode code points, which can misrepresent errors in writing systems where a single grapheme is represented by multiple Unicode code points. We introduce grapheme-kit, an open-source Python library that ex…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "grapheme-level metrics",
+    "multilingual nlp",
+    "text processing"
+   ],
+   "published": "2026-07-24T16:14:37Z"
+  },
+  {
+   "title": "The relay market powering token resellers and fraud",
+   "url": "https://vectoral.com/blog/token-relay-market",
+   "summary": "173 points, 101 comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "fraud",
+    "security",
+    "market"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Chinese chipmaker shares surge 470%",
+   "url": "https://www.bbc.com/news/articles/c9q9w3x9qn2o",
+   "summary": "163 points, 147 comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "funding",
+    "chips",
+    "market"
+   ],
+   "published": ""
+  },
+  {
+   "title": "GrapheneOS Defends Data-Wiping Function That Blocked US Border Search",
+   "url": "https://www.pcmag.com/news/grapheneos-defends-data-wiping-function-that-blocked-us-border-search",
+   "summary": "126 points, 150 comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "grapheneos",
+    "border search",
+    "data protection"
+   ],
+   "published": ""
+  },
+  {
+   "title": "A.I. companies are recruiting electricians and carpenters by the thousands",
+   "url": "https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html",
+   "summary": "130 points, 180 comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "ai",
+    "recruitment",
+    "electricians",
+    "carpenters"
+   ],
+   "published": ""
+  },
+  {
+   "title": "1,741 \"informed\" consents with one click? GDPR complaint filed",
+   "url": "https://noyb.eu/en/1741-informed-consents-one-click-gdpr-complaint-against-dictcc-filed",
+   "summary": "131 points, 67 comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "gdpr",
+    "compliance",
+    "regulation"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Moonshot’s Kimi uses 20k Nvidia chip cluster from Alibaba",
+   "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
+   "summary": "105 points, 64 comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "nvidia",
+    "cluster-computing",
+    "scalability"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Authorize, don't authenticate",
+   "url": "https://blog.marcua.net/2026/07/31/authorize-dont-authenticate.html",
+   "summary": "102 points, 38 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "authentication",
+    "authorization",
+    "security"
+   ],
+   "published": ""
   }
  ]
 }
