@@ -174,7 +174,6 @@ function contactResponse(): Response {
       link(`email    ${siteConfig.email}`, `mailto:${siteConfig.email}`, false),
       link("linkedin", siteConfig.social.linkedin),
       link("github  ", siteConfig.social.github),
-      link("resume  ", siteConfig.resume, false),
       divider,
       muted("open to research collaborations and applied ML builds."),
     ],
@@ -574,7 +573,6 @@ const KNOWN_CMDS = [
   "cd",
   "ls",
   "clear",
-  "resume",
   "sudo",
   "matrix",
   "coffee",
@@ -654,14 +652,6 @@ export function execute(rawInput: string, _ctx: ExecCtx): Response {
       return skillsResponse(arg || undefined);
     case "cd":
       return cdResponse(arg || undefined);
-    case "resume":
-    case "cv":
-      return {
-        lines: [
-          accent("RESUME"),
-          link(`  → ${siteConfig.resume}`, siteConfig.resume, false),
-        ],
-      };
     case "matrix":
       return matrixResponse();
     case "coffee":

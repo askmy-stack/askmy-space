@@ -40,9 +40,6 @@ export default function Contact(): JSX.Element {
           <Button href={siteConfig.social.github} external variant="outline">
             GitHub ↗
           </Button>
-          <Button href={siteConfig.resume} variant="ghost">
-            Resume ↓
-          </Button>
         </div>
       </div>
     </section>
