@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T10:50:48+00:00",
+ "generated_at": "2026-08-03T15:40:17+00:00",
  "count": 124,
  "items": [
   {
@@ -278,6 +278,33 @@
     "scam-operation"
    ],
    "published": "2026-08-04T00:00:00Z"
+  },
+  {
+   "title": "Cortex completes OSTIF security audit",
+   "url": "https://www.cncf.io/blog/2026/08/03/cortex-completes-ostif-security-audit/",
+   "summary": "The Open Source Technology Improvement Fund is proud to share the results of our security audit of Cortex. Cortex functions as a long-term, multi-tenant scalable open source storage for Prometheus and OpenTelemetry. Thanks to Quarkslab and...",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "personal-relevant",
+    "open-source",
+    "audit",
+    "security"
+   ],
+   "published": "2026-08-03T11:30:00Z"
+  },
+  {
+   "title": "What DMARC Protects You From, and What It Does Not",
+   "url": "https://senderledger.com/articles/what-dmarc-actually-protects-you-from",
+   "summary": "Comments",
+   "score": 7,
+   "category": "other",
+   "tags": [
+    "dmarc",
+    "email security",
+    "authentication"
+   ],
+   "published": "2026-08-03T09:29:46Z"
   },
   {
    "title": "Index Ventures doubles down on AI with fresh $2bn fundraise",
@@ -1429,18 +1456,6 @@
    "published": "2026-07-27T15:34:26Z"
   },
   {
-   "title": "Pittsburgh Supercomputing Center Will Build New Hybrid Quantum-Classical Supercomputer",
-   "url": "https://thequantuminsider.com/2026/07/27/pittsburgh-supercomputing-center-will-build-new-hybrid-quantum-classical-supercomputer/",
-   "summary": "Insider Brief PRESS RELEASE — A hybrid quantum-classical computer will soon operate at the Pittsburgh Supercomputing Center, thanks to a $5-million grant from the National Science Foundation. To deliver on the grant, PSC, HPE, and Rigetti Computing will partner together to build…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "pittsburgh supercomputing center",
-    "hybrid quantum-classical supercomputer"
-   ],
-   "published": "2026-07-27T14:58:45Z"
-  },
-  {
    "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts",
    "url": "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/",
    "summary": "Article URL: https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/ Comments URL: https://news.ycombinator.com/item?id=49070427 Points: 223 # Comments: 266",
@@ -1477,19 +1492,6 @@
     "public health"
    ],
    "published": "2026-07-27T09:30:00Z"
-  },
-  {
-   "title": "Multiverse Computing Announces Series C Fundraising Targeting up to $570 Million",
-   "url": "https://thequantuminsider.com/2026/07/27/multiverse-computing-announces-series-c-fundraising-targeting-up-to-570-million/",
-   "summary": "Insider Brief PRESS RELEASE — Multiverse Computing, the global leader in efficient AI, today announced a $570 million (€500M) Series C funding round at a $1.7 billion (€1.5B) pre-money valuation, a 5x step-up from its Series B. The round is co-led by Forgepoint Capital Internati…",
-   "score": 7,
-   "category": "funding",
-   "tags": [
-    "multiverse computing",
-    "series c",
-    "funding"
-   ],
-   "published": "2026-07-27T09:28:42Z"
   },
   {
    "title": "Clear sighting of ‘wandering’ black hole reveals escapee from galaxy merger",
@@ -1529,19 +1531,6 @@
     "sustainability"
    ],
    "published": "2026-07-27T00:00:00Z"
-  },
-  {
-   "title": "Chinese chipmaker shares surge 470%",
-   "url": "https://www.bbc.com/news/articles/c9q9w3x9qn2o",
-   "summary": "163 points, 147 comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "funding",
-    "chips",
-    "market"
-   ],
-   "published": ""
   },
   {
    "title": "GrapheneOS Defends Data-Wiping Function That Blocked US Border Search",
@@ -1619,6 +1608,21 @@
     "age-verification",
     "hardware-attestation",
     "regulation"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Why we write our own C and C++ inference engines",
+   "url": "https://localai.io/blog/why-we-write-our-own-engines/",
+   "summary": "100 points, 40 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "c",
+    "c++",
+    "personal-relevant",
+    "optimization",
+    "inference engines"
    ],
    "published": ""
   }
