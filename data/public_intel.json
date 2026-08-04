@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-04T04:07:16+00:00",
- "count": 122,
+ "generated_at": "2026-08-04T09:45:31+00:00",
+ "count": 116,
  "items": [
   {
    "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
@@ -54,6 +54,21 @@
     "anthropic"
    ],
    "published": ""
+  },
+  {
+   "title": "PetoiCamp/OpenCat-Quadruped-Robot — An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding & robotics education, IoT rob",
+   "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
+   "summary": "5032★ · C++ · topics: ai, arduino, block-coding, education, iot",
+   "score": 8,
+   "category": "oss",
+   "tags": [
+    "quadruped",
+    "robot",
+    "stem",
+    "iot",
+    "diy"
+   ],
+   "published": "2026-08-04T08:34:59Z"
   },
   {
    "title": "The AI Productivity Gap",
@@ -120,84 +135,6 @@
     "popular"
    ],
    "published": "2026-07-29 04:02:49+00:00"
-  },
-  {
-   "title": "An Extreme Solar Storm May Be Even More Devastating Than Previously Imagined",
-   "url": "https://www.wired.com/story/an-extreme-solar-storm-may-be-even-more-devastating-than-previously-imagined/",
-   "summary": "Scientists have long assumed that there’s an upper limit to the intensity of the solar winds that reach Earth. New research suggests there’s not—and the implications are alarming.",
-   "score": 8,
-   "category": "top-news",
-   "tags": [
-    "solar storm",
-    "space weather",
-    "climate risk"
-   ],
-   "published": "2026-07-28T09:00:00Z"
-  },
-  {
-   "title": "New Firefighting Technologies Could Help Battle Blazes Like Those in France and Spain",
-   "url": "https://www.wired.com/story/firefighting-technologies-battle-wildfires-france-spain/",
-   "summary": "Climate change is upping the odds of major wildfires, creating a need for new tools to combat them.",
-   "score": 8,
-   "category": "top-news",
-   "tags": [
-    "wildfires",
-    "climate change",
-    "firefighting technology"
-   ],
-   "published": "2026-07-27T21:06:54Z"
-  },
-  {
-   "title": "These 5 AI risks have the highest potential for catastrophe",
-   "url": "https://www.axios.com/2026/07/27/mit-study-ai-risks-urgent-weapons-cyber-attacks",
-   "summary": "Data: MIT IT FutureTech and the University of Queensland ; Chart: Herb Scribner/Axios There is a one-in-five chance of AI gaining dangerous weapons capabilities or causing mass harm that could kill millions in the next five years, per global experts surveyed for a recent MIT stu…",
-   "score": 8,
-   "category": "top-news",
-   "tags": [
-    "ai-risks",
-    "cybersecurity",
-    "expert-survey"
-   ],
-   "published": "2026-07-27T21:06:50Z"
-  },
-  {
-   "title": "We’re open-sourcing our privacy proxy CLI",
-   "url": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/",
-   "summary": "pvcli is a curl-like tool designed to simplify the testing of complex privacy protocols like OHTTP.",
-   "score": 8,
-   "category": "tool",
-   "tags": [
-    "open-source",
-    "privacy proxy",
-    "cli"
-   ],
-   "published": "2026-07-27T13:00:00Z"
-  },
-  {
-   "title": "A California aquifer may have crossed the point of no return",
-   "url": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
-   "summary": "Satellite data reveal in unprecedented detail how groundwater reservoirs permanently lose their ability to store water",
-   "score": 8,
-   "category": "research-highlight",
-   "tags": [
-    "environment",
-    "groundwater",
-    "satellite data"
-   ],
-   "published": "2026-07-27T03:00:00Z"
-  },
-  {
-   "title": "Researchers are building computers that run on brain organoids — but have neglected a major ethical issue",
-   "url": "https://www.nature.com/articles/d41586-026-02316-8",
-   "summary": "Nature, Published online: 27 July 2026; doi:10.1038/d41586-026-02316-8 People who give tissue samples for biomedical research might have no idea that their cells are being used for biocomputers.",
-   "score": 8,
-   "category": "top-news",
-   "tags": [
-    "ethics",
-    "biocomputers",
-    "research"
-   ],
-   "published": "2026-07-27T00:00:00Z"
   },
   {
    "title": "Underwater oxygen loss threatens earth's stability, researchers warn",
@@ -293,6 +230,34 @@
    "published": "2026-08-03T15:30:38Z"
   },
   {
+   "title": "China Forms Quantum Standards Committee to Coordinate Industry Development",
+   "url": "https://thequantuminsider.com/2026/08/03/china-quantum-standards-committee/",
+   "summary": "Insider Brief China has established a national technical committee dedicated to quantum information standards, underscoring the country’s effort to build the regulatory and technical framework needed to support its expanding quantum technology sector. The committee, established…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "china",
+    "quantum standards",
+    "industry development"
+   ],
+   "published": "2026-08-03T12:45:00Z"
+  },
+  {
+   "title": "The Download: reward hacking explained, and suspected Iranian cyberattacks",
+   "url": "https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Here’s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Face last month, they weren’t trying to ma…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "cyberattacks",
+    "security",
+    "personal-relevant",
+    "ai",
+    "hacking"
+   ],
+   "published": "2026-08-03T12:08:00Z"
+  },
+  {
    "title": "Cortex completes OSTIF security audit",
    "url": "https://www.cncf.io/blog/2026/08/03/cortex-completes-ostif-security-audit/",
    "summary": "The Open Source Technology Improvement Fund is proud to share the results of our security audit of Cortex. Cortex functions as a long-term, multi-tenant scalable open source storage for Prometheus and OpenTelemetry. Thanks to Quarkslab and...",
@@ -318,6 +283,20 @@
     "ai"
    ],
    "published": "2026-08-03T11:00:43Z"
+  },
+  {
+   "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
+   "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
+   "summary": "An unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit. Attack surface management platform Censys said it identified the threat actor running more than 100 web properti…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "threat actor",
+    "exploit kit",
+    "ios",
+    "personal-relevant"
+   ],
+   "published": "2026-08-03T10:49:06Z"
   },
   {
    "title": "What DMARC Protects You From, and What It Does Not",
@@ -657,6 +636,18 @@
     "gpu"
    ],
    "published": "2026-07-31T16:02:31Z"
+  },
+  {
+   "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
+   "url": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
+   "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Actuate 2026 : 18–19 August 2026,…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "google deepmind",
+    "gemini robotics"
+   ],
+   "published": "2026-07-31T16:00:03Z"
   },
   {
    "title": "A big win for Android interoperability",
@@ -1407,19 +1398,6 @@
    "published": "2026-07-28T11:00:00Z"
   },
   {
-   "title": "Are single GPU research still published in ML/DL and its applications nowadays? Which are the most notable recent ones? [D]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1v8r7ab/are_single_gpu_research_still_published_in_mldl/",
-   "summary": "ML research is progressing at breakneck speed where frontier labs in both academia and industry have access to considerably large computes (GPUs). Where do small labs or independent researchers go in this context? Have you come across recent works in ML/DL and its applications (…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "research",
-    "compute",
-    "gpu"
-   ],
-   "published": "2026-07-28T07:33:05Z"
-  },
-  {
    "title": "It’ll grow on you: live fungi formed into sustainable fashion",
    "url": "https://www.nature.com/articles/d41586-026-02304-y",
    "summary": "Nature, Published online: 28 July 2026; doi:10.1038/d41586-026-02304-y Textile made from fungal filaments can repair itself and is biodegradable.",
@@ -1446,19 +1424,6 @@
    "published": "2026-07-28T00:00:00Z"
   },
   {
-   "title": "Anthropic CEO Dario Amodei says he does not support open-weight AI ban",
-   "url": "https://www.axios.com/2026/07/27/anthropic-open-weight-ban-china-dario-amodei",
-   "summary": "Anthropic CEO Dario Amodei said Monday that he has \"never advocated\" for a ban on open-weight AI models , rejecting accusations that his lab is seeking to shield its closed-model business from competition. Why it matters: Anthropic has become the most prominent holdout from a ne…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "open-weight-ai",
-    "anthropic",
-    "industry-push"
-   ],
-   "published": "2026-07-27T22:44:27Z"
-  },
-  {
    "title": "deerwork-ai/deer-workflow — An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates semantic work to replaceable Agent runtimes.",
    "url": "https://github.com/deerwork-ai/deer-workflow",
    "summary": "348★ · TypeScript · topics: agent, ai, ai-agent, ai-agents, ai-coding",
@@ -1471,45 +1436,6 @@
     "agent"
    ],
    "published": "2026-07-27T15:34:26Z"
-  },
-  {
-   "title": "Measles Is Becoming So Common That Treatments May Soon Be Needed",
-   "url": "https://www.wired.com/story/measles-treatments-soon-needed/",
-   "summary": "As the US sees its highest number of measles cases in decades and vaccination rates fall, researchers are developing drugs to help those who contract the virus or who are particularly vulnerable.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "measles",
-    "vaccination",
-    "public health"
-   ],
-   "published": "2026-07-27T09:30:00Z"
-  },
-  {
-   "title": "Clear sighting of ‘wandering’ black hole reveals escapee from galaxy merger",
-   "url": "https://www.science.org/content/article/clear-sighting-wandering-black-hole-reveals-escapee-galaxy-merger",
-   "summary": "Stripped-down behemoth promises new insights into how galaxies grow, astronomers say",
-   "score": 7,
-   "category": "research-highlight",
-   "tags": [
-    "astronomy",
-    "black hole",
-    "galaxy merger"
-   ],
-   "published": "2026-07-27T04:20:00Z"
-  },
-  {
-   "title": "AI’s top startups are barely publishing their research",
-   "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
-   "summary": "More than half of AI “unicorns” have never published a paper or preprint",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "ai research",
-    "startups",
-    "publication transparency"
-   ],
-   "published": "2026-07-27T02:50:30Z"
   },
   {
    "title": "GrapheneOS Defends Data-Wiping Function That Blocked US Border Search",
