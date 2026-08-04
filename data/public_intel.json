@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-04T09:45:31+00:00",
- "count": 116,
+ "generated_at": "2026-08-04T15:20:22+00:00",
+ "count": 117,
  "items": [
   {
    "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
@@ -163,6 +163,19 @@
    "published": ""
   },
   {
+   "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
+   "url": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
+   "summary": "Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged code-fixing agent. The researchers said the public agent could be prompt…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "google",
+    "adk",
+    "github"
+   ],
+   "published": "2026-08-04T11:16:23Z"
+  },
+  {
    "title": "Disrupting a Criminal Scam Operation",
    "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
    "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
@@ -187,6 +200,32 @@
     "masterclass"
    ],
    "published": "2026-08-03T21:44:03Z"
+  },
+  {
+   "title": "DyFrDet: Towards Accurate Small Object Detection via Dynamic Frequency Suppression with Label Disambiguation",
+   "url": "https://arxiv.org/abs/2608.02495v1",
+   "summary": "Despite the remarkable progress over the past decades, accurately identifying small objects remains challenging because of their insufficient visual cues. Previous works typically attempt to construct discriminative representation of the small objects. However, the wide range fr…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "object detection",
+    "small objects",
+    "frequency domain"
+   ],
+   "published": "2026-08-03T17:01:19Z"
+  },
+  {
+   "title": "Cultural Awareness is Represented but Not Decoded: Tracing Mythological Knowledge across 18 Open-Source LLMs",
+   "url": "https://arxiv.org/abs/2608.02486v1",
+   "summary": "Open-source LLMs reliably name Zeus, Jupiter, and Thor, but recover their counterparts in less-represented traditions like Finnish, Slavic, Egyptian, or Chinese mythology far less consistently. We ask where inside the model this cultural default is produced. On a parallel cross-…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "cultural-awareness",
+    "mythological-knowledge",
+    "open-source-llms"
+   ],
+   "published": "2026-08-03T16:53:15Z"
   },
   {
    "title": "Quoting David Crawshaw's prompt",
@@ -1357,32 +1396,6 @@
     "claude-code"
    ],
    "published": "2026-07-28T14:41:07Z"
-  },
-  {
-   "title": "NordForsk Joins G7 Initiative to Fund International Quantum Technology Research Projects",
-   "url": "https://thequantuminsider.com/2026/07/28/nordforsk-joins-g7-initiative-to-fund-international-quantum-technology-research-projects/",
-   "summary": "Insider Brief NordForsk has joined a new international research initiative with G7 funding agencies to support collaborative quantum technology research, committing funding for Nordic participation in up to 12 international projects spanning quantum computing, communications, se…",
-   "score": 7,
-   "category": "funding",
-   "tags": [
-    "quantum",
-    "funding",
-    "research"
-   ],
-   "published": "2026-07-28T13:33:51Z"
-  },
-  {
-   "title": "Four Quantum Companies Sign-on to New Mexico’s Open-Access Quantum Network",
-   "url": "https://thequantuminsider.com/2026/07/28/four-quantum-companies-sign-on-to-new-mexicos-open-access-quantum-network/",
-   "summary": "Insider Brief PRESS RELEASE — Four leading quantum companies have selected New Mexico’s ABQ-Net, the only open-access entanglement-based quantum network in the United States, to develop and validate next-generation security technologies. Launched through support from the New Mex…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "quantum",
-    "network",
-    "security"
-   ],
-   "published": "2026-07-28T13:05:00Z"
   },
   {
    "title": "Gene may help lizards get a grip in hurricane-force winds",
