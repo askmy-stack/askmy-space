@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-03T20:31:23+00:00",
- "count": 124,
+ "generated_at": "2026-08-04T04:07:16+00:00",
+ "count": 122,
  "items": [
   {
    "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
@@ -135,20 +135,6 @@
    "published": "2026-07-28T09:00:00Z"
   },
   {
-   "title": "quantumlib/qsim — Fast C++ and Python library for state-vector simulation of quantum circuits.",
-   "url": "https://github.com/quantumlib/qsim",
-   "summary": "680★ · C++ · topics: algorithms, api, cirq, cpp, google-quantum",
-   "score": 8,
-   "category": "oss",
-   "tags": [
-    "quantum-computing",
-    "c++",
-    "python",
-    "simulation"
-   ],
-   "published": "2026-07-28T00:19:47Z"
-  },
-  {
    "title": "New Firefighting Technologies Could Help Battle Blazes Like Those in France and Spain",
    "url": "https://www.wired.com/story/firefighting-technologies-battle-wildfires-france-spain/",
    "summary": "Climate change is upping the odds of major wildfires, creating a need for new tools to combat them.",
@@ -214,33 +200,6 @@
    "published": "2026-07-27T00:00:00Z"
   },
   {
-   "title": "0xwilliamortiz/openclaude-improved — runs anywhere. uses anything",
-   "url": "https://github.com/0xwilliamortiz/openclaude-improved",
-   "summary": "577★ · TypeScript · topics: agentic-ai, ai, ai-agent, ai-coding, ai-coding-agent",
-   "score": 8,
-   "category": "oss",
-   "tags": [
-    "personal-relevant",
-    "typescript",
-    "ai-agent",
-    "agentic-ai"
-   ],
-   "published": "2026-07-26T22:22:56Z"
-  },
-  {
-   "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
-   "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
-   "summary": "143 points, 47 comments",
-   "score": 8,
-   "category": "top-news",
-   "tags": [
-    "vulnerability",
-    "exploit",
-    "fleet management"
-   ],
-   "published": ""
-  },
-  {
    "title": "Underwater oxygen loss threatens earth's stability, researchers warn",
    "url": "https://scripps.ucsd.edu/news/underwater-oxygen-loss-threatens-earths-stability-researchers-warn",
    "summary": "138 points, 77 comments",
@@ -280,6 +239,60 @@
    "published": "2026-08-04T00:00:00Z"
   },
   {
+   "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+   "url": "https://www.latent.space/p/inference-eng",
+   "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
+   "score": 7,
+   "category": "event",
+   "tags": [
+    "inference engineering",
+    "baseten",
+    "masterclass"
+   ],
+   "published": "2026-08-03T21:44:03Z"
+  },
+  {
+   "title": "Quoting David Crawshaw's prompt",
+   "url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+   "summary": "Set up a nightly cron job that executes the prompt: fetch upstream changes to the <software> and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version. — David Crawshaw's prompt , Devtools must be open source Tags:…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "generative-ai",
+    "coding-agents",
+    "prompt-engineering",
+    "personal-relevant"
+   ],
+   "published": "2026-08-03T16:15:27Z"
+  },
+  {
+   "title": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage",
+   "url": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/",
+   "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...",
+   "score": 7,
+   "category": "big-tech",
+   "tags": [
+    "benchmarks",
+    "nvidia",
+    "storage",
+    "personal-relevant"
+   ],
+   "published": "2026-08-03T16:00:00Z"
+  },
+  {
+   "title": "Devtools must be open source (exe.dev)",
+   "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+   "summary": "My comment on Devtools must be open source (exe.dev) — Hacker News. One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works. The reality for most people - even expert programmers - has been that the fr…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "open-source",
+    "llms",
+    "prompt-engineering"
+   ],
+   "published": "2026-08-03T15:30:38Z"
+  },
+  {
    "title": "Cortex completes OSTIF security audit",
    "url": "https://www.cncf.io/blog/2026/08/03/cortex-completes-ostif-security-audit/",
    "summary": "The Open Source Technology Improvement Fund is proud to share the results of our security audit of Cortex. Cortex functions as a long-term, multi-tenant scalable open source storage for Prometheus and OpenTelemetry. Thanks to Quarkslab and...",
@@ -294,6 +307,19 @@
    "published": "2026-08-03T11:30:00Z"
   },
   {
+   "title": "‘A Rare Land-Grab Moment’: Menlo Ventures’ Matt Murphy On The Next Wave of AI And Putting $3B In New Capital To Work",
+   "url": "https://news.crunchbase.com/venture/menlo-ventures-matt-murphy-anthropic-ai-investment-thesis/",
+   "summary": "We speak with Menlo Ventures' Matt Murphy about why AI is pushing the firm toward larger deals, what it has learned from its Anthropic relationship, and where he sees the next big opportunities.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "funding",
+    "venture-capital",
+    "ai"
+   ],
+   "published": "2026-08-03T11:00:43Z"
+  },
+  {
    "title": "What DMARC Protects You From, and What It Does Not",
    "url": "https://senderledger.com/articles/what-dmarc-actually-protects-you-from",
    "summary": "Comments",
@@ -305,6 +331,19 @@
     "authentication"
    ],
    "published": "2026-08-03T09:29:46Z"
+  },
+  {
+   "title": "How we built a realtime system for responsive voice AI in six months",
+   "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+   "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+   "score": 7,
+   "category": "research-highlight",
+   "tags": [
+    "realtime-system",
+    "voice-ai",
+    "low-latency"
+   ],
+   "published": "2026-08-03T07:00:00Z"
   },
   {
    "title": "Index Ventures doubles down on AI with fresh $2bn fundraise",
@@ -1418,69 +1457,6 @@
     "industry-push"
    ],
    "published": "2026-07-27T22:44:27Z"
-  },
-  {
-   "title": "Sample complexity of quantum resource testing via one-shot quantum blurring",
-   "url": "https://arxiv.org/abs/2607.24712v1",
-   "summary": "Quantum resource testing is a fundamental primitive of quantum information processing, profoundly connected to resource manipulation. Its goal is to discriminate $n$ copies of a given resourceful state $ρ$ from all free (i.e., resourceless) states; key instances for applications…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "quantum resource testing",
-    "one-shot quantum blurring"
-   ],
-   "published": "2026-07-27T17:51:15Z"
-  },
-  {
-   "title": "Evidence Attribution in Visual Document Understanding without Coordinates or Region Labels",
-   "url": "https://arxiv.org/abs/2607.24651v1",
-   "summary": "Reliable visual document understanding requires a model to attribute each answer to the evidence regions that support it. Recent benchmarks and systems express this step through a coordinate interface: the model outputs the coordinates of bounding boxes that mark the evidence re…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "visual document understanding",
-    "evidence attribution"
-   ],
-   "published": "2026-07-27T16:49:36Z"
-  },
-  {
-   "title": "Efficiency Matters in Autonomous Research",
-   "url": "https://arxiv.org/abs/2607.24647v1",
-   "summary": "AI-driven autonomous research (AR) systems are becoming increasingly effective across a broad range of tasks. Their performance, however, is still evaluated primarily by the quality of the final outcome. In this paper, we argue that the efficiency of the solution-search process…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "autonomous research",
-    "efficiency",
-    "performance evaluation"
-   ],
-   "published": "2026-07-27T16:46:33Z"
-  },
-  {
-   "title": "Verification-Conditioned Use: A Qualitative Study on How Generative AI Reshapes Learning, Autonomy, and Market Entry for Junior Software Developers",
-   "url": "https://arxiv.org/abs/2607.24606v1",
-   "summary": "Objective: to investigate how the use of generative Artificial Intelligence (AI) tools affects the early stages of a career in software development, from the perspective of the newcomers themselves. Method: thirteen interns and junior developers were interviewed individually, by…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "generative ai",
-    "software development",
-    "learning"
-   ],
-   "published": "2026-07-27T16:07:21Z"
-  },
-  {
-   "title": "Evaluating the Impact of Explainable AI on Trust in AI-Assisted Code Review",
-   "url": "https://arxiv.org/abs/2607.24601v1",
-   "summary": "Background: Large language models (LLMs) are increasingly used to automate code review, but the reasoning behind their decisions remains hard to understand. Developers struggle to assess the validity of LLM-generated reviews, making it difficult to gauge how much trust to place…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "explainable ai",
-    "trust in ai",
-    "code review"
-   ],
-   "published": "2026-07-27T16:04:24Z"
   },
   {
    "title": "deerwork-ai/deer-workflow — An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates semantic work to replaceable Agent runtimes.",
