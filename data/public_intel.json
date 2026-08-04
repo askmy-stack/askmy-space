@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-04T15:20:22+00:00",
- "count": 117,
+ "generated_at": "2026-08-04T20:27:28+00:00",
+ "count": 116,
  "items": [
   {
    "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
@@ -161,6 +161,43 @@
     "regulation"
    ],
    "published": ""
+  },
+  {
+   "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+   "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+   "summary": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
+   "score": 7,
+   "category": "funding",
+   "tags": [
+    "cloud partnership",
+    "ai cloud startup"
+   ],
+   "published": "2026-08-04T19:48:40Z"
+  },
+  {
+   "title": "enQase and Light Rider Collaborate on Quantum-Safe Communication Infrastructure",
+   "url": "https://thequantuminsider.com/2026/08/04/enqase-light-rider-quantum-safe-communication-infrastructure/",
+   "summary": "Insider Brief Press release – enQase, a U.S.-based full-stack quantum-safe security platform, and Light Rider Inc., a quantum technology company developing secure communications, quantum entropy, and sovereign quantum infrastructure, today announced a strategic technology partne…",
+   "score": 7,
+   "category": "startup",
+   "tags": [
+    "quantum-safe communication",
+    "partnership",
+    "security"
+   ],
+   "published": "2026-08-04T17:05:00Z"
+  },
+  {
+   "title": "Automated web insight extraction with Amazon Bedrock AgentCore",
+   "url": "https://aws.amazon.com/blogs/machine-learning/automated-web-insight-extraction-with-amazon-bedrock-agentcore/",
+   "summary": "Extracting insights from dozens of websites by hand quickly becomes overwhelming. This post shows how to build an automated web insight extraction solution with Amazon Bedrock AgentCore Browser, Amazon Bedrock, Amazon OpenSearch Serverless, and AWS Lambda that monitors RSS feeds…",
+   "score": 7,
+   "category": "tool",
+   "tags": [
+    "automated insight extraction",
+    "amazon bedrock"
+   ],
+   "published": "2026-08-04T16:02:21Z"
   },
   {
    "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
@@ -1332,20 +1369,6 @@
    "published": "2026-07-28T17:06:24Z"
   },
   {
-   "title": "Might need math+code benchmark for frontier model(LLMs Silently Replace Math)[D]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1v94h9m/might_need_mathcode_benchmark_for_frontier/",
-   "summary": "Hello guys. I found some problems in current frontier models. And want to share. # math_code_hallucination > Record of a failure caused by combining mathematics and code in a single prompt. --- ## Case 1 ### Initial prompt ( `p0` ) If you enter the following prompt: ```python ma…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "math",
-    "code",
-    "benchmark",
-    "llm"
-   ],
-   "published": "2026-07-28T17:05:17Z"
-  },
-  {
    "title": "From Role Prompt to Infinite Thinking: Exploiting Persona Conditioning for Inference Cost Attacks in LLMs",
    "url": "https://arxiv.org/abs/2607.25936v1",
    "summary": "LLMs are increasingly deployed in real-world applications, making inference efficiency and service reliability critical concerns due to their substantial computational costs. However, the autoregressive generation mechanism of LLMs enables malicious prompts to manipulate generat…",
@@ -1369,19 +1392,6 @@
     "task-technology fit"
    ],
    "published": "2026-07-28T16:13:15Z"
-  },
-  {
-   "title": "A walk through of the DeltaNet family of linear attention variants",
-   "url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
-   "summary": "Article URL: https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention Comments URL: https://news.ycombinator.com/item?id=49085909 Points: 246 # Comments: 101",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "linear attention variants",
-    "deltanet",
-    "kimi"
-   ],
-   "published": "2026-07-28T16:02:07Z"
   },
   {
    "title": "0xwilliamortiz/ponytail-improved — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
@@ -1411,19 +1421,6 @@
    "published": "2026-07-28T11:00:00Z"
   },
   {
-   "title": "It’ll grow on you: live fungi formed into sustainable fashion",
-   "url": "https://www.nature.com/articles/d41586-026-02304-y",
-   "summary": "Nature, Published online: 28 July 2026; doi:10.1038/d41586-026-02304-y Textile made from fungal filaments can repair itself and is biodegradable.",
-   "score": 7,
-   "category": "research-highlight",
-   "tags": [
-    "biotechnology",
-    "fashion",
-    "sustainability"
-   ],
-   "published": "2026-07-28T00:00:00Z"
-  },
-  {
    "title": "Conversational AI: align commercial incentives with public interests",
    "url": "https://www.nature.com/articles/d41586-026-02348-0",
    "summary": "Nature, Published online: 28 July 2026; doi:10.1038/d41586-026-02348-0 Conversational AI: align commercial incentives with public interests",
@@ -1449,19 +1446,6 @@
     "agent"
    ],
    "published": "2026-07-27T15:34:26Z"
-  },
-  {
-   "title": "GrapheneOS Defends Data-Wiping Function That Blocked US Border Search",
-   "url": "https://www.pcmag.com/news/grapheneos-defends-data-wiping-function-that-blocked-us-border-search",
-   "summary": "126 points, 150 comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "grapheneos",
-    "border search",
-    "data protection"
-   ],
-   "published": ""
   },
   {
    "title": "A.I. companies are recruiting electricians and carpenters by the thousands",
