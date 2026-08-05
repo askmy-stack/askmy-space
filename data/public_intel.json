@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-05T15:11:46+00:00",
- "count": 116,
+ "generated_at": "2026-08-05T20:30:25+00:00",
+ "count": 113,
  "items": [
   {
    "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
@@ -137,6 +137,32 @@
    "published": ""
   },
   {
+   "title": "Do LLMs make ML research more fair for small teams? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1vgh075/do_llms_make_ml_research_more_fair_for_small/",
+   "summary": "It feels like LLMs are partially leveling the playing field in ML research. A solo researcher or a two-person team can now get help with coding, literature review, writing things stronger labs usually get from experienced colleagues and large networks. Obviously, LLMs don’t repl…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "research",
+    "fairness",
+    "accessibility"
+   ],
+   "published": "2026-08-05T19:16:29Z"
+  },
+  {
+   "title": "Trojanized npm Packages Decode C2 IP From Ethereum Recipient Addresses",
+   "url": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
+   "summary": "Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer. The new dead drop resolver approach, ob…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "trojanized npm packages",
+    "ethereum",
+    "command and control"
+   ],
+   "published": "2026-08-05T13:41:27Z"
+  },
+  {
    "title": "Your AI Strategy May Be Destroying Your Exit Value",
    "url": "https://news.crunchbase.com/ai/strategies-enhancing-exit-value-acquisitions-sagie/",
    "summary": "While integrating AI into a startup's product strategy is often viewed as a way to enhance valuation, it can inadvertently reduce exit value, argues tech strategic adviser Itay Sagie. In this guest commentary he shares three ways your AI strategy can provide a positive impact on…",
@@ -148,6 +174,19 @@
     "startups"
    ],
    "published": "2026-08-05T11:00:37Z"
+  },
+  {
+   "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+   "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+   "summary": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploiting a software vulnerability. We scanned public GitHub com…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "n8n api tokens",
+    "credential theft",
+    "github commits"
+   ],
+   "published": "2026-08-05T10:35:29Z"
   },
   {
    "title": "A New Device Eases One of the Most Annoying Parts of Routine Physicals",
@@ -1224,20 +1263,6 @@
    "published": "2026-07-30 03:53:16+00:00"
   },
   {
-   "title": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
-   "url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
-   "summary": "Andon Labs' latest vending machine simulation shows Opus 5 lied and colluded its way to become the best AI capitalist ever.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "personal-relevant",
-    "simulation",
-    "ai",
-    "vending machine"
-   ],
-   "published": "2026-07-29T18:45:27Z"
-  },
-  {
    "title": "Function Privatization in the Local Model",
    "url": "https://arxiv.org/abs/2607.27164v1",
    "summary": "We study the problem of privately releasing functions, with a particular focus on curves, which are images of continuous functions on some finite interval. Many types of data exist naturally as curves, such as trajectory data or $1$D density curves. We shall primarily be interes…",
@@ -1289,19 +1314,6 @@
    "published": "2026-07-29T16:49:25Z"
   },
   {
-   "title": "Keychron announces first open-source firmware for gaming mice",
-   "url": "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice",
-   "summary": "Comments",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "open-source",
-    "gaming-mice",
-    "firmware"
-   ],
-   "published": "2026-07-29T16:36:59Z"
-  },
-  {
    "title": "Sky sphere representation in language models",
    "url": "https://arxiv.org/abs/2607.27092v1",
    "summary": "We analyze whether language models of size ~100B have a representation of the night sky map that is decodable from their residual stream. We find that most of the considered open-source models do have such a representation, and it often even surfaces to the top principal compone…",
@@ -1312,33 +1324,6 @@
     "sky sphere representation"
    ],
    "published": "2026-07-29T16:19:43Z"
-  },
-  {
-   "title": "Generate Autonomous Business Insights with AI Agent and MCP Servers",
-   "url": "https://aws.amazon.com/blogs/machine-learning/generate-autonomous-business-insights-with-ai-agent-and-mcp-servers/",
-   "summary": "Learn how Amazon Bedrock AgentCore delivers autonomous, cross-system business intelligence through configuration rather than custom code. Using pre-built MCP server connectors, fine-grained access control, and persistent memory, enterprises can query multiple data sources with n…",
-   "score": 7,
-   "category": "big-tech",
-   "tags": [
-    "personal-relevant",
-    "mcp servers",
-    "ai agent",
-    "autonomous business insights"
-   ],
-   "published": "2026-07-29T15:34:18Z"
-  },
-  {
-   "title": "My LLM kept implementing every method it found, so I added research and specification gates[D]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1v9ib5f/my_llm_kept_implementing_every_method_it_found_so/",
-   "summary": "While building this workflow a thing that surprised me was that, initially I thought the pipeline was complete: From Goal to → Decompose → Research → Specification → Implementation It successfully broke the problem into relevant blocks, it found research for each block, and it p…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "llm",
-    "research",
-    "implementation"
-   ],
-   "published": "2026-07-29T01:54:42Z"
   },
   {
    "title": "Diverse bacterial pattern recognition receptors sense the core phage proteome",
@@ -1355,20 +1340,6 @@
    "published": "2026-07-29T00:00:00Z"
   },
   {
-   "title": "jomasego/repro-warmserve-enabling-one-for-many-gpu-prewarming-for-multi-llm-serving",
-   "url": "https://huggingface.co/spaces/jomasego/repro-warmserve-enabling-one-for-many-gpu-prewarming-for-multi-llm-serving",
-   "summary": "0 likes · static",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "personal-relevant",
-    "hugging-face",
-    "gpu-prewarming",
-    "multi-llm-serving"
-   ],
-   "published": "2026-07-29 20:13:33+00:00"
-  },
-  {
    "title": "deerwork-ai/deer-workflow — An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates semantic work to replaceable Agent runtimes.",
    "url": "https://github.com/deerwork-ai/deer-workflow",
    "summary": "348★ · TypeScript · topics: agent, ai, ai-agent, ai-agents, ai-coding",
@@ -1381,20 +1352,6 @@
     "agent"
    ],
    "published": "2026-07-27T15:34:26Z"
-  },
-  {
-   "title": "A.I. companies are recruiting electricians and carpenters by the thousands",
-   "url": "https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html",
-   "summary": "130 points, 180 comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "ai",
-    "recruitment",
-    "electricians",
-    "carpenters"
-   ],
-   "published": ""
   },
   {
    "title": "1,741 \"informed\" consents with one click? GDPR complaint filed",
