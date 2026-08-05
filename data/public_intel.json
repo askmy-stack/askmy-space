@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-05T09:43:38+00:00",
- "count": 119,
+ "generated_at": "2026-08-05T15:11:46+00:00",
+ "count": 116,
  "items": [
   {
    "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
@@ -135,6 +135,19 @@
     "regulation"
    ],
    "published": ""
+  },
+  {
+   "title": "Your AI Strategy May Be Destroying Your Exit Value",
+   "url": "https://news.crunchbase.com/ai/strategies-enhancing-exit-value-acquisitions-sagie/",
+   "summary": "While integrating AI into a startup's product strategy is often viewed as a way to enhance valuation, it can inadvertently reduce exit value, argues tech strategic adviser Itay Sagie. In this guest commentary he shares three ways your AI strategy can provide a positive impact on…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai strategy",
+    "exit value",
+    "startups"
+   ],
+   "published": "2026-08-05T11:00:37Z"
   },
   {
    "title": "A New Device Eases One of the Most Annoying Parts of Routine Physicals",
@@ -1313,60 +1326,6 @@
     "autonomous business insights"
    ],
    "published": "2026-07-29T15:34:18Z"
-  },
-  {
-   "title": "The Growing Quantum Security Challenge Facing Bitcoin and Digital Assets",
-   "url": "https://thequantuminsider.com/2026/07/29/growing-quantum-security-challenge-bitcoin-digital-assets/",
-   "summary": "Insider Brief Quantum computers and encryption debates normally revolve around governmental communications, banking systems, or healthcare data. The role of cryptocurrencies remains underexamined; however, a Google Quantum AI paper released in March 2026 hints at potential probl…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "quantum",
-    "security",
-    "bitcoin",
-    "digital assets"
-   ],
-   "published": "2026-07-29T14:24:22Z"
-  },
-  {
-   "title": "EY Announces On-Site Quantum Computing",
-   "url": "https://thequantuminsider.com/2026/07/29/ey-announces-on-site-quantum-computing/",
-   "summary": "Insider Brief PRESS RELEASE — The EY organization (EY) announces the expansion of its global quantum computing capabilities with the addition of an on-site quantum computer led by EY Canada and part of a global investment of more than US$3b in AI and other next frontier technolo…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "quantum",
-    "on-site",
-    "computing",
-    "ey"
-   ],
-   "published": "2026-07-29T13:53:28Z"
-  },
-  {
-   "title": "Horizon Quantum Partners With Quantum Machines to Improve Quantum Computer Operations",
-   "url": "https://thequantuminsider.com/2026/07/29/horizon-quantum-quantum-machines-calibration-technology/",
-   "summary": "Insider Brief Press release – Horizon Quantum Computing Pte. Ltd., the wholly-owned subsidiary of Horizon Quantum Holdings Ltd. (Nasdaq: HQ) (“Horizon Quantum”), a pioneer of software infrastructure for quantum applications and Q.M Technologies Ltd. (“Quantum Machines” or QM”),…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "quantum-computing",
-    "partnership",
-    "calibration-technology"
-   ],
-   "published": "2026-07-29T12:18:44Z"
-  },
-  {
-   "title": "The Sweet Science: Why The AI Era Belongs To Middleweights",
-   "url": "https://news.crunchbase.com/ai/era-middle-market-contenders-bernstein-ftv/",
-   "summary": "The biggest long-term gains from AI will not flow to heavyweight incumbents or many AI-native startups but to scrappy middle-market technology companies, the middleweights, argues Brad Bernstein, managing partner at FTV Capital. In this guest column he shares the five traits the…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai",
-    "middleweights",
-    "technology"
-   ],
-   "published": "2026-07-29T11:00:03Z"
   },
   {
    "title": "My LLM kept implementing every method it found, so I added research and specification gates[D]",
