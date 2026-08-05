@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-04T20:27:28+00:00",
- "count": 116,
+ "generated_at": "2026-08-05T04:02:09+00:00",
+ "count": 121,
  "items": [
   {
    "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
@@ -237,6 +237,19 @@
     "masterclass"
    ],
    "published": "2026-08-03T21:44:03Z"
+  },
+  {
+   "title": "LLMs reward expertise",
+   "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+   "summary": "Article URL: https://www.seangoedecke.com/llms-reward-expertise/ Comments URL: https://news.ycombinator.com/item?id=49161518 Points: 573 # Comments: 247",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "expertise",
+    "llm",
+    "human-centric"
+   ],
+   "published": "2026-08-03T21:13:53Z"
   },
   {
    "title": "DyFrDet: Towards Accurate Small Object Detection via Dynamic Frequency Suppression with Label Disambiguation",
@@ -1525,6 +1538,58 @@
     "personal-relevant",
     "optimization",
     "inference engines"
+   ],
+   "published": ""
+  },
+  {
+   "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
+   "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
+   "summary": "161 points, 118 comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "cybercrime",
+    "ai",
+    "africa",
+    "interpol"
+   ],
+   "published": ""
+  },
+  {
+   "title": "\"Clean\" Code, Horrible Performance (2023)",
+   "url": "https://www.computerenhance.com/p/clean-code-horrible-performance",
+   "summary": "121 points, 127 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "performance optimization",
+    "personal-relevant",
+    "code quality"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Why Large Language Models Fail at Tabular Prediction",
+   "url": "https://arxiv.org/abs/2608.02412",
+   "summary": "100 points, 31 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "large language models",
+    "tabular prediction"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Most tech revolutions made work worse for employees",
+   "url": "https://www.thisandthat.chat/blog/most-tech-revolutions-made-work-worse-for-employees/",
+   "summary": "101 points, 105 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "work",
+    "technology",
+    "employee experience"
    ],
    "published": ""
   }
