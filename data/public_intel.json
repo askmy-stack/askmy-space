@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-05T04:02:09+00:00",
- "count": 121,
+ "generated_at": "2026-08-05T09:43:38+00:00",
+ "count": 119,
  "items": [
   {
    "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
@@ -124,32 +124,6 @@
    "published": "2026-08-01T11:41:49Z"
   },
   {
-   "title": "inclusionAI/OpenAoE-2000h",
-   "url": "https://huggingface.co/datasets/inclusionAI/OpenAoE-2000h",
-   "summary": "34529 downloads · dataset",
-   "score": 8,
-   "category": "oss",
-   "tags": [
-    "dataset",
-    "huggingface",
-    "popular"
-   ],
-   "published": "2026-07-29 04:02:49+00:00"
-  },
-  {
-   "title": "Underwater oxygen loss threatens earth's stability, researchers warn",
-   "url": "https://scripps.ucsd.edu/news/underwater-oxygen-loss-threatens-earths-stability-researchers-warn",
-   "summary": "138 points, 77 comments",
-   "score": 8,
-   "category": "research-highlight",
-   "tags": [
-    "environment",
-    "sustainability",
-    "ecosystem"
-   ],
-   "published": ""
-  },
-  {
    "title": "Californians' data deletion requests, DROP, become enforceable Aug. 1",
    "url": "https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/",
    "summary": "117 points, 53 comments",
@@ -161,6 +135,19 @@
     "regulation"
    ],
    "published": ""
+  },
+  {
+   "title": "A New Device Eases One of the Most Annoying Parts of Routine Physicals",
+   "url": "https://www.wired.com/story/iris-nodoca-ai-throat-exam-routine-physical/",
+   "summary": "Nobody likes getting a swab shoved up their nose. A startup in Japan has developed a much less intrusive system.",
+   "score": 7,
+   "category": "startup",
+   "tags": [
+    "medical devices",
+    "innovation",
+    "healthcare technology"
+   ],
+   "published": "2026-08-05T09:00:00Z"
   },
   {
    "title": "Anthropic signs $10B deal with AI cloud startup Volta",
@@ -188,6 +175,32 @@
    "published": "2026-08-04T17:05:00Z"
   },
   {
+   "title": "Why do we need social singularity? A mechanism-based critique of gradual scenarios in AI existential-risk discourse",
+   "url": "https://arxiv.org/abs/2608.03904v1",
+   "summary": "This paper critiques recent gradual and cumulative AI existential-risk scenarios, arguing that, despite their substantive contributions, they remain insufficiently sociologically specified. In particular, these scenarios lack a reflexive perspective, retain a largely technologic…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "ai existential risk",
+    "social singularity",
+    "sociology"
+   ],
+   "published": "2026-08-04T16:30:12Z"
+  },
+  {
+   "title": "CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+   "url": "https://arxiv.org/abs/2608.03890v1",
+   "summary": "A clinically useful chest X-ray system must go beyond fluent report generation: it should classify findings with tunable decision thresholds, localize them spatially, and derive the anatomical measurements upon which many diagnoses depend. Today's Vision-Language Models (VLMs) t…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "radiology",
+    "vision-language models",
+    "auxiliary supervision"
+   ],
+   "published": "2026-08-04T16:23:39Z"
+  },
+  {
    "title": "Automated web insight extraction with Amazon Bedrock AgentCore",
    "url": "https://aws.amazon.com/blogs/machine-learning/automated-web-insight-extraction-with-amazon-bedrock-agentcore/",
    "summary": "Extracting insights from dozens of websites by hand quickly becomes overwhelming. This post shows how to build an automated web insight extraction solution with Amazon Bedrock AgentCore Browser, Amazon Bedrock, Amazon OpenSearch Serverless, and AWS Lambda that monitors RSS feeds…",
@@ -198,6 +211,19 @@
     "amazon bedrock"
    ],
    "published": "2026-08-04T16:02:21Z"
+  },
+  {
+   "title": "Your agent can now debug Workers with local tracing",
+   "url": "https://blog.cloudflare.com/local-tracing/",
+   "summary": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required.",
+   "score": 7,
+   "category": "tool",
+   "tags": [
+    "debugging",
+    "workers",
+    "local tracing"
+   ],
+   "published": "2026-08-04T13:00:00Z"
   },
   {
    "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
@@ -211,6 +237,32 @@
     "github"
    ],
    "published": "2026-08-04T11:16:23Z"
+  },
+  {
+   "title": "How Data Centers Broke American Politics",
+   "url": "https://www.wired.com/story/how-data-centers-broke-american-politics/",
+   "summary": "What the Unabomber, Steve Bannon’s tech guy, and Bernie Sanders taught me about the great data center backlash of 2026.",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "politics",
+    "data centers",
+    "society"
+   ],
+   "published": "2026-08-04T10:00:00Z"
+  },
+  {
+   "title": "With lucky dive, scientists get a front-row view of the creation of Earth’s surface",
+   "url": "https://www.science.org/content/article/lucky-dive-scientists-get-front-row-view-creation-earth-s-surface",
+   "summary": "Chance—and preparation—reveal live action at midocean ridges",
+   "score": 7,
+   "category": "research-highlight",
+   "tags": [
+    "earth science",
+    "geology",
+    "oceanography"
+   ],
+   "published": "2026-08-04T05:01:00Z"
   },
   {
    "title": "Disrupting a Criminal Scam Operation",
@@ -1330,18 +1382,6 @@
    "published": "2026-07-29T01:54:42Z"
   },
   {
-   "title": "Papers with open peer-review reports are less likely to be retracted",
-   "url": "https://www.nature.com/articles/d41586-026-02282-1",
-   "summary": "Nature, Published online: 29 July 2026; doi:10.1038/d41586-026-02282-1 Researchers say that transparent publishing practices could be associated with research quality, but more evidence is needed.",
-   "score": 7,
-   "category": "research-highlight",
-   "tags": [
-    "open peer review",
-    "research quality"
-   ],
-   "published": "2026-07-29T00:00:00Z"
-  },
-  {
    "title": "Diverse bacterial pattern recognition receptors sense the core phage proteome",
    "url": "https://www.nature.com/articles/s41586-026-10852-6",
    "summary": "Nature, Published online: 29 July 2026; doi:10.1038/s41586-026-10852-6 Systematic analysis of prokaryotic STAND NTPases — relatives of animal and plant immune receptors — uncovers diverse antiviral sensors that detect most of the core structural and replicative proteins of bacte…",
@@ -1368,83 +1408,6 @@
     "multi-llm-serving"
    ],
    "published": "2026-07-29 20:13:33+00:00"
-  },
-  {
-   "title": "Untangling Co-Drift: Proactive Multi-Intent Failure Prediction and Root-Cause Disambiguation for Self-Driving Networks",
-   "url": "https://arxiv.org/abs/2607.25989v1",
-   "summary": "The vision of self-driving networks that monitor, reason, and act upon themselves with minimal human intervention relies on tightly coupled monitoring, analytics, and actuation functions. In this work, we treat these functions as three operational macro-intents: continuous telem…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "self-driving networks",
-    "proactive failure prediction"
-   ],
-   "published": "2026-07-28T17:06:24Z"
-  },
-  {
-   "title": "From Role Prompt to Infinite Thinking: Exploiting Persona Conditioning for Inference Cost Attacks in LLMs",
-   "url": "https://arxiv.org/abs/2607.25936v1",
-   "summary": "LLMs are increasingly deployed in real-world applications, making inference efficiency and service reliability critical concerns due to their substantial computational costs. However, the autoregressive generation mechanism of LLMs enables malicious prompts to manipulate generat…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "persona conditioning",
-    "inference cost attacks"
-   ],
-   "published": "2026-07-28T16:20:01Z"
-  },
-  {
-   "title": "Faster, Higher, Stronger? The Impact of GenAI on Knowledge Work Productivity - Evidence from the Field",
-   "url": "https://arxiv.org/abs/2607.25922v1",
-   "summary": "The rise of generative artificial intelligence (GenAI) has fueled high expectations regarding its potential to enhance knowledge work productivity in terms of efficiency and quality. Building on task-technology fit (TTF) theory, we empirically examine the extent of GenAI's produ…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "generative ai",
-    "knowledge work productivity",
-    "task-technology fit"
-   ],
-   "published": "2026-07-28T16:13:15Z"
-  },
-  {
-   "title": "0xwilliamortiz/ponytail-improved — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-   "url": "https://github.com/0xwilliamortiz/ponytail-improved",
-   "summary": "475★ · JavaScript · topics: agent-skills, claude-code, claude-code-plugin, claude-code-skill, claude-skills",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "personal-relevant",
-    "ai-agent",
-    "javascript",
-    "claude-code"
-   ],
-   "published": "2026-07-28T14:41:07Z"
-  },
-  {
-   "title": "Gene may help lizards get a grip in hurricane-force winds",
-   "url": "https://www.science.org/content/article/gene-may-help-lizards-get-grip-hurricane-force-winds",
-   "summary": "“Huge” new study of Caribbean anole populations catches evolution in real time",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "evolution",
-    "biology",
-    "lizards"
-   ],
-   "published": "2026-07-28T11:00:00Z"
-  },
-  {
-   "title": "Conversational AI: align commercial incentives with public interests",
-   "url": "https://www.nature.com/articles/d41586-026-02348-0",
-   "summary": "Nature, Published online: 28 July 2026; doi:10.1038/d41586-026-02348-0 Conversational AI: align commercial incentives with public interests",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "conversational ai",
-    "public interest",
-    "commercial incentives"
-   ],
-   "published": "2026-07-28T00:00:00Z"
   },
   {
    "title": "deerwork-ai/deer-workflow — An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates semantic work to replaceable Agent runtimes.",
@@ -1590,6 +1553,19 @@
     "work",
     "technology",
     "employee experience"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Bending Spoons makes first post-IPO acquisition with $1.3B Airtable deal",
+   "url": "https://live.euronext.com/en/financial-news/bending-spoons-makes-first-post-ipo-acquisition-13-billion-airtable-deal",
+   "summary": "102 points, 98 comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "acquisition",
+    "airtable",
+    "bending spoons"
    ],
    "published": ""
   }
