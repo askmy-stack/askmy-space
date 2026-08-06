@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-06T09:46:43+00:00",
+ "generated_at": "2026-08-06T15:10:21+00:00",
  "count": 104,
  "items": [
   {
@@ -107,6 +107,44 @@
     "scam disruption"
    ],
    "published": "2026-08-05T18:33:47Z"
+  },
+  {
+   "title": "Constructing Non-Hermitian Theories with Tunable Exceptional Points and Controlled State Purification",
+   "url": "https://arxiv.org/abs/2608.05052v1",
+   "summary": "Exceptional points (EP's) are a hallmark of non-Hermitian quantum systems. We show that momentum-space deformation provides a general design principle for creating and controlling EP's in quadratic many-body Hamiltonians. We identify universal criteria for the momentum sectors t…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "non-hermitian theories",
+    "exceptional points"
+   ],
+   "published": "2026-08-05T17:00:23Z"
+  },
+  {
+   "title": "Language Models Generalize to Human-like Word Order Preferences",
+   "url": "https://arxiv.org/abs/2608.05028v1",
+   "summary": "A central question in language acquisition is whether linguistic biases can emerge from general learning mechanisms operating over underdetermined input. Artificial Language Learning (ALL) studies have shown that human learners reliably generalize beyond the evidence provided, i…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "language models",
+    "human-like word order preferences",
+    "generalization"
+   ],
+   "published": "2026-08-05T16:33:46Z"
+  },
+  {
+   "title": "Canonical Joint Energy-Based Model on CIFAR-10: failure modes and practical indistinguishability of Predictor-Corrector and SGLD samplers",
+   "url": "https://arxiv.org/abs/2608.05025v1",
+   "summary": "Joint Energy-Based Models (JEM) unify classification and generation within a single network and support out-of-distribution (OOD) detection. Canonical JEM training relies on stochastic gradient Langevin dynamics (SGLD); a theoretically motivated alternative, the Predictor-Correc…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "energy-based models",
+    "sampling",
+    "cifar-10"
+   ],
+   "published": "2026-08-05T16:28:57Z"
   },
   {
    "title": "Demis Hassabis is moving from CEO to Chairman at Google DeepMind",
@@ -1143,18 +1181,6 @@
    "published": "2026-07-30T16:20:30Z"
   },
   {
-   "title": "Pusan National University Researchers Have Developed a Hybrid Quantum Network with Indistinguishable Quantum Sources",
-   "url": "https://thequantuminsider.com/2026/07/30/pusan-national-university-researchers-have-developed-a-hybrid-quantum-network-with-indistinguishable-quantum-sources/",
-   "summary": "Insider Brief Press release – Large-scale quantum communication networks require both reliable quantum memories and coherent single-photon sources for efficient quantum information exchange. While various single photon sources have been developed recently, each has inherent limi…",
-   "score": 7,
-   "category": "breakthrough",
-   "tags": [
-    "hybrid quantum network",
-    "indistinguishable quantum sources"
-   ],
-   "published": "2026-07-30T14:29:14Z"
-  },
-  {
    "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
    "url": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/",
    "summary": "We moved cdnjs, serving 9 billion requests a day, entirely onto Cloudflare's Developer Platform. That means we’re running one of the Internet's busiest open-source CDNs on our own building blocks, and we pushed Workflows and Workers limits higher for everyone.",
@@ -1166,19 +1192,6 @@
     "migration"
    ],
    "published": "2026-07-30T13:00:00Z"
-  },
-  {
-   "title": "The Network Has Become the Control Plane for AI Security",
-   "url": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
-   "summary": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a relatively stable model: users connect t…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "security",
-    "network",
-    "ai"
-   ],
-   "published": "2026-07-30T11:32:46Z"
   },
   {
    "title": "Should You Use AI for a Task? Here’s a Simple Way to Decide",
@@ -1205,19 +1218,6 @@
     "outbreak"
    ],
    "published": "2026-07-30T05:40:00Z"
-  },
-  {
-   "title": "Demand for lithium is surging: here’s how to make mining more sustainable",
-   "url": "https://www.nature.com/articles/d41586-026-02195-z",
-   "summary": "Nature, Published online: 30 July 2026; doi:10.1038/d41586-026-02195-z Researchers are looking for ways to extract the metal from underground reservoirs that use less water.",
-   "score": 7,
-   "category": "research-highlight",
-   "tags": [
-    "lithium mining",
-    "sustainability",
-    "environment"
-   ],
-   "published": "2026-07-30T00:00:00Z"
   },
   {
    "title": "Somatic mutations reveal the ontogeny of microglia in human aging",
