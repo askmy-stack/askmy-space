@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-06T04:09:06+00:00",
- "count": 103,
+ "generated_at": "2026-08-06T09:46:43+00:00",
+ "count": 104,
  "items": [
   {
    "title": "PetoiCamp/OpenCat-Quadruped-Robot — An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding & robotics education, IoT rob",
@@ -97,6 +97,31 @@
    "published": "2026-08-05T19:16:29Z"
   },
   {
+   "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+   "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+   "summary": "OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes. To that end, it banned a coordinated network of…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "chatgpt",
+    "scam disruption"
+   ],
+   "published": "2026-08-05T18:33:47Z"
+  },
+  {
+   "title": "Demis Hassabis is moving from CEO to Chairman at Google DeepMind",
+   "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+   "summary": "Article URL: https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai Comments URL: https://news.ycombinator.com/item?id=49184757 Points: 369 # Comments: 1",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "google",
+    "deepmind",
+    "demishassabis"
+   ],
+   "published": "2026-08-05T16:05:37Z"
+  },
+  {
    "title": "Trojanized npm Packages Decode C2 IP From Ethereum Recipient Addresses",
    "url": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
    "summary": "Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer. The new dead drop resolver approach, ob…",
@@ -108,6 +133,31 @@
     "command and control"
    ],
    "published": "2026-08-05T13:41:27Z"
+  },
+  {
+   "title": "Thailand Launches Quantum Club Thailand to Support Quantum Technology Development",
+   "url": "https://thequantuminsider.com/2026/08/05/thailand-launches-quantum-club-thailand-national-platform/",
+   "summary": "Insider Brief Thailand launched a national quantum technology collaboration platform called “Quantum Club Thailand” in Bangkok on August 3, 2026. The platform combines the Ministry of Higher Education, Science, Research and Innovation (MHESI), Charoen Pokphand Group, Arise, True…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "quantum technology",
+    "thailand",
+    "quantum club"
+   ],
+   "published": "2026-08-05T11:30:59Z"
+  },
+  {
+   "title": "Position: LLMs Can't Jump",
+   "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+   "summary": "Comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "llms",
+    "ai-limitations"
+   ],
+   "published": "2026-08-05T11:01:37Z"
   },
   {
    "title": "Your AI Strategy May Be Destroying Your Exit Value",
@@ -160,6 +210,19 @@
     "healthcare technology"
    ],
    "published": "2026-08-05T09:00:00Z"
+  },
+  {
+   "title": "U.S. nears Hormuz deal, aiming for Wednesday announcement",
+   "url": "https://www.axios.com/2026/08/05/us-iran-strait-of-hormuz-deal-nears",
+   "summary": "The U.S., Iran and Oman are closing in on an interim agreement to reopen the Strait of Hormuz, with the U.S. aiming for a Wednesday announcement, according to two regional sources and a U.S. official. Why it matters: The deal, which has been under negotiations for several weeks,…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "geopolitics",
+    "iran",
+    "strait-of-hormuz"
+   ],
+   "published": "2026-08-05T02:00:21Z"
   },
   {
    "title": "Anthropic signs $10B deal with AI cloud startup Volta",
@@ -1144,19 +1207,6 @@
    "published": "2026-07-30T05:40:00Z"
   },
   {
-   "title": "U.S. launches fresh airstrikes in Iran",
-   "url": "https://www.axios.com/2026/07/29/us-airstrikes-iran-trump-resume",
-   "summary": "The U.S. military conducted \"a heavy wave\" of airstrikes in Iran on Wednesday evening, U.S. Central Command said in a statement . Why it matters: These are the first U.S. strikes in Iran since President Trump paused the bombing campaign Friday to give negotiations another chance…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "iran",
-    "us-military",
-    "airstrikes"
-   ],
-   "published": "2026-07-30T02:45:51Z"
-  },
-  {
    "title": "Demand for lithium is surging: here’s how to make mining more sustainable",
    "url": "https://www.nature.com/articles/d41586-026-02195-z",
    "summary": "Nature, Published online: 30 July 2026; doi:10.1038/d41586-026-02195-z Researchers are looking for ways to extract the metal from underground reservoirs that use less water.",
@@ -1194,47 +1244,6 @@
     "europe"
    ],
    "published": "2026-07-30T00:00:00Z"
-  },
-  {
-   "title": "LickyArc/arXiv-transformer-multimodal-rag",
-   "url": "https://huggingface.co/datasets/LickyArc/arXiv-transformer-multimodal-rag",
-   "summary": "1587 downloads · dataset",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "dataset",
-    "multimodal",
-    "personal-relevant",
-    "rag"
-   ],
-   "published": "2026-07-30 09:33:05+00:00"
-  },
-  {
-   "title": "Diverse bacterial pattern recognition receptors sense the core phage proteome",
-   "url": "https://www.nature.com/articles/s41586-026-10852-6",
-   "summary": "Nature, Published online: 29 July 2026; doi:10.1038/s41586-026-10852-6 Systematic analysis of prokaryotic STAND NTPases — relatives of animal and plant immune receptors — uncovers diverse antiviral sensors that detect most of the core structural and replicative proteins of bacte…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "bacterial",
-    "pattern",
-    "recognition",
-    "receptors"
-   ],
-   "published": "2026-07-29T00:00:00Z"
-  },
-  {
-   "title": "1,741 \"informed\" consents with one click? GDPR complaint filed",
-   "url": "https://noyb.eu/en/1741-informed-consents-one-click-gdpr-complaint-against-dictcc-filed",
-   "summary": "131 points, 67 comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "gdpr",
-    "compliance",
-    "regulation"
-   ],
-   "published": ""
   },
   {
    "title": "Moonshot’s Kimi uses 20k Nvidia chip cluster from Alibaba",
