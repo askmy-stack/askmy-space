@@ -1,60 +1,7 @@
 {
- "generated_at": "2026-08-05T20:30:25+00:00",
- "count": 113,
+ "generated_at": "2026-08-06T04:09:06+00:00",
+ "count": 103,
  "items": [
-  {
-   "title": "I built ganfs: A Python package that uses GANs to automate feature selection for high-dimensional datasets. (No domain expert required) [P] [R]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1vahcwo/i_built_ganfs_a_python_package_that_uses_gans_to/",
-   "summary": "Hey everyone, I recently open-sourced a new Python package called ganfs (Generative Adversarial Network Feature Selection), and I wanted to share it with the community. The Problem: Selecting the best features in high-dimensional datasets is often a massive bottleneck. Tradition…",
-   "score": 9,
-   "category": "oss",
-   "tags": [
-    "gan",
-    "feature-selection",
-    "high-dimensional-datasets"
-   ],
-   "published": "2026-07-30T02:54:23Z"
-  },
-  {
-   "title": "Open-source tabular model validation toolkit TanML needs feedback [D]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1va7w4p/opensource_tabular_model_validation_toolkit_tanml/",
-   "summary": "We’re developing TanML, an MIT-licensed automated model-validation toolkit for tabular machine-learning models. TanML runs locally and provides an end-to-end workflow covering data profiling, preprocessing, feature-power ranking, model development, evaluation, drift analysis, st…",
-   "score": 9,
-   "category": "oss",
-   "tags": [
-    "model-validation",
-    "toolkit",
-    "open-source",
-    "personal-relevant"
-   ],
-   "published": "2026-07-29T20:22:16Z"
-  },
-  {
-   "title": "KeygraphHQ/shannon — Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they ",
-   "url": "https://github.com/KeygraphHQ/shannon",
-   "summary": "46269★ · TypeScript · topics: agents, ai-penetration-testing, ai-security, cybersecurity, ethical-hacking",
-   "score": 9,
-   "category": "oss",
-   "tags": [
-    "ai-security",
-    "pentesting",
-    "cybersecurity",
-    "personal-relevant"
-   ],
-   "published": "2026-07-28T20:33:50Z"
-  },
-  {
-   "title": "Some thoughts about Anthropic's new cryptanalysis results",
-   "url": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
-   "summary": "117 points, 63 comments",
-   "score": 9,
-   "category": "opinion",
-   "tags": [
-    "cryptanalysis",
-    "anthropic"
-   ],
-   "published": ""
-  },
   {
    "title": "PetoiCamp/OpenCat-Quadruped-Robot — An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding & robotics education, IoT rob",
    "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
@@ -176,6 +123,19 @@
    "published": "2026-08-05T11:00:37Z"
   },
   {
+   "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+   "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
+   "summary": "WindBorne Systems has raised $37 million Series B round to scale its weather balloons and AI forecasts.",
+   "score": 7,
+   "category": "startup",
+   "tags": [
+    "weather-prediction",
+    "ai",
+    "funding"
+   ],
+   "published": "2026-08-05T11:00:00Z"
+  },
+  {
    "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
    "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
    "summary": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploiting a software vulnerability. We scanned public GitHub com…",
@@ -276,6 +236,19 @@
     "local tracing"
    ],
    "published": "2026-08-04T13:00:00Z"
+  },
+  {
+   "title": "Platform Engineering Maturity Emerges as a Key Differentiator for Enterprise AI Success",
+   "url": "https://www.infoq.com/news/2026/08/perforce-maturity-ai-success/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Platform engineering maturity is emerging as an important factor in determining whether organizations can turn AI adoption into sustainable operational value, according to Perforce Software's 2026 Platform Engineering Report. By Craig Risi",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "personal-relevant",
+    "ai maturity",
+    "platform engineering"
+   ],
+   "published": "2026-08-04T12:00:00Z"
   },
   {
    "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
@@ -1237,95 +1210,6 @@
    "published": "2026-07-30 09:33:05+00:00"
   },
   {
-   "title": "jovaldivieso/double_integrator_casadi_diffusion_policy",
-   "url": "https://huggingface.co/jovaldivieso/double_integrator_casadi_diffusion_policy",
-   "summary": "706 downloads · robotics",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "robotics",
-    "open-source",
-    "diffusion-policy"
-   ],
-   "published": "2026-07-30 03:53:26+00:00"
-  },
-  {
-   "title": "ccnets/causal-gpt-rl",
-   "url": "https://huggingface.co/ccnets/causal-gpt-rl",
-   "summary": "178 downloads · reinforcement-learning",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "open-source",
-    "personal-relevant",
-    "reinforcement-learning"
-   ],
-   "published": "2026-07-30 03:53:16+00:00"
-  },
-  {
-   "title": "Function Privatization in the Local Model",
-   "url": "https://arxiv.org/abs/2607.27164v1",
-   "summary": "We study the problem of privately releasing functions, with a particular focus on curves, which are images of continuous functions on some finite interval. Many types of data exist naturally as curves, such as trajectory data or $1$D density curves. We shall primarily be interes…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "function privatization",
-    "local model",
-    "differential privacy"
-   ],
-   "published": "2026-07-29T17:39:50Z"
-  },
-  {
-   "title": "Parity-Based Time-Bin Encoding Enabling SWAP Between Polarization and Time-Bin Qubits",
-   "url": "https://arxiv.org/abs/2607.27144v1",
-   "summary": "Multi-degree-of-freedom photonic quantum processing requires routing between degree-of-freedom (DOF) qubit encodings on a single photon. A SWAP between polarization and time-bin qubits is Multi-degree-of-freedom photonic quantum processing requires routing between degree-of-free…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "quantum processing",
-    "parity-based time-bin encoding",
-    "qubits"
-   ],
-   "published": "2026-07-29T17:20:41Z"
-  },
-  {
-   "title": "AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching",
-   "url": "https://arxiv.org/abs/2607.27130v1",
-   "summary": "Ontology matching (OM) has traditionally been formulated as either equivalence discovery or subsumption matching. The existing OM systems identify only one type of semantic correspondence and cannot simultaneously discover equivalence and subsumption mappings. In this paper, we…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "ontology matching",
-    "large language models",
-    "multi-agent systems"
-   ],
-   "published": "2026-07-29T16:58:10Z"
-  },
-  {
-   "title": "Hardware-efficient erasure-error detection with an integer fluxonium",
-   "url": "https://arxiv.org/abs/2607.27123v1",
-   "summary": "Erasure-error detection can improve the efficiency of quantum error correction by revealing the times and locations of their error events. In this work, we demonstrate erasure conversions and mid-circuit erasure detections in a single integer fluxonium, in which the states $\\mat…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "erasure-error detection",
-    "quantum error correction"
-   ],
-   "published": "2026-07-29T16:49:25Z"
-  },
-  {
-   "title": "Sky sphere representation in language models",
-   "url": "https://arxiv.org/abs/2607.27092v1",
-   "summary": "We analyze whether language models of size ~100B have a representation of the night sky map that is decodable from their residual stream. We find that most of the considered open-source models do have such a representation, and it often even surfaces to the top principal compone…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "language models",
-    "sky sphere representation"
-   ],
-   "published": "2026-07-29T16:19:43Z"
-  },
-  {
    "title": "Diverse bacterial pattern recognition receptors sense the core phage proteome",
    "url": "https://www.nature.com/articles/s41586-026-10852-6",
    "summary": "Nature, Published online: 29 July 2026; doi:10.1038/s41586-026-10852-6 Systematic analysis of prokaryotic STAND NTPases — relatives of animal and plant immune receptors — uncovers diverse antiviral sensors that detect most of the core structural and replicative proteins of bacte…",
@@ -1338,20 +1222,6 @@
     "receptors"
    ],
    "published": "2026-07-29T00:00:00Z"
-  },
-  {
-   "title": "deerwork-ai/deer-workflow — An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates semantic work to replaceable Agent runtimes.",
-   "url": "https://github.com/deerwork-ai/deer-workflow",
-   "summary": "348★ · TypeScript · topics: agent, ai, ai-agent, ai-agents, ai-coding",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "ai-agent",
-    "personal-relevant",
-    "typescript",
-    "agent"
-   ],
-   "published": "2026-07-27T15:34:26Z"
   },
   {
    "title": "1,741 \"informed\" consents with one click? GDPR complaint filed",
