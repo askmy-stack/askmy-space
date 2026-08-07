@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-07T08:21:49+00:00",
- "count": 115,
+ "generated_at": "2026-08-07T14:09:29+00:00",
+ "count": 112,
  "items": [
   {
    "title": "Amazon Researcher Claims Quantum Algorithm Could Challenge PQC Foundations",
@@ -164,6 +164,44 @@
    "published": ""
   },
   {
+   "title": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
+   "url": "https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138",
+   "summary": "Comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "us-economy",
+    "job-loss",
+    "reversal"
+   ],
+   "published": "2026-08-07T12:42:58Z"
+  },
+  {
+   "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+   "url": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+   "summary": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascad…",
+   "score": 7,
+   "category": "breakthrough",
+   "tags": [
+    "ai-assisted research",
+    "http desynchronization",
+    "zero-day exploit"
+   ],
+   "published": "2026-08-07T10:09:54Z"
+  },
+  {
+   "title": "Quantum Research Focus of Summer Training School For Higher Education Students",
+   "url": "https://thequantuminsider.com/2026/08/07/quantum-research-focus-of-summer-training-school-for-higher-education-students/",
+   "summary": "Insider Brief PRESS RELEASE — Eighty higher education students from across the country participated in various activities and engaged with quantum science experts in a week-long summer school experience hosted by the Penn State Center for Theory of Emergent Quantum Matter (C-TEQ…",
+   "score": 7,
+   "category": "event",
+   "tags": [
+    "quantum research",
+    "summer school"
+   ],
+   "published": "2026-08-07T08:11:25Z"
+  },
+  {
    "title": "amknguyen/MolecularOptimizationBench",
    "url": "https://huggingface.co/spaces/amknguyen/MolecularOptimizationBench",
    "summary": "0 likes · static",
@@ -279,6 +317,18 @@
     "deepambigqa",
     "llm",
     "question-answering"
+   ],
+   "published": "2026-08-06T00:00:00Z"
+  },
+  {
+   "title": "Operational Tropical Cyclone Forecasting with AI",
+   "url": "https://www.nature.com/articles/s41586-026-10953-2",
+   "summary": "Nature, Published online: 06 August 2026; doi:10.1038/s41586-026-10953-2 Operational Tropical Cyclone Forecasting with AI",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "tropical cyclone forecasting",
+    "ai applications"
    ],
    "published": "2026-08-06T00:00:00Z"
   },
@@ -1229,21 +1279,6 @@
    "published": "2026-07-31T11:08:44Z"
   },
   {
-   "title": "How extreme weather is shaping tomorrow's electric grid",
-   "url": "https://www.axios.com/2026/07/31/us-electric-grid-extreme-weather",
-   "summary": "A series of dangerous heat waves this summer — including one that has left 17 states under an emergency federal order — are putting the electric grid under an intense real-world stress test. Why it matters: Successive summer heat waves are forcing utilities to rethink how they p…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "climate",
-    "electric",
-    "grid",
-    "heat",
-    "waves"
-   ],
-   "published": "2026-07-31T09:15:04Z"
-  },
-  {
    "title": "Meat allergy is on the rise — what scientists want to know",
    "url": "https://www.nature.com/articles/d41586-026-02362-2",
    "summary": "Nature, Published online: 31 July 2026; doi:10.1038/d41586-026-02362-2 The allergy is caused by ticks, but researchers have much to learn about it.",
@@ -1268,86 +1303,6 @@
     "research"
    ],
    "published": "2026-07-31T00:00:00Z"
-  },
-  {
-   "title": "This AI notetaker won't sell surveillance to your boss",
-   "url": "https://www.platformer.news/granola-chris-pedregal-interview/",
-   "summary": "Granola CEO Chris Pedregal on invisible AI bots, the coming fight over who sees your transcripts, and why he turns down the companies that ask for them",
-   "score": 7,
-   "category": "startup",
-   "tags": [
-    "granola",
-    "ai",
-    "notetaker",
-    "privacy"
-   ],
-   "published": "2026-07-30T23:59:21Z"
-  },
-  {
-   "title": "Tim Cook says Apple may charge for AI Siri",
-   "url": "https://www.axios.com/2026/07/30/tim-cook-apple-may-charge-for-ai-siri",
-   "summary": "Apple hinted Thursday that heavy users of its revamped Siri may have to pay for access. Why it matters: It's the first time that Apple has confirmed it will charge for the new AI -powered voice assistant. What they're saying: In a conference call to discuss Apple's most recent q…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "ai",
-    "apple",
-    "personal-relevant",
-    "siri"
-   ],
-   "published": "2026-07-30T22:10:43Z"
-  },
-  {
-   "title": "American Being Prosecuted for Wiping His Phone Before Handing It Over to Border Officials",
-   "url": "https://www.schneier.com/blog/archives/2026/07/american-being-prosecuted-for-wiping-his-phone-before-handing-it-over-to-border-officials.html",
-   "summary": "He’s being prosecuted for giving border officials a code that wiped his phone : The case centers on a feature included in GrapheneOS, a custom Android operating system that runs in place of the software on most modern Google Pixel devices. Tunick’s attorneys confirmed GrapheneOS…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "border security",
-    "phone privacy",
-    "duress password"
-   ],
-   "published": "2026-07-30T16:20:30Z"
-  },
-  {
-   "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
-   "url": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/",
-   "summary": "We moved cdnjs, serving 9 billion requests a day, entirely onto Cloudflare's Developer Platform. That means we’re running one of the Internet's busiest open-source CDNs on our own building blocks, and we pushed Workflows and Workers limits higher for everyone.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "cloudflare",
-    "cdnjs",
-    "migration"
-   ],
-   "published": "2026-07-30T13:00:00Z"
-  },
-  {
-   "title": "Should You Use AI for a Task? Here’s a Simple Way to Decide",
-   "url": "https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html",
-   "summary": "This essay originally appeared in The Guardian . I teach public policy at the Harvard Kennedy School and the Munk School at the University of Toronto. And it will come as no surprise to you that my students regularly use AI to complete their writing assignments. Doing so is a wa…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai ethics",
-    "education",
-    "ai writing assistants"
-   ],
-   "published": "2026-07-30T11:01:32Z"
-  },
-  {
-   "title": "EXCLUSIVE: Congo’s Ebola epidemic started at least 4 months before it was detected",
-   "url": "https://www.science.org/content/article/exclusive-congo-s-ebola-epidemic-started-least-4-months-it-was-detected",
-   "summary": "A remote mining town gripped by fear saw hundreds of suspected cases before the government declared an outbreak, report says",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "ebola",
-    "epidemic",
-    "outbreak"
-   ],
-   "published": "2026-07-30T05:40:00Z"
   },
   {
    "title": "Moonshot’s Kimi uses 20k Nvidia chip cluster from Alibaba",
