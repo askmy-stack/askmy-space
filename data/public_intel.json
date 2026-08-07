@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-07T00:47:33+00:00",
- "count": 112,
+ "generated_at": "2026-08-07T03:51:38+00:00",
+ "count": 115,
  "items": [
   {
    "title": "Amazon Researcher Claims Quantum Algorithm Could Challenge PQC Foundations",
@@ -164,6 +164,20 @@
    "published": ""
   },
   {
+   "title": "amknguyen/MolecularOptimizationBench",
+   "url": "https://huggingface.co/spaces/amknguyen/MolecularOptimizationBench",
+   "summary": "0 likes · static",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "molecular optimization",
+    "personal-relevant",
+    "benchmark",
+    "hugging face"
+   ],
+   "published": "2026-08-07 03:49:10+00:00"
+  },
+  {
    "title": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
    "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/",
    "summary": "Temporal policies in Amazon Bedrock AgentCore let you define stateful rules that evaluate authorization based on an agent's session history. Learn how to enforce workflow sequencing, prevent data fabrication, cap financial exposure, and require human approval for high-value acti…",
@@ -304,6 +318,18 @@
     "demishassabis"
    ],
    "published": "2026-08-05T16:05:37Z"
+  },
+  {
+   "title": "Jeff Dean leaving Alphabet",
+   "url": "https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html",
+   "summary": "Article URL: https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html Comments URL: https://news.ycombinator.com/item?id=49184746 Points: 296 # Comments: 9",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "google",
+    "jeffdean"
+   ],
+   "published": "2026-08-05T16:04:33Z"
   },
   {
    "title": "Trojanized npm Packages Decode C2 IP From Ethereum Recipient Addresses",
@@ -1468,6 +1494,19 @@
     "acquisition",
     "airtable",
     "bending spoons"
+   ],
+   "published": ""
+  },
+  {
+   "title": "The \"Disability Dongle\": Why Silicon Valley Hates Me and You",
+   "url": "https://sightlessscribbles.com/disability-dongle/",
+   "summary": "164 points, 169 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "disability",
+    "inclusion",
+    "silicon-valley"
    ],
    "published": ""
   }
