@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T03:51:38+00:00",
+ "generated_at": "2026-08-07T08:21:49+00:00",
  "count": 115,
  "items": [
   {
@@ -231,6 +231,32 @@
    "published": "2026-08-06T16:12:24Z"
   },
   {
+   "title": "Tau protein can sneak into brain cells’ energy factories—and wreak havoc",
+   "url": "https://www.science.org/content/article/tau-protein-can-sneak-brain-cells-energy-factories-and-wreak-havoc",
+   "summary": "Study of mitochondria suggests new treatment strategy for Alzheimer’s and other diseases",
+   "score": 7,
+   "category": "research-highlight",
+   "tags": [
+    "alzheimer's",
+    "mitochondria",
+    "treatment strategy"
+   ],
+   "published": "2026-08-06T11:00:00Z"
+  },
+  {
+   "title": "ByteDance is leaning heavily into AI education with Gauth — helpful tutoring or just another shortcut machine? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1vgwza5/bytedance_is_leaning_heavily_into_ai_education/",
+   "summary": "Saw an article about ByteDance scaling up Gauth using AI-generated animations to walk students through problem-solving. On paper, personalized visual explanations sound great for democratizing tutoring. But in practice, I wonder if tools like this actually help kids grasp core c…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "edtech",
+    "ai-education",
+    "multimodal-ml"
+   ],
+   "published": "2026-08-06T07:07:44Z"
+  },
+  {
    "title": "Working with the American Psychological Association on youth mental health and AI",
    "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
    "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
@@ -242,6 +268,31 @@
     "american psychological association"
    ],
    "published": "2026-08-06T06:00:00Z"
+  },
+  {
+   "title": "DeepAmbigQA: Ambiguous Multi-hop Questions for Benchmarking LLM Answer Completeness",
+   "url": "https://machinelearning.apple.com/research/deepambigqa-multihop-questions",
+   "summary": "Large language models (LLMs) with integrated search tools show strong promise in open-domain question answering (QA), yet they often struggle to produce complete answer set to complex questions such as “Which actor from the film Heat won at least one Academy Award?”, which requi…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "deepambigqa",
+    "llm",
+    "question-answering"
+   ],
+   "published": "2026-08-06T00:00:00Z"
+  },
+  {
+   "title": "Trump’s DOJ gains oversight of OpenAI’s green-card employee sponsorships",
+   "url": "https://techcrunch.com/2026/08/05/trumps-doj-gains-oversight-of-openais-green-card-employee-sponsorships/",
+   "summary": "The DOJ alleged that OpenAI did not meaningful attempt to hire U.S. citizens before seeking permanent residence for Visa-holding employees.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "regulation",
+    "immigration"
+   ],
+   "published": "2026-08-05T21:05:37Z"
   },
   {
    "title": "Do LLMs make ML research more fair for small teams? [D]",
@@ -267,6 +318,32 @@
     "scam disruption"
    ],
    "published": "2026-08-05T18:33:47Z"
+  },
+  {
+   "title": "Capability-Gated Planning: Cost-to-Goal Discovery and the Limits of Myopic Experiment Selection",
+   "url": "https://arxiv.org/abs/2608.05085v1",
+   "summary": "Systems that automate scientific discovery must repeatedly decide which experiment to run, which hypothesis to test, which tool to build, and when to stop. Many systems make these decisions by maximizing a myopic score such as expected information gain per unit cost or a learned…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "capability-gated planning",
+    "scientific discovery",
+    "experiment selection"
+   ],
+   "published": "2026-08-05T17:25:17Z"
+  },
+  {
+   "title": "VQ-VAD: Vector-quantized Motion Representation Learning for Human-centric Video Anomaly Detection",
+   "url": "https://arxiv.org/abs/2608.05069v1",
+   "summary": "Video Anomaly Detection (VAD) is inherently challenging due to the scarcity of anomalies and the large visual variability in surveillance footage, including changes in lighting, viewpoint, and human appearance. To mitigate visual noise and address privacy concerns, recent work h…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "anomaly-detection",
+    "motion-representation",
+    "vector-quantization"
+   ],
+   "published": "2026-08-05T17:12:39Z"
   },
   {
    "title": "Constructing Non-Hermitian Theories with Tunable Exceptional Points and Controlled State Purification",
@@ -1167,20 +1244,6 @@
    "published": "2026-07-31T09:15:04Z"
   },
   {
-   "title": "QwenAudio/qwen-audio-agent — A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents",
-   "url": "https://github.com/QwenAudio/qwen-audio-agent",
-   "summary": "462★ · JavaScript · topics: agent, agentic-ai, voice-agent, voice-ai, voice-chat",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "personal-relevant",
-    "javascript",
-    "voice-agent",
-    "realtime"
-   ],
-   "published": "2026-07-31T03:45:10Z"
-  },
-  {
    "title": "Meat allergy is on the rise — what scientists want to know",
    "url": "https://www.nature.com/articles/d41586-026-02362-2",
    "summary": "Nature, Published online: 31 July 2026; doi:10.1038/d41586-026-02362-2 The allergy is caused by ticks, but researchers have much to learn about it.",
@@ -1233,98 +1296,6 @@
     "siri"
    ],
    "published": "2026-07-30T22:10:43Z"
-  },
-  {
-   "title": "Sample More, Reflect Less: Self-Refine and Reflexion Lose to Repeated Sampling at Equal Token Cost, from 1.5B to 7B",
-   "url": "https://arxiv.org/abs/2607.28576v1",
-   "summary": "Methods that make a language model plan, criticise and rewrite its own answer, reflect on mistakes, pick the best of several attempts, or debate with copies of itself nearly all make it generate far more text than a single chain of thought. Because generating more text raises ac…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "language models",
-    "self-refine",
-    "reflexion",
-    "sampling methods"
-   ],
-   "published": "2026-07-30T17:38:23Z"
-  },
-  {
-   "title": "X-NavDP: Generalizing Navigation Diffusion Policy to Novel Behavior and Embodiments with Group Q-score Reweighted Matching",
-   "url": "https://arxiv.org/abs/2607.28560v1",
-   "summary": "Pretraining navigation diffusion policies rely on large-scale expert demonstrations. These data are typically generated by a fully-informed oracle planner suited to a single nominal robot. This limits the policy's generalization to diverse embodiments and challenging scenarios (…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "navigation diffusion policy",
-    "reinforcement learning"
-   ],
-   "published": "2026-07-30T17:26:12Z"
-  },
-  {
-   "title": "Formalization of security",
-   "url": "https://arxiv.org/abs/2607.28551v1",
-   "summary": "Proof assistants are often used to validate that designs and implementations meet their expected security properties. A further motivation for using proof assistants is to support certification. This chapter focuses on their applications to system security, language-based securi…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "proof assistants",
-    "security",
-    "certification"
-   ],
-   "published": "2026-07-30T17:21:14Z"
-  },
-  {
-   "title": "A Sub-6G Mixer First RXFE with LO Overlap Reduction and 1.08 dB NF Degradation",
-   "url": "https://arxiv.org/abs/2607.28546v1",
-   "summary": "This work presents a mixer-first receiver front-end (RXFE) optimized for sub-6 GHz applications with minimized local oscillator (LO) pulse overlap. A design methodology is proposed to mitigate LO overlap-induced degradation in input matching and noise figure (NF), validated usin…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "personal-relevant",
-    "hardware",
-    "cmos",
-    "optimization"
-   ],
-   "published": "2026-07-30T17:14:08Z"
-  },
-  {
-   "title": "Implementing Homomorphic Encryption-Based Logic Locking in System-on-Chip Designs",
-   "url": "https://arxiv.org/abs/2607.28542v1",
-   "summary": "This study presents a logic locking scheme based on the binary Ring Learning With Errors algorithm, implemented in a RISC-V System-on-Chip design. Unlike traditional logic locking methods that require providing users with raw locking parameters, the proposed approach secures cri…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "homomorphic-encryption",
-    "logic-locking",
-    "system-on-chip"
-   ],
-   "published": "2026-07-30T17:11:14Z"
-  },
-  {
-   "title": "Graph Neural Network Force Fields for Spin Dynamics in Metallic Magnets",
-   "url": "https://arxiv.org/abs/2607.28537v1",
-   "summary": "Metallic magnets exhibit complex spin dynamics governed by electronically generated interactions. Predictive simulations of such dynamics typically require repeated solutions of an underlying electronic problem throughout the time evolution, creating a major computational bottle…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "graph neural networks",
-    "spin dynamics",
-    "metallic magnets"
-   ],
-   "published": "2026-07-30T17:04:56Z"
-  },
-  {
-   "title": "Safe Quotes for Retroactive Liquidity Pools",
-   "url": "https://arxiv.org/abs/2607.28522v1",
-   "summary": "Automated market makers exchange assets through liquidity pools whose quoted prices depend on their reserves, with constant product pools being the most common. When such pools reside on different blockchains or shards, a sequence of swaps cannot in general be executed atomicall…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "retroactive liquidity pools",
-    "safe quotes",
-    "automated market makers"
-   ],
-   "published": "2026-07-30T17:00:38Z"
   },
   {
    "title": "American Being Prosecuted for Wiping His Phone Before Handing It Over to Border Officials",
@@ -1507,6 +1478,32 @@
     "disability",
     "inclusion",
     "silicon-valley"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Born Against, or why hobby programming communities are against LLM usage",
+   "url": "https://blog.fogus.me/llm/born-against.html",
+   "summary": "168 points, 163 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "hobby programming",
+    "llm usage",
+    "community"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
+   "url": "https://arxiv.org/abs/2510.01395",
+   "summary": "124 points, 66 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai",
+    "human-ai",
+    "psychology"
    ],
    "published": ""
   }
