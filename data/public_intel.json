@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-07T14:09:29+00:00",
- "count": 112,
+ "generated_at": "2026-08-07T19:56:02+00:00",
+ "count": 110,
  "items": [
   {
    "title": "Amazon Researcher Claims Quantum Algorithm Could Challenge PQC Foundations",
@@ -267,6 +267,32 @@
     "agent skills"
    ],
    "published": "2026-08-06T16:12:24Z"
+  },
+  {
+   "title": "Show HN: I spent 2 years designing a mechanical Magic Keyboard",
+   "url": "https://electronicmaterialsoffice.com/",
+   "summary": "Hi HN, today I’m revealing Altar II, an ultra-low profile (4.75mm) mechanical keyboard designed to replace your Magic Keyboard. It’s the keyboard I wish Apple made. Altar II has fully mechanical switches, plus a magnetically detachable dial, haptic feedback, a red backlight, and…",
+   "score": 7,
+   "category": "tool",
+   "tags": [
+    "mechanical keyboard",
+    "magic keyboard",
+    "macos"
+   ],
+   "published": "2026-08-06T14:26:14Z"
+  },
+  {
+   "title": "Daon Develops Five-Patent Architecture for Quantum-Ready Digital Identity",
+   "url": "https://thequantuminsider.com/2026/08/06/daon-five-patent-architecture-quantum-ready-digital-identity/",
+   "summary": "Insider Brief Press release – Daon®, The Digital Identity Trust Company, today introduced its Quantum Identity architecture, a patent-backed approach designed to help future identity systems determine not only whether cryptography remains secure, but whether the biometric and au…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "quantum",
+    "digital-identity",
+    "security"
+   ],
+   "published": "2026-08-06T12:53:27Z"
   },
   {
    "title": "Tau protein can sneak into brain cells’ energy factories—and wreak havoc",
@@ -1228,45 +1254,6 @@
    "published": "2026-07-31T15:01:07Z"
   },
   {
-   "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
-   "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
-   "summary": "The startup is building voice models designed to make AI phone calls pass the Turing test.",
-   "score": 7,
-   "category": "startup",
-   "tags": [
-    "voice ai",
-    "turing test",
-    "funding"
-   ],
-   "published": "2026-07-31T14:47:11Z"
-  },
-  {
-   "title": "IonQ Completes Acquisition of SkyWater Technology",
-   "url": "https://thequantuminsider.com/2026/07/31/ionq-completes-skywater-acquisition-quantum-manufacturing/",
-   "summary": "Insider Brief Press release – IonQ (NYSE: IONQ), the world’s leading quantum platform company, today completed its acquisition of SkyWater Technology (NASDAQ: SKYT), the largest exclusively U.S.-based semiconductor foundry. “Acquiring SkyWater crystalizes IonQ’s vision to serve…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "ionq",
-    "acquisition",
-    "skywater-technology"
-   ],
-   "published": "2026-07-31T13:31:58Z"
-  },
-  {
-   "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
-   "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
-   "summary": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial Telegram instruction, the agent found internet-facing systems and selected public exploits. The research…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "hacking",
-    "autonomous attacks",
-    "telegram"
-   ],
-   "published": "2026-07-31T11:21:27Z"
-  },
-  {
    "title": "Facial Recognition at Madison Square Garden",
    "url": "https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html",
    "summary": "Last month, the story broke (alternate link ) that Madison Square Garden uses facial recognition software on everyone entering the facility, and—among other groups—flags activists that oppose using facial recognition. Turns out that the system was shut off for Taylor Swift’s wed…",
@@ -1277,19 +1264,6 @@
     "surveillance"
    ],
    "published": "2026-07-31T11:08:44Z"
-  },
-  {
-   "title": "Meat allergy is on the rise — what scientists want to know",
-   "url": "https://www.nature.com/articles/d41586-026-02362-2",
-   "summary": "Nature, Published online: 31 July 2026; doi:10.1038/d41586-026-02362-2 The allergy is caused by ticks, but researchers have much to learn about it.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "allergy",
-    "science",
-    "ticks"
-   ],
-   "published": "2026-07-31T00:00:00Z"
   },
   {
    "title": "Scientists using LLMs will ‘do more, less well’, modelling study predicts",
