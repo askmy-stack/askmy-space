@@ -1,7 +1,74 @@
 {
- "generated_at": "2026-08-06T15:10:21+00:00",
- "count": 104,
+ "generated_at": "2026-08-07T00:47:33+00:00",
+ "count": 112,
  "items": [
+  {
+   "title": "Amazon Researcher Claims Quantum Algorithm Could Challenge PQC Foundations",
+   "url": "https://thequantuminsider.com/2026/08/06/amazon-researcher-claims-quantum-algorithm-could-challenge-pqc-foundations/",
+   "summary": "Insider Brief A preliminary paper from an Amazon Web Services cryptographer describes a polynomial-time quantum algorithm for a long-standing mathematical problem whose solution could have implications for lattice-based cryptography, the foundation of many post-quantum encryptio…",
+   "score": 8,
+   "category": "breakthrough",
+   "tags": [
+    "quantum algorithm",
+    "post-quantum encryption",
+    "lattice-based cryptography"
+   ],
+   "published": "2026-08-06T17:42:49Z"
+  },
+  {
+   "title": "Control agent behaviors and cost beyond a single action: new capabilities in Amazon Bedrock AgentCore",
+   "url": "https://aws.amazon.com/blogs/machine-learning/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-amazon-bedrock-agentcore/",
+   "summary": "Learn about new capabilities in Amazon Bedrock AgentCore: temporal policies powered by Dogwood, a new open source policy language for AI agents, and rate limiting on the gateway. These features give you deterministic control over sequences of agent actions and cost ceilings that…",
+   "score": 8,
+   "category": "big-tech",
+   "tags": [
+    "agentcore",
+    "amazon bedrock",
+    "policy language",
+    "personal-relevant"
+   ],
+   "published": "2026-08-06T16:43:19Z"
+  },
+  {
+   "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+   "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+   "summary": "",
+   "score": 8,
+   "category": "breakthrough",
+   "tags": [
+    "weather forecasting",
+    "cyclones",
+    "ai model"
+   ],
+   "published": "2026-08-06T15:06:15Z"
+  },
+  {
+   "title": "From asking to doing: How the world is putting ChatGPT to work",
+   "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+   "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+   "score": 8,
+   "category": "opinion",
+   "tags": [
+    "personal-relevant",
+    "usage insights",
+    "chatgpt",
+    "adoption trends"
+   ],
+   "published": "2026-08-06T00:00:00Z"
+  },
+  {
+   "title": "Scientists discover Kelvin-Helmholtz Instability on the surface of the Sun",
+   "url": "https://nso.edu/press-release/nsf-inouye-solar-telescope-enables-major-discovery-of-a-hidden-solar-process/",
+   "summary": "Comments",
+   "score": 8,
+   "category": "research-highlight",
+   "tags": [
+    "kelvin-helmholtz instability",
+    "sun",
+    "space research"
+   ],
+   "published": "2026-08-05T15:33:23Z"
+  },
   {
    "title": "PetoiCamp/OpenCat-Quadruped-Robot — An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding & robotics education, IoT rob",
    "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
@@ -82,6 +149,85 @@
     "regulation"
    ],
    "published": ""
+  },
+  {
+   "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
+   "url": "https://provenmetal.com",
+   "summary": "184 points, 129 comments",
+   "score": 8,
+   "category": "startup",
+   "tags": [
+    "hardware",
+    "circuit boards",
+    "manufacturing"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
+   "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/",
+   "summary": "Temporal policies in Amazon Bedrock AgentCore let you define stateful rules that evaluate authorization based on an agent's session history. Learn how to enforce workflow sequencing, prevent data fabrication, cap financial exposure, and require human approval for high-value acti…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "amazon bedrock",
+    "personal-relevant",
+    "temporal policies",
+    "security"
+   ],
+   "published": "2026-08-06T18:57:55Z"
+  },
+  {
+   "title": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
+   "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+   "summary": "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business.",
+   "score": 7,
+   "category": "startup",
+   "tags": [
+    "automation",
+    "vibe-coding",
+    "funding"
+   ],
+   "published": "2026-08-06T17:00:37Z"
+  },
+  {
+   "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
+   "url": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
+   "summary": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run. MIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the techn…",
+   "score": 7,
+   "category": "breakthrough",
+   "tags": [
+    "interrupt injection attack",
+    "spectre v2 defenses"
+   ],
+   "published": "2026-08-06T16:17:13Z"
+  },
+  {
+   "title": "Agent Skills for Automated Reasoning policies in Amazon Bedrock",
+   "url": "https://aws.amazon.com/blogs/machine-learning/agent-skills-for-automated-reasoning-policies-in-amazon-bedrock/",
+   "summary": "Learn how to run the full Amazon Bedrock Automated Reasoning policy lifecycle from your coding agent. A suite of open source Agent Skills builds, reviews, tests, debugs, deploys, and validates a custom policy end to end, turning a specialized console task into a repeatable engin…",
+   "score": 7,
+   "category": "big-tech",
+   "tags": [
+    "amazon bedrock",
+    "automated reasoning",
+    "personal-relevant",
+    "agent skills"
+   ],
+   "published": "2026-08-06T16:12:24Z"
+  },
+  {
+   "title": "Working with the American Psychological Association on youth mental health and AI",
+   "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+   "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "youth mental health",
+    "ai guidance",
+    "american psychological association"
+   ],
+   "published": "2026-08-06T06:00:00Z"
   },
   {
    "title": "Do LLMs make ML research more fair for small teams? [D]",
@@ -1063,19 +1209,6 @@
    "published": "2026-07-30T22:10:43Z"
   },
   {
-   "title": "MLVC: Multi-platform Learned Video Codec for Real-World Deployment [P]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1vb3xwd/mlvc_multiplatform_learned_video_codec_for/",
-   "summary": "I've always found it a little strange that AI is everywhere, but the codecs we use in practice are the traditional hand-engineered systems like h.264, h.265, av1. Alexnet started the wave of neural networks replacing hand-engineered systems, but 14 years later traditional codecs…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "mlvc",
-    "video-codec",
-    "learned-video-codec"
-   ],
-   "published": "2026-07-30T19:40:56Z"
-  },
-  {
    "title": "Sample More, Reflect Less: Self-Refine and Reflexion Lose to Repeated Sampling at Equal Token Cost, from 1.5B to 7B",
    "url": "https://arxiv.org/abs/2607.28576v1",
    "summary": "Methods that make a language model plan, criticise and rewrite its own answer, reflect on mistakes, pick the best of several attempts, or debate with copies of itself nearly all make it generate far more text than a single chain of thought. Because generating more text raises ac…",
@@ -1218,32 +1351,6 @@
     "outbreak"
    ],
    "published": "2026-07-30T05:40:00Z"
-  },
-  {
-   "title": "Somatic mutations reveal the ontogeny of microglia in human aging",
-   "url": "https://www.nature.com/articles/s41586-026-10939-0",
-   "summary": "Nature, Published online: 30 July 2026; doi:10.1038/s41586-026-10939-0 Somatic mutations reveal the ontogeny of microglia in human aging",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "aging",
-    "microglia",
-    "somatic mutations"
-   ],
-   "published": "2026-07-30T00:00:00Z"
-  },
-  {
-   "title": "Fires in Europe are breaking records: here’s what the future holds",
-   "url": "https://www.nature.com/articles/d41586-026-02361-3",
-   "summary": "Nature, Published online: 30 July 2026; doi:10.1038/d41586-026-02361-3 Countries such as Spain and France can expect fire regimes more like those of California as climate change favours hot, dry conditions, scientists suggest.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "climate change",
-    "wildfires",
-    "europe"
-   ],
-   "published": "2026-07-30T00:00:00Z"
   },
   {
    "title": "Moonshot’s Kimi uses 20k Nvidia chip cluster from Alibaba",
