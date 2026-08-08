@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-08T02:58:49+00:00",
+ "generated_at": "2026-08-08T07:58:01+00:00",
  "count": 112,
  "items": [
   {
@@ -177,6 +177,19 @@
     "agentic-ai"
    ],
    "published": "2026-08-08 02:52:04+00:00"
+  },
+  {
+   "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
+   "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
+   "summary": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and model-first routing simplify building resilient AI applicat…",
+   "score": 7,
+   "category": "big-tech",
+   "tags": [
+    "ai",
+    "cloud",
+    "unification"
+   ],
+   "published": "2026-08-07T13:00:00Z"
   },
   {
    "title": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
@@ -1140,20 +1153,6 @@
    "published": "2026-08-01T07:12:42Z"
   },
   {
-   "title": "0xwilliamortiz/ratchet — Your agent reads the rules. This checks whether it followed them.",
-   "url": "https://github.com/0xwilliamortiz/ratchet",
-   "summary": "402★ · JavaScript · topics: ai-agents, claude-code, claude-code-plugin, claude-skills, code-quality",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "personal-relevant",
-    "claude-code",
-    "code-quality",
-    "ai-agents"
-   ],
-   "published": "2026-07-31T20:31:05Z"
-  },
-  {
    "title": "The NHTSA is investigating 1.2 million Tesla vehicles over suspension failure reports",
    "url": "https://www.theverge.com/transportation/973887/nhtsa-tesla-investigation-suspension",
    "summary": "The National Highway Traffic Safety Administration (NHTSA) is probing nearly 1.2 million Tesla vehicles after receiving complaints about a suspension failure that could cause \"a loss of vehicle directional control,\" as reported earlier by Reuters. The preliminary investigation i…",
@@ -1294,19 +1293,6 @@
     "research"
    ],
    "published": "2026-07-31T00:00:00Z"
-  },
-  {
-   "title": "Moonshot’s Kimi uses 20k Nvidia chip cluster from Alibaba",
-   "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
-   "summary": "105 points, 64 comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "nvidia",
-    "cluster-computing",
-    "scalability"
-   ],
-   "published": ""
   },
   {
    "title": "Authorize, don't authenticate",
@@ -1462,6 +1448,18 @@
    "tags": [
     "ai-buildout",
     "space-x"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Goodhart's Law Comes for Every Benchmark You Trust",
+   "url": "https://cacm.acm.org/blogcacm/goodharts-law-comes-for-every-benchmark-you-trust/",
+   "summary": "100 points, 43 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "benchmarking",
+    "ai-evaluation"
    ],
    "published": ""
   }
