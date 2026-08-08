@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-08T07:58:01+00:00",
- "count": 112,
+ "generated_at": "2026-08-08T13:42:49+00:00",
+ "count": 109,
  "items": [
   {
    "title": "Amazon Researcher Claims Quantum Algorithm Could Challenge PQC Foundations",
@@ -164,6 +164,31 @@
    "published": ""
   },
   {
+   "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+   "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+   "summary": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confir…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "atlassian",
+    "rovo",
+    "security vulnerability"
+   ],
+   "published": "2026-08-08T08:54:50Z"
+  },
+  {
+   "title": "Mixing normalization methods (min-max + z-score) for different features",
+   "url": "https://www.reddit.com/r/MLQuestions/comments/1vijjem/mixing_normalization_methods_minmax_zscore_for/",
+   "summary": "submitted by /u/Routine-Ticket-5208 [link] [comments]",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "normalization methods",
+    "feature engineering"
+   ],
+   "published": "2026-08-08T02:08:01Z"
+  },
+  {
    "title": "uzaif1/AE-03-Unified-Agentic-AI-Orchestrator",
    "url": "https://huggingface.co/spaces/uzaif1/AE-03-Unified-Agentic-AI-Orchestrator",
    "summary": "0 likes · static",
@@ -216,6 +241,19 @@
     "zero-day exploit"
    ],
    "published": "2026-08-07T10:09:54Z"
+  },
+  {
+   "title": "Opinion: AI won’t enhance physician autonomy. It will further diminish it",
+   "url": "https://www.statnews.com/2026/08/07/medical-ai-doctors-autonomy/?utm_campaign=rss",
+   "summary": "“AI is not the villain here; it is a mirror,” reflecting the diminishment of physician judgment, writes former surgeon Frances Mei Hardin.",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai",
+    "healthcare",
+    "physician autonomy"
+   ],
+   "published": "2026-08-07T08:30:00Z"
   },
   {
    "title": "Quantum Research Focus of Summer Training School For Higher Education Students",
@@ -1140,58 +1178,6 @@
    "published": "2026-08-01T07:52:10Z"
   },
   {
-   "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-   "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-   "summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "vulnerability",
-    "code execution",
-    "adobe"
-   ],
-   "published": "2026-08-01T07:12:42Z"
-  },
-  {
-   "title": "The NHTSA is investigating 1.2 million Tesla vehicles over suspension failure reports",
-   "url": "https://www.theverge.com/transportation/973887/nhtsa-tesla-investigation-suspension",
-   "summary": "The National Highway Traffic Safety Administration (NHTSA) is probing nearly 1.2 million Tesla vehicles after receiving complaints about a suspension failure that could cause \"a loss of vehicle directional control,\" as reported earlier by Reuters. The preliminary investigation i…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "tesla",
-    "nhtsa",
-    "suspension failure"
-   ],
-   "published": "2026-07-31T18:33:39Z"
-  },
-  {
-   "title": "Terraform Introduces tfpolicy, an HCL-based Policy-as-Code Framework",
-   "url": "https://www.infoq.com/news/2026/07/terraform-policy-as-code/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "HashiCorp has introduced tfpolicy, a new HCL-based policy-as-code framework for Terraform, now available in public beta within HCP Terraform. It is designed to simplify and modernize infrastructure governance by integrating policy creation and enforcement directly into Terraform…",
-   "score": 7,
-   "category": "tool",
-   "tags": [
-    "terraform",
-    "policy-as-code",
-    "infrastructure governance"
-   ],
-   "published": "2026-07-31T18:00:00Z"
-  },
-  {
-   "title": "The ban on robot vacuums won’t make them safer, only worse",
-   "url": "https://www.theverge.com/tech/973738/robot-vacuum-ban-fewer-choices-higher-prices",
-   "summary": "No other gadget knows as much about your home as a robot vacuum. They map your space, learn your routines, and many now carry a camera and microphone into every room in your house. As AI gives them a better understanding of what they see, the privacy and security risks these aut…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "robot vacuums",
-    "autonomous robots",
-    "security risks"
-   ],
-   "published": "2026-07-31T17:30:49Z"
-  },
-  {
    "title": "Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control",
    "url": "https://arxiv.org/abs/2607.29625v1",
    "summary": "The demand for humanoid loco-manipulation tasks with an object has recently increased, and most existing control approaches for stability in such tasks rely on heuristics or machine-learning techniques. This study rigorously analyzes and exploits the dynamic effects of the objec…",
@@ -1268,31 +1254,6 @@
     "interoperability"
    ],
    "published": "2026-07-31T15:01:07Z"
-  },
-  {
-   "title": "Facial Recognition at Madison Square Garden",
-   "url": "https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html",
-   "summary": "Last month, the story broke (alternate link ) that Madison Square Garden uses facial recognition software on everyone entering the facility, and—among other groups—flags activists that oppose using facial recognition. Turns out that the system was shut off for Taylor Swift’s wed…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "facial recognition",
-    "surveillance"
-   ],
-   "published": "2026-07-31T11:08:44Z"
-  },
-  {
-   "title": "Scientists using LLMs will ‘do more, less well’, modelling study predicts",
-   "url": "https://www.nature.com/articles/d41586-026-02397-5",
-   "summary": "Nature, Published online: 31 July 2026; doi:10.1038/d41586-026-02397-5 Research suggests that the combination of incentives to publish and the use of large language models will lead to more papers, but they will be less refined.",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "llms",
-    "scientific publishing",
-    "research"
-   ],
-   "published": "2026-07-31T00:00:00Z"
   },
   {
    "title": "Authorize, don't authenticate",
