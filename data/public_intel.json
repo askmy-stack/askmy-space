@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-07T19:56:02+00:00",
- "count": 110,
+ "generated_at": "2026-08-08T02:58:49+00:00",
+ "count": 112,
  "items": [
   {
    "title": "Amazon Researcher Claims Quantum Algorithm Could Challenge PQC Foundations",
@@ -164,6 +164,21 @@
    "published": ""
   },
   {
+   "title": "uzaif1/AE-03-Unified-Agentic-AI-Orchestrator",
+   "url": "https://huggingface.co/spaces/uzaif1/AE-03-Unified-Agentic-AI-Orchestrator",
+   "summary": "0 likes · static",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "open-source",
+    "hugging-face",
+    "unified",
+    "personal-relevant",
+    "agentic-ai"
+   ],
+   "published": "2026-08-08 02:52:04+00:00"
+  },
+  {
    "title": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
    "url": "https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138",
    "summary": "Comments",
@@ -228,6 +243,19 @@
     "security"
    ],
    "published": "2026-08-06T18:57:55Z"
+  },
+  {
+   "title": "0xwilliamortiz/claude-red — claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-",
+   "url": "https://github.com/0xwilliamortiz/claude-red",
+   "summary": "560★ · JavaScript · topics: claude, claude-code, claude-code-plugin, claude-skills, codex",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "offensive security",
+    "claude skills",
+    "expert-level methodology"
+   ],
+   "published": "2026-08-06T17:06:40Z"
   },
   {
    "title": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
@@ -651,6 +679,21 @@
    "published": "2026-08-04T16:02:21Z"
   },
   {
+   "title": "disler/super-simple-software-factory — Repeatable agents-plus-code workflows, packaged as one skill, stamped into any repo. Deterministic Python owns the graph; coding agents are bounded nodes inside ",
+   "url": "https://github.com/disler/super-simple-software-factory",
+   "summary": "496★ · Python · topics:",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "trending",
+    "open-source",
+    "workflow-automation",
+    "personal-relevant",
+    "github"
+   ],
+   "published": "2026-08-04T13:43:58Z"
+  },
+  {
    "title": "Your agent can now debug Workers with local tracing",
    "url": "https://blog.cloudflare.com/local-tracing/",
    "summary": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required.",
@@ -714,19 +757,6 @@
     "oceanography"
    ],
    "published": "2026-08-04T05:01:00Z"
-  },
-  {
-   "title": "Disrupting a Criminal Scam Operation",
-   "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-   "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "openai",
-    "chatgpt",
-    "scam-operation"
-   ],
-   "published": "2026-08-04T00:00:00Z"
   },
   {
    "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
@@ -1202,19 +1232,6 @@
    "published": "2026-07-31T16:16:45Z"
   },
   {
-   "title": "Siri AI could come with a paywall for power users",
-   "url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
-   "summary": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "siri",
-    "ai",
-    "subscriptions"
-   ],
-   "published": "2026-07-31T16:08:18Z"
-  },
-  {
    "title": "SLIM: Saturation-Aware Lightweight Performance Modeling for LLM Serving",
    "url": "https://arxiv.org/abs/2607.29575v1",
    "summary": "Large language model (LLM) serving commonly increases batch size to improve throughput, but performance eventually reaches a deployment-dependent plateau beyond which larger batches provide marginal gains while increasing latency and GPU memory consumption. Previous studies have…",
@@ -1433,6 +1450,18 @@
     "ai",
     "human-ai",
     "psychology"
+   ],
+   "published": ""
+  },
+  {
+   "title": "xAI, SpaceX, and the Race for AI Buildout",
+   "url": "https://illegal.solutions/posts/xai_pollution",
+   "summary": "132 points, 108 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai-buildout",
+    "space-x"
    ],
    "published": ""
   }
