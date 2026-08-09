@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-09T03:06:14+00:00",
- "count": 113,
+ "generated_at": "2026-08-09T08:00:23+00:00",
+ "count": 115,
  "items": [
   {
    "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
@@ -282,6 +282,32 @@
    "published": "2026-08-08 02:52:04+00:00"
   },
   {
+   "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
+   "url": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
+   "summary": "This article was produced in partnership with Type Investigations, with support from the Wayne Barrett Project. One morning in April 2025, employees of a small office in the US State Department got the email many of them had been dreading. For months, Elon Musk’s Department of G…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "censorship",
+    "policy",
+    "politics"
+   ],
+   "published": "2026-08-07T14:00:00Z"
+  },
+  {
+   "title": "AI psychosis is the new leadership blind spot",
+   "url": "https://www.fastcompany.com/91576086/ai-psychosis-is-the-new-leadership-blind-spot-ai-leadership-blind-spots",
+   "summary": "Comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai-psychosis",
+    "leadership",
+    "blind-spot"
+   ],
+   "published": "2026-08-07T13:27:30Z"
+  },
+  {
    "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
    "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
    "summary": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and model-first routing simplify building resilient AI applicat…",
@@ -465,6 +491,19 @@
    "published": "2026-08-06T12:53:27Z"
   },
   {
+   "title": "Adversarial Clothing Designed to Fool Facial Recognition Systems",
+   "url": "https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html",
+   "summary": "There are many companies manufacturing adversarial clothing designed to confuse facial recognition systems. It’s a cool idea, but I worry that it’s mostly security theater: “Our patterns play with that chaos, confuse algorithms and make it way harder to pin you down,” he said. B…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "adversarial clothing",
+    "facial recognition",
+    "security theater"
+   ],
+   "published": "2026-08-06T11:04:51Z"
+  },
+  {
    "title": "Tau protein can sneak into brain cells’ energy factories—and wreak havoc",
    "url": "https://www.science.org/content/article/tau-protein-can-sneak-brain-cells-energy-factories-and-wreak-havoc",
    "summary": "Study of mitochondria suggests new treatment strategy for Alzheimer’s and other diseases",
@@ -476,6 +515,19 @@
     "treatment strategy"
    ],
    "published": "2026-08-06T11:00:00Z"
+  },
+  {
+   "title": "Two Fossil Fuel Companies Are Betting Big on Data Centers",
+   "url": "https://www.wired.com/story/chevron-williams-driving-data-center-boom/",
+   "summary": "Chevron and Williams are big winners in the race to power artificial intelligence as they build out gas-fired power plants and pipelines.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "data centers",
+    "sustainability",
+    "energy"
+   ],
+   "published": "2026-08-06T10:30:00Z"
   },
   {
    "title": "ByteDance is leaning heavily into AI education with Gauth — helpful tutoring or just another shortcut machine? [D]",
@@ -1204,19 +1256,6 @@
    "published": "2026-08-02 15:09:08+00:00"
   },
   {
-   "title": "Quoting Greg Brockman",
-   "url": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
-   "summary": "at openai, many people hook their chatgpt up to slack. people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker. reinforces how much people care about human re…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai-ethics",
-    "human relationships",
-    "openai"
-   ],
-   "published": "2026-08-01T22:29:44Z"
-  },
-  {
    "title": "0xwilliamortiz/humanizer-cli — 33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies.",
    "url": "https://github.com/0xwilliamortiz/humanizer-cli",
    "summary": "517★ · JavaScript · topics: ai-slop, ai-slop-detection, ai-slop-detector, ai-slop-fixer, ai-slop-remover",
@@ -1228,19 +1267,6 @@
     "open-source"
    ],
    "published": "2026-08-01T21:41:13Z"
-  },
-  {
-   "title": "DeepSeek-V4-Flash-0731: Models you can run locally now have the intelligence score of the top frontier model from March 2026",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vchoua/deepseekv4flash0731_models_you_can_run_locally/",
-   "summary": "March 6th, 2026 the highest intelligence index score was 51 for frontier models. deepseek-ai/DeepSeek-V4-Flash-0731 that has an intelligence score of 50. If these benchmarks are accurate, models available to run locally on <8K USD (us prices - just guestimating/not exact) hardwa…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "deepseek-v4",
-    "local deployment",
-    "intelligence score"
-   ],
-   "published": "2026-08-01T08:27:40Z"
   },
   {
    "title": "Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control",
