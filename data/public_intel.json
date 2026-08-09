@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-09T08:00:23+00:00",
- "count": 115,
+ "generated_at": "2026-08-09T13:45:37+00:00",
+ "count": 123,
  "items": [
   {
    "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
@@ -216,6 +216,32 @@
    "published": ""
   },
   {
+   "title": "This former notorious red-light district is now one of the world’s top AI hubs",
+   "url": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/",
+   "summary": "More than 20 years ago, King's Cross was one of the seediest area's in London. Now it's sprouting something new.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "ai",
+    "hub",
+    "london"
+   ],
+   "published": "2026-08-09T13:00:00Z"
+  },
+  {
+   "title": "The playbook for building high talent density teams | Adam Ward, Head of Talent at Cursor",
+   "url": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
+   "summary": "Listen now | Cursor’s Adam Ward on “funnel of doom” hiring, treating every hire like an executive search, and why caring is the biggest unfair advantage in recruiting",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "hiring",
+    "talent",
+    "recruiting"
+   ],
+   "published": "2026-08-09T12:31:29Z"
+  },
+  {
    "title": "Matt Kinsella (Infleqtion): Why Neutral Atoms Power Sensors, Clocks, and Computers Alike",
    "url": "https://thequantuminsider.com/2026/08/08/matt-kinsella-infleqtion-why-neutral-atoms-power-sensors-clocks-and-computers-alike/",
    "summary": "Yuval Boger interviews Matt Kinsella, CEO of Infleqtion. They discuss Infleqtion’s neutral-atom strategy, including its combination of quantum computing, sensing, and timing products, and why Matt believes that diversified approach strengthens both the business and the technolog…",
@@ -280,6 +306,45 @@
     "agentic-ai"
    ],
    "published": "2026-08-08 02:52:04+00:00"
+  },
+  {
+   "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+   "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything",
+   "summary": "OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about \"the Hugging Face Incident\" ( previously on this blog). The video was published yesterday. It's short and information dense and well worth watching, in particular because it provides full details…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "openai",
+    "hugging-face",
+    "cyberattack"
+   ],
+   "published": "2026-08-07T23:55:58Z"
+  },
+  {
+   "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+   "url": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+   "summary": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems. \"These packages appear to use AI slop squatted, or randomly generated typo-squatting…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "malicious npm packages",
+    "cross-platform rat",
+    "infostealer"
+   ],
+   "published": "2026-08-07T18:48:17Z"
+  },
+  {
+   "title": "Responding to the next frontier of critical cyber capabilities",
+   "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+   "summary": "Comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "cyber",
+    "security",
+    "capabilities"
+   ],
+   "published": "2026-08-07T16:39:36Z"
   },
   {
    "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
@@ -400,6 +465,31 @@
    "published": "2026-08-06T18:57:55Z"
   },
   {
+   "title": "Time-Reversal Selection Rules for Quantum Error Correction",
+   "url": "https://arxiv.org/abs/2608.06304v1",
+   "summary": "We apply time-reversal symmetry to quantum codes and show that it imposes parity selection rules on the physical error algebra. A time-reversal-invariant logical qubit on an odd number of spins is a Kramers doublet, forcing every even-weight Pauli to act as a scalar. Consequentl…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "quantum",
+    "error correction",
+    "time-reversal symmetry"
+   ],
+   "published": "2026-08-06T17:21:55Z"
+  },
+  {
+   "title": "On-Policy Self-Distillation without Any Supervision",
+   "url": "https://arxiv.org/abs/2608.06296v1",
+   "summary": "On-policy (Self-)Distillation (OPD / OPSD) has shown strong potential for post-training large language models (LLMs). However, existing methods still rely heavily on external supervision, including ground-truth signals, environmental feedback, or guidance from larger models, and…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "self-distillation",
+    "unsupervised-learning"
+   ],
+   "published": "2026-08-06T17:18:23Z"
+  },
+  {
    "title": "0xwilliamortiz/claude-red — claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-",
    "url": "https://github.com/0xwilliamortiz/claude-red",
    "summary": "560★ · JavaScript · topics: claude, claude-code, claude-code-plugin, claude-skills, codex",
@@ -424,6 +514,19 @@
     "funding"
    ],
    "published": "2026-08-06T17:00:37Z"
+  },
+  {
+   "title": "RxnCLF: Contrastive Transformation-Aware Reaction Foundation Model for Improved Reactivity Prediction",
+   "url": "https://arxiv.org/abs/2608.06259v1",
+   "summary": "Reaction yield prediction remains challenging because labeled data are scarce and reaction space is both combinatorially large and sparsely populated, limiting the generalization of existing reaction representations. String-, fingerprint-, and graph-based reaction encodings only…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "reaction yield prediction",
+    "contrastive learning",
+    "chemical transformations"
+   ],
+   "published": "2026-08-06T16:51:23Z"
   },
   {
    "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
@@ -1335,18 +1438,6 @@
    "published": "2026-07-31T16:00:03Z"
   },
   {
-   "title": "A big win for Android interoperability",
-   "url": "https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/",
-   "summary": "Comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "android",
-    "interoperability"
-   ],
-   "published": "2026-07-31T15:01:07Z"
-  },
-  {
    "title": "EU Age Verification Project Mandates Hardware-Bound Attestation",
    "url": "https://linuxiac.com/eu-age-verification-project-mandates-hardware-bound-attestation/",
    "summary": "167 points, 118 comments",
@@ -1499,6 +1590,19 @@
    "tags": [
     "benchmarking",
     "ai-evaluation"
+   ],
+   "published": ""
+  },
+  {
+   "title": "What happens if an entire class of workers loses faith in their careers",
+   "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+   "summary": "120 points, 215 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "career",
+    "faith",
+    "workers"
    ],
    "published": ""
   }
