@@ -1,7 +1,46 @@
 {
- "generated_at": "2026-08-08T19:31:52+00:00",
- "count": 108,
+ "generated_at": "2026-08-09T03:06:14+00:00",
+ "count": 113,
  "items": [
+  {
+   "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+   "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+   "summary": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States.",
+   "score": 8,
+   "category": "top-news",
+   "tags": [
+    "pollution",
+    "sustainability",
+    "data centers"
+   ],
+   "published": "2026-08-08T21:24:02Z"
+  },
+  {
+   "title": "Amazon Is Creating the Biggest Pollution Source in the Country",
+   "url": "https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country",
+   "summary": "Article URL: https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country Comments URL: https://news.ycombinator.com/item?id=49223845 Points: 209 # Comments: 126",
+   "score": 8,
+   "category": "top-news",
+   "tags": [
+    "pollution",
+    "sustainability",
+    "data centers"
+   ],
+   "published": "2026-08-08T17:27:52Z"
+  },
+  {
+   "title": "Replit’s CEO on building a company that can run itself",
+   "url": "https://www.platformer.news/replit-amjad-massad-interview-coding-design-jobs/",
+   "summary": "Amjad Masad on the \"self-driving company,\" why a CEO is a glorified router, and what's left for humans when agents do the work",
+   "score": 8,
+   "category": "opinion",
+   "tags": [
+    "leadership",
+    "automation",
+    "personal-relevant"
+   ],
+   "published": "2026-08-07T00:52:17Z"
+  },
   {
    "title": "Amazon Researcher Claims Quantum Algorithm Could Challenge PQC Foundations",
    "url": "https://thequantuminsider.com/2026/08/06/amazon-researcher-claims-quantum-algorithm-could-challenge-pqc-foundations/",
@@ -14,6 +53,19 @@
     "lattice-based cryptography"
    ],
    "published": "2026-08-06T17:42:49Z"
+  },
+  {
+   "title": "OpenAI is giving ChatGPT free users unlimited text chats",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
+   "summary": "OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tier…",
+   "score": 8,
+   "category": "top-news",
+   "tags": [
+    "chatbot",
+    "language model",
+    "accessibility"
+   ],
+   "published": "2026-08-06T17:00:00Z"
   },
   {
    "title": "Control agent behaviors and cost beyond a single action: new capabilities in Amazon Bedrock AgentCore",
@@ -162,6 +214,32 @@
     "manufacturing"
    ],
    "published": ""
+  },
+  {
+   "title": "Matt Kinsella (Infleqtion): Why Neutral Atoms Power Sensors, Clocks, and Computers Alike",
+   "url": "https://thequantuminsider.com/2026/08/08/matt-kinsella-infleqtion-why-neutral-atoms-power-sensors-clocks-and-computers-alike/",
+   "summary": "Yuval Boger interviews Matt Kinsella, CEO of Infleqtion. They discuss Infleqtion’s neutral-atom strategy, including its combination of quantum computing, sensing, and timing products, and why Matt believes that diversified approach strengthens both the business and the technolog…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "neutral atoms",
+    "quantum computing",
+    "sensing"
+   ],
+   "published": "2026-08-08T19:00:00Z"
+  },
+  {
+   "title": "NeurIPS AI Assisted Review authors/reviewers? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1vj3oqr/neurips_ai_assisted_review_authorsreviewers_d/",
+   "summary": "Out of curiosity, if you were a reviewer or author, how did the review period go? For me, it was weird, because I gave reviews with specific details (what specifically could have been better, how to fix it), but realized other reviewers gave similar superficial reviews. Even the…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "neurips",
+    "review process",
+    "llm"
+   ],
+   "published": "2026-08-08T18:42:55Z"
   },
   {
    "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
@@ -346,6 +424,19 @@
     "agent skills"
    ],
    "published": "2026-08-06T16:12:24Z"
+  },
+  {
+   "title": "SoftBank donated $50 million to Trump’s library months before federal data center deal",
+   "url": "https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio",
+   "summary": "SoftBank contributed $50 million to the Trump Presidential Library in January, just months before announcing that it's leasing land from the federal government to build a sprawling data center in Ohio. The Japanese company revealed the timing in response to a June letter from Se…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "softbank",
+    "data-centers",
+    "government-deals"
+   ],
+   "published": "2026-08-06T14:30:00Z"
   },
   {
    "title": "Show HN: I spent 2 years designing a mechanical Magic Keyboard",
@@ -1139,19 +1230,6 @@
    "published": "2026-08-01T21:41:13Z"
   },
   {
-   "title": "Sam Altman is still making the case for parenting via ChatGPT",
-   "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
-   "summary": "OpenAI's CEO seemed excited to share a \"cool use case\" for parents.",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "chatgpt",
-    "parenting",
-    "use case"
-   ],
-   "published": "2026-08-01T17:07:34Z"
-  },
-  {
    "title": "DeepSeek-V4-Flash-0731: Models you can run locally now have the intelligence score of the top frontier model from March 2026",
    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vchoua/deepseekv4flash0731_models_you_can_run_locally/",
    "summary": "March 6th, 2026 the highest intelligence index score was 51 for frontier models. deepseek-ai/DeepSeek-V4-Flash-0731 that has an intelligence score of 50. If these benchmarks are accurate, models available to run locally on <8K USD (us prices - just guestimating/not exact) hardwa…",
@@ -1241,19 +1319,6 @@
     "interoperability"
    ],
    "published": "2026-07-31T15:01:07Z"
-  },
-  {
-   "title": "Authorize, don't authenticate",
-   "url": "https://blog.marcua.net/2026/07/31/authorize-dont-authenticate.html",
-   "summary": "102 points, 38 comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "authentication",
-    "authorization",
-    "security"
-   ],
-   "published": ""
   },
   {
    "title": "EU Age Verification Project Mandates Hardware-Bound Attestation",
