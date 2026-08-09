@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-09T14:47:20+00:00",
- "count": 126,
+ "generated_at": "2026-08-09T19:35:55+00:00",
+ "count": 129,
  "items": [
   {
    "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
@@ -214,6 +214,32 @@
     "manufacturing"
    ],
    "published": ""
+  },
+  {
+   "title": "A Mechanistic Explanation of Prompt Injection (and why you should study roles) [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1vjvzm4/a_mechanistic_explanation_of_prompt_injection_and/",
+   "summary": "submitted by /u/katxwoods [link] [comments]",
+   "score": 7,
+   "category": "idea",
+   "tags": [
+    "prompt injection",
+    "mechanistic explanation",
+    "roles"
+   ],
+   "published": "2026-08-09T17:36:22Z"
+  },
+  {
+   "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+   "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+   "summary": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader.",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "science fiction",
+    "democracy",
+    "ethics"
+   ],
+   "published": "2026-08-09T15:00:00Z"
   },
   {
    "title": "This former notorious red-light district is now one of the world’s top AI hubs",
@@ -449,6 +475,20 @@
     "reversal"
    ],
    "published": "2026-08-07T12:42:58Z"
+  },
+  {
+   "title": "Planned satellite megaconstellations could generate runaway space debris",
+   "url": "https://www.science.org/content/article/planned-satellite-megaconstellations-could-generate-runaway-space-debris",
+   "summary": "Modeling suggests infamous “Kessler syndrome” would make the swarms unsustainable",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "space",
+    "debris",
+    "satellite",
+    "sustainability"
+   ],
+   "published": "2026-08-07T12:15:00Z"
   },
   {
    "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
@@ -1374,19 +1414,6 @@
    "published": "2026-08-02T03:10:00Z"
   },
   {
-   "title": "gopaljigaur/repro-cocoedit-content-consistent-image-editing-via-region-regularized-reinforcement-learning",
-   "url": "https://huggingface.co/spaces/gopaljigaur/repro-cocoedit-content-consistent-image-editing-via-region-regularized-reinforcement-learning",
-   "summary": "0 likes · static",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "reinforcement-learning",
-    "image-editing",
-    "open-source"
-   ],
-   "published": "2026-08-02 15:09:08+00:00"
-  },
-  {
    "title": "0xwilliamortiz/humanizer-cli — 33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies.",
    "url": "https://github.com/0xwilliamortiz/humanizer-cli",
    "summary": "517★ · JavaScript · topics: ai-slop, ai-slop-detection, ai-slop-detector, ai-slop-fixer, ai-slop-remover",
@@ -1644,6 +1671,19 @@
     "security",
     "iot",
     "internet"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Analyzing data from Silicon Valley ventures and founders prosecuted for fraud",
+   "url": "https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981",
+   "summary": "150 points, 66 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "fraud",
+    "venture capital",
+    "silicon valley"
    ],
    "published": ""
   }
