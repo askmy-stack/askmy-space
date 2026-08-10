@@ -2,7 +2,9 @@ import { Metadata } from "next";
 import EditorialHero from "@/components/Editorial/Hero";
 import FeaturedEssay from "@/components/Editorial/FeaturedEssay";
 import ProjectsGrid from "@/components/Editorial/ProjectsGrid";
+import OpenSourceSection from "@/components/Editorial/OpenSourceSection";
 import { SHIPPED_SYSTEMS } from "@/lib/constants";
+import { fetchGitHubRepos, fetchGitHubUser } from "@/lib/api";
 
 export const metadata: Metadata = {
   title: "Discover — AI Engineering Portfolio",
@@ -10,9 +12,15 @@ export const metadata: Metadata = {
     "Explore AI engineering projects, research, and technical case studies.",
 };
 
-export default function DiscoverPage() {
+export default async function DiscoverPage() {
   // Use the first shipped system as featured essay
   const featuredProject = SHIPPED_SYSTEMS[0];
+
+  // Fetch GitHub data
+  const [repos, user] = await Promise.all([
+    fetchGitHubRepos("askmy-stack", 3),
+    fetchGitHubUser("askmy-stack"),
+  ]);
 
   return (
     <div className="min-h-screen bg-[var(--color-editorial-bg)]">
@@ -58,6 +66,9 @@ export default function DiscoverPage() {
           <ProjectsGrid />
         </div>
       </section>
+
+      {/* Open Source Section */}
+      <OpenSourceSection repos={repos} user={user} />
 
       {/* Additional spacing before footer */}
       <div className="h-16 bg-[var(--color-editorial-bg)]" />
