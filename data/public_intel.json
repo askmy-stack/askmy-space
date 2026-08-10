@@ -1,7 +1,22 @@
 {
- "generated_at": "2026-08-09T19:35:55+00:00",
- "count": 129,
+ "generated_at": "2026-08-10T03:16:54+00:00",
+ "count": 128,
  "items": [
+  {
+   "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
+   "url": "https://github.com/eternityspring/shuohao-skills",
+   "summary": "542★ · JavaScript · topics:",
+   "score": 8,
+   "category": "oss",
+   "tags": [
+    "claude-code",
+    "personal-relevant",
+    "ai-coding",
+    "codex",
+    "skills"
+   ],
+   "published": "2026-08-09T15:58:31Z"
+  },
   {
    "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
    "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
@@ -212,6 +227,19 @@
     "hardware",
     "circuit boards",
     "manufacturing"
+   ],
+   "published": ""
+  },
+  {
+   "title": "John C. Lilly on solid state intelligence and the elimination of man (1978)",
+   "url": "https://kibotronics.net/unlisted/lilly-machines/",
+   "summary": "130 points, 87 comments",
+   "score": 8,
+   "category": "opinion",
+   "tags": [
+    "future",
+    "personal-relevant",
+    "intelligence"
    ],
    "published": ""
   },
@@ -1386,45 +1414,6 @@
     "analysis"
    ],
    "published": "2026-08-02T20:20:45Z"
-  },
-  {
-   "title": "NVIDIA's AI Learns Why Copying Humans Isn't Enough",
-   "url": "https://www.youtube.com/watch?v=8B05cy3UuSE",
-   "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The paper is available here: https://jiashunwang.github.io/HIL/ 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible: Adam Bridges, Benji Rabhan, B Shang,…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai",
-    "human-centric",
-    "video"
-   ],
-   "published": "2026-08-02T15:01:10Z"
-  },
-  {
-   "title": "Linux desktop market share has hit over 10% in North America",
-   "url": "https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/",
-   "summary": "Article URL: https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/ Comments URL: https://news.ycombinator.com/item?id=49140696 Points: 173 # Comments: 87",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "linux",
-    "desktop",
-    "market share"
-   ],
-   "published": "2026-08-02T03:10:00Z"
-  },
-  {
-   "title": "0xwilliamortiz/humanizer-cli — 33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies.",
-   "url": "https://github.com/0xwilliamortiz/humanizer-cli",
-   "summary": "517★ · JavaScript · topics: ai-slop, ai-slop-detection, ai-slop-detector, ai-slop-fixer, ai-slop-remover",
-   "score": 7,
-   "category": "tool",
-   "tags": [
-    "ai-detection",
-    "cli-tool",
-    "open-source"
-   ],
-   "published": "2026-08-01T21:41:13Z"
   },
   {
    "title": "Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control",
