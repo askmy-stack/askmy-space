@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-10T14:18:51+00:00",
- "count": 122,
+ "generated_at": "2026-08-10T19:59:59+00:00",
+ "count": 119,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -176,6 +176,31 @@
     "intelligence"
    ],
    "published": ""
+  },
+  {
+   "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
+   "url": "https://www.stoaexchange.com",
+   "summary": "Comments",
+   "score": 7,
+   "category": "startup",
+   "tags": [
+    "gpu-marketplace",
+    "ai-servers"
+   ],
+   "published": "2026-08-10T16:35:27Z"
+  },
+  {
+   "title": "Infleqtion Selected by Eaton to Explore Quantum Computing for Power Grid Resilience",
+   "url": "https://thequantuminsider.com/2026/08/10/infleqtion-eaton-quantum-computing-power-grid-resilience/",
+   "summary": "Insider Brief Press release – Infleqtion, a global leader in quantum computing and quantum sensing powered by neutral-atom technology, announced that Eaton, a global power management company, selected Infleqtion to support new research evaluating how quantum computing can improv…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "power grid",
+    "resilience",
+    "quantum computing"
+   ],
+   "published": "2026-08-10T14:38:28Z"
   },
   {
    "title": "The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward.",
@@ -493,6 +518,18 @@
    "published": "2026-08-07T16:45:14Z"
   },
   {
+   "title": "Circuit-Based Program Verification: Sequential Circuits as an Intermediate Representation for Verifying C Programs",
+   "url": "https://arxiv.org/abs/2608.07397v1",
+   "summary": "Formal verification of software programs and hardware designs shares the common goal of reasoning about state-transition systems, yet the two communities have largely developed separate intermediate representations and verification algorithms. This paper investigates sequential…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "program verification",
+    "circuit-based verification"
+   ],
+   "published": "2026-08-07T16:41:07Z"
+  },
+  {
    "title": "Responding to the next frontier of critical cyber capabilities",
    "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
    "summary": "Comments",
@@ -504,6 +541,19 @@
     "capabilities"
    ],
    "published": "2026-08-07T16:39:36Z"
+  },
+  {
+   "title": "QFCQT: A Chaotically Gated Quantformer Framework for Volatile Time-Series Forecasting",
+   "url": "https://arxiv.org/abs/2608.07363v1",
+   "summary": "Forecasting non-stationary time series remains difficult due to long-range dependencies, local volatility bursts, structural shifts, and nonlinear oscillatory behaviors. Although Transformer-based forecasters are effective for modeling long-term temporal dependencies, their feed…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "time-series forecasting",
+    "transformer",
+    "quantum-fractal-inspired"
+   ],
+   "published": "2026-08-07T16:05:21Z"
   },
   {
    "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
@@ -1322,75 +1372,6 @@
    "published": "2026-08-03T15:30:38Z"
   },
   {
-   "title": "China Forms Quantum Standards Committee to Coordinate Industry Development",
-   "url": "https://thequantuminsider.com/2026/08/03/china-quantum-standards-committee/",
-   "summary": "Insider Brief China has established a national technical committee dedicated to quantum information standards, underscoring the country’s effort to build the regulatory and technical framework needed to support its expanding quantum technology sector. The committee, established…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "china",
-    "quantum standards",
-    "industry development"
-   ],
-   "published": "2026-08-03T12:45:00Z"
-  },
-  {
-   "title": "The Download: reward hacking explained, and suspected Iranian cyberattacks",
-   "url": "https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/",
-   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Here’s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Face last month, they weren’t trying to ma…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "cyberattacks",
-    "security",
-    "personal-relevant",
-    "ai",
-    "hacking"
-   ],
-   "published": "2026-08-03T12:08:00Z"
-  },
-  {
-   "title": "Cortex completes OSTIF security audit",
-   "url": "https://www.cncf.io/blog/2026/08/03/cortex-completes-ostif-security-audit/",
-   "summary": "The Open Source Technology Improvement Fund is proud to share the results of our security audit of Cortex. Cortex functions as a long-term, multi-tenant scalable open source storage for Prometheus and OpenTelemetry. Thanks to Quarkslab and...",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "personal-relevant",
-    "open-source",
-    "audit",
-    "security"
-   ],
-   "published": "2026-08-03T11:30:00Z"
-  },
-  {
-   "title": "‘A Rare Land-Grab Moment’: Menlo Ventures’ Matt Murphy On The Next Wave of AI And Putting $3B In New Capital To Work",
-   "url": "https://news.crunchbase.com/venture/menlo-ventures-matt-murphy-anthropic-ai-investment-thesis/",
-   "summary": "We speak with Menlo Ventures' Matt Murphy about why AI is pushing the firm toward larger deals, what it has learned from its Anthropic relationship, and where he sees the next big opportunities.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "funding",
-    "venture-capital",
-    "ai"
-   ],
-   "published": "2026-08-03T11:00:43Z"
-  },
-  {
-   "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
-   "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
-   "summary": "An unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit. Attack surface management platform Censys said it identified the threat actor running more than 100 web properti…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "threat actor",
-    "exploit kit",
-    "ios",
-    "personal-relevant"
-   ],
-   "published": "2026-08-03T10:49:06Z"
-  },
-  {
    "title": "How we built a realtime system for responsive voice AI in six months",
    "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
    "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
@@ -1402,33 +1383,6 @@
     "low-latency"
    ],
    "published": "2026-08-03T07:00:00Z"
-  },
-  {
-   "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
-   "url": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
-   "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Actuate 2026 : 18–19 August 2026,…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "google deepmind",
-    "gemini robotics"
-   ],
-   "published": "2026-07-31T16:00:03Z"
-  },
-  {
-   "title": "Why we write our own C and C++ inference engines",
-   "url": "https://localai.io/blog/why-we-write-our-own-engines/",
-   "summary": "100 points, 40 comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "c",
-    "c++",
-    "personal-relevant",
-    "optimization",
-    "inference engines"
-   ],
-   "published": ""
   },
   {
    "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
