@@ -1,83 +1,45 @@
-"use client";
+// components/ui/Button.tsx
 
-import Link from "next/link";
-import { forwardRef } from "react";
-import { cn } from "@/lib/utils";
+import React from 'react';
 
-type Variant = "primary" | "ghost" | "outline";
+type ButtonVariant = 'primary' | 'secondary' | 'danger';
+type ButtonDirection = 'editorial' | 'dashboard' | 'spatial';
 
-interface BaseProps {
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: ButtonVariant;
+  direction?: ButtonDirection;
   children: React.ReactNode;
-  variant?: Variant;
-  className?: string;
-  external?: boolean;
 }
 
-type AnchorProps = BaseProps & React.AnchorHTMLAttributes<HTMLAnchorElement> & {
-  href: string;
-};
+export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ variant = 'primary', direction = 'editorial', className = '', ...props }, ref) => {
+    const baseStyles =
+      'px-6 py-3 rounded-md font-semibold text-sm transition-all duration-200 hover:duration-200 active:duration-120 focus:outline-none focus:ring-2 focus:ring-offset-2';
 
-type ButtonProps = BaseProps & React.ButtonHTMLAttributes<HTMLButtonElement> & {
-  href?: undefined;
-};
+    const directionStyles = {
+      editorial: {
+        primary: 'bg-[var(--color-editorial-accent-1)] text-[var(--color-editorial-bg)] hover:bg-[var(--color-editorial-accent-2)] hover:-translate-y-1 active:scale-97',
+        secondary: 'border-2 border-[var(--color-editorial-border)] text-[var(--color-editorial-text)] hover:bg-[var(--color-editorial-text)] hover:text-[var(--color-editorial-bg)]',
+        danger: 'bg-[var(--color-status-critical)] text-white hover:opacity-90',
+      },
+      dashboard: {
+        primary: 'bg-[var(--color-dashboard-accent-1)] text-[var(--color-dashboard-bg)] hover:bg-[var(--color-dashboard-accent-2)] active:scale-97',
+        secondary: 'border-2 border-[var(--color-dashboard-border)] text-[var(--color-dashboard-text)] hover:bg-[var(--color-dashboard-text)] hover:text-[var(--color-dashboard-bg)]',
+        danger: 'bg-[var(--color-status-critical)] text-white hover:opacity-90',
+      },
+      spatial: {
+        primary: 'border-2 border-[var(--color-spatial-accent-1)] text-[var(--color-spatial-accent-1)] bg-transparent hover:bg-[var(--color-spatial-accent-1)] hover:text-[var(--color-spatial-bg)]',
+        secondary: 'border-2 border-[var(--color-spatial-accent-2)] text-[var(--color-spatial-accent-2)] bg-transparent hover:bg-[var(--color-spatial-accent-2)] hover:text-[var(--color-spatial-bg)]',
+        danger: 'bg-[var(--color-status-critical)] text-white hover:opacity-90',
+      },
+    };
 
-type Props = AnchorProps | ButtonProps;
+    const variantStyles = directionStyles[direction][variant];
 
-const base =
-  "inline-flex items-center justify-center gap-2 font-mono text-sm tracking-wide px-6 py-3.5 rounded-sm transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--bg)]";
-
-const variants: Record<Variant, string> = {
-  primary:
-    "bg-[var(--accent)] text-[var(--bg)] hover:bg-[var(--accent)]/90",
-  ghost:
-    "bg-transparent text-[var(--fg)] hover:bg-[var(--bg-elevated)]",
-  outline:
-    "border border-[var(--border)] text-[var(--fg)] hover:border-[var(--accent)] hover:text-[var(--accent)]",
-};
-
-export const Button = forwardRef<HTMLElement, Props>(function Button(
-  { children, variant = "primary", className, external, ...rest },
-  ref,
-) {
-  const classes = cn(base, variants[variant], className);
-
-  if ("href" in rest && rest.href) {
-    const { href, ...anchorProps } = rest as AnchorProps;
-    const isExternal = external ?? /^https?:\/\//.test(href);
-    if (isExternal) {
-      return (
-        <a
-          ref={ref as React.Ref<HTMLAnchorElement>}
-          href={href}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={classes}
-          {...anchorProps}
-        >
-          {children}
-        </a>
-      );
-    }
     return (
-      <Link
-        ref={ref as React.Ref<HTMLAnchorElement>}
-        href={href}
-        className={classes}
-        {...anchorProps}
-      >
-        {children}
-      </Link>
+      <button ref={ref} className={`${baseStyles} ${variantStyles} ${className}`} {...props} />
     );
   }
+);
 
-  const buttonProps = rest as ButtonProps;
-  return (
-    <button
-      ref={ref as React.Ref<HTMLButtonElement>}
-      className={classes}
-      {...buttonProps}
-    >
-      {children}
-    </button>
-  );
-});
+Button.displayName = 'Button';
