@@ -4,10 +4,12 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { fraunces, geistMono, geistSans } from "@/lib/fonts";
 import { siteConfig } from "@/content/site";
+import { ThemeProvider } from "@/components/shared/ThemeProvider";
+import { Navigation } from "@/components/shared/Navigation";
+import { Footer } from "@/components/shared/Footer";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import Header from "@/components/layout/Header";
 import SignalField from "@/components/scene/SignalField";
-import Footer from "@/components/layout/Footer";
 import PageTransition from "@/components/providers/PageTransition";
 
 export const metadata: Metadata = {
@@ -98,14 +100,17 @@ export default function RootLayout({
         <a href="#work" className="skip-to-content">
           Skip to work
         </a>
-        <SmoothScroll>
-          <SignalField />
-          <Header />
-          <PageTransition>
-            <main id="main">{children}</main>
-          </PageTransition>
-          <Footer />
-        </SmoothScroll>
+        <ThemeProvider>
+          <Navigation />
+          <SmoothScroll>
+            <SignalField />
+            <Header />
+            <PageTransition>
+              <main id="main">{children}</main>
+            </PageTransition>
+            <Footer />
+          </SmoothScroll>
+        </ThemeProvider>
         <Analytics />
         <SpeedInsights />
       </body>
