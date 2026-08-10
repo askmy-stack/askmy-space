@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-10T03:16:54+00:00",
- "count": 128,
+ "generated_at": "2026-08-10T08:34:29+00:00",
+ "count": 125,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -205,19 +205,6 @@
    "published": "2026-08-01T11:41:49Z"
   },
   {
-   "title": "Californians' data deletion requests, DROP, become enforceable Aug. 1",
-   "url": "https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/",
-   "summary": "117 points, 53 comments",
-   "score": 8,
-   "category": "policy",
-   "tags": [
-    "data deletion",
-    "california",
-    "regulation"
-   ],
-   "published": ""
-  },
-  {
    "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
    "url": "https://provenmetal.com",
    "summary": "184 points, 129 comments",
@@ -242,6 +229,45 @@
     "intelligence"
    ],
    "published": ""
+  },
+  {
+   "title": "GitHub Code Quality Targets Maintainability as AI-Generated Code Increases",
+   "url": "https://www.infoq.com/news/2026/08/github-code-quality/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. The service combines CodeQL analysis with AI-assisted detection of maintainability and reliability problems, then uses Copilot Autofix to suggest changes for review in pull requests, accor…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "code-quality",
+    "ai-generated-code",
+    "github"
+   ],
+   "published": "2026-08-10T08:00:00Z"
+  },
+  {
+   "title": "DeepMind’s future has become all the more critical for the UK",
+   "url": "https://sifted.eu/articles/deepmind-google-future-uk-opinion/",
+   "summary": "",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "deepmind",
+    "uk",
+    "ai-ambitions"
+   ],
+   "published": "2026-08-10T05:00:11Z"
+  },
+  {
+   "title": "Run Android ARM64 VR APKs on Apple Vision Pro",
+   "url": "https://github.com/shinyquagsire23/Klepton",
+   "summary": "Comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "android",
+    "apple",
+    "vr"
+   ],
+   "published": "2026-08-10T03:12:48Z"
   },
   {
    "title": "A Mechanistic Explanation of Prompt Injection (and why you should study roles) [R]",
@@ -294,6 +320,19 @@
     "recruiting"
    ],
    "published": "2026-08-09T12:31:29Z"
+  },
+  {
+   "title": "AI detectors are creating a new era of distrust",
+   "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
+   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Lon…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai detectors",
+    "distrust",
+    "personal-relevant"
+   ],
+   "published": "2026-08-09T12:00:00Z"
   },
   {
    "title": "Matt Kinsella (Infleqtion): Why Neutral Atoms Power Sensors, Clocks, and Computers Alike",
@@ -1403,73 +1442,6 @@
    "published": "2026-08-03T00:12:41Z"
   },
   {
-   "title": "Context degradation in LLMs: what the papers actually show, and the habits I built for long analysis sessions [R]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1vdsgcj/context_degradation_in_llms_what_the_papers/",
-   "summary": "submitted by /u/usernamehere93 [link] [comments]",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "context degradation",
-    "llms",
-    "analysis"
-   ],
-   "published": "2026-08-02T20:20:45Z"
-  },
-  {
-   "title": "Balancing of Humanoid with Object Mass: Trade-off Analyses and Lifting Control",
-   "url": "https://arxiv.org/abs/2607.29625v1",
-   "summary": "The demand for humanoid loco-manipulation tasks with an object has recently increased, and most existing control approaches for stability in such tasks rely on heuristics or machine-learning techniques. This study rigorously analyzes and exploits the dynamic effects of the objec…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "humanoid balance",
-    "object mass",
-    "loco-manipulation tasks"
-   ],
-   "published": "2026-07-31T16:57:51Z"
-  },
-  {
-   "title": "When Does On-Policy Interaction Help? Representational Tradeoffs in Value-Based Imitation Learning",
-   "url": "https://arxiv.org/abs/2607.29617v1",
-   "summary": "Imitation learning (IL)---training an agent to replicate expert behavior from demonstrations---underpins applications from robotics to language model training. Standard approaches such as Behavior Cloning (BC) are known to suffer from compounding errors and performance plateaus,…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "imitation learning",
-    "value-based learning",
-    "on-policy interaction"
-   ],
-   "published": "2026-07-31T16:52:47Z"
-  },
-  {
-   "title": "ResKV: Reconstructing Omitted Attention Contributions for Fixed-Budget KV Cache Compression",
-   "url": "https://arxiv.org/abs/2607.29591v1",
-   "summary": "KV cache compression is essential for efficient long-context inference. Existing eviction methods permanently discard unselected tokens and consequently remove their aggregate contribution to attention. Merging-based alternatives preserve more information but can perturb retaine…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "kv cache compression",
-    "attention mechanisms",
-    "efficiency"
-   ],
-   "published": "2026-07-31T16:16:45Z"
-  },
-  {
-   "title": "SLIM: Saturation-Aware Lightweight Performance Modeling for LLM Serving",
-   "url": "https://arxiv.org/abs/2607.29575v1",
-   "summary": "Large language model (LLM) serving commonly increases batch size to improve throughput, but performance eventually reaches a deployment-dependent plateau beyond which larger batches provide marginal gains while increasing latency and GPU memory consumption. Previous studies have…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "performance",
-    "modeling",
-    "serving",
-    "llm",
-    "gpu"
-   ],
-   "published": "2026-07-31T16:02:31Z"
-  },
-  {
    "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
    "url": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
    "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Actuate 2026 : 18–19 August 2026,…",
@@ -1480,19 +1452,6 @@
     "gemini robotics"
    ],
    "published": "2026-07-31T16:00:03Z"
-  },
-  {
-   "title": "EU Age Verification Project Mandates Hardware-Bound Attestation",
-   "url": "https://linuxiac.com/eu-age-verification-project-mandates-hardware-bound-attestation/",
-   "summary": "167 points, 118 comments",
-   "score": 7,
-   "category": "policy",
-   "tags": [
-    "age-verification",
-    "hardware-attestation",
-    "regulation"
-   ],
-   "published": ""
   },
   {
    "title": "Why we write our own C and C++ inference engines",
