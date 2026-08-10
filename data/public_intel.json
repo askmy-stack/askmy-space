@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-10T08:34:29+00:00",
- "count": 125,
+ "generated_at": "2026-08-10T14:18:51+00:00",
+ "count": 122,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -152,59 +152,6 @@
    "published": "2026-08-04T08:34:59Z"
   },
   {
-   "title": "The AI Productivity Gap",
-   "url": "https://bjorg.bjornroche.com/management/ai-productivity-gap/",
-   "summary": "Comments",
-   "score": 8,
-   "category": "opinion",
-   "tags": [
-    "ai",
-    "productivity",
-    "gap"
-   ],
-   "published": "2026-08-03T07:07:20Z"
-  },
-  {
-   "title": "Europe starts enforcing AI Act rules",
-   "url": "https://sifted.eu/articles/eu-ai-act-new-rules-transparency/",
-   "summary": "",
-   "score": 8,
-   "category": "policy",
-   "tags": [
-    "regulation",
-    "ai",
-    "europe"
-   ],
-   "published": "2026-08-03T05:00:00Z"
-  },
-  {
-   "title": "The James Webb Telescope Is Changing Astronomers’ Understanding of the Ancient Cosmos",
-   "url": "https://www.wired.com/story/james-webb-space-telescope-changing-astronomers-universe/",
-   "summary": "From how galaxies form to the beginnings of the universe, the images from the space telescope are giving cosmologists new data to explore—and theories to build out.",
-   "score": 8,
-   "category": "research-highlight",
-   "tags": [
-    "astronomy",
-    "space",
-    "telescope"
-   ],
-   "published": "2026-08-02T11:00:00Z"
-  },
-  {
-   "title": "FareedKhan-dev/kimi-k3-in-c — A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-   "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
-   "summary": "618★ · C · topics: avx2, c99, cpu-inference, deep-learning, from-scratch",
-   "score": 8,
-   "category": "oss",
-   "tags": [
-    "inference",
-    "cpu",
-    "c99",
-    "deep-learning"
-   ],
-   "published": "2026-08-01T11:41:49Z"
-  },
-  {
    "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
    "url": "https://provenmetal.com",
    "summary": "184 points, 129 comments",
@@ -229,6 +176,33 @@
     "intelligence"
    ],
    "published": ""
+  },
+  {
+   "title": "The Biggest Consequence Of An AI IPO Isn’t The IPO Itself. It’s What Happens Afterward.",
+   "url": "https://news.crunchbase.com/public/ai-ipo-results-lp-liquidity-gershfeld-flint/",
+   "summary": "A wave of major AI IPOs could return significant liquidity to limited partners, fueling a new venture fundraising cycle rather than simply affecting public-market valuations. That capital is likely to flow disproportionately to the largest, established VC firms, writes guest aut…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai",
+    "ipo",
+    "venture capital"
+   ],
+   "published": "2026-08-10T11:00:36Z"
+  },
+  {
+   "title": "Semi Edge Inference Idea [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1vkhl99/semi_edge_inference_idea_d/",
+   "summary": "Today the most important factor in AI is cost. My idea is to split ML models inference (closed ones, proprietary) across server and edge computing on clients, and I would like to hear what do you think about this thing. For example some of model weights/modules would be on clien…",
+   "score": 7,
+   "category": "idea",
+   "tags": [
+    "personal-relevant",
+    "distributed inference",
+    "cost optimization",
+    "edge computing"
+   ],
+   "published": "2026-08-10T10:58:11Z"
   },
   {
    "title": "GitHub Code Quality Targets Maintainability as AI-Generated Code Increases",
@@ -281,6 +255,20 @@
     "roles"
    ],
    "published": "2026-08-09T17:36:22Z"
+  },
+  {
+   "title": "sv-number/mcp-server — MCP server for AI agents that need a phone number: order a private number in any country, read the SMS verification code, hand it back.",
+   "url": "https://github.com/sv-number/mcp-server",
+   "summary": "480★ · JavaScript · topics: ai-agents, claude-code, mcp, model-context-protocol, otp",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "personal-relevant",
+    "github-trending",
+    "mcp",
+    "ai-agents"
+   ],
+   "published": "2026-08-09T16:11:22Z"
   },
   {
    "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
@@ -464,6 +452,32 @@
     "infostealer"
    ],
    "published": "2026-08-07T18:48:17Z"
+  },
+  {
+   "title": "CoBa: Cost-Effective Test-Time Scaling via Compute-Balanced Routing",
+   "url": "https://arxiv.org/abs/2608.07424v1",
+   "summary": "Test-time scaling is often implemented by spending more compute along one axis: sampling more solutions, extending a chain of thought, or applying a stronger evaluator. Under a fixed inference budget, these choices compete. This paper formulates test-time reasoning as a compute-…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "test-time scaling",
+    "compute-balanced routing",
+    "reasoning"
+   ],
+   "published": "2026-08-07T17:12:13Z"
+  },
+  {
+   "title": "GeoDistill-Refine: Silhouette-First Geometry Distillation for Annotation-Free Spacecraft Segmentation",
+   "url": "https://arxiv.org/abs/2608.07405v1",
+   "summary": "Foundation segmentation models can provide supervision for spacecraft imagery without manual training masks, but their predictions vary with textual prompts and may contain geometric errors that are amplified during distillation. This paper presents GeoDistill-Refine, a two-stag…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "spacecraft segmentation",
+    "annotation-free learning",
+    "geometry distillation"
+   ],
+   "published": "2026-08-07T16:53:05Z"
   },
   {
    "title": "What&#8217;s behind the Google AI shake-up",
@@ -1377,19 +1391,6 @@
    "published": "2026-08-03T10:49:06Z"
   },
   {
-   "title": "What DMARC Protects You From, and What It Does Not",
-   "url": "https://senderledger.com/articles/what-dmarc-actually-protects-you-from",
-   "summary": "Comments",
-   "score": 7,
-   "category": "other",
-   "tags": [
-    "dmarc",
-    "email security",
-    "authentication"
-   ],
-   "published": "2026-08-03T09:29:46Z"
-  },
-  {
    "title": "How we built a realtime system for responsive voice AI in six months",
    "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
    "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
@@ -1401,45 +1402,6 @@
     "low-latency"
    ],
    "published": "2026-08-03T07:00:00Z"
-  },
-  {
-   "title": "Index Ventures doubles down on AI with fresh $2bn fundraise",
-   "url": "https://sifted.eu/articles/index-ventures-2bn-raise-ai/",
-   "summary": "",
-   "score": 7,
-   "category": "funding",
-   "tags": [
-    "venture capital",
-    "ai",
-    "investment"
-   ],
-   "published": "2026-08-03T05:00:13Z"
-  },
-  {
-   "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-   "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-   "summary": "Article URL: https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda Comments URL: https://news.ycombinator.com/item?id=49150561 Points: 181 # Comments: 81",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "openai",
-    "super pac",
-    "ai-generated content"
-   ],
-   "published": "2026-08-03T02:30:30Z"
-  },
-  {
-   "title": "U.S. wildfire season exceeds 10-year average as 99 large fires burn",
-   "url": "https://www.axios.com/2026/08/03/us-wildfire-season-large-fires-10-year-average",
-   "summary": "Wildfires in Washington and Oregon have forced evacuations, caused power outages, and burned hundreds of thousands of acres as firefighters battle dozens of massive fires across the Pacific Northwest. Why it matters: The blazes are among 99 active large fires burning across the…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "environment",
-    "wildfires",
-    "personal-relevant"
-   ],
-   "published": "2026-08-03T00:12:41Z"
   },
   {
    "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
