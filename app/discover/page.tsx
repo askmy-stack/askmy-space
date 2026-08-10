@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import EditorialHero from "@/components/Editorial/Hero";
 import FeaturedEssay from "@/components/Editorial/FeaturedEssay";
+import ProjectsGrid from "@/components/Editorial/ProjectsGrid";
 import { SHIPPED_SYSTEMS } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -40,6 +41,21 @@ export default function DiscoverPage() {
             slug={featuredProject.name}
             author="Abhinaysai Kamineni"
           />
+        </div>
+      </section>
+
+      {/* Case Studies Section */}
+      <section className="relative w-full py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-[var(--color-editorial-bg)]">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-12 space-y-2">
+            <h2 className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] text-[var(--color-editorial-text)]">
+              Case Studies
+            </h2>
+            <p className="text-[var(--type-caption-size)] text-[var(--color-editorial-text-secondary)]">
+              All shipped systems and research projects
+            </p>
+          </div>
+          <ProjectsGrid />
         </div>
       </section>
 
