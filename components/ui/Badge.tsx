@@ -1,6 +1,7 @@
 // components/ui/Badge.tsx
 
 import React from 'react';
+import { COLORS, MOTION } from '@/lib/constants';
 
 type BadgeVariant = 'status' | 'category' | 'score';
 type BadgeDirection = 'editorial' | 'dashboard' | 'spatial';

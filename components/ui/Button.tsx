@@ -1,6 +1,7 @@
 // components/ui/Button.tsx
 
 import React from 'react';
+import { COLORS, MOTION } from '@/lib/constants';
 
 type ButtonVariant = 'primary' | 'secondary' | 'danger';
 type ButtonDirection = 'editorial' | 'dashboard' | 'spatial';
@@ -14,7 +15,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ variant = 'primary', direction = 'editorial', className = '', ...props }, ref) => {
     const baseStyles =
-      'px-6 py-3 rounded-md font-semibold text-sm transition-all duration-200 hover:duration-200 active:duration-120 focus:outline-none focus:ring-2 focus:ring-offset-2';
+      'px-6 py-3 rounded-md font-semibold text-sm transition-all duration-200 ease-[var(--motion-easing-standard)] hover:duration-200 active:duration-120 focus:outline-none focus:ring-2 focus:ring-offset-2';
 
     const directionStyles = {
       editorial: {

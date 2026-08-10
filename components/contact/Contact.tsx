@@ -1,5 +1,4 @@
 import AnimatedHeading from "@/components/ui/AnimatedHeading";
-import { Button } from "@/components/ui/Button";
 import { siteConfig } from "@/content/site";
 
 export default function Contact(): JSX.Element {
@@ -27,19 +26,30 @@ export default function Contact(): JSX.Element {
         </p>
 
         <div className="mt-12 flex flex-wrap gap-3">
-          <Button
+          <a
             href={`https://mail.google.com/mail/?view=cm&fs=1&to=${siteConfig.email}`}
-            external
-            variant="primary"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded-md font-semibold text-sm transition-all duration-200 ease-[var(--motion-easing-standard)] bg-[var(--color-editorial-accent-1)] text-[var(--color-editorial-bg)] hover:bg-[var(--color-editorial-accent-2)] hover:-translate-y-1 active:scale-97"
           >
             Email ↗
-          </Button>
-          <Button href={siteConfig.social.linkedin} external variant="outline">
+          </a>
+          <a
+            href={siteConfig.social.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded-md font-semibold text-sm transition-all duration-200 ease-[var(--motion-easing-standard)] border-2 border-[var(--color-editorial-border)] text-[var(--color-editorial-text)] hover:bg-[var(--color-editorial-text)] hover:text-[var(--color-editorial-bg)]"
+          >
             LinkedIn ↗
-          </Button>
-          <Button href={siteConfig.social.github} external variant="outline">
+          </a>
+          <a
+            href={siteConfig.social.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded-md font-semibold text-sm transition-all duration-200 ease-[var(--motion-easing-standard)] border-2 border-[var(--color-editorial-border)] text-[var(--color-editorial-text)] hover:bg-[var(--color-editorial-text)] hover:text-[var(--color-editorial-bg)]"
+          >
             GitHub ↗
-          </Button>
+          </a>
         </div>
       </div>
     </section>
