@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-11T03:08:38+00:00",
- "count": 122,
+ "generated_at": "2026-08-11T08:17:11+00:00",
+ "count": 123,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -205,6 +205,32 @@
    "published": ""
   },
   {
+   "title": "Meta, others lose appeal to drop thousands of social media addiction lawsuits",
+   "url": "https://www.axios.com/2026/08/10/social-media-addiction-lawsuits-meta-tiktok",
+   "summary": "A U.S. Appeals Court said Monday that thousands of lawsuits targeting Meta Platforms , ByteDance's TikTok and other social media outlets can proceed. The big picture: The lawsuits argue that the platforms are addictive and harmful to young people, and have prompted several tech…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "social media",
+    "addiction",
+    "lawsuits"
+   ],
+   "published": "2026-08-10T19:20:19Z"
+  },
+  {
+   "title": "Generative AI for Encrypted Traffic Analysis: Synthetic Dataset Generation and Classifier Evaluation",
+   "url": "https://arxiv.org/abs/2608.09852v1",
+   "summary": "Network traffic analysis faces significant challenges with encrypted communications, primarily due to limited visibility into packet contents and the inherent imbalance in available datasets, particularly for anomalous traffic patterns. This paper addresses these challenges by e…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "generative ai",
+    "encrypted traffic analysis",
+    "synthetic dataset generation"
+   ],
+   "published": "2026-08-10T17:09:32Z"
+  },
+  {
    "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
    "url": "https://www.stoaexchange.com",
    "summary": "Comments",
@@ -255,6 +281,19 @@
     "edge computing"
    ],
    "published": "2026-08-10T10:58:11Z"
+  },
+  {
+   "title": "Zuckerberg: AI's biggest risk is one entity with too much control",
+   "url": "https://www.axios.com/2026/08/10/zuckerberg-ai-manifesto-meta",
+   "summary": "Meta CEO Mark Zuckerberg released a full-throated defense of AI on Monday morning: a 6,500-word manifesto arguing that the most common concerns are overblown and fail to account for all the positives it can achieve. In his vision of AI , the biggest risk instead is that one gove…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai",
+    "regulation",
+    "zuckerberg"
+   ],
+   "published": "2026-08-10T10:03:08Z"
   },
   {
    "title": "GitHub Code Quality Targets Maintainability as AI-Generated Code Increases",
@@ -596,6 +635,18 @@
     "quantum-fractal-inspired"
    ],
    "published": "2026-08-07T16:05:21Z"
+  },
+  {
+   "title": "Assessing AI-generated music detection in real-world broadcast monitoring",
+   "url": "https://arxiv.org/abs/2608.07359v1",
+   "summary": "The proliferation of AI-generated music in broadcast media raises concerns about transparency and fair compensation, but reliable detection under real broadcast conditions remains unresolved. Existing studies report substantial performance degradation in this domain, yet their e…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "ai-generated music",
+    "detection"
+   ],
+   "published": "2026-08-07T15:58:04Z"
   },
   {
    "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
@@ -1321,32 +1372,6 @@
    "published": "2026-08-04T05:01:00Z"
   },
   {
-   "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
-   "url": "https://www.latent.space/p/inference-eng",
-   "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
-   "score": 7,
-   "category": "event",
-   "tags": [
-    "inference engineering",
-    "baseten",
-    "masterclass"
-   ],
-   "published": "2026-08-03T21:44:03Z"
-  },
-  {
-   "title": "LLMs reward expertise",
-   "url": "https://www.seangoedecke.com/llms-reward-expertise/",
-   "summary": "Article URL: https://www.seangoedecke.com/llms-reward-expertise/ Comments URL: https://news.ycombinator.com/item?id=49161518 Points: 573 # Comments: 247",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "expertise",
-    "llm",
-    "human-centric"
-   ],
-   "published": "2026-08-03T21:13:53Z"
-  },
-  {
    "title": "DyFrDet: Towards Accurate Small Object Detection via Dynamic Frequency Suppression with Label Disambiguation",
    "url": "https://arxiv.org/abs/2608.02495v1",
    "summary": "Despite the remarkable progress over the past decades, accurately identifying small objects remains challenging because of their insufficient visual cues. Previous works typically attempt to construct discriminative representation of the small objects. However, the wide range fr…",
@@ -1371,20 +1396,6 @@
     "open-source-llms"
    ],
    "published": "2026-08-03T16:53:15Z"
-  },
-  {
-   "title": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage",
-   "url": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/",
-   "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...",
-   "score": 7,
-   "category": "big-tech",
-   "tags": [
-    "benchmarks",
-    "nvidia",
-    "storage",
-    "personal-relevant"
-   ],
-   "published": "2026-08-03T16:00:00Z"
   },
   {
    "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
