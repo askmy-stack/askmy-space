@@ -25,7 +25,7 @@ export default function ProjectsGrid(): JSX.Element {
       variants={containerVariants}
     >
       {projects.map((project, index) => (
-        <ProjectCard key={project.id} project={project} index={index} />
+        <ProjectCard key={project.slug} project={project} index={index} />
       ))}
     </motion.div>
   );

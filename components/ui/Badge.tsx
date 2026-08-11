@@ -1,7 +1,6 @@
 // components/ui/Badge.tsx
 
 import React from 'react';
-import { COLORS, MOTION } from '@/lib/constants';
 
 type BadgeVariant = 'status' | 'category' | 'score';
 type BadgeDirection = 'editorial' | 'dashboard' | 'spatial';
@@ -46,8 +45,8 @@ export const Badge = ({
     variant === 'status'
       ? variantStyles.status
       : variant === 'score'
-        ? (variantStyles.score as any)[direction]
-        : (variantStyles.category as any)[direction];
+        ? variantStyles.score[direction]
+        : variantStyles.category[direction];
 
   return (
     <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${styles} ${className}`}>

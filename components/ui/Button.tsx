@@ -1,7 +1,6 @@
 // components/ui/Button.tsx
 
 import React from 'react';
-import { COLORS, MOTION } from '@/lib/constants';
 
 type ButtonVariant = 'primary' | 'secondary' | 'danger';
 type ButtonDirection = 'editorial' | 'dashboard' | 'spatial';

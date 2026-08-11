@@ -1,7 +1,6 @@
 // components/ui/Divider.tsx
 
 import React from 'react';
-import { COLORS, MOTION } from '@/lib/constants';
 
 type DividerDirection = 'editorial' | 'dashboard' | 'spatial';
 

@@ -1,7 +1,6 @@
 // components/ui/Card.tsx
 
 import React from 'react';
-import { COLORS, MOTION } from '@/lib/constants';
 
 type CardDirection = 'editorial' | 'dashboard' | 'spatial';
 

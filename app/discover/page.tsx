@@ -3,7 +3,8 @@ import EditorialHero from "@/components/Editorial/Hero";
 import FeaturedEssay from "@/components/Editorial/FeaturedEssay";
 import ProjectsGrid from "@/components/Editorial/ProjectsGrid";
 import OpenSourceSection from "@/components/Editorial/OpenSourceSection";
-import { SHIPPED_SYSTEMS } from "@/lib/constants";
+import Timeline from "@/components/Editorial/Timeline";
+import { projects } from "@/content/projects";
 import { fetchGitHubRepos, fetchGitHubUser } from "@/lib/api";
 
 export const metadata: Metadata = {
@@ -13,8 +14,7 @@ export const metadata: Metadata = {
 };
 
 export default async function DiscoverPage() {
-  // Use the first shipped system as featured essay
-  const featuredProject = SHIPPED_SYSTEMS[0];
+  const featuredProject = projects[0];
 
   // Fetch GitHub data
   const [repos, user] = await Promise.all([
@@ -39,14 +39,15 @@ export default async function DiscoverPage() {
             </p>
           </div>
           <FeaturedEssay
-            title={featuredProject.name}
-            excerpt={featuredProject.description}
-            date={new Date().toLocaleDateString("en-US", {
+            title={featuredProject.title}
+            excerpt={featuredProject.narrative}
+            date={new Date(featuredProject.updatedAt).toLocaleDateString("en-US", {
               year: "numeric",
               month: "short",
               day: "numeric",
+              timeZone: "America/New_York",
             })}
-            slug={featuredProject.name}
+            slug={featuredProject.slug}
             author="Abhinaysai Kamineni"
           />
         </div>
@@ -69,6 +70,9 @@ export default async function DiscoverPage() {
 
       {/* Open Source Section */}
       <OpenSourceSection repos={repos} user={user} />
+
+      {/* Career Timeline Section */}
+      <Timeline />
 
       {/* Additional spacing before footer */}
       <div className="h-16 bg-[var(--color-editorial-bg)]" />
