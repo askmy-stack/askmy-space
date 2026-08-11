@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-10T19:59:59+00:00",
- "count": 119,
+ "generated_at": "2026-08-11T03:08:38+00:00",
+ "count": 122,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -29,6 +29,20 @@
     "data centers"
    ],
    "published": "2026-08-08T21:24:02Z"
+  },
+  {
+   "title": "sowarma/wp2shell-PoC — CVE-2026-63030 & CVE-2026-60137 RCE chain proof-of-concept",
+   "url": "https://github.com/sowarma/wp2shell-PoC",
+   "summary": "351★ · Python · topics: cve, cve-2026-60137, cve-2026-63030, data-analysis, wp2shell",
+   "score": 8,
+   "category": "oss",
+   "tags": [
+    "cve",
+    "rce",
+    "vulnerability",
+    "security"
+   ],
+   "published": "2026-08-08T20:11:15Z"
   },
   {
    "title": "Amazon Is Creating the Biggest Pollution Source in the Country",
@@ -178,6 +192,19 @@
    "published": ""
   },
   {
+   "title": "Humanising LLM Outputs Is Dumb",
+   "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+   "summary": "165 points, 100 comments",
+   "score": 8,
+   "category": "opinion",
+   "tags": [
+    "llm",
+    "humanisation",
+    "ai"
+   ],
+   "published": ""
+  },
+  {
    "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
    "url": "https://www.stoaexchange.com",
    "summary": "Comments",
@@ -241,6 +268,21 @@
     "github"
    ],
    "published": "2026-08-10T08:00:00Z"
+  },
+  {
+   "title": "Sateezg/codex-bridge — Image generation (gpt-image-2) and GPT-5 subagents for Claude Code — through the Codex CLI login you already have. No OpenAI API key.",
+   "url": "https://github.com/Sateezg/codex-bridge",
+   "summary": "358★ · Shell · topics: ai-agents, claude-code, claude-code-plugin, codex, gpt-5",
+   "score": 7,
+   "category": "oss",
+   "tags": [
+    "ai-agents",
+    "image-generation",
+    "codex",
+    "personal-relevant",
+    "gpt-5"
+   ],
+   "published": "2026-08-10T07:56:13Z"
   },
   {
    "title": "DeepMind’s future has become all the more critical for the UK",
@@ -1331,20 +1373,6 @@
    "published": "2026-08-03T16:53:15Z"
   },
   {
-   "title": "Quoting David Crawshaw's prompt",
-   "url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
-   "summary": "Set up a nightly cron job that executes the prompt: fetch upstream changes to the <software> and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version. — David Crawshaw's prompt , Devtools must be open source Tags:…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "generative-ai",
-    "coding-agents",
-    "prompt-engineering",
-    "personal-relevant"
-   ],
-   "published": "2026-08-03T16:15:27Z"
-  },
-  {
    "title": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage",
    "url": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/",
    "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...",
@@ -1357,32 +1385,6 @@
     "personal-relevant"
    ],
    "published": "2026-08-03T16:00:00Z"
-  },
-  {
-   "title": "Devtools must be open source (exe.dev)",
-   "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
-   "summary": "My comment on Devtools must be open source (exe.dev) — Hacker News. One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works. The reality for most people - even expert programmers - has been that the fr…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "open-source",
-    "llms",
-    "prompt-engineering"
-   ],
-   "published": "2026-08-03T15:30:38Z"
-  },
-  {
-   "title": "How we built a realtime system for responsive voice AI in six months",
-   "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-   "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-   "score": 7,
-   "category": "research-highlight",
-   "tags": [
-    "realtime-system",
-    "voice-ai",
-    "low-latency"
-   ],
-   "published": "2026-08-03T07:00:00Z"
   },
   {
    "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
@@ -1548,6 +1550,45 @@
     "fraud",
     "venture capital",
     "silicon valley"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Google Search Is Dying. What Comes Next Is Worse",
+   "url": "https://thewalrus.ca/google-search-is-dying/",
+   "summary": "115 points, 100 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "search",
+    "ai",
+    "future"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+   "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+   "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "chatgpt",
+    "customer-journey",
+    "decision-making"
+   ],
+   "published": ""
+  },
+  {
+   "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+   "url": "https://openai.com/index/zapier",
+   "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "chatgpt",
+    "marketing",
+    "automation"
    ],
    "published": ""
   }
