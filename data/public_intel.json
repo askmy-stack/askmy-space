@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-11T08:17:11+00:00",
- "count": 123,
+ "generated_at": "2026-08-11T14:16:56+00:00",
+ "count": 125,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -151,21 +151,6 @@
    "published": "2026-08-05T15:33:23Z"
   },
   {
-   "title": "PetoiCamp/OpenCat-Quadruped-Robot — An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding & robotics education, IoT rob",
-   "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
-   "summary": "5032★ · C++ · topics: ai, arduino, block-coding, education, iot",
-   "score": 8,
-   "category": "oss",
-   "tags": [
-    "quadruped",
-    "robot",
-    "stem",
-    "iot",
-    "diy"
-   ],
-   "published": "2026-08-04T08:34:59Z"
-  },
-  {
    "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
    "url": "https://provenmetal.com",
    "summary": "184 points, 129 comments",
@@ -205,6 +190,31 @@
    "published": ""
   },
   {
+   "title": "England set to be one of the first countries to eliminate hepatitis C",
+   "url": "https://www.bbc.com/news/articles/c75gk620r22o",
+   "summary": "Comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "hepatitis c",
+    "public health"
+   ],
+   "published": "2026-08-11T12:41:59Z"
+  },
+  {
+   "title": "AI tools speed up analysis, but scientific truths must be grounded in reality",
+   "url": "https://www.nature.com/articles/d41586-026-02490-9",
+   "summary": "Nature, Published online: 11 August 2026; doi:10.1038/d41586-026-02490-9 AI tools speed up analysis, but scientific truths must be grounded in reality",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai",
+    "scientific research",
+    "reality"
+   ],
+   "published": "2026-08-11T00:00:00Z"
+  },
+  {
    "title": "Meta, others lose appeal to drop thousands of social media addiction lawsuits",
    "url": "https://www.axios.com/2026/08/10/social-media-addiction-lawsuits-meta-tiktok",
    "summary": "A U.S. Appeals Court said Monday that thousands of lawsuits targeting Meta Platforms , ByteDance's TikTok and other social media outlets can proceed. The big picture: The lawsuits argue that the platforms are addictive and harmful to young people, and have prompted several tech…",
@@ -229,6 +239,43 @@
     "synthetic dataset generation"
    ],
    "published": "2026-08-10T17:09:32Z"
+  },
+  {
+   "title": "Real-Time Climate Risk Assessment for Supply Chain Resilience: A Data-Driven Nowcasting Framework for Colombian Agriculture",
+   "url": "https://arxiv.org/abs/2608.09846v1",
+   "summary": "This paper presents a methodological framework for real-time climate risk assessment using data-driven nowcasting techniques to enhance supply chain resilience in Colombian agricultural contexts. Climate variability in Colombia, characterized by irregular rainfall, temperature f…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "climate risk assessment",
+    "supply chain resilience"
+   ],
+   "published": "2026-08-10T17:05:47Z"
+  },
+  {
+   "title": "RA-FinBERT: Rule-aware LoRA adaptation for low-resource financial sentiment classification",
+   "url": "https://arxiv.org/abs/2608.09834v1",
+   "summary": "Financial sentiment analysis converts unstructured financial news into quantitative signals that can support market analysis and decision-making. Existing work on resource-efficient financial NLP has largely focused on compressing or adapting pretrained language models, with les…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "financial sentiment analysis",
+    "low-resource nlp"
+   ],
+   "published": "2026-08-10T16:52:19Z"
+  },
+  {
+   "title": "Distill Skills into Weights, Not Prompts: Abstract Skills as Privileged Signals for On-Policy Self-Distillation",
+   "url": "https://arxiv.org/abs/2608.09826v1",
+   "summary": "Reinforcement learning with verifiable rewards yields no group-relative signal when rollout groups are uniformly correct or uniformly wrong, which account for 63.0-68.0% of groups in our experiments. We propose SKALD (Skill-Anchored Latent Distillation), an on-policy self-distil…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "reinforcement learning",
+    "self-distillation",
+    "skill-anchored latent distillation"
+   ],
+   "published": "2026-08-10T16:43:18Z"
   },
   {
    "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
@@ -1370,32 +1417,6 @@
     "oceanography"
    ],
    "published": "2026-08-04T05:01:00Z"
-  },
-  {
-   "title": "DyFrDet: Towards Accurate Small Object Detection via Dynamic Frequency Suppression with Label Disambiguation",
-   "url": "https://arxiv.org/abs/2608.02495v1",
-   "summary": "Despite the remarkable progress over the past decades, accurately identifying small objects remains challenging because of their insufficient visual cues. Previous works typically attempt to construct discriminative representation of the small objects. However, the wide range fr…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "object detection",
-    "small objects",
-    "frequency domain"
-   ],
-   "published": "2026-08-03T17:01:19Z"
-  },
-  {
-   "title": "Cultural Awareness is Represented but Not Decoded: Tracing Mythological Knowledge across 18 Open-Source LLMs",
-   "url": "https://arxiv.org/abs/2608.02486v1",
-   "summary": "Open-source LLMs reliably name Zeus, Jupiter, and Thor, but recover their counterparts in less-represented traditions like Finnish, Slavic, Egyptian, or Chinese mythology far less consistently. We ask where inside the model this cultural default is produced. On a parallel cross-…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "cultural-awareness",
-    "mythological-knowledge",
-    "open-source-llms"
-   ],
-   "published": "2026-08-03T16:53:15Z"
   },
   {
    "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
