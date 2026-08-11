@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-11T14:16:56+00:00",
- "count": 125,
+ "generated_at": "2026-08-11T20:08:39+00:00",
+ "count": 127,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -341,6 +341,19 @@
     "zuckerberg"
    ],
    "published": "2026-08-10T10:03:08Z"
+  },
+  {
+   "title": "How Kevin Warsh is rewiring the Fed",
+   "url": "https://www.axios.com/2026/08/10/kevin-warsh-fed-economy-rates-ai",
+   "summary": "Federal Reserve chairman Kevin Warsh is attempting a high-wire act: He's trying to fundamentally rethink the central bank's approach to guiding the economy, while also using its standard policy toolkit to bring down stubbornly persistent inflation. A market blowup late last mont…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "federal",
+    "reserve",
+    "economy"
+   ],
+   "published": "2026-08-10T09:00:07Z"
   },
   {
    "title": "GitHub Code Quality Targets Maintainability as AI-Generated Code Increases",
@@ -1288,6 +1301,18 @@
    "published": "2026-08-04T19:48:40Z"
   },
   {
+   "title": "LFM2.5 2.6B model competitive with 4x larger models",
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+   "summary": "Comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "lfm2.5",
+    "model efficiency"
+   ],
+   "published": "2026-08-04T18:47:25Z"
+  },
+  {
    "title": "enQase and Light Rider Collaborate on Quantum-Safe Communication Infrastructure",
    "url": "https://thequantuminsider.com/2026/08/04/enqase-light-rider-quantum-safe-communication-infrastructure/",
    "summary": "Insider Brief Press release – enQase, a U.S.-based full-stack quantum-safe security platform, and Light Rider Inc., a quantum technology company developing secure communications, quantum entropy, and sovereign quantum infrastructure, today announced a strategic technology partne…",
@@ -1378,19 +1403,6 @@
     "platform engineering"
    ],
    "published": "2026-08-04T12:00:00Z"
-  },
-  {
-   "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
-   "url": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
-   "summary": "Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged code-fixing agent. The researchers said the public agent could be prompt…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "google",
-    "adk",
-    "github"
-   ],
-   "published": "2026-08-04T11:16:23Z"
   },
   {
    "title": "How Data Centers Broke American Politics",
@@ -1621,6 +1633,19 @@
     "chatgpt",
     "marketing",
     "automation"
+   ],
+   "published": ""
+  },
+  {
+   "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
+   "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
+   "summary": "120 points, 13 comments",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "github-copilot",
+    "mitm-proxy",
+    "ai-security"
    ],
    "published": ""
   }
