@@ -10,7 +10,7 @@ export default function ProjectsGrid(): JSX.Element {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: MOTION.timing.editorial.reveal / 1000,
+        staggerChildren: MOTION.timing.editorial.stagger / 1000,
         delayChildren: 0,
       },
     },

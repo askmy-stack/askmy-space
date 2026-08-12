@@ -54,6 +54,8 @@ export const MOTION = {
       hover: 200,
       press: 120,
       reveal: 350,
+      /** Delay between successive elements in a staggered reveal. */
+      stagger: 45,
     },
     dashboard: {
       pageTransition: 120,

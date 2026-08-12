@@ -28,7 +28,7 @@ export default function RepoTile({
       transition: {
         duration: MOTION.timing.editorial.pageTransition / 1000,
         ease: easeOutExpo,
-        delay: (index * MOTION.timing.editorial.reveal) / 1000,
+        delay: (index * MOTION.timing.editorial.stagger) / 1000,
       },
     },
   };

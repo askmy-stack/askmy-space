@@ -14,7 +14,7 @@ export default function Timeline(): JSX.Element {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: 0.045,
+        staggerChildren: MOTION.timing.editorial.stagger / 1000,
         delayChildren: 0,
       },
     },

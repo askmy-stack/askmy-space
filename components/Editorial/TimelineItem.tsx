@@ -27,7 +27,7 @@ export default function TimelineItem({
       transition: {
         duration: MOTION.timing.editorial.pageTransition / 1000,
         ease: easeOutExpo,
-        delay: (index * 0.045),
+        delay: (index * MOTION.timing.editorial.stagger) / 1000,
       },
     },
   };
