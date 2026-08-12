@@ -4,9 +4,8 @@ import { usePathname } from "next/navigation";
 
 /**
  * Routes that use the three-mode chrome (Navigation + mode Footer).
- * /signals stays legacy until Phase 2 rebuilds it as Dashboard mode.
  */
-const MODE_PREFIXES = ["/discover", "/explore"];
+const MODE_PREFIXES = ["/discover", "/explore", "/signals"];
 
 function isModeRoute(pathname: string): boolean {
   return MODE_PREFIXES.some((prefix) => pathname.startsWith(prefix));

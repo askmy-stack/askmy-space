@@ -496,6 +496,10 @@ svg {
   --color-dashboard-accent-1: #E8A76F;
   --color-dashboard-accent-2: #B85A3B;
   --color-dashboard-text-secondary: #3D3530;
+  /* AA-compliant text on the deep dashboard ground — the spec's
+     text-secondary (#3D3530, ~1.5:1) is reserved for borders/rules only. */
+  --color-dashboard-text-bright: #F2E7D8;
+  --color-dashboard-text-muted: #A18D75;
 
   --color-spatial-layer-1: #1F1B16;
   --color-spatial-accent-1: #F4D9A8;

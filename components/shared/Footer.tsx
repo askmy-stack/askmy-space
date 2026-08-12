@@ -1,9 +1,23 @@
+'use client';
+
 import { X_ACCOUNT } from '@/lib/constants';
+import { useDirection } from '@/lib/hooks';
+
+const directionStyles = {
+  editorial:
+    'bg-editorial-bg text-editorial-text border-t border-editorial-border',
+  dashboard:
+    'bg-dashboard-bg text-[var(--color-dashboard-text-bright)] border-t border-dashboard-border',
+  spatial:
+    'bg-spatial-bg text-spatial-text border-t border-spatial-border',
+} as const;
 
 export const Footer = () => {
+  const direction = useDirection();
+
   return (
-    <footer className="border-t border-current border-opacity-20 mt-12 py-8 px-6">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+    <footer className={`py-8 px-6 ${directionStyles[direction]}`}>
+      <div className="max-w-7xl mx-auto flex flex-wrap gap-4 justify-between items-center">
         <div className="text-sm opacity-60">
           © {new Date().getFullYear()} Abhinaysai Kamineni. All rights reserved.
         </div>

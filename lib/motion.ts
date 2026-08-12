@@ -34,3 +34,18 @@ export const clipReveal: Variants = {
     transition: { duration: 0.9, ease: easeOutExpo },
   },
 };
+
+/* Dashboard mode: immediate, responsive. 120ms snaps, 30ms cascade. */
+export const snapIn: Variants = {
+  hidden: { opacity: 0, y: 6 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.12, ease: easeOutQuart },
+  },
+};
+
+export const snapCascade: Variants = {
+  hidden: {},
+  visible: { transition: { staggerChildren: 0.03 } },
+};
