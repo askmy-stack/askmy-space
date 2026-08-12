@@ -44,16 +44,37 @@ export function plainText(value: string): string {
     .trim();
 }
 
+/**
+ * Feed URLs are rendered as anchors throughout the UI. Only http(s) may
+ * pass — a poisoned feed entry with a javascript:/data: URL would
+ * otherwise become stored XSS on every card that links it.
+ */
+export function safeExternalUrl(value: string): string | null {
+  try {
+    const parsed = new URL(value);
+    return parsed.protocol === "https:" || parsed.protocol === "http:"
+      ? parsed.toString()
+      : null;
+  } catch {
+    return null;
+  }
+}
+
 export function getIntelFeed(): IntelFeed {
   const raw = feed as IntelFeed;
-  return {
-    ...raw,
-    items: raw.items.map((item) => ({
-      ...item,
-      title: plainText(item.title),
-      summary: plainText(item.summary),
-    })),
-  };
+  const items = raw.items.flatMap((item) => {
+    const url = safeExternalUrl(item.url);
+    if (!url) return [];
+    return [
+      {
+        ...item,
+        url,
+        title: plainText(item.title),
+        summary: plainText(item.summary),
+      },
+    ];
+  });
+  return { ...raw, count: items.length, items };
 }
 
 /** Category -> item count, ordered by count descending. */
