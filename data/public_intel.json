@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-12T08:24:39+00:00",
- "count": 125,
+ "generated_at": "2026-08-12T14:17:20+00:00",
+ "count": 123,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -190,6 +190,33 @@
    "published": ""
   },
   {
+   "title": "Exclusive: ClearJet raises $25M to build the ‘Uber of Cargo’",
+   "url": "https://news.crunchbase.com/transportation/clearjet-raises-25m-logistics-ai-seriesb/",
+   "summary": "Austin-based ClearJet, an AI-enabled logistics technology startup connects shippers with unused cargo capacity on commercial flights, has raised a $25 million Edison Partners-led Series B, it tells Crunchbase News exclusively.",
+   "score": 7,
+   "category": "startup",
+   "tags": [
+    "funding",
+    "logistics",
+    "cargo",
+    "series b"
+   ],
+   "published": "2026-08-12T12:00:18Z"
+  },
+  {
+   "title": "What sort of maths are LLMs good at?",
+   "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+   "summary": "Comments",
+   "score": 7,
+   "category": "idea",
+   "tags": [
+    "llms",
+    "mathematics",
+    "capabilities"
+   ],
+   "published": "2026-08-12T10:04:25Z"
+  },
+  {
    "title": "The lifesaving secret hidden inside a horseshoe crab's blue blood",
    "url": "https://whdh.com/news/the-lifesaving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/",
    "summary": "Comments",
@@ -203,6 +230,19 @@
    "published": "2026-08-12T01:45:51Z"
   },
   {
+   "title": "Decoupled Descent: Enforcing Exact Train-Test Error Tracking Via AMP Onsager Corrections [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1vlu1se/decoupled_descent_enforcing_exact_traintest_error/",
+   "summary": "Link: https://arxiv.org/pdf/2604.27883 Hi, Most of use are familiar with the headache of training a neural network using gradient descent where the training error may go to zero but the test error may stay the same as initialization or even increases. My paper treats this phenom…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "decoupled descent",
+    "train-test error tracking",
+    "amp onsager corrections"
+   ],
+   "published": "2026-08-11T21:06:36Z"
+  },
+  {
    "title": "Uncertainty-Aware Deep Learning for Genomics Applications: Insights from an Empirical Study",
    "url": "https://arxiv.org/abs/2608.11054v1",
    "summary": "Deep learning models have emerged as the standard computational tool for a wide range of applications in genomics. Yet, uncertainty quantification (UQ) -- and more specifically, the reliability of different uncertainty estimates in this domain -- has received little systematic a…",
@@ -214,6 +254,19 @@
     "genomics"
    ],
    "published": "2026-08-11T15:23:09Z"
+  },
+  {
+   "title": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
+   "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+   "summary": "Article URL: https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md Comments URL: https://news.ycombinator.com/item?id=49259339 Points: 252 # Comments: 39",
+   "score": 7,
+   "category": "tool",
+   "tags": [
+    "apple silicon",
+    "macos vms",
+    "llama.cpp"
+   ],
+   "published": "2026-08-11T14:50:33Z"
   },
   {
    "title": "England set to be one of the first countries to eliminate hepatitis C",
@@ -1339,32 +1392,6 @@
    "published": "2026-08-05T10:35:29Z"
   },
   {
-   "title": "A New Device Eases One of the Most Annoying Parts of Routine Physicals",
-   "url": "https://www.wired.com/story/iris-nodoca-ai-throat-exam-routine-physical/",
-   "summary": "Nobody likes getting a swab shoved up their nose. A startup in Japan has developed a much less intrusive system.",
-   "score": 7,
-   "category": "startup",
-   "tags": [
-    "medical devices",
-    "innovation",
-    "healthcare technology"
-   ],
-   "published": "2026-08-05T09:00:00Z"
-  },
-  {
-   "title": "U.S. nears Hormuz deal, aiming for Wednesday announcement",
-   "url": "https://www.axios.com/2026/08/05/us-iran-strait-of-hormuz-deal-nears",
-   "summary": "The U.S., Iran and Oman are closing in on an interim agreement to reopen the Strait of Hormuz, with the U.S. aiming for a Wednesday announcement, according to two regional sources and a U.S. official. Why it matters: The deal, which has been under negotiations for several weeks,…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "geopolitics",
-    "iran",
-    "strait-of-hormuz"
-   ],
-   "published": "2026-08-05T02:00:21Z"
-  },
-  {
    "title": "LFM2.5 2.6B model competitive with 4x larger models",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
    "summary": "Comments",
@@ -1390,71 +1417,6 @@
     "github"
    ],
    "published": "2026-08-04T13:43:58Z"
-  },
-  {
-   "title": "Your agent can now debug Workers with local tracing",
-   "url": "https://blog.cloudflare.com/local-tracing/",
-   "summary": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required.",
-   "score": 7,
-   "category": "tool",
-   "tags": [
-    "debugging",
-    "workers",
-    "local tracing"
-   ],
-   "published": "2026-08-04T13:00:00Z"
-  },
-  {
-   "title": "Platform Engineering Maturity Emerges as a Key Differentiator for Enterprise AI Success",
-   "url": "https://www.infoq.com/news/2026/08/perforce-maturity-ai-success/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Platform engineering maturity is emerging as an important factor in determining whether organizations can turn AI adoption into sustainable operational value, according to Perforce Software's 2026 Platform Engineering Report. By Craig Risi",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "personal-relevant",
-    "ai maturity",
-    "platform engineering"
-   ],
-   "published": "2026-08-04T12:00:00Z"
-  },
-  {
-   "title": "How Data Centers Broke American Politics",
-   "url": "https://www.wired.com/story/how-data-centers-broke-american-politics/",
-   "summary": "What the Unabomber, Steve Bannon’s tech guy, and Bernie Sanders taught me about the great data center backlash of 2026.",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "politics",
-    "data centers",
-    "society"
-   ],
-   "published": "2026-08-04T10:00:00Z"
-  },
-  {
-   "title": "With lucky dive, scientists get a front-row view of the creation of Earth’s surface",
-   "url": "https://www.science.org/content/article/lucky-dive-scientists-get-front-row-view-creation-earth-s-surface",
-   "summary": "Chance—and preparation—reveal live action at midocean ridges",
-   "score": 7,
-   "category": "research-highlight",
-   "tags": [
-    "earth science",
-    "geology",
-    "oceanography"
-   ],
-   "published": "2026-08-04T05:01:00Z"
-  },
-  {
-   "title": "Bending Spoons makes first post-IPO acquisition with $1.3B Airtable deal",
-   "url": "https://live.euronext.com/en/financial-news/bending-spoons-makes-first-post-ipo-acquisition-13-billion-airtable-deal",
-   "summary": "102 points, 98 comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "acquisition",
-    "airtable",
-    "bending spoons"
-   ],
-   "published": ""
   },
   {
    "title": "The \"Disability Dongle\": Why Silicon Valley Hates Me and You",
@@ -1621,6 +1583,19 @@
     "github-copilot",
     "mitm-proxy",
     "ai-security"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Tech leaders say AI means less work – staff say they work up to 90 hours a week",
+   "url": "https://www.bbc.com/news/articles/cvgx4yd1gl2o",
+   "summary": "123 points, 47 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "work-life-balance",
+    "ai-impact",
+    "staff-burnout"
    ],
    "published": ""
   }
