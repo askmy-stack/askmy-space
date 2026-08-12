@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-12T14:17:20+00:00",
- "count": 123,
+ "generated_at": "2026-08-12T20:07:13+00:00",
+ "count": 120,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -190,6 +190,20 @@
    "published": ""
   },
   {
+   "title": "ORIENTOM and softwareQ Partner on Quantum Computing Applications for Finance",
+   "url": "https://thequantuminsider.com/2026/08/12/orientom-softwareq-quantum-computing-finance-applications/",
+   "summary": "Insider Brief Press release – ORIENTOM Co., Ltd. and softwareQ Inc. have signed a Memorandum of Understanding (MoU) to explore joint research, development and innovation opportunities in quantum and quantum-inspired computing for the financial services, banking, and insurance se…",
+   "score": 7,
+   "category": "startup",
+   "tags": [
+    "orientom",
+    "softwareq",
+    "quantum computing",
+    "finance"
+   ],
+   "published": "2026-08-12T14:07:29Z"
+  },
+  {
    "title": "Exclusive: ClearJet raises $25M to build the ‘Uber of Cargo’",
    "url": "https://news.crunchbase.com/transportation/clearjet-raises-25m-logistics-ai-seriesb/",
    "summary": "Austin-based ClearJet, an AI-enabled logistics technology startup connects shippers with unused cargo capacity on commercial flights, has raised a $25 million Edison Partners-led Series B, it tells Crunchbase News exclusively.",
@@ -228,6 +242,19 @@
     "innovation"
    ],
    "published": "2026-08-12T01:45:51Z"
+  },
+  {
+   "title": "Giant balloon gives rise to new view of the Milky Way’s centre",
+   "url": "https://www.nature.com/articles/d41586-026-02463-y",
+   "summary": "Nature, Published online: 12 August 2026; doi:10.1038/d41586-026-02463-y Airborne camera gathers data about the high-energy particles emanating from the core of our Galaxy.",
+   "score": 7,
+   "category": "research-highlight",
+   "tags": [
+    "space-exploration",
+    "milky-way",
+    "astronomy"
+   ],
+   "published": "2026-08-12T00:00:00Z"
   },
   {
    "title": "Decoupled Descent: Enforcing Exact Train-Test Error Tracking Via AMP Onsager Corrections [R]",
@@ -1315,83 +1342,6 @@
    "published": "2026-08-05T16:04:33Z"
   },
   {
-   "title": "Trojanized npm Packages Decode C2 IP From Ethereum Recipient Addresses",
-   "url": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
-   "summary": "Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer. The new dead drop resolver approach, ob…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "trojanized npm packages",
-    "ethereum",
-    "command and control"
-   ],
-   "published": "2026-08-05T13:41:27Z"
-  },
-  {
-   "title": "Thailand Launches Quantum Club Thailand to Support Quantum Technology Development",
-   "url": "https://thequantuminsider.com/2026/08/05/thailand-launches-quantum-club-thailand-national-platform/",
-   "summary": "Insider Brief Thailand launched a national quantum technology collaboration platform called “Quantum Club Thailand” in Bangkok on August 3, 2026. The platform combines the Ministry of Higher Education, Science, Research and Innovation (MHESI), Charoen Pokphand Group, Arise, True…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "quantum technology",
-    "thailand",
-    "quantum club"
-   ],
-   "published": "2026-08-05T11:30:59Z"
-  },
-  {
-   "title": "Position: LLMs Can't Jump",
-   "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
-   "summary": "Comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "llms",
-    "ai-limitations"
-   ],
-   "published": "2026-08-05T11:01:37Z"
-  },
-  {
-   "title": "Your AI Strategy May Be Destroying Your Exit Value",
-   "url": "https://news.crunchbase.com/ai/strategies-enhancing-exit-value-acquisitions-sagie/",
-   "summary": "While integrating AI into a startup's product strategy is often viewed as a way to enhance valuation, it can inadvertently reduce exit value, argues tech strategic adviser Itay Sagie. In this guest commentary he shares three ways your AI strategy can provide a positive impact on…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai strategy",
-    "exit value",
-    "startups"
-   ],
-   "published": "2026-08-05T11:00:37Z"
-  },
-  {
-   "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
-   "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
-   "summary": "WindBorne Systems has raised $37 million Series B round to scale its weather balloons and AI forecasts.",
-   "score": 7,
-   "category": "startup",
-   "tags": [
-    "weather-prediction",
-    "ai",
-    "funding"
-   ],
-   "published": "2026-08-05T11:00:00Z"
-  },
-  {
-   "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
-   "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
-   "summary": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploiting a software vulnerability. We scanned public GitHub com…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "n8n api tokens",
-    "credential theft",
-    "github commits"
-   ],
-   "published": "2026-08-05T10:35:29Z"
-  },
-  {
    "title": "LFM2.5 2.6B model competitive with 4x larger models",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
    "summary": "Comments",
@@ -1596,6 +1546,19 @@
     "work-life-balance",
     "ai-impact",
     "staff-burnout"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Faster floating point math with Rust's new API",
+   "url": "https://pythonspeed.com/articles/faster-float-math-rust/",
+   "summary": "103 points, 46 comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "rust",
+    "floating-point",
+    "math"
    ],
    "published": ""
   }
