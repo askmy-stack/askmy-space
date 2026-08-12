@@ -38,10 +38,10 @@ export default function Timeline(): JSX.Element {
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="mb-12 space-y-2">
-            <h2 className="text-[var(--type-display-lg-size)] font-[var(--type-display-lg-weight)] text-[var(--color-editorial-text)]">
+            <h2 className="t-display-lg text-[var(--color-editorial-text)]">
               Professional Journey
             </h2>
-            <p className="text-[var(--type-body-size)] text-[var(--color-editorial-text-secondary)]">
+            <p className="t-body text-[var(--color-editorial-text-secondary)]">
               Experience and roles that shaped my expertise
             </p>
           </div>
@@ -73,10 +73,10 @@ export default function Timeline(): JSX.Element {
       >
         {/* Header */}
         <motion.div className="mb-12 space-y-2" variants={itemVariants}>
-          <h2 className="text-[var(--type-display-lg-size)] font-[var(--type-display-lg-weight)] text-[var(--color-editorial-text)]">
+          <h2 className="t-display-lg text-[var(--color-editorial-text)]">
             Professional Journey
           </h2>
-          <p className="text-[var(--type-body-size)] text-[var(--color-editorial-text-secondary)]">
+          <p className="t-body text-[var(--color-editorial-text-secondary)]">
             Experience and roles that shaped my expertise
           </p>
         </motion.div>

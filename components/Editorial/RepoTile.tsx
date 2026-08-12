@@ -37,14 +37,14 @@ export default function RepoTile({
     <div className="space-y-3">
       {/* Repository Name */}
       <div className="space-y-1">
-        <h3 className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] text-[var(--color-editorial-text)] font-mono">
+        <h3 className="t-display-md text-[var(--color-editorial-text)] font-mono">
           {repo.name}
         </h3>
       </div>
 
       {/* Description */}
       {repo.description && (
-        <p className="text-[var(--type-body-size)] text-[var(--color-editorial-text)] leading-[var(--type-body-line-height)] line-clamp-1">
+        <p className="t-body text-[var(--color-editorial-text)] line-clamp-1">
           {repo.description}
         </p>
       )}
@@ -58,14 +58,14 @@ export default function RepoTile({
               style={{ backgroundColor: languageColor }}
               aria-label={`${repo.language} repository`}
             />
-            <span className="text-[var(--type-mono-size)] font-[var(--type-mono-weight)] text-[var(--color-editorial-text)]">
+            <span className="t-mono text-[var(--color-editorial-text)]">
               {repo.language}
             </span>
           </div>
         ) : (
           <div />
         )}
-        <span className="text-[var(--type-mono-size)] font-[var(--type-mono-weight)] text-[var(--color-editorial-text-secondary)]">
+        <span className="t-mono text-[var(--color-editorial-text-secondary)]">
           ★ {repo.stargazers_count.toLocaleString()}
         </span>
       </div>

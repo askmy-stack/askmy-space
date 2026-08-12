@@ -49,17 +49,17 @@ export default function OpenSourceSection({
       <section className="relative w-full py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-[var(--color-editorial-bg)]">
         <div className="max-w-6xl mx-auto">
           <div className="mb-12 space-y-2">
-            <p className="text-[var(--type-caption-size)] text-[var(--color-editorial-text-secondary)] font-mono">
+            <p className="t-caption text-[var(--color-editorial-text-secondary)] font-mono">
               ~/open-source
             </p>
-            <h2 className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] text-[var(--color-editorial-text)]">
+            <h2 className="t-display-md text-[var(--color-editorial-text)]">
               The Stack is Public
             </h2>
-            <p className="text-[var(--type-body-size)] text-[var(--color-editorial-text-secondary)]">
+            <p className="t-body text-[var(--color-editorial-text-secondary)]">
               Fork it, file issues, or steal the patterns.
             </p>
           </div>
-          <p className="text-[var(--type-body-size)] text-[var(--color-editorial-text-secondary)]">
+          <p className="t-body text-[var(--color-editorial-text-secondary)]">
             Unable to load repositories. Check back later.
           </p>
         </div>
@@ -72,13 +72,13 @@ export default function OpenSourceSection({
       <section className="relative w-full py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-[var(--color-editorial-bg)]">
         <div className="max-w-6xl mx-auto">
           <div className="mb-12 space-y-2">
-            <p className="text-[var(--type-caption-size)] text-[var(--color-editorial-text-secondary)] font-mono">
+            <p className="t-caption text-[var(--color-editorial-text-secondary)] font-mono">
               ~/open-source
             </p>
-            <h2 className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] text-[var(--color-editorial-text)]">
+            <h2 className="t-display-md text-[var(--color-editorial-text)]">
               The Stack is Public
             </h2>
-            <p className="text-[var(--type-body-size)] text-[var(--color-editorial-text-secondary)]">
+            <p className="t-body text-[var(--color-editorial-text-secondary)]">
               Fork it, file issues, or steal the patterns.
             </p>
           </div>
@@ -97,11 +97,11 @@ export default function OpenSourceSection({
                   />
                 )}
                 <div className="flex-1 space-y-2">
-                  <h3 className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] text-[var(--color-editorial-text)]">
+                  <h3 className="t-display-md text-[var(--color-editorial-text)]">
                     @{user.login}
                   </h3>
                   {user.bio && (
-                    <p className="text-[var(--type-body-size)] text-[var(--color-editorial-text-secondary)]">
+                    <p className="t-body text-[var(--color-editorial-text-secondary)]">
                       {user.bio}
                     </p>
                   )}
@@ -146,13 +146,13 @@ export default function OpenSourceSection({
       >
         {/* Header */}
         <motion.div className="mb-12 space-y-2" variants={itemVariants}>
-          <p className="text-[var(--type-caption-size)] text-[var(--color-editorial-text-secondary)] font-mono">
+          <p className="t-caption text-[var(--color-editorial-text-secondary)] font-mono">
             ~/open-source
           </p>
-          <h2 className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] text-[var(--color-editorial-text)]">
+          <h2 className="t-display-md text-[var(--color-editorial-text)]">
             The Stack is Public
           </h2>
-          <p className="text-[var(--type-body-size)] text-[var(--color-editorial-text-secondary)]">
+          <p className="t-body text-[var(--color-editorial-text-secondary)]">
             Fork it, file issues, or steal the patterns.
           </p>
         </motion.div>
@@ -174,11 +174,11 @@ export default function OpenSourceSection({
                 />
               )}
               <div className="flex-1 space-y-2">
-                <h3 className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] text-[var(--color-editorial-text)]">
+                <h3 className="t-display-md text-[var(--color-editorial-text)]">
                   @{user.login}
                 </h3>
                 {user.bio && (
-                  <p className="text-[var(--type-body-size)] text-[var(--color-editorial-text-secondary)]">
+                  <p className="t-body text-[var(--color-editorial-text-secondary)]">
                     {user.bio}
                   </p>
                 )}

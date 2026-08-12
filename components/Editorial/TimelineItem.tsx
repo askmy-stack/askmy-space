@@ -35,24 +35,24 @@ export default function TimelineItem({
   const content = (
     <div className="space-y-2">
       {/* Title/Role */}
-      <h3 className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] text-[var(--color-editorial-text)] font-serif">
+      <h3 className="t-display-md font-display text-[var(--color-editorial-text)]">
         {item.title}
       </h3>
 
       {/* Company */}
       {item.company && (
-        <p className="text-[var(--type-body-size)] text-[var(--color-editorial-text)]">
+        <p className="t-body text-[var(--color-editorial-text)]">
           {item.company}
         </p>
       )}
 
       {/* Duration */}
-      <p className="text-[var(--type-mono-size)] font-[var(--type-mono-weight)] text-[var(--color-editorial-text-secondary)]">
+      <p className="t-mono text-[var(--color-editorial-text-secondary)]">
         {item.duration}, {item.timezone}
       </p>
 
       {/* Description */}
-      <p className="text-[var(--type-body-size)] text-[var(--color-editorial-text-secondary)] max-w-prose">
+      <p className="t-body text-[var(--color-editorial-text-secondary)] max-w-prose">
         {item.description}
       </p>
     </div>

@@ -36,10 +36,10 @@ export default function EditorialHero(): JSX.Element {
     return (
       <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-[var(--color-editorial-bg)]">
         <div className="max-w-4xl mx-auto">
-          <h1 className="font-display text-[var(--type-display-xl-size)] font-[var(--type-display-xl-weight)] leading-[var(--type-display-xl-line-height)] text-[var(--color-editorial-text)] mb-6">
+          <h1 className="t-display-xl text-[var(--color-editorial-text)] mb-6">
             ASK.
           </h1>
-          <p className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] text-[var(--color-editorial-text-secondary)] mb-10">
+          <p className="t-display-md text-[var(--color-editorial-text-secondary)] mb-10">
             AI Engineering Portfolio & Research Archive
           </p>
           <div className="flex flex-wrap gap-4">
@@ -70,7 +70,7 @@ export default function EditorialHero(): JSX.Element {
         {/* Headline */}
         <motion.h1
           variants={itemVariants}
-          className="font-display text-[var(--type-display-xl-size)] font-[var(--type-display-xl-weight)] leading-[var(--type-display-xl-line-height)] text-[var(--color-editorial-text)] mb-6"
+          className="t-display-xl text-[var(--color-editorial-text)] mb-6"
         >
           ASK.
         </motion.h1>
@@ -78,7 +78,7 @@ export default function EditorialHero(): JSX.Element {
         {/* Tagline */}
         <motion.p
           variants={itemVariants}
-          className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] text-[var(--color-editorial-text-secondary)] mb-10 max-w-2xl"
+          className="t-display-md text-[var(--color-editorial-text-secondary)] mb-10 max-w-2xl"
         >
           AI Engineering Portfolio & Research Archive
         </motion.p>

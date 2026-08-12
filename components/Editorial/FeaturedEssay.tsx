@@ -43,17 +43,17 @@ export default function FeaturedEssay({
       <article className="bg-white border-2 border-[var(--color-editorial-border)] rounded-lg p-6 sm:p-8 shadow-sm">
         <div className="space-y-4">
           <div className="space-y-2">
-            <h3 className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] text-[var(--color-editorial-text)]">
+            <h3 className="t-display-md text-[var(--color-editorial-text)]">
               {title}
             </h3>
-            <div className="flex items-center gap-4 text-[var(--type-caption-size)] text-[var(--color-editorial-text-secondary)]">
+            <div className="flex items-center gap-4 t-caption text-[var(--color-editorial-text-secondary)]">
               <span>{author}</span>
-              <span className="text-mono font-[var(--type-mono-weight)]">
+              <span className="t-mono">
                 {date}
               </span>
             </div>
           </div>
-          <p className="text-[var(--type-body-size)] text-[var(--color-editorial-text)] leading-[var(--type-body-line-height)] mb-6">
+          <p className="t-body text-[var(--color-editorial-text)] mb-6">
             {truncatedExcerpt}
           </p>
           <Link
@@ -78,24 +78,24 @@ export default function FeaturedEssay({
       <div className="space-y-4">
         <div className="space-y-2">
           <motion.h3
-            className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] text-[var(--color-editorial-text)]"
+            className="t-display-md text-[var(--color-editorial-text)]"
           >
             {title}
           </motion.h3>
           <motion.div
-            className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-[var(--type-caption-size)] text-[var(--color-editorial-text-secondary)]"
+            className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 t-caption text-[var(--color-editorial-text-secondary)]"
           >
             <span>{author}</span>
-            <span className="text-mono font-[var(--type-mono-weight)] hidden sm:inline">
+            <span className="t-mono hidden sm:inline">
               ·
             </span>
-            <span className="text-mono font-[var(--type-mono-weight)]">
+            <span className="t-mono">
               {date}
             </span>
           </motion.div>
         </div>
         <motion.p
-          className="text-[var(--type-body-size)] text-[var(--color-editorial-text)] leading-[var(--type-body-line-height)] mb-6"
+          className="t-body text-[var(--color-editorial-text)] mb-6"
         >
           {truncatedExcerpt}
         </motion.p>

@@ -11,7 +11,7 @@ interface CaseStudyDetailProps {
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
-    <p className="font-mono text-[var(--type-mono-size)] font-[var(--type-mono-weight)] uppercase tracking-[0.25em] text-[var(--color-editorial-accent-1)]">
+    <p className="t-mono uppercase tracking-[0.25em] text-[var(--color-editorial-accent-1)]">
       {children}
     </p>
   );
@@ -34,7 +34,7 @@ export default function CaseStudyDetail({
         {/* Breadcrumb */}
         <nav
           aria-label="Breadcrumb"
-          className="font-mono text-[var(--type-mono-size)] text-[var(--color-editorial-text-secondary)] mb-10"
+          className="t-mono text-[var(--color-editorial-text-secondary)] mb-10"
         >
           <Link
             href="/discover"
@@ -47,14 +47,14 @@ export default function CaseStudyDetail({
 
         {/* Header */}
         <header className="mb-12">
-          <div className="flex flex-wrap items-baseline justify-between gap-3 font-mono text-[var(--type-mono-size)] text-[var(--color-editorial-text-secondary)] mb-6">
+          <div className="flex flex-wrap items-baseline justify-between gap-3 t-mono text-[var(--color-editorial-text-secondary)] mb-6">
             <span>{project.category}</span>
             <span>{published} · ET</span>
           </div>
-          <h1 className="font-serif text-[var(--type-display-xl-size)] font-[var(--type-display-xl-weight)] leading-[var(--type-display-xl-line-height)] text-[var(--color-editorial-text)] mb-4">
+          <h1 className="t-display-xl text-[var(--color-editorial-text)] mb-4">
             {project.title}
           </h1>
-          <p className="text-[var(--type-display-md-size)] text-[var(--color-editorial-text-secondary)] leading-[var(--type-display-md-line-height)]">
+          <p className="t-display-md text-[var(--color-editorial-text-secondary)]">
             {project.subtitle}
           </p>
         </header>
@@ -74,7 +74,7 @@ export default function CaseStudyDetail({
             />
           ) : (
             <div className="absolute inset-0 flex items-end p-8">
-              <p className="font-mono text-[var(--type-mono-size)] text-[var(--color-editorial-text-secondary)]">
+              <p className="t-mono text-[var(--color-editorial-text-secondary)]">
                 {project.heroMetric}
               </p>
             </div>
@@ -84,7 +84,7 @@ export default function CaseStudyDetail({
         {/* Problem */}
         <section className="space-y-4 mb-4">
           <SectionLabel>Problem</SectionLabel>
-          <p className="text-[var(--type-body-size)] leading-[var(--type-body-line-height)] text-[var(--color-editorial-text)]">
+          <p className="t-body text-[var(--color-editorial-text)]">
             {project.problem}
           </p>
         </section>
@@ -94,7 +94,7 @@ export default function CaseStudyDetail({
         {/* Approach */}
         <section className="space-y-4 mb-4">
           <SectionLabel>Approach</SectionLabel>
-          <div className="space-y-5 text-[var(--type-body-size)] leading-[var(--type-body-line-height)] text-[var(--color-editorial-text)]">
+          <div className="space-y-5 t-body text-[var(--color-editorial-text)]">
             {project.approach.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}
@@ -106,10 +106,10 @@ export default function CaseStudyDetail({
         {/* Results */}
         <section className="space-y-4 mb-4">
           <SectionLabel>Results</SectionLabel>
-          <p className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] leading-[var(--type-display-md-line-height)] text-[var(--color-editorial-text)]">
+          <p className="t-display-md text-[var(--color-editorial-text)]">
             {project.heroMetric}
           </p>
-          <ul className="space-y-2 font-mono text-[var(--type-mono-size)] text-[var(--color-editorial-text-secondary)]">
+          <ul className="space-y-2 t-mono text-[var(--color-editorial-text-secondary)]">
             {project.results.map((result) => (
               <li key={result} className="flex gap-3">
                 <span className="text-[var(--color-editorial-accent-1)]" aria-hidden="true">
@@ -130,7 +130,7 @@ export default function CaseStudyDetail({
             {project.tags.map((tag) => (
               <span
                 key={tag}
-                className="font-mono text-[var(--type-mono-size)] px-3 py-1.5 rounded-full border border-[var(--color-editorial-accent-1)] text-[var(--color-editorial-text)]"
+                className="t-mono px-3 py-1.5 rounded-full border border-[var(--color-editorial-accent-1)] text-[var(--color-editorial-text)]"
               >
                 {tag}
               </span>
@@ -143,7 +143,7 @@ export default function CaseStudyDetail({
         {/* What I learned */}
         <section className="space-y-4 mb-10">
           <SectionLabel>What I learned</SectionLabel>
-          <p className="text-[var(--type-body-size)] leading-[var(--type-body-line-height)] text-[var(--color-editorial-text)] italic">
+          <p className="t-body text-[var(--color-editorial-text)] italic">
             {project.learnings}
           </p>
         </section>
@@ -165,7 +165,7 @@ export default function CaseStudyDetail({
         {/* Prev / Next */}
         <nav
           aria-label="Case study navigation"
-          className="flex items-center justify-between gap-4 pt-8 border-t border-[var(--color-editorial-border)] font-mono text-[var(--type-mono-size)] text-[var(--color-editorial-text-secondary)]"
+          className="flex items-center justify-between gap-4 pt-8 border-t border-[var(--color-editorial-border)] t-mono text-[var(--color-editorial-text-secondary)]"
         >
           <Link
             href={`/discover/${prev.slug}`}

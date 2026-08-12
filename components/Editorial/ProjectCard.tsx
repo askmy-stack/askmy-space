@@ -46,16 +46,16 @@ export default function ProjectCard({
       className="flex flex-col bg-white border-2 border-[var(--color-editorial-border)] rounded-lg p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow duration-200 ease-[var(--motion-easing-standard)]"
     >
       <div className="flex flex-col gap-4 flex-1">
-        <p className="text-[var(--type-mono-size)] font-[var(--type-mono-weight)] text-[var(--color-editorial-text-secondary)]">
+        <p className="t-mono text-[var(--color-editorial-text-secondary)]">
           {project.category}
         </p>
-        <h3 className="text-[var(--type-display-md-size)] font-[var(--type-display-md-weight)] text-[var(--color-editorial-text)]">
+        <h3 className="t-display-md text-[var(--color-editorial-text)]">
           {project.title}
         </h3>
-        <p className="text-[var(--type-body-size)] text-[var(--color-editorial-text)] leading-[var(--type-body-line-height)] line-clamp-3">
+        <p className="t-body text-[var(--color-editorial-text)] line-clamp-3">
           {project.narrative}
         </p>
-        <p className="mt-auto pt-3 border-t border-[var(--color-editorial-border)] text-[var(--type-mono-size)] font-[var(--type-mono-weight)] text-[var(--color-editorial-text)]">
+        <p className="mt-auto pt-3 border-t border-[var(--color-editorial-border)] t-mono text-[var(--color-editorial-text)]">
           {project.heroMetric}
         </p>
         <Link

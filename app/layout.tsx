@@ -7,8 +7,10 @@ import { siteConfig } from "@/content/site";
 import { ThemeProvider } from "@/components/shared/ThemeProvider";
 import { Navigation } from "@/components/shared/Navigation";
 import { Footer } from "@/components/shared/Footer";
+import { LegacyOnly, ModeOnly } from "@/components/shared/RouteChrome";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import Header from "@/components/layout/Header";
+import LegacyFooter from "@/components/layout/Footer";
 import SignalField from "@/components/scene/SignalField";
 import PageTransition from "@/components/providers/PageTransition";
 
@@ -97,18 +99,27 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
         />
-        <a href="#work" className="skip-to-content">
-          Skip to work
+        <a href="#main" className="skip-to-content">
+          Skip to content
         </a>
         <ThemeProvider>
-          <Navigation />
+          <ModeOnly>
+            <Navigation />
+          </ModeOnly>
           <SmoothScroll>
-            <SignalField />
-            <Header />
+            <LegacyOnly>
+              <SignalField />
+              <Header />
+            </LegacyOnly>
             <PageTransition>
               <main id="main">{children}</main>
             </PageTransition>
-            <Footer />
+            <ModeOnly>
+              <Footer />
+            </ModeOnly>
+            <LegacyOnly>
+              <LegacyFooter />
+            </LegacyOnly>
           </SmoothScroll>
         </ThemeProvider>
         <Analytics />
