@@ -49,3 +49,13 @@ export const snapCascade: Variants = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.03 } },
 };
+
+/* Spatial mode: continuous, dimensional. 400ms expands. */
+export const expandIn: Variants = {
+  hidden: { opacity: 0, scale: 0.96 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: { duration: 0.4, ease: easeOutExpo },
+  },
+};
