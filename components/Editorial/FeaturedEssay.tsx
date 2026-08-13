@@ -58,7 +58,7 @@ export default function FeaturedEssay({
           </p>
           <Link
             href={`/discover/${slug}`}
-            className="inline-flex items-center gap-2 text-[var(--color-editorial-accent-1)] font-semibold hover:text-[var(--color-editorial-accent-2)] transition-colors duration-200"
+            className="inline-flex items-center gap-2 min-h-[44px] text-[var(--color-editorial-accent-1)] font-semibold hover:text-[var(--color-editorial-accent-2)] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-md"
           >
             Read →
           </Link>
@@ -102,7 +102,7 @@ export default function FeaturedEssay({
         <motion.div>
           <Link
             href={`/discover/${slug}`}
-            className="inline-flex items-center gap-2 text-[var(--color-editorial-accent-1)] font-semibold hover:text-[var(--color-editorial-accent-2)] transition-colors duration-200"
+            className="inline-flex items-center gap-2 min-h-[44px] text-[var(--color-editorial-accent-1)] font-semibold hover:text-[var(--color-editorial-accent-2)] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-md"
           >
             Read →
           </Link>

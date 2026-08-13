@@ -27,7 +27,7 @@ function Pill({
       type="button"
       onClick={onClick}
       aria-pressed={selected}
-      className={`t-mono rounded-full border px-3 py-1.5 min-h-[36px] transition-colors duration-[var(--motion-dashboard-snap)] focus:outline-none focus:ring-2 focus:ring-offset-2 active:scale-[0.97] ${
+      className={`t-mono rounded-full border px-3 py-1.5 min-h-[44px] transition-colors duration-[var(--motion-dashboard-snap)] focus:outline-none focus:ring-2 focus:ring-offset-2 active:scale-[0.97] ${
         selected
           ? "border-[var(--color-dashboard-accent-1)] bg-[var(--color-dashboard-accent-1)] font-bold text-[var(--color-dashboard-bg)]"
           : "border-[var(--color-dashboard-border)] text-[var(--color-dashboard-text-muted)] hover:border-[var(--color-dashboard-accent-1)] hover:text-[var(--color-dashboard-text-bright)]"
@@ -75,7 +75,7 @@ export default function FilterRail({
           value={query}
           onChange={(e) => onQuery(e.target.value)}
           placeholder="title, summary, tag…"
-          className="t-mono min-h-[36px] w-full max-w-xs rounded-md border border-[var(--color-dashboard-border)] bg-transparent px-3 py-1.5 text-[var(--color-dashboard-text-bright)] placeholder:text-[var(--color-dashboard-text-muted)] focus:border-[var(--color-dashboard-accent-1)] focus:outline-none focus:ring-2 focus:ring-offset-2"
+          className="t-mono min-h-[44px] w-full max-w-xs rounded-md border border-[var(--color-dashboard-border)] bg-transparent px-3 py-1.5 text-[var(--color-dashboard-text-bright)] placeholder:text-[var(--color-dashboard-text-muted)] focus:border-[var(--color-dashboard-accent-1)] focus:outline-none focus:ring-2 focus:ring-offset-2"
         />
         <div className="flex items-center gap-2 ml-auto">
           <span className="t-mono text-[var(--color-dashboard-text-muted)]">sort</span>

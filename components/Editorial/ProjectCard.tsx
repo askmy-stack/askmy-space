@@ -60,7 +60,7 @@ export default function ProjectCard({
         </p>
         <Link
           href={`/discover/${project.slug}`}
-          className="inline-flex items-center gap-2 self-start text-[var(--color-editorial-accent-1)] font-semibold hover:text-[var(--color-editorial-accent-2)] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-md"
+          className="inline-flex items-center gap-2 self-start min-h-[44px] text-[var(--color-editorial-accent-1)] font-semibold hover:text-[var(--color-editorial-accent-2)] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-md"
         >
           Read case study →
         </Link>

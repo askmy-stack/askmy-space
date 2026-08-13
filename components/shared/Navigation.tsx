@@ -38,7 +38,7 @@ export const Navigation = () => {
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-md px-2 py-1 ${
+              className={`inline-flex items-center min-h-[44px] text-sm font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-md px-2 ${
                 isActive(link.href)
                   ? direction === 'editorial'
                     ? 'text-editorial-accent1 border-b-2 border-editorial-accent1'
@@ -56,7 +56,7 @@ export const Navigation = () => {
         {/* Theme toggle */}
         <button
           onClick={toggleTheme}
-          className="p-2 rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2"
+          className="inline-flex items-center justify-center min-h-[44px] min-w-[44px] rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2"
           aria-label="Toggle theme"
         >
           {theme === 'light' ? '🌙' : '☀️'}
