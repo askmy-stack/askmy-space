@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-13T08:27:37+00:00",
- "count": 122,
+ "generated_at": "2026-08-13T14:19:27+00:00",
+ "count": 119,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -201,6 +201,56 @@
     "meta"
    ],
    "published": ""
+  },
+  {
+   "title": "Xanadu and University of Alberta Explore Quantum Computing for Cancer Drug Discovery",
+   "url": "https://thequantuminsider.com/2026/08/13/xanadu-university-alberta-partner-accelerate-pharmaceutical-discoveries-quantum-computing/",
+   "summary": "Insider Brief Press release – Xanadu Quantum Technologies Limited (“Xanadu”; NASDAQ/TSX: XNDU), a leading photonic quantum computing company, and the University of Alberta, have announced a strategic research partnership to pioneer novel quantum algorithms for cancer treatment.…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "quantum computing",
+    "cancer drug discovery",
+    "partnership"
+   ],
+   "published": "2026-08-13T12:51:37Z"
+  },
+  {
+   "title": "SDT Partners With Open Quantum Design to Build Open-Source Quantum Hardware",
+   "url": "https://thequantuminsider.com/2026/08/13/sdt-joins-open-quantum-design-manufacturing-partner-open-source-quantum-hardware/",
+   "summary": "Insider Brief South Korean quantum technology company SDT has joined Open Quantum Design, a Canadian non-profit organization, as a member and will serve as its official manufacturing partner, the Seoul Economic Daily reported. SDT announced the membership on August 13, with the…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "open-source",
+    "quantum hardware"
+   ],
+   "published": "2026-08-13T10:18:16Z"
+  },
+  {
+   "title": "Towards Automated Domain Model Extraction from Source Code using Heuristics and Open-Source LLMs",
+   "url": "https://arxiv.org/abs/2608.12228v1",
+   "summary": "Large language models (LLMs) have recently shown strong capabilities for code understanding, making them promising for reverse engineering domain models from source code. However, state-ofthe- art proprietary LLMs cannot be used in many industrial contexts due to privacy and con…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "domain model extraction",
+    "open-source llms"
+   ],
+   "published": "2026-08-12T16:25:54Z"
+  },
+  {
+   "title": "HYDRA: Hyperbolic Dynamic Representation Architecture for Kolmogorov-Arnold Networks",
+   "url": "https://arxiv.org/abs/2608.12194v1",
+   "summary": "Kolmogorov-Arnold Networks (KANs) enhance nonlinear function approximation by replacing scalar weights with learnable univariate functions. However, assigning an independent function to every connection results in substantial parameter redundancy, limiting their scalability and…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "kolmogorov-arnold networks",
+    "hyperbolic representation",
+    "parameter efficiency"
+   ],
+   "published": "2026-08-12T15:48:36Z"
   },
   {
    "title": "ORIENTOM and softwareQ Partner on Quantum Computing Applications for Finance",
@@ -1256,19 +1306,6 @@
    "published": "2026-08-06T10:30:00Z"
   },
   {
-   "title": "ByteDance is leaning heavily into AI education with Gauth — helpful tutoring or just another shortcut machine? [D]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1vgwza5/bytedance_is_leaning_heavily_into_ai_education/",
-   "summary": "Saw an article about ByteDance scaling up Gauth using AI-generated animations to walk students through problem-solving. On paper, personalized visual explanations sound great for democratizing tutoring. But in practice, I wonder if tools like this actually help kids grasp core c…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "edtech",
-    "ai-education",
-    "multimodal-ml"
-   ],
-   "published": "2026-08-06T07:07:44Z"
-  },
-  {
    "title": "Working with the American Psychological Association on youth mental health and AI",
    "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
    "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
@@ -1307,70 +1344,6 @@
    "published": "2026-08-06T00:00:00Z"
   },
   {
-   "title": "Capability-Gated Planning: Cost-to-Goal Discovery and the Limits of Myopic Experiment Selection",
-   "url": "https://arxiv.org/abs/2608.05085v1",
-   "summary": "Systems that automate scientific discovery must repeatedly decide which experiment to run, which hypothesis to test, which tool to build, and when to stop. Many systems make these decisions by maximizing a myopic score such as expected information gain per unit cost or a learned…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "capability-gated planning",
-    "scientific discovery",
-    "experiment selection"
-   ],
-   "published": "2026-08-05T17:25:17Z"
-  },
-  {
-   "title": "VQ-VAD: Vector-quantized Motion Representation Learning for Human-centric Video Anomaly Detection",
-   "url": "https://arxiv.org/abs/2608.05069v1",
-   "summary": "Video Anomaly Detection (VAD) is inherently challenging due to the scarcity of anomalies and the large visual variability in surveillance footage, including changes in lighting, viewpoint, and human appearance. To mitigate visual noise and address privacy concerns, recent work h…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "anomaly-detection",
-    "motion-representation",
-    "vector-quantization"
-   ],
-   "published": "2026-08-05T17:12:39Z"
-  },
-  {
-   "title": "Constructing Non-Hermitian Theories with Tunable Exceptional Points and Controlled State Purification",
-   "url": "https://arxiv.org/abs/2608.05052v1",
-   "summary": "Exceptional points (EP's) are a hallmark of non-Hermitian quantum systems. We show that momentum-space deformation provides a general design principle for creating and controlling EP's in quadratic many-body Hamiltonians. We identify universal criteria for the momentum sectors t…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "non-hermitian theories",
-    "exceptional points"
-   ],
-   "published": "2026-08-05T17:00:23Z"
-  },
-  {
-   "title": "Language Models Generalize to Human-like Word Order Preferences",
-   "url": "https://arxiv.org/abs/2608.05028v1",
-   "summary": "A central question in language acquisition is whether linguistic biases can emerge from general learning mechanisms operating over underdetermined input. Artificial Language Learning (ALL) studies have shown that human learners reliably generalize beyond the evidence provided, i…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "language models",
-    "human-like word order preferences",
-    "generalization"
-   ],
-   "published": "2026-08-05T16:33:46Z"
-  },
-  {
-   "title": "Canonical Joint Energy-Based Model on CIFAR-10: failure modes and practical indistinguishability of Predictor-Corrector and SGLD samplers",
-   "url": "https://arxiv.org/abs/2608.05025v1",
-   "summary": "Joint Energy-Based Models (JEM) unify classification and generation within a single network and support out-of-distribution (OOD) detection. Canonical JEM training relies on stochastic gradient Langevin dynamics (SGLD); a theoretically motivated alternative, the Predictor-Correc…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "energy-based models",
-    "sampling",
-    "cifar-10"
-   ],
-   "published": "2026-08-05T16:28:57Z"
-  },
-  {
    "title": "LFM2.5 2.6B model competitive with 4x larger models",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
    "summary": "Comments",
@@ -1396,19 +1369,6 @@
     "github"
    ],
    "published": "2026-08-04T13:43:58Z"
-  },
-  {
-   "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
-   "url": "https://arxiv.org/abs/2510.01395",
-   "summary": "124 points, 66 comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai",
-    "human-ai",
-    "psychology"
-   ],
-   "published": ""
   },
   {
    "title": "xAI, SpaceX, and the Race for AI Buildout",
