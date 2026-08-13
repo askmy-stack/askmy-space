@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-12T20:07:13+00:00",
- "count": 120,
+ "generated_at": "2026-08-13T03:31:18+00:00",
+ "count": 121,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -190,6 +190,19 @@
    "published": ""
   },
   {
+   "title": "German advocacy group lodges criminal complaint over Meta AI glasses",
+   "url": "https://www.reuters.com/legal/government/german-advocacy-group-lodges-criminal-complaint-over-meta-ai-glasses-2026-08-12/",
+   "summary": "108 points, 46 comments",
+   "score": 8,
+   "category": "top-news",
+   "tags": [
+    "ai-ethics",
+    "regulation",
+    "meta"
+   ],
+   "published": ""
+  },
+  {
    "title": "ORIENTOM and softwareQ Partner on Quantum Computing Applications for Finance",
    "url": "https://thequantuminsider.com/2026/08/12/orientom-softwareq-quantum-computing-finance-applications/",
    "summary": "Insider Brief Press release – ORIENTOM Co., Ltd. and softwareQ Inc. have signed a Memorandum of Understanding (MoU) to explore joint research, development and innovation opportunities in quantum and quantum-inspired computing for the financial services, banking, and insurance se…",
@@ -202,6 +215,19 @@
     "finance"
    ],
    "published": "2026-08-12T14:07:29Z"
+  },
+  {
+   "title": "Alice & Bob Joins European Quantum Error Correction Doctoral Network",
+   "url": "https://thequantuminsider.com/2026/08/12/alice-bob-partners-europe-first-doctoral-network-quantum-error-correction/",
+   "summary": "Insider Brief Press release – Alice & Bob, a leader in fault-tolerant quantum computing, is contributing its expertise in cat-qubit error correction to QuBriC, Europe’s first Marie Skłodowska-Curie Actions (MSCA) Doctoral Network dedicated to quantum error correction (QEC). QuBr…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "quantum-error-correction",
+    "alice-and-bob",
+    "european-doctoral-network"
+   ],
+   "published": "2026-08-12T12:10:48Z"
   },
   {
    "title": "Exclusive: ClearJet raises $25M to build the ‘Uber of Cargo’",
@@ -296,6 +322,32 @@
    "published": "2026-08-11T14:50:33Z"
   },
   {
+   "title": "AI Could Help Fossil Fuel Companies Create More Emissions",
+   "url": "https://www.wired.com/story/ai-could-help-fossil-fuel-companies-create-more-emissions/",
+   "summary": "New research finds that by making the fossil fuel industry more productive, AI could help increase carbon emissions by up to nearly 5 percent—vastly outpacing the impact of data centers.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "fossil fuel",
+    "emissions",
+    "ai impact"
+   ],
+   "published": "2026-08-11T13:45:02Z"
+  },
+  {
+   "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
+   "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
+   "summary": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat lands…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "ddos-attacks",
+    "cloudflare",
+    "cyber-threats"
+   ],
+   "published": "2026-08-11T13:00:00Z"
+  },
+  {
    "title": "England set to be one of the first countries to eliminate hepatitis C",
    "url": "https://www.bbc.com/news/articles/c75gk620r22o",
    "summary": "Comments",
@@ -343,6 +395,19 @@
     "silicon platform"
    ],
    "published": "2026-08-11T11:06:56Z"
+  },
+  {
+   "title": "‘Mismatched’ vaccine being rolled out against Ebola outbreak",
+   "url": "https://www.science.org/content/article/mismatched-vaccine-being-rolled-out-against-ebola-outbreak",
+   "summary": "Amid ethical questions, DRC proceeds with shot that may offer some protection against the Bundibugyo virus",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "vaccine",
+    "ebola",
+    "outbreak"
+   ],
+   "published": "2026-08-11T05:00:35Z"
   },
   {
    "title": "AI tools speed up analysis, but scientific truths must be grounded in reality",
@@ -1228,31 +1293,6 @@
    "published": "2026-08-05T21:05:37Z"
   },
   {
-   "title": "Do LLMs make ML research more fair for small teams? [D]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1vgh075/do_llms_make_ml_research_more_fair_for_small/",
-   "summary": "It feels like LLMs are partially leveling the playing field in ML research. A solo researcher or a two-person team can now get help with coding, literature review, writing things stronger labs usually get from experienced colleagues and large networks. Obviously, LLMs don’t repl…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "research",
-    "fairness",
-    "accessibility"
-   ],
-   "published": "2026-08-05T19:16:29Z"
-  },
-  {
-   "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
-   "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
-   "summary": "OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes. To that end, it banned a coordinated network of…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "chatgpt",
-    "scam disruption"
-   ],
-   "published": "2026-08-05T18:33:47Z"
-  },
-  {
    "title": "Capability-Gated Planning: Cost-to-Goal Discovery and the Limits of Myopic Experiment Selection",
    "url": "https://arxiv.org/abs/2608.05085v1",
    "summary": "Systems that automate scientific discovery must repeatedly decide which experiment to run, which hypothesis to test, which tool to build, and when to stop. Many systems make these decisions by maximizing a myopic score such as expected information gain per unit cost or a learned…",
@@ -1317,31 +1357,6 @@
    "published": "2026-08-05T16:28:57Z"
   },
   {
-   "title": "Demis Hassabis is moving from CEO to Chairman at Google DeepMind",
-   "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
-   "summary": "Article URL: https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai Comments URL: https://news.ycombinator.com/item?id=49184757 Points: 369 # Comments: 1",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "google",
-    "deepmind",
-    "demishassabis"
-   ],
-   "published": "2026-08-05T16:05:37Z"
-  },
-  {
-   "title": "Jeff Dean leaving Alphabet",
-   "url": "https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html",
-   "summary": "Article URL: https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html Comments URL: https://news.ycombinator.com/item?id=49184746 Points: 296 # Comments: 9",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "google",
-    "jeffdean"
-   ],
-   "published": "2026-08-05T16:04:33Z"
-  },
-  {
    "title": "LFM2.5 2.6B model competitive with 4x larger models",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
    "summary": "Comments",
@@ -1367,19 +1382,6 @@
     "github"
    ],
    "published": "2026-08-04T13:43:58Z"
-  },
-  {
-   "title": "The \"Disability Dongle\": Why Silicon Valley Hates Me and You",
-   "url": "https://sightlessscribbles.com/disability-dongle/",
-   "summary": "164 points, 169 comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "disability",
-    "inclusion",
-    "silicon-valley"
-   ],
-   "published": ""
   },
   {
    "title": "Born Against, or why hobby programming communities are against LLM usage",
@@ -1559,6 +1561,18 @@
     "rust",
     "floating-point",
     "math"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Lovable raises $400M Series C",
+   "url": "https://lovable.dev/blog/series-c",
+   "summary": "102 points, 97 comments",
+   "score": 7,
+   "category": "funding",
+   "tags": [
+    "series c",
+    "investment"
    ],
    "published": ""
   }
