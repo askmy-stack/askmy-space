@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-14T03:29:44+00:00",
- "count": 112,
+ "generated_at": "2026-08-14T08:23:36+00:00",
+ "count": 107,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -58,32 +58,6 @@
    "published": "2026-08-08T17:27:52Z"
   },
   {
-   "title": "Replit’s CEO on building a company that can run itself",
-   "url": "https://www.platformer.news/replit-amjad-massad-interview-coding-design-jobs/",
-   "summary": "Amjad Masad on the \"self-driving company,\" why a CEO is a glorified router, and what's left for humans when agents do the work",
-   "score": 8,
-   "category": "opinion",
-   "tags": [
-    "leadership",
-    "automation",
-    "personal-relevant"
-   ],
-   "published": "2026-08-07T00:52:17Z"
-  },
-  {
-   "title": "OpenAI is giving ChatGPT free users unlimited text chats",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
-   "summary": "OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tier…",
-   "score": 8,
-   "category": "top-news",
-   "tags": [
-    "chatbot",
-    "language model",
-    "accessibility"
-   ],
-   "published": "2026-08-06T17:00:00Z"
-  },
-  {
    "title": "John C. Lilly on solid state intelligence and the elimination of man (1978)",
    "url": "https://kibotronics.net/unlisted/lilly-machines/",
    "summary": "130 points, 87 comments",
@@ -136,6 +110,19 @@
    "published": ""
   },
   {
+   "title": "Are supervised and unsupervised learning still relevant today? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1vo08wd/are_supervised_and_unsupervised_learning_still/",
+   "summary": "Hey everyone, I'm trying to get a better sense of where classic ML fits in the current landscape, dominated by LLMs and deep learning. Are supervised and unsupervised learning still considered important skills/topics to learn in 2026, or have they become mostly a \"foundations\" s…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "machine learning",
+    "foundations",
+    "education"
+   ],
+   "published": "2026-08-14T07:14:31Z"
+  },
+  {
    "title": "IBM partners with OpenAI to bolster enterprise AI push",
    "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
    "summary": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
@@ -150,6 +137,19 @@
    "published": "2026-08-13T19:19:49Z"
   },
   {
+   "title": "Sparse Orthogonal Regression Technique: A Spectral Framework for Equation Discovery, Approximation, and Integration",
+   "url": "https://arxiv.org/abs/2608.13504v1",
+   "summary": "We develop the Sparse Orthogonal Regression Technique (SORT), a sparse spectral framework for learning orthonormal-basis expansions from noisy and irregularly sampled data. SORT estimates expansion coefficients directly from observations using L1-regularized regression, avoiding…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "sparse orthogonal regression",
+    "equation discovery",
+    "spectral framework"
+   ],
+   "published": "2026-08-13T17:31:27Z"
+  },
+  {
    "title": "Gemini 3.7 Flash",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
    "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 274 # Comments: 183",
@@ -160,6 +160,19 @@
     "google"
    ],
    "published": "2026-08-13T17:23:22Z"
+  },
+  {
+   "title": "Toward a Gricean Retreat: Probing LLMs for Knowledge Boundaries and Referent Specificity",
+   "url": "https://arxiv.org/abs/2608.13484v1",
+   "summary": "When asked about entities outside their knowledge boundary, LLMs routinely fabricate plausible-sounding details rather than backing off to safer, more general claims. We frame this failure through a Gricean lens: a cooperative speaker who is uncertain about a referent retreats u…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "knowledge-boundaries",
+    "referent-specificity",
+    "gricean-retreat"
+   ],
+   "published": "2026-08-13T17:13:41Z"
   },
   {
    "title": "UrgenT Help Detecting Performance Regressions Using Machine Learning and Hardware Counters [P]",
@@ -213,6 +226,32 @@
    "published": "2026-08-13T10:18:16Z"
   },
   {
+   "title": "Youth poll: Thumbs down on everything",
+   "url": "https://www.axios.com/2026/08/13/youth-poll-thumbs-down-on-everything",
+   "summary": "Data: Generation Lab; Chart: Danielle Alberti/Axios More than a quarter of younger Americans (27%) believe they or someone they know has lost a job because their employer replaced them with AI, according to a new Axios-Generation Lab poll of 18- to 34-year-olds. Why it matters:…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "ai",
+    "job market",
+    "gen z"
+   ],
+   "published": "2026-08-13T09:30:06Z"
+  },
+  {
+   "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
+   "url": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
+   "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition—and help stop it—early enough to save lives.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "medical-research",
+    "ai-for-health",
+    "liver-disease"
+   ],
+   "published": "2026-08-13T09:00:00Z"
+  },
+  {
    "title": "Why China should reassess how it rewards young scientists",
    "url": "https://www.nature.com/articles/d41586-026-02525-1",
    "summary": "Nature, Published online: 13 August 2026; doi:10.1038/d41586-026-02525-1 Talent schemes helped to propel China to the forefront of global science. But the system places undue emphasis on prestigious titles as a means to secure career prospects, putting pressure on young research…",
@@ -223,6 +262,19 @@
     "science",
     "research",
     "policy"
+   ],
+   "published": "2026-08-13T00:00:00Z"
+  },
+  {
+   "title": "Ancient rise in CO<sub>2</sub> was catastrophic for forests: what that means for today’s plants",
+   "url": "https://www.nature.com/articles/d41586-026-02544-y",
+   "summary": "Nature, Published online: 13 August 2026; doi:10.1038/d41586-026-02544-y A widespread dieback of forests due to climate change 56 million years ago has parallels with today.",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "climate change",
+    "deforestation",
+    "co2 levels"
    ],
    "published": "2026-08-13T00:00:00Z"
   },
@@ -1109,45 +1161,6 @@
    "published": "2026-08-07T08:11:25Z"
   },
   {
-   "title": "amknguyen/MolecularOptimizationBench",
-   "url": "https://huggingface.co/spaces/amknguyen/MolecularOptimizationBench",
-   "summary": "0 likes · static",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "molecular optimization",
-    "personal-relevant",
-    "benchmark",
-    "hugging face"
-   ],
-   "published": "2026-08-07 03:49:10+00:00"
-  },
-  {
-   "title": "Time-Reversal Selection Rules for Quantum Error Correction",
-   "url": "https://arxiv.org/abs/2608.06304v1",
-   "summary": "We apply time-reversal symmetry to quantum codes and show that it imposes parity selection rules on the physical error algebra. A time-reversal-invariant logical qubit on an odd number of spins is a Kramers doublet, forcing every even-weight Pauli to act as a scalar. Consequentl…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "quantum",
-    "error correction",
-    "time-reversal symmetry"
-   ],
-   "published": "2026-08-06T17:21:55Z"
-  },
-  {
-   "title": "On-Policy Self-Distillation without Any Supervision",
-   "url": "https://arxiv.org/abs/2608.06296v1",
-   "summary": "On-policy (Self-)Distillation (OPD / OPSD) has shown strong potential for post-training large language models (LLMs). However, existing methods still rely heavily on external supervision, including ground-truth signals, environmental feedback, or guidance from larger models, and…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "self-distillation",
-    "unsupervised-learning"
-   ],
-   "published": "2026-08-06T17:18:23Z"
-  },
-  {
    "title": "0xwilliamortiz/claude-red — claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-",
    "url": "https://github.com/0xwilliamortiz/claude-red",
    "summary": "560★ · JavaScript · topics: claude, claude-code, claude-code-plugin, claude-skills, codex",
@@ -1159,71 +1172,6 @@
     "expert-level methodology"
    ],
    "published": "2026-08-06T17:06:40Z"
-  },
-  {
-   "title": "RxnCLF: Contrastive Transformation-Aware Reaction Foundation Model for Improved Reactivity Prediction",
-   "url": "https://arxiv.org/abs/2608.06259v1",
-   "summary": "Reaction yield prediction remains challenging because labeled data are scarce and reaction space is both combinatorially large and sparsely populated, limiting the generalization of existing reaction representations. String-, fingerprint-, and graph-based reaction encodings only…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "reaction yield prediction",
-    "contrastive learning",
-    "chemical transformations"
-   ],
-   "published": "2026-08-06T16:51:23Z"
-  },
-  {
-   "title": "SoftBank donated $50 million to Trump’s library months before federal data center deal",
-   "url": "https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio",
-   "summary": "SoftBank contributed $50 million to the Trump Presidential Library in January, just months before announcing that it's leasing land from the federal government to build a sprawling data center in Ohio. The Japanese company revealed the timing in response to a June letter from Se…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "softbank",
-    "data-centers",
-    "government-deals"
-   ],
-   "published": "2026-08-06T14:30:00Z"
-  },
-  {
-   "title": "Adversarial Clothing Designed to Fool Facial Recognition Systems",
-   "url": "https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html",
-   "summary": "There are many companies manufacturing adversarial clothing designed to confuse facial recognition systems. It’s a cool idea, but I worry that it’s mostly security theater: “Our patterns play with that chaos, confuse algorithms and make it way harder to pin you down,” he said. B…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "adversarial clothing",
-    "facial recognition",
-    "security theater"
-   ],
-   "published": "2026-08-06T11:04:51Z"
-  },
-  {
-   "title": "Tau protein can sneak into brain cells’ energy factories—and wreak havoc",
-   "url": "https://www.science.org/content/article/tau-protein-can-sneak-brain-cells-energy-factories-and-wreak-havoc",
-   "summary": "Study of mitochondria suggests new treatment strategy for Alzheimer’s and other diseases",
-   "score": 7,
-   "category": "research-highlight",
-   "tags": [
-    "alzheimer's",
-    "mitochondria",
-    "treatment strategy"
-   ],
-   "published": "2026-08-06T11:00:00Z"
-  },
-  {
-   "title": "Two Fossil Fuel Companies Are Betting Big on Data Centers",
-   "url": "https://www.wired.com/story/chevron-williams-driving-data-center-boom/",
-   "summary": "Chevron and Williams are big winners in the race to power artificial intelligence as they build out gas-fired power plants and pipelines.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "data centers",
-    "sustainability",
-    "energy"
-   ],
-   "published": "2026-08-06T10:30:00Z"
   },
   {
    "title": "LFM2.5 2.6B model competitive with 4x larger models",
@@ -1251,18 +1199,6 @@
     "github"
    ],
    "published": "2026-08-04T13:43:58Z"
-  },
-  {
-   "title": "Goodhart's Law Comes for Every Benchmark You Trust",
-   "url": "https://cacm.acm.org/blogcacm/goodharts-law-comes-for-every-benchmark-you-trust/",
-   "summary": "100 points, 43 comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "benchmarking",
-    "ai-evaluation"
-   ],
-   "published": ""
   },
   {
    "title": "What happens if an entire class of workers loses faith in their careers",
