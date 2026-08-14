@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-13T20:02:16+00:00",
- "count": 125,
+ "generated_at": "2026-08-14T03:29:44+00:00",
+ "count": 112,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -71,19 +71,6 @@
    "published": "2026-08-07T00:52:17Z"
   },
   {
-   "title": "Amazon Researcher Claims Quantum Algorithm Could Challenge PQC Foundations",
-   "url": "https://thequantuminsider.com/2026/08/06/amazon-researcher-claims-quantum-algorithm-could-challenge-pqc-foundations/",
-   "summary": "Insider Brief A preliminary paper from an Amazon Web Services cryptographer describes a polynomial-time quantum algorithm for a long-standing mathematical problem whose solution could have implications for lattice-based cryptography, the foundation of many post-quantum encryptio…",
-   "score": 8,
-   "category": "breakthrough",
-   "tags": [
-    "quantum algorithm",
-    "post-quantum encryption",
-    "lattice-based cryptography"
-   ],
-   "published": "2026-08-06T17:42:49Z"
-  },
-  {
    "title": "OpenAI is giving ChatGPT free users unlimited text chats",
    "url": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
    "summary": "OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tier…",
@@ -95,73 +82,6 @@
     "accessibility"
    ],
    "published": "2026-08-06T17:00:00Z"
-  },
-  {
-   "title": "Control agent behaviors and cost beyond a single action: new capabilities in Amazon Bedrock AgentCore",
-   "url": "https://aws.amazon.com/blogs/machine-learning/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-amazon-bedrock-agentcore/",
-   "summary": "Learn about new capabilities in Amazon Bedrock AgentCore: temporal policies powered by Dogwood, a new open source policy language for AI agents, and rate limiting on the gateway. These features give you deterministic control over sequences of agent actions and cost ceilings that…",
-   "score": 8,
-   "category": "big-tech",
-   "tags": [
-    "agentcore",
-    "amazon bedrock",
-    "policy language",
-    "personal-relevant"
-   ],
-   "published": "2026-08-06T16:43:19Z"
-  },
-  {
-   "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-   "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-   "summary": "",
-   "score": 8,
-   "category": "breakthrough",
-   "tags": [
-    "weather forecasting",
-    "cyclones",
-    "ai model"
-   ],
-   "published": "2026-08-06T15:06:15Z"
-  },
-  {
-   "title": "From asking to doing: How the world is putting ChatGPT to work",
-   "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-   "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-   "score": 8,
-   "category": "opinion",
-   "tags": [
-    "personal-relevant",
-    "usage insights",
-    "chatgpt",
-    "adoption trends"
-   ],
-   "published": "2026-08-06T00:00:00Z"
-  },
-  {
-   "title": "Scientists discover Kelvin-Helmholtz Instability on the surface of the Sun",
-   "url": "https://nso.edu/press-release/nsf-inouye-solar-telescope-enables-major-discovery-of-a-hidden-solar-process/",
-   "summary": "Comments",
-   "score": 8,
-   "category": "research-highlight",
-   "tags": [
-    "kelvin-helmholtz instability",
-    "sun",
-    "space research"
-   ],
-   "published": "2026-08-05T15:33:23Z"
-  },
-  {
-   "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
-   "url": "https://provenmetal.com",
-   "summary": "184 points, 129 comments",
-   "score": 8,
-   "category": "startup",
-   "tags": [
-    "hardware",
-    "circuit boards",
-    "manufacturing"
-   ],
-   "published": ""
   },
   {
    "title": "John C. Lilly on solid state intelligence and the elimination of man (1978)",
@@ -199,6 +119,19 @@
     "ai-ethics",
     "regulation",
     "meta"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Understanding is the new bottleneck",
+   "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+   "summary": "229 points, 125 comments",
+   "score": 8,
+   "category": "opinion",
+   "tags": [
+    "understanding",
+    "bottleneck",
+    "community"
    ],
    "published": ""
   },
@@ -1190,20 +1123,6 @@
    "published": "2026-08-07 03:49:10+00:00"
   },
   {
-   "title": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
-   "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/",
-   "summary": "Temporal policies in Amazon Bedrock AgentCore let you define stateful rules that evaluate authorization based on an agent's session history. Learn how to enforce workflow sequencing, prevent data fabrication, cap financial exposure, and require human approval for high-value acti…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "amazon bedrock",
-    "personal-relevant",
-    "temporal policies",
-    "security"
-   ],
-   "published": "2026-08-06T18:57:55Z"
-  },
-  {
    "title": "Time-Reversal Selection Rules for Quantum Error Correction",
    "url": "https://arxiv.org/abs/2608.06304v1",
    "summary": "We apply time-reversal symmetry to quantum codes and show that it imposes parity selection rules on the physical error algebra. A time-reversal-invariant logical qubit on an odd number of spins is a Kramers doublet, forcing every even-weight Pauli to act as a scalar. Consequentl…",
@@ -1242,19 +1161,6 @@
    "published": "2026-08-06T17:06:40Z"
   },
   {
-   "title": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
-   "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
-   "summary": "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business.",
-   "score": 7,
-   "category": "startup",
-   "tags": [
-    "automation",
-    "vibe-coding",
-    "funding"
-   ],
-   "published": "2026-08-06T17:00:37Z"
-  },
-  {
    "title": "RxnCLF: Contrastive Transformation-Aware Reaction Foundation Model for Improved Reactivity Prediction",
    "url": "https://arxiv.org/abs/2608.06259v1",
    "summary": "Reaction yield prediction remains challenging because labeled data are scarce and reaction space is both combinatorially large and sparsely populated, limiting the generalization of existing reaction representations. String-, fingerprint-, and graph-based reaction encodings only…",
@@ -1268,32 +1174,6 @@
    "published": "2026-08-06T16:51:23Z"
   },
   {
-   "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
-   "url": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-   "summary": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run. MIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the techn…",
-   "score": 7,
-   "category": "breakthrough",
-   "tags": [
-    "interrupt injection attack",
-    "spectre v2 defenses"
-   ],
-   "published": "2026-08-06T16:17:13Z"
-  },
-  {
-   "title": "Agent Skills for Automated Reasoning policies in Amazon Bedrock",
-   "url": "https://aws.amazon.com/blogs/machine-learning/agent-skills-for-automated-reasoning-policies-in-amazon-bedrock/",
-   "summary": "Learn how to run the full Amazon Bedrock Automated Reasoning policy lifecycle from your coding agent. A suite of open source Agent Skills builds, reviews, tests, debugs, deploys, and validates a custom policy end to end, turning a specialized console task into a repeatable engin…",
-   "score": 7,
-   "category": "big-tech",
-   "tags": [
-    "amazon bedrock",
-    "automated reasoning",
-    "personal-relevant",
-    "agent skills"
-   ],
-   "published": "2026-08-06T16:12:24Z"
-  },
-  {
    "title": "SoftBank donated $50 million to Trump’s library months before federal data center deal",
    "url": "https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio",
    "summary": "SoftBank contributed $50 million to the Trump Presidential Library in January, just months before announcing that it's leasing land from the federal government to build a sprawling data center in Ohio. The Japanese company revealed the timing in response to a June letter from Se…",
@@ -1305,19 +1185,6 @@
     "government-deals"
    ],
    "published": "2026-08-06T14:30:00Z"
-  },
-  {
-   "title": "Show HN: I spent 2 years designing a mechanical Magic Keyboard",
-   "url": "https://electronicmaterialsoffice.com/",
-   "summary": "Hi HN, today I’m revealing Altar II, an ultra-low profile (4.75mm) mechanical keyboard designed to replace your Magic Keyboard. It’s the keyboard I wish Apple made. Altar II has fully mechanical switches, plus a magnetically detachable dial, haptic feedback, a red backlight, and…",
-   "score": 7,
-   "category": "tool",
-   "tags": [
-    "mechanical keyboard",
-    "magic keyboard",
-    "macos"
-   ],
-   "published": "2026-08-06T14:26:14Z"
   },
   {
    "title": "Adversarial Clothing Designed to Fool Facial Recognition Systems",
@@ -1359,44 +1226,6 @@
    "published": "2026-08-06T10:30:00Z"
   },
   {
-   "title": "Working with the American Psychological Association on youth mental health and AI",
-   "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-   "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "youth mental health",
-    "ai guidance",
-    "american psychological association"
-   ],
-   "published": "2026-08-06T06:00:00Z"
-  },
-  {
-   "title": "DeepAmbigQA: Ambiguous Multi-hop Questions for Benchmarking LLM Answer Completeness",
-   "url": "https://machinelearning.apple.com/research/deepambigqa-multihop-questions",
-   "summary": "Large language models (LLMs) with integrated search tools show strong promise in open-domain question answering (QA), yet they often struggle to produce complete answer set to complex questions such as “Which actor from the film Heat won at least one Academy Award?”, which requi…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "deepambigqa",
-    "llm",
-    "question-answering"
-   ],
-   "published": "2026-08-06T00:00:00Z"
-  },
-  {
-   "title": "Operational Tropical Cyclone Forecasting with AI",
-   "url": "https://www.nature.com/articles/s41586-026-10953-2",
-   "summary": "Nature, Published online: 06 August 2026; doi:10.1038/s41586-026-10953-2 Operational Tropical Cyclone Forecasting with AI",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "tropical cyclone forecasting",
-    "ai applications"
-   ],
-   "published": "2026-08-06T00:00:00Z"
-  },
-  {
    "title": "LFM2.5 2.6B model competitive with 4x larger models",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
    "summary": "Comments",
@@ -1422,18 +1251,6 @@
     "github"
    ],
    "published": "2026-08-04T13:43:58Z"
-  },
-  {
-   "title": "xAI, SpaceX, and the Race for AI Buildout",
-   "url": "https://illegal.solutions/posts/xai_pollution",
-   "summary": "132 points, 108 comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai-buildout",
-    "space-x"
-   ],
-   "published": ""
   },
   {
    "title": "Goodhart's Law Comes for Every Benchmark You Trust",
@@ -1626,6 +1443,19 @@
     "electric-aircraft",
     "aviation",
     "sustainability"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Where did the old web go? We followed 657,607 links to find out",
+   "url": "https://0.mk/blog/link-rot",
+   "summary": "141 points, 126 comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "web history",
+    "link rot",
+    "internet archive"
    ],
    "published": ""
   }
