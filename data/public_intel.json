@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-14T08:23:36+00:00",
- "count": 107,
+ "generated_at": "2026-08-14T14:13:31+00:00",
+ "count": 106,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -110,6 +110,18 @@
    "published": ""
   },
   {
+   "title": "Quantum Australia Reports $83.1M Economic Impact and Growth of 15 Quantum Companies",
+   "url": "https://thequantuminsider.com/2026/08/14/quantum-australia-reveals-83-million-economic-impact-15-new-quantum-companies/",
+   "summary": "Insider Brief Press release – New independent modelling has been released that shows Quantum Australia‘s national programs have created $83.1 million in economic value while supporting more than six times the public investment in economy-wide activity. This figure, calculated by…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "economic impact",
+    "growth"
+   ],
+   "published": "2026-08-14T11:21:38Z"
+  },
+  {
    "title": "Are supervised and unsupervised learning still relevant today? [D]",
    "url": "https://www.reddit.com/r/MachineLearning/comments/1vo08wd/are_supervised_and_unsupervised_learning_still/",
    "summary": "Hey everyone, I'm trying to get a better sense of where classic ML fits in the current landscape, dominated by LLMs and deep learning. Are supervised and unsupervised learning still considered important skills/topics to learn in 2026, or have they become mostly a \"foundations\" s…",
@@ -185,6 +197,33 @@
     "performance regression"
    ],
    "published": "2026-08-13T17:01:27Z"
+  },
+  {
+   "title": "LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles",
+   "url": "https://arxiv.org/abs/2608.13450v1",
+   "summary": "Autonomous vehicles depend on large safety-critical software stacks, where weaknesses reachable from adversarial inputs may affect steering, braking, or other control decisions. Static analysis can identify candidate sites, but dynamically confirming exploitability requires exec…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "llm",
+    "autonomous-vehicles",
+    "cybersecurity",
+    "threat-analysis"
+   ],
+   "published": "2026-08-13T16:33:44Z"
+  },
+  {
+   "title": "ContactGuard: Pre-Contact Execution Monitoring with Action-Conditioned Latent World Models",
+   "url": "https://arxiv.org/abs/2608.13438v1",
+   "summary": "Contact-rich manipulation failures are often detected only after the robot has committed to contact. This is especially limiting in wrist-camera setups: close gripper--object views help observe contact, but a poor approach may already push, miss, slip, or disturb the object befo…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "robotics",
+    "pre-contact execution monitoring",
+    "latent world models"
+   ],
+   "published": "2026-08-13T16:25:54Z"
   },
   {
    "title": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
@@ -1070,19 +1109,6 @@
    "published": "2026-08-07T14:00:00Z"
   },
   {
-   "title": "AI psychosis is the new leadership blind spot",
-   "url": "https://www.fastcompany.com/91576086/ai-psychosis-is-the-new-leadership-blind-spot-ai-leadership-blind-spots",
-   "summary": "Comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai-psychosis",
-    "leadership",
-    "blind-spot"
-   ],
-   "published": "2026-08-07T13:27:30Z"
-  },
-  {
    "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
    "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
    "summary": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and model-first routing simplify building resilient AI applicat…",
@@ -1094,19 +1120,6 @@
     "unification"
    ],
    "published": "2026-08-07T13:00:00Z"
-  },
-  {
-   "title": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
-   "url": "https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138",
-   "summary": "Comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "us-economy",
-    "job-loss",
-    "reversal"
-   ],
-   "published": "2026-08-07T12:42:58Z"
   },
   {
    "title": "Planned satellite megaconstellations could generate runaway space debris",
@@ -1123,19 +1136,6 @@
    "published": "2026-08-07T12:15:00Z"
   },
   {
-   "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
-   "url": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
-   "summary": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascad…",
-   "score": 7,
-   "category": "breakthrough",
-   "tags": [
-    "ai-assisted research",
-    "http desynchronization",
-    "zero-day exploit"
-   ],
-   "published": "2026-08-07T10:09:54Z"
-  },
-  {
    "title": "Opinion: AI won’t enhance physician autonomy. It will further diminish it",
    "url": "https://www.statnews.com/2026/08/07/medical-ai-doctors-autonomy/?utm_campaign=rss",
    "summary": "“AI is not the villain here; it is a mirror,” reflecting the diminishment of physician judgment, writes former surgeon Frances Mei Hardin.",
@@ -1147,18 +1147,6 @@
     "physician autonomy"
    ],
    "published": "2026-08-07T08:30:00Z"
-  },
-  {
-   "title": "Quantum Research Focus of Summer Training School For Higher Education Students",
-   "url": "https://thequantuminsider.com/2026/08/07/quantum-research-focus-of-summer-training-school-for-higher-education-students/",
-   "summary": "Insider Brief PRESS RELEASE — Eighty higher education students from across the country participated in various activities and engaged with quantum science experts in a week-long summer school experience hosted by the Penn State Center for Theory of Emergent Quantum Matter (C-TEQ…",
-   "score": 7,
-   "category": "event",
-   "tags": [
-    "quantum research",
-    "summer school"
-   ],
-   "published": "2026-08-07T08:11:25Z"
   },
   {
    "title": "0xwilliamortiz/claude-red — claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-",
