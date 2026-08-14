@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-14T14:13:31+00:00",
- "count": 106,
+ "generated_at": "2026-08-14T19:52:01+00:00",
+ "count": 103,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -108,6 +108,19 @@
     "community"
    ],
    "published": ""
+  },
+  {
+   "title": "Open-source Python library + no-code web dashboard for evaluating oncology AI models at clinical decision thresholds. [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1vod2c8/opensource_python_library_nocode_web_dashboard/",
+   "summary": "Most classification metrics for oncology AI models (AUC, ICC, MAE) measure global agreement. They don't answer the question that actually matters at the point of care: how reliable is this model at the exact cutoff that decides whether a patient gets flagged, biopsied, or treate…",
+   "score": 7,
+   "category": "tool",
+   "tags": [
+    "oncology",
+    "ai-model-evaluation",
+    "no-code-dashboard"
+   ],
+   "published": "2026-08-14T17:06:09Z"
   },
   {
    "title": "Quantum Australia Reports $83.1M Economic Impact and Growth of 15 Quantum Companies",
@@ -994,19 +1007,6 @@
    "published": "2026-08-07T22:24:27Z"
   },
   {
-   "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
-   "url": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-   "summary": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems. \"These packages appear to use AI slop squatted, or randomly generated typo-squatting…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "malicious npm packages",
-    "cross-platform rat",
-    "infostealer"
-   ],
-   "published": "2026-08-07T18:48:17Z"
-  },
-  {
    "title": "CoBa: Cost-Effective Test-Time Scaling via Compute-Balanced Routing",
    "url": "https://arxiv.org/abs/2608.07424v1",
    "summary": "Test-time scaling is often implemented by spending more compute along one axis: sampling more solutions, extending a chain of thought, or applying a stronger evaluator. Under a fixed inference budget, these choices compete. This paper formulates test-time reasoning as a compute-…",
@@ -1058,19 +1058,6 @@
    "published": "2026-08-07T16:41:07Z"
   },
   {
-   "title": "Responding to the next frontier of critical cyber capabilities",
-   "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
-   "summary": "Comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "cyber",
-    "security",
-    "capabilities"
-   ],
-   "published": "2026-08-07T16:39:36Z"
-  },
-  {
    "title": "QFCQT: A Chaotically Gated Quantformer Framework for Volatile Time-Series Forecasting",
    "url": "https://arxiv.org/abs/2608.07363v1",
    "summary": "Forecasting non-stationary time series remains difficult due to long-range dependencies, local volatility bursts, structural shifts, and nonlinear oscillatory behaviors. Although Transformer-based forecasters are effective for modeling long-term temporal dependencies, their feed…",
@@ -1094,19 +1081,6 @@
     "detection"
    ],
    "published": "2026-08-07T15:58:04Z"
-  },
-  {
-   "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
-   "url": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
-   "summary": "This article was produced in partnership with Type Investigations, with support from the Wayne Barrett Project. One morning in April 2025, employees of a small office in the US State Department got the email many of them had been dreading. For months, Elon Musk’s Department of G…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "censorship",
-    "policy",
-    "politics"
-   ],
-   "published": "2026-08-07T14:00:00Z"
   },
   {
    "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
@@ -1187,19 +1161,6 @@
     "github"
    ],
    "published": "2026-08-04T13:43:58Z"
-  },
-  {
-   "title": "What happens if an entire class of workers loses faith in their careers",
-   "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
-   "summary": "120 points, 215 comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "career",
-    "faith",
-    "workers"
-   ],
-   "published": ""
   },
   {
    "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
