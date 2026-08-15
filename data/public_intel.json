@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-15T07:39:01+00:00",
- "count": 101,
+ "generated_at": "2026-08-15T13:28:30+00:00",
+ "count": 96,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -146,6 +146,19 @@
     "growth"
    ],
    "published": "2026-08-14T11:21:38Z"
+  },
+  {
+   "title": "LLM-Generated GraphQL Mocks Arrive at Airbnb and Expedia, While the Spec Lags Behind",
+   "url": "https://www.infoq.com/news/2026/08/graphql-llm-mocking-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Expedia Group has open-sourced mockql-rs, a Rust CLI that fills @mock-annotated GraphQL fields with LLM-generated data at request time. It follows Airbnb's @generateMock in April and a GraphQL Foundation RFC opened in February. All three solve the same problem with different arc…",
+   "score": 7,
+   "category": "tool",
+   "tags": [
+    "graphql",
+    "llm",
+    "mocking"
+   ],
+   "published": "2026-08-14T10:01:00Z"
   },
   {
    "title": "Are supervised and unsupervised learning still relevant today? [D]",
@@ -967,19 +980,6 @@
    "published": "2026-08-08T08:54:50Z"
   },
   {
-   "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
-   "url": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
-   "summary": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product. \"We are proactively expanding protections in response to ongoing monito…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "vulnerability",
-    "hotfix",
-    "n-able"
-   ],
-   "published": "2026-08-08T06:57:43Z"
-  },
-  {
    "title": "Mixing normalization methods (min-max + z-score) for different features",
    "url": "https://www.reddit.com/r/MLQuestions/comments/1vijjem/mixing_normalization_methods_minmax_zscore_for/",
    "summary": "submitted by /u/Routine-Ticket-5208 [link] [comments]",
@@ -990,19 +990,6 @@
     "feature engineering"
    ],
    "published": "2026-08-08T02:08:01Z"
-  },
-  {
-   "title": "Trump launched big new solar tariffs. Here's what it means.",
-   "url": "https://www.canarymedia.com/articles/solar/trump-new-solar-tariffs",
-   "summary": "A far-reaching new tariff on solar imports promises to both raise the cost of installing the clean energy source and strengthen efforts to reshore solar manufacturing. The White House announced the new tariffs Thursday on imported polysilicon and related products, including sili…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "solar energy",
-    "tariffs",
-    "clean energy"
-   ],
-   "published": "2026-08-07T22:30:00Z"
   },
   {
    "title": "CoBa: Cost-Effective Test-Time Scaling via Compute-Balanced Routing",
@@ -1029,19 +1016,6 @@
     "geometry distillation"
    ],
    "published": "2026-08-07T16:53:05Z"
-  },
-  {
-   "title": "What&#8217;s behind the Google AI shake-up",
-   "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
-   "summary": "Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "google",
-    "ai",
-    "leadership"
-   ],
-   "published": "2026-08-07T16:45:14Z"
   },
   {
    "title": "Circuit-Based Program Verification: Sequential Circuits as an Intermediate Representation for Verifying C Programs",
@@ -1079,46 +1053,6 @@
     "detection"
    ],
    "published": "2026-08-07T15:58:04Z"
-  },
-  {
-   "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
-   "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
-   "summary": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and model-first routing simplify building resilient AI applicat…",
-   "score": 7,
-   "category": "big-tech",
-   "tags": [
-    "ai",
-    "cloud",
-    "unification"
-   ],
-   "published": "2026-08-07T13:00:00Z"
-  },
-  {
-   "title": "Planned satellite megaconstellations could generate runaway space debris",
-   "url": "https://www.science.org/content/article/planned-satellite-megaconstellations-could-generate-runaway-space-debris",
-   "summary": "Modeling suggests infamous “Kessler syndrome” would make the swarms unsustainable",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "space",
-    "debris",
-    "satellite",
-    "sustainability"
-   ],
-   "published": "2026-08-07T12:15:00Z"
-  },
-  {
-   "title": "Opinion: AI won’t enhance physician autonomy. It will further diminish it",
-   "url": "https://www.statnews.com/2026/08/07/medical-ai-doctors-autonomy/?utm_campaign=rss",
-   "summary": "“AI is not the villain here; it is a mirror,” reflecting the diminishment of physician judgment, writes former surgeon Frances Mei Hardin.",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai",
-    "healthcare",
-    "physician autonomy"
-   ],
-   "published": "2026-08-07T08:30:00Z"
   },
   {
    "title": "LFM2.5 2.6B model competitive with 4x larger models",
