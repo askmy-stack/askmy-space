@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-14T19:52:01+00:00",
- "count": 103,
+ "generated_at": "2026-08-15T02:17:47+00:00",
+ "count": 105,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -108,6 +108,19 @@
     "community"
    ],
    "published": ""
+  },
+  {
+   "title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
+   "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
+   "summary": "Indonesia is taking charge of its AI future. This week, the Ministry of Communication and Digital Affairs (Komdigi), Indosat Ooredoo Hutchison (Indosat or IOH), NVIDIA and Universitas Gadjah Mada (UGM) launched the UGM Indosat NVIDIA AI Technology Center (NVAITC) in Yogyakarta —…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "ai-center",
+    "indonesia",
+    "nvidia"
+   ],
+   "published": "2026-08-14T17:13:05Z"
   },
   {
    "title": "Open-source Python library + no-code web dashboard for evaluating oncology AI models at clinical decision thresholds. [P]",
@@ -1341,6 +1354,19 @@
     "web history",
     "link rot",
     "internet archive"
+   ],
+   "published": ""
+  },
+  {
+   "title": "AI by Hand",
+   "url": "https://www.byhand.ai/",
+   "summary": "209 points, 18 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai",
+    "handmade",
+    "machine learning"
    ],
    "published": ""
   }
