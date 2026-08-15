@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-15T02:17:47+00:00",
- "count": 105,
+ "generated_at": "2026-08-15T07:39:01+00:00",
+ "count": 101,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -159,6 +159,32 @@
     "education"
    ],
    "published": "2026-08-14T07:14:31Z"
+  },
+  {
+   "title": "Drought may have driven Brazil’s first yellow fever outbreak in nearly 80 years",
+   "url": "https://www.science.org/content/article/drought-may-have-driven-brazil-s-first-yellow-fever-outbreak-nearly-80-years",
+   "summary": "Dry conditions forced forest-dwelling primates into the cities, bringing with them mosquitoes—and disease",
+   "score": 7,
+   "category": "research-highlight",
+   "tags": [
+    "drought",
+    "public health",
+    "yellow fever"
+   ],
+   "published": "2026-08-14T02:00:00Z"
+  },
+  {
+   "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
+   "url": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
+   "summary": "The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and parts, too. He's going to try to make th…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "tariffs",
+    "drones",
+    "trade policy"
+   ],
+   "published": "2026-08-14T01:06:15Z"
   },
   {
    "title": "IBM partners with OpenAI to bolster enterprise AI push",
@@ -966,34 +992,6 @@
    "published": "2026-08-08T02:08:01Z"
   },
   {
-   "title": "uzaif1/AE-03-Unified-Agentic-AI-Orchestrator",
-   "url": "https://huggingface.co/spaces/uzaif1/AE-03-Unified-Agentic-AI-Orchestrator",
-   "summary": "0 likes · static",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "open-source",
-    "hugging-face",
-    "unified",
-    "personal-relevant",
-    "agentic-ai"
-   ],
-   "published": "2026-08-08 02:52:04+00:00"
-  },
-  {
-   "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-   "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything",
-   "summary": "OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about \"the Hugging Face Incident\" ( previously on this blog). The video was published yesterday. It's short and information dense and well worth watching, in particular because it provides full details…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "openai",
-    "hugging-face",
-    "cyberattack"
-   ],
-   "published": "2026-08-07T23:55:58Z"
-  },
-  {
    "title": "Trump launched big new solar tariffs. Here's what it means.",
    "url": "https://www.canarymedia.com/articles/solar/trump-new-solar-tariffs",
    "summary": "A far-reaching new tariff on solar imports promises to both raise the cost of installing the clean energy source and strengthen efforts to reshore solar manufacturing. The White House announced the new tariffs Thursday on imported polysilicon and related products, including sili…",
@@ -1005,19 +1003,6 @@
     "clean energy"
    ],
    "published": "2026-08-07T22:30:00Z"
-  },
-  {
-   "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
-   "url": "https://genesisopenmodels.anl.gov/",
-   "summary": "Comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "open-models",
-    "initiative",
-    "energy"
-   ],
-   "published": "2026-08-07T22:24:27Z"
   },
   {
    "title": "CoBa: Cost-Effective Test-Time Scaling via Compute-Balanced Routing",
@@ -1136,19 +1121,6 @@
    "published": "2026-08-07T08:30:00Z"
   },
   {
-   "title": "0xwilliamortiz/claude-red — claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-",
-   "url": "https://github.com/0xwilliamortiz/claude-red",
-   "summary": "560★ · JavaScript · topics: claude, claude-code, claude-code-plugin, claude-skills, codex",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "offensive security",
-    "claude skills",
-    "expert-level methodology"
-   ],
-   "published": "2026-08-06T17:06:40Z"
-  },
-  {
    "title": "LFM2.5 2.6B model competitive with 4x larger models",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
    "summary": "Comments",
@@ -1159,34 +1131,6 @@
     "model efficiency"
    ],
    "published": "2026-08-04T18:47:25Z"
-  },
-  {
-   "title": "disler/super-simple-software-factory — Repeatable agents-plus-code workflows, packaged as one skill, stamped into any repo. Deterministic Python owns the graph; coding agents are bounded nodes inside ",
-   "url": "https://github.com/disler/super-simple-software-factory",
-   "summary": "496★ · Python · topics:",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "trending",
-    "open-source",
-    "workflow-automation",
-    "personal-relevant",
-    "github"
-   ],
-   "published": "2026-08-04T13:43:58Z"
-  },
-  {
-   "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
-   "url": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
-   "summary": "141 points, 95 comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "security",
-    "iot",
-    "internet"
-   ],
-   "published": ""
   },
   {
    "title": "Analyzing data from Silicon Valley ventures and founders prosecuted for fraud",
