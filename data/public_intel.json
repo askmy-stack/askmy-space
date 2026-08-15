@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-15T13:28:30+00:00",
- "count": 96,
+ "generated_at": "2026-08-15T19:26:04+00:00",
+ "count": 97,
  "items": [
   {
    "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
@@ -110,6 +110,19 @@
    "published": ""
   },
   {
+   "title": "Semaglutide linked to 26% lower 5-year predicted dementia risk",
+   "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
+   "summary": "Comments",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "healthcare",
+    "dementia",
+    "semaglutide"
+   ],
+   "published": "2026-08-15T15:58:53Z"
+  },
+  {
    "title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
    "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
    "summary": "Indonesia is taking charge of its AI future. This week, the Ministry of Communication and Digital Affairs (Komdigi), Indosat Ooredoo Hutchison (Indosat or IOH), NVIDIA and Universitas Gadjah Mada (UGM) launched the UGM Indosat NVIDIA AI Technology Center (NVAITC) in Yogyakarta —…",
@@ -159,6 +172,19 @@
     "mocking"
    ],
    "published": "2026-08-14T10:01:00Z"
+  },
+  {
+   "title": "Inside Nanovel’s bid to crack robotic citrus harvesting",
+   "url": "https://agfundernews.com/inside-nanovels-bid-to-crack-robotic-citrus-harvesting",
+   "summary": "In the US, says Isaac Mazor, “manual citrus harvesting costs around $42–43 per 900-lb field bin, versus $25-30 using our technology.” The post Inside Nanovel’s bid to crack robotic citrus harvesting appeared first on AgFunderNews .",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "agricultural-robotics",
+    "harvesting",
+    "efficiency"
+   ],
+   "published": "2026-08-14T10:00:14Z"
   },
   {
    "title": "Are supervised and unsupervised learning still relevant today? [D]",
@@ -967,31 +993,6 @@
    "published": "2026-08-08T18:42:55Z"
   },
   {
-   "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
-   "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
-   "summary": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confir…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "atlassian",
-    "rovo",
-    "security vulnerability"
-   ],
-   "published": "2026-08-08T08:54:50Z"
-  },
-  {
-   "title": "Mixing normalization methods (min-max + z-score) for different features",
-   "url": "https://www.reddit.com/r/MLQuestions/comments/1vijjem/mixing_normalization_methods_minmax_zscore_for/",
-   "summary": "submitted by /u/Routine-Ticket-5208 [link] [comments]",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "normalization methods",
-    "feature engineering"
-   ],
-   "published": "2026-08-08T02:08:01Z"
-  },
-  {
    "title": "CoBa: Cost-Effective Test-Time Scaling via Compute-Balanced Routing",
    "url": "https://arxiv.org/abs/2608.07424v1",
    "summary": "Test-time scaling is often implemented by spending more compute along one axis: sampling more solutions, extending a chain of thought, or applying a stronger evaluator. Under a fixed inference budget, these choices compete. This paper formulates test-time reasoning as a compute-…",
@@ -1245,6 +1246,18 @@
     "ai",
     "handmade",
     "machine learning"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Ntfy – open-source Push to Mobile",
+   "url": "https://ntfy.sh/",
+   "summary": "106 points, 50 comments",
+   "score": 7,
+   "category": "tool",
+   "tags": [
+    "open-source",
+    "push-to-mobile"
    ],
    "published": ""
   }
