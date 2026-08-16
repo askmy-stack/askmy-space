@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-16T14:36:04+00:00",
- "count": 100,
+ "generated_at": "2026-08-16T19:24:57+00:00",
+ "count": 103,
  "items": [
   {
    "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
@@ -95,6 +95,46 @@
     "community"
    ],
    "published": ""
+  },
+  {
+   "title": "[Career Advice] Final-year in Physical AI / Robotics. How is the market & global hiring for freshers? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1vq3p9w/career_advice_finalyear_in_physical_ai_robotics/",
+   "summary": "Hi everyone, I am heading into my final year of my BTech at a tier 1 college in India and just wrapped up a Physical AI internship at a MNC, working heavily with NVIDIA Isaac Sim and OpenFOAM. My background is fully focused on robotics and autonomy. My tech stack includes: Simul…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "career advice",
+    "physical ai",
+    "robotics",
+    "hiring",
+    "freshers"
+   ],
+   "published": "2026-08-16T17:53:42Z"
+  },
+  {
+   "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+   "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+   "summary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "trust",
+    "ai-backlash",
+    "leadership"
+   ],
+   "published": "2026-08-16T16:53:51Z"
+  },
+  {
+   "title": "The AI Credit Resale Economy",
+   "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+   "summary": "Article URL: https://vectoral.com/blog/who-are-the-token-brokers Comments URL: https://news.ycombinator.com/item?id=49320611 Points: 155 # Comments: 60",
+   "score": 7,
+   "category": "idea",
+   "tags": [
+    "ai credit",
+    "resale economy"
+   ],
+   "published": "2026-08-16T14:44:55Z"
   },
   {
    "title": "AI in drug discovery – what it is, where we stand and the path forward",
