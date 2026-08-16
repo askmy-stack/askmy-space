@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-16T07:38:04+00:00",
- "count": 97,
+ "generated_at": "2026-08-16T13:28:53+00:00",
+ "count": 102,
  "items": [
   {
    "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
@@ -95,6 +95,18 @@
     "community"
    ],
    "published": ""
+  },
+  {
+   "title": "AI in drug discovery – what it is, where we stand and the path forward",
+   "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+   "summary": "Comments",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "drug-discovery",
+    "ai-in-healthcare"
+   ],
+   "published": "2026-08-15T19:12:53Z"
   },
   {
    "title": "Semaglutide linked to 26% lower 5-year predicted dementia risk",
@@ -265,6 +277,44 @@
     "enterprise"
    ],
    "published": "2026-08-13T19:19:49Z"
+  },
+  {
+   "title": "Defensive Boosting for Online Probabilistic Forecasting",
+   "url": "https://arxiv.org/abs/2608.13554v1",
+   "summary": "We study online probabilistic forecasting of binary outcomes chosen by an adaptive adversary. Given an online learning algorithm for a weak hypothesis class $H$, we would like to efficiently obtain two incomparable guarantees that existing online boosting techniques provide sepa…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "online-forecasting",
+    "defensive-boosting"
+   ],
+   "published": "2026-08-13T17:59:35Z"
+  },
+  {
+   "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+   "url": "https://arxiv.org/abs/2608.13545v1",
+   "summary": "Modern language models are trained on heterogeneous web-scale text corpora. Consequently, studying knowledge and skill acquisition is difficult, as prior exposure to related content is hard to characterize. To address this challenge, we introduce LITTLECURRICULUM, a curated 88B-…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "language models",
+    "pedagogical control",
+    "knowledge exposure"
+   ],
+   "published": "2026-08-13T17:56:12Z"
+  },
+  {
+   "title": "Safety vs. Social Image: Co-Designing Protection Mechanisms Against Ableist Harassment with People with Disabilities in Social Virtual Reality",
+   "url": "https://arxiv.org/abs/2608.13532v1",
+   "summary": "People with disabilities (PWD) increasingly use avatars to express disability identities in social virtual reality (VR), but greater visibility also invites targeted harassment. Existing safety features are often insufficient, overlooking PWD's experiences and needs. To address…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "social-vr",
+    "accessibility",
+    "harassment-protection"
+   ],
+   "published": "2026-08-13T17:49:00Z"
   },
   {
    "title": "Sparse Orthogonal Regression Technique: A Spectral Framework for Equation Discovery, Approximation, and Integration",
@@ -1259,6 +1309,19 @@
    "tags": [
     "open-source",
     "push-to-mobile"
+   ],
+   "published": ""
+  },
+  {
+   "title": "What happens when an LLM never sees material beyond fifth grade?",
+   "url": "https://littlelearner-ll.github.io/",
+   "summary": "181 points, 141 comments",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "llm",
+    "education",
+    "human-centric"
    ],
    "published": ""
   }
