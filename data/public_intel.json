@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-16T02:26:10+00:00",
- "count": 99,
+ "generated_at": "2026-08-16T07:38:04+00:00",
+ "count": 97,
  "items": [
   {
    "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
@@ -31,19 +31,6 @@
    "published": "2026-08-09T15:58:31Z"
   },
   {
-   "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
-   "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
-   "summary": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States.",
-   "score": 8,
-   "category": "top-news",
-   "tags": [
-    "pollution",
-    "sustainability",
-    "data centers"
-   ],
-   "published": "2026-08-08T21:24:02Z"
-  },
-  {
    "title": "sowarma/wp2shell-PoC — CVE-2026-63030 & CVE-2026-60137 RCE chain proof-of-concept",
    "url": "https://github.com/sowarma/wp2shell-PoC",
    "summary": "351★ · Python · topics: cve, cve-2026-60137, cve-2026-63030, data-analysis, wp2shell",
@@ -56,19 +43,6 @@
     "security"
    ],
    "published": "2026-08-08T20:11:15Z"
-  },
-  {
-   "title": "Amazon Is Creating the Biggest Pollution Source in the Country",
-   "url": "https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country",
-   "summary": "Article URL: https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country Comments URL: https://news.ycombinator.com/item?id=49223845 Points: 209 # Comments: 126",
-   "score": 8,
-   "category": "top-news",
-   "tags": [
-    "pollution",
-    "sustainability",
-    "data centers"
-   ],
-   "published": "2026-08-08T17:27:52Z"
   },
   {
    "title": "John C. Lilly on solid state intelligence and the elimination of man (1978)",
@@ -134,6 +108,32 @@
     "semaglutide"
    ],
    "published": "2026-08-15T15:58:53Z"
+  },
+  {
+   "title": "College loses its monopoly on the American Dream",
+   "url": "https://www.axios.com/2026/08/15/college-bachelors-degree-shift-ai-america",
+   "summary": "Whether framed on an office wall, collecting dust in a box or still a distant dream, the college diploma is getting a hard reappraisal. Why it matters: College was once sold as a ticket to the American dream. But students today are taking a tougher look at the college tradeoff:…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai",
+    "education",
+    "future-of-work"
+   ],
+   "published": "2026-08-15T10:00:05Z"
+  },
+  {
+   "title": "\"There's no point\": AI forces college students to rethink their major",
+   "url": "https://www.axios.com/2026/08/15/college-major-ai-skills-job-search",
+   "summary": "Students — and their parents — are searching for future-proof college majors for an AI -powered world. Why it matters: AI is changing the skills employers expect from entry-level workers, while colleges are rethinking how to prepare students for the transition. The big picture:…",
+   "score": 7,
+   "category": "opinion",
+   "tags": [
+    "ai",
+    "education",
+    "future-of-work"
+   ],
+   "published": "2026-08-15T09:50:05Z"
   },
   {
    "title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
@@ -992,32 +992,6 @@
     "personal-relevant"
    ],
    "published": "2026-08-09T12:00:00Z"
-  },
-  {
-   "title": "Matt Kinsella (Infleqtion): Why Neutral Atoms Power Sensors, Clocks, and Computers Alike",
-   "url": "https://thequantuminsider.com/2026/08/08/matt-kinsella-infleqtion-why-neutral-atoms-power-sensors-clocks-and-computers-alike/",
-   "summary": "Yuval Boger interviews Matt Kinsella, CEO of Infleqtion. They discuss Infleqtion’s neutral-atom strategy, including its combination of quantum computing, sensing, and timing products, and why Matt believes that diversified approach strengthens both the business and the technolog…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "neutral atoms",
-    "quantum computing",
-    "sensing"
-   ],
-   "published": "2026-08-08T19:00:00Z"
-  },
-  {
-   "title": "NeurIPS AI Assisted Review authors/reviewers? [D]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1vj3oqr/neurips_ai_assisted_review_authorsreviewers_d/",
-   "summary": "Out of curiosity, if you were a reviewer or author, how did the review period go? For me, it was weird, because I gave reviews with specific details (what specifically could have been better, how to fix it), but realized other reviewers gave similar superficial reviews. Even the…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "neurips",
-    "review process",
-    "llm"
-   ],
-   "published": "2026-08-08T18:42:55Z"
   },
   {
    "title": "CoBa: Cost-Effective Test-Time Scaling via Compute-Balanced Routing",
