@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-16T19:24:57+00:00",
- "count": 103,
+ "generated_at": "2026-08-17T02:26:15+00:00",
+ "count": 101,
  "items": [
   {
    "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
@@ -93,6 +93,19 @@
     "understanding",
     "bottleneck",
     "community"
+   ],
+   "published": ""
+  },
+  {
+   "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+   "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+   "summary": "110 points, 35 comments",
+   "score": 8,
+   "category": "top-news",
+   "tags": [
+    "nvidia",
+    "openai",
+    "financing"
    ],
    "published": ""
   },
@@ -1005,19 +1018,6 @@
    "published": "2026-08-10T03:12:48Z"
   },
   {
-   "title": "A Mechanistic Explanation of Prompt Injection (and why you should study roles) [R]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1vjvzm4/a_mechanistic_explanation_of_prompt_injection_and/",
-   "summary": "submitted by /u/katxwoods [link] [comments]",
-   "score": 7,
-   "category": "idea",
-   "tags": [
-    "prompt injection",
-    "mechanistic explanation",
-    "roles"
-   ],
-   "published": "2026-08-09T17:36:22Z"
-  },
-  {
    "title": "sv-number/mcp-server — MCP server for AI agents that need a phone number: order a private number in any country, read the SMS verification code, hand it back.",
    "url": "https://github.com/sv-number/mcp-server",
    "summary": "480★ · JavaScript · topics: ai-agents, claude-code, mcp, model-context-protocol, otp",
@@ -1030,19 +1030,6 @@
     "ai-agents"
    ],
    "published": "2026-08-09T16:11:22Z"
-  },
-  {
-   "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
-   "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
-   "summary": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader.",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "science fiction",
-    "democracy",
-    "ethics"
-   ],
-   "published": "2026-08-09T15:00:00Z"
   },
   {
    "title": "AI detectors are creating a new era of distrust",
@@ -1131,19 +1118,6 @@
     "model efficiency"
    ],
    "published": "2026-08-04T18:47:25Z"
-  },
-  {
-   "title": "Analyzing data from Silicon Valley ventures and founders prosecuted for fraud",
-   "url": "https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981",
-   "summary": "150 points, 66 comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "fraud",
-    "venture capital",
-    "silicon valley"
-   ],
-   "published": ""
   },
   {
    "title": "Google Search Is Dying. What Comes Next Is Worse",
