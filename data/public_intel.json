@@ -1,7 +1,85 @@
 {
- "generated_at": "2026-08-17T02:26:15+00:00",
- "count": 101,
+ "generated_at": "2026-08-17T08:00:51+00:00",
+ "count": 100,
  "items": [
+  {
+   "title": "On A.I. regulation and messaging",
+   "url": "https://twitter.com/DarioAmodei/status/2088758816376807762",
+   "summary": "Comments",
+   "score": 8,
+   "category": "opinion",
+   "tags": [
+    "regulation",
+    "messaging",
+    "ai-governance"
+   ],
+   "published": "2026-08-17T01:59:56Z"
+  },
+  {
+   "title": "Inside Kushner's Hamas meeting: What comes next in Gaza",
+   "url": "https://www.axios.com/2026/08/16/kushner-hamas-gaza-disarmament-egypt-israel",
+   "summary": "Hamas leaders reaffirmed their commitment to disarm and demilitarize Gaza in a meeting with President Trump's adviser Jared Kushner in Egypt on Sunday, according to a source with direct knowledge. Why it matters: Kushner used the rare direct meeting to press Hamas for tangible s…",
+   "score": 8,
+   "category": "top-news",
+   "tags": [
+    "politics",
+    "geopolitics",
+    "middle east"
+   ],
+   "published": "2026-08-16T20:13:03Z"
+  },
+  {
+   "title": "How AI could bring Mayo-quality health care to everyone",
+   "url": "https://www.axios.com/2026/08/16/ai-mayo-clinic-health-care-fix-jim-vandehei",
+   "summary": "My wife, Autumn, has spent nearly a quarter of the past four years in ERs and hospitals, untangling and battling three chronic conditions — and a shamefully broken U.S. medical system. We live in Washington, D.C., with top-rated hospitals in our backyard. Yet her experience has…",
+   "score": 8,
+   "category": "opinion",
+   "tags": [
+    "healthcare",
+    "medical care",
+    "ai",
+    "personal-relevant"
+   ],
+   "published": "2026-08-16T10:00:09Z"
+  },
+  {
+   "title": "Inside the Experimental Traps Scientists Set for Ghostly Neutrinos",
+   "url": "https://www.wired.com/story/inside-experimental-traps-scientists-set-for-neutrinos/",
+   "summary": "Observatories have been built in mines, deep under the Antarctic ice sheet, and elsewhere in an effort to detect the fleeting particles.",
+   "score": 8,
+   "category": "research-highlight",
+   "tags": [
+    "neutrinos",
+    "particle physics"
+   ],
+   "published": "2026-08-16T10:00:00Z"
+  },
+  {
+   "title": "Scoop: Inside Trump's secret backchannel to Iran's Revolutionary Guard",
+   "url": "https://www.axios.com/2026/08/16/iran-backchannel-trump-gabbard-barzani-war",
+   "summary": "In mid-May, U.S. negotiators trying to reach a deal with Iran to end the war ran into a problem: They couldn't tell if the people across the table actually spoke for the country's powerful Islamic Revolutionary Guard Corps (IRGC). So Trump administration officials did something…",
+   "score": 8,
+   "category": "top-news",
+   "tags": [
+    "politics",
+    "geopolitics",
+    "iran"
+   ],
+   "published": "2026-08-16T09:00:07Z"
+  },
+  {
+   "title": "AWS Open-Sources Dogwood, Extending Cedar to Govern Sequences of Agent Tool Calls",
+   "url": "https://www.infoq.com/news/2026/08/aws-dogwood-agent-policy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS has open-sourced Dogwood, a policy language extending Cedar with temporal conditions so rules can reason about an agent's prior tool calls rather than one request in isolation. It covers approvals, rate limits and running totals, ships under Apache 2.0, and is supported in A…",
+   "score": 8,
+   "category": "oss",
+   "tags": [
+    "open-source",
+    "policy-language",
+    "agent-tool-calls"
+   ],
+   "published": "2026-08-16T07:26:00Z"
+  },
   {
    "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
    "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
@@ -16,21 +94,6 @@
    "published": "2026-08-15T21:29:19Z"
   },
   {
-   "title": "eternityspring/shuohao-skills — 给 AI 编码 agent 用的 skill 集合，Claude Code 和 codex 都能跑。novel-characters：把小说拆成角色设定集——人物画像、卡通形象提示词、音色提示词、三视图。 | Skills for AI coding agents, working in both Claude Code and co",
-   "url": "https://github.com/eternityspring/shuohao-skills",
-   "summary": "542★ · JavaScript · topics:",
-   "score": 8,
-   "category": "oss",
-   "tags": [
-    "claude-code",
-    "personal-relevant",
-    "ai-coding",
-    "codex",
-    "skills"
-   ],
-   "published": "2026-08-09T15:58:31Z"
-  },
-  {
    "title": "sowarma/wp2shell-PoC — CVE-2026-63030 & CVE-2026-60137 RCE chain proof-of-concept",
    "url": "https://github.com/sowarma/wp2shell-PoC",
    "summary": "351★ · Python · topics: cve, cve-2026-60137, cve-2026-63030, data-analysis, wp2shell",
@@ -43,19 +106,6 @@
     "security"
    ],
    "published": "2026-08-08T20:11:15Z"
-  },
-  {
-   "title": "John C. Lilly on solid state intelligence and the elimination of man (1978)",
-   "url": "https://kibotronics.net/unlisted/lilly-machines/",
-   "summary": "130 points, 87 comments",
-   "score": 8,
-   "category": "opinion",
-   "tags": [
-    "future",
-    "personal-relevant",
-    "intelligence"
-   ],
-   "published": ""
   },
   {
    "title": "Humanising LLM Outputs Is Dumb",
@@ -1043,69 +1093,6 @@
     "personal-relevant"
    ],
    "published": "2026-08-09T12:00:00Z"
-  },
-  {
-   "title": "CoBa: Cost-Effective Test-Time Scaling via Compute-Balanced Routing",
-   "url": "https://arxiv.org/abs/2608.07424v1",
-   "summary": "Test-time scaling is often implemented by spending more compute along one axis: sampling more solutions, extending a chain of thought, or applying a stronger evaluator. Under a fixed inference budget, these choices compete. This paper formulates test-time reasoning as a compute-…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "test-time scaling",
-    "compute-balanced routing",
-    "reasoning"
-   ],
-   "published": "2026-08-07T17:12:13Z"
-  },
-  {
-   "title": "GeoDistill-Refine: Silhouette-First Geometry Distillation for Annotation-Free Spacecraft Segmentation",
-   "url": "https://arxiv.org/abs/2608.07405v1",
-   "summary": "Foundation segmentation models can provide supervision for spacecraft imagery without manual training masks, but their predictions vary with textual prompts and may contain geometric errors that are amplified during distillation. This paper presents GeoDistill-Refine, a two-stag…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "spacecraft segmentation",
-    "annotation-free learning",
-    "geometry distillation"
-   ],
-   "published": "2026-08-07T16:53:05Z"
-  },
-  {
-   "title": "Circuit-Based Program Verification: Sequential Circuits as an Intermediate Representation for Verifying C Programs",
-   "url": "https://arxiv.org/abs/2608.07397v1",
-   "summary": "Formal verification of software programs and hardware designs shares the common goal of reasoning about state-transition systems, yet the two communities have largely developed separate intermediate representations and verification algorithms. This paper investigates sequential…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "program verification",
-    "circuit-based verification"
-   ],
-   "published": "2026-08-07T16:41:07Z"
-  },
-  {
-   "title": "QFCQT: A Chaotically Gated Quantformer Framework for Volatile Time-Series Forecasting",
-   "url": "https://arxiv.org/abs/2608.07363v1",
-   "summary": "Forecasting non-stationary time series remains difficult due to long-range dependencies, local volatility bursts, structural shifts, and nonlinear oscillatory behaviors. Although Transformer-based forecasters are effective for modeling long-term temporal dependencies, their feed…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "time-series forecasting",
-    "transformer",
-    "quantum-fractal-inspired"
-   ],
-   "published": "2026-08-07T16:05:21Z"
-  },
-  {
-   "title": "Assessing AI-generated music detection in real-world broadcast monitoring",
-   "url": "https://arxiv.org/abs/2608.07359v1",
-   "summary": "The proliferation of AI-generated music in broadcast media raises concerns about transparency and fair compensation, but reliable detection under real broadcast conditions remains unresolved. Existing studies report substantial performance degradation in this domain, yet their e…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "ai-generated music",
-    "detection"
-   ],
-   "published": "2026-08-07T15:58:04Z"
   },
   {
    "title": "LFM2.5 2.6B model competitive with 4x larger models",
