@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T08:00:51+00:00",
+ "generated_at": "2026-08-17T13:37:10+00:00",
  "count": 100,
  "items": [
   {
@@ -160,6 +160,18 @@
    "published": ""
   },
   {
+   "title": "Trump's views can factor into prosecutions, Attorney General Todd Blanche says",
+   "url": "https://www.axios.com/2026/08/16/todd-blanche-doj-independence-trump",
+   "summary": "Attorney General Todd Blanche refused Sunday to pledge the Justice Department's independence from the White House, saying he would consider President Trump's views on individual prosecutions. Why it matters: Trump has remade the DOJ , ousting longtime staffers , urging prosecuti…",
+   "score": 7,
+   "category": "top-news",
+   "tags": [
+    "politics",
+    "justice department"
+   ],
+   "published": "2026-08-16T19:38:33Z"
+  },
+  {
    "title": "[Career Advice] Final-year in Physical AI / Robotics. How is the market & global hiring for freshers? [D]",
    "url": "https://www.reddit.com/r/MachineLearning/comments/1vq3p9w/career_advice_finalyear_in_physical_ai_robotics/",
    "summary": "Hi everyone, I am heading into my final year of my BTech at a tier 1 college in India and just wrapped up a Physical AI internship at a MNC, working heavily with NVIDIA Isaac Sim and OpenFOAM. My background is fully focused on robotics and autonomy. My tech stack includes: Simul…",
@@ -275,6 +287,43 @@
     "no-code-dashboard"
    ],
    "published": "2026-08-14T17:06:09Z"
+  },
+  {
+   "title": "Ensuring Safe Physical AI in Urban Mobility via Hazard-Informed Synthesized Envelopes",
+   "url": "https://arxiv.org/abs/2608.14481v1",
+   "summary": "As heterogeneous robotic systems deploy across diverse urban zones, maintaining safety amid complex human-robot interactions remains a critical challenge. We present a unified framework that bridges systematic hazard analysis and runtime enforcement using hazard-informed safety…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "safety",
+    "urban mobility"
+   ],
+   "published": "2026-08-14T16:57:54Z"
+  },
+  {
+   "title": "Expected Free Energy-based Informative Path Planning for Robotic Mars Exploration",
+   "url": "https://arxiv.org/abs/2608.14466v1",
+   "summary": "An autonomous robot efficiently exploring an unknown environment, such as looking for water sources on Mars, faces two simultaneous demands: building an accurate information map while quickly finding the regions of greatest value, and paying for every meter of travel and the cos…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "robotic exploration",
+    "informative path planning",
+    "expected free energy"
+   ],
+   "published": "2026-08-14T16:46:18Z"
+  },
+  {
+   "title": "Information Satisfaction: A Reader-Centered Axis for Summarization Evaluation",
+   "url": "https://arxiv.org/abs/2608.14457v1",
+   "summary": "The majority of work on summarization evaluation focuses on general summary quality (e.g., ROUGE, BERTScore) or specific desired properties (e.g., readability, factuality). However, these metrics fail to measure the utility of a summary to an individual user. For example, a biom…",
+   "score": 7,
+   "category": "paper",
+   "tags": [
+    "summarization evaluation",
+    "reader-centered axis"
+   ],
+   "published": "2026-08-14T16:41:23Z"
   },
   {
    "title": "Quantum Australia Reports $83.1M Economic Impact and Growth of 15 Quantum Companies",
@@ -1014,19 +1063,6 @@
    "published": "2026-08-10T09:00:07Z"
   },
   {
-   "title": "GitHub Code Quality Targets Maintainability as AI-Generated Code Increases",
-   "url": "https://www.infoq.com/news/2026/08/github-code-quality/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. The service combines CodeQL analysis with AI-assisted detection of maintainability and reliability problems, then uses Copilot Autofix to suggest changes for review in pull requests, accor…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "code-quality",
-    "ai-generated-code",
-    "github"
-   ],
-   "published": "2026-08-10T08:00:00Z"
-  },
-  {
    "title": "Sateezg/codex-bridge — Image generation (gpt-image-2) and GPT-5 subagents for Claude Code — through the Codex CLI login you already have. No OpenAI API key.",
    "url": "https://github.com/Sateezg/codex-bridge",
    "summary": "358★ · Shell · topics: ai-agents, claude-code, claude-code-plugin, codex, gpt-5",
@@ -1042,32 +1078,6 @@
    "published": "2026-08-10T07:56:13Z"
   },
   {
-   "title": "DeepMind’s future has become all the more critical for the UK",
-   "url": "https://sifted.eu/articles/deepmind-google-future-uk-opinion/",
-   "summary": "",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "deepmind",
-    "uk",
-    "ai-ambitions"
-   ],
-   "published": "2026-08-10T05:00:11Z"
-  },
-  {
-   "title": "Run Android ARM64 VR APKs on Apple Vision Pro",
-   "url": "https://github.com/shinyquagsire23/Klepton",
-   "summary": "Comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "android",
-    "apple",
-    "vr"
-   ],
-   "published": "2026-08-10T03:12:48Z"
-  },
-  {
    "title": "sv-number/mcp-server — MCP server for AI agents that need a phone number: order a private number in any country, read the SMS verification code, hand it back.",
    "url": "https://github.com/sv-number/mcp-server",
    "summary": "480★ · JavaScript · topics: ai-agents, claude-code, mcp, model-context-protocol, otp",
@@ -1080,19 +1090,6 @@
     "ai-agents"
    ],
    "published": "2026-08-09T16:11:22Z"
-  },
-  {
-   "title": "AI detectors are creating a new era of distrust",
-   "url": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
-   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Lon…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai detectors",
-    "distrust",
-    "personal-relevant"
-   ],
-   "published": "2026-08-09T12:00:00Z"
   },
   {
    "title": "LFM2.5 2.6B model competitive with 4x larger models",
