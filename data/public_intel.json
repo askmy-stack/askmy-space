@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-18T02:18:56+00:00",
- "count": 98,
+ "generated_at": "2026-08-18T07:43:46+00:00",
+ "count": 88,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -92,33 +92,6 @@
     "ai regulation"
    ],
    "published": "2026-08-15T21:29:19Z"
-  },
-  {
-   "title": "sowarma/wp2shell-PoC — CVE-2026-63030 & CVE-2026-60137 RCE chain proof-of-concept",
-   "url": "https://github.com/sowarma/wp2shell-PoC",
-   "summary": "351★ · Python · topics: cve, cve-2026-60137, cve-2026-63030, data-analysis, wp2shell",
-   "score": 8,
-   "category": "oss",
-   "tags": [
-    "cve",
-    "rce",
-    "vulnerability",
-    "security"
-   ],
-   "published": "2026-08-08T20:11:15Z"
-  },
-  {
-   "title": "Humanising LLM Outputs Is Dumb",
-   "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
-   "summary": "165 points, 100 comments",
-   "score": 8,
-   "category": "opinion",
-   "tags": [
-    "llm",
-    "humanisation",
-    "ai"
-   ],
-   "published": ""
   },
   {
    "title": "German advocacy group lodges criminal complaint over Meta AI glasses",
@@ -960,56 +933,6 @@
    "published": "2026-08-10T19:20:19Z"
   },
   {
-   "title": "Generative AI for Encrypted Traffic Analysis: Synthetic Dataset Generation and Classifier Evaluation",
-   "url": "https://arxiv.org/abs/2608.09852v1",
-   "summary": "Network traffic analysis faces significant challenges with encrypted communications, primarily due to limited visibility into packet contents and the inherent imbalance in available datasets, particularly for anomalous traffic patterns. This paper addresses these challenges by e…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "generative ai",
-    "encrypted traffic analysis",
-    "synthetic dataset generation"
-   ],
-   "published": "2026-08-10T17:09:32Z"
-  },
-  {
-   "title": "Real-Time Climate Risk Assessment for Supply Chain Resilience: A Data-Driven Nowcasting Framework for Colombian Agriculture",
-   "url": "https://arxiv.org/abs/2608.09846v1",
-   "summary": "This paper presents a methodological framework for real-time climate risk assessment using data-driven nowcasting techniques to enhance supply chain resilience in Colombian agricultural contexts. Climate variability in Colombia, characterized by irregular rainfall, temperature f…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "climate risk assessment",
-    "supply chain resilience"
-   ],
-   "published": "2026-08-10T17:05:47Z"
-  },
-  {
-   "title": "RA-FinBERT: Rule-aware LoRA adaptation for low-resource financial sentiment classification",
-   "url": "https://arxiv.org/abs/2608.09834v1",
-   "summary": "Financial sentiment analysis converts unstructured financial news into quantitative signals that can support market analysis and decision-making. Existing work on resource-efficient financial NLP has largely focused on compressing or adapting pretrained language models, with les…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "financial sentiment analysis",
-    "low-resource nlp"
-   ],
-   "published": "2026-08-10T16:52:19Z"
-  },
-  {
-   "title": "Distill Skills into Weights, Not Prompts: Abstract Skills as Privileged Signals for On-Policy Self-Distillation",
-   "url": "https://arxiv.org/abs/2608.09826v1",
-   "summary": "Reinforcement learning with verifiable rewards yields no group-relative signal when rollout groups are uniformly correct or uniformly wrong, which account for 63.0-68.0% of groups in our experiments. We propose SKALD (Skill-Anchored Latent Distillation), an on-policy self-distil…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "reinforcement learning",
-    "self-distillation",
-    "skill-anchored latent distillation"
-   ],
-   "published": "2026-08-10T16:43:18Z"
-  },
-  {
    "title": "How Europe can prevent a repeat of this year’s devastating wildfires",
    "url": "https://www.science.org/content/article/how-europe-can-prevent-repeat-year-s-devastating-wildfires",
    "summary": "As climate change heats up the continent, experts say countries must shift focus toward preventing fires, rather than just suppressing them",
@@ -1049,21 +972,6 @@
    "published": "2026-08-10T09:00:07Z"
   },
   {
-   "title": "Sateezg/codex-bridge — Image generation (gpt-image-2) and GPT-5 subagents for Claude Code — through the Codex CLI login you already have. No OpenAI API key.",
-   "url": "https://github.com/Sateezg/codex-bridge",
-   "summary": "358★ · Shell · topics: ai-agents, claude-code, claude-code-plugin, codex, gpt-5",
-   "score": 7,
-   "category": "oss",
-   "tags": [
-    "ai-agents",
-    "image-generation",
-    "codex",
-    "personal-relevant",
-    "gpt-5"
-   ],
-   "published": "2026-08-10T07:56:13Z"
-  },
-  {
    "title": "LFM2.5 2.6B model competitive with 4x larger models",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
    "summary": "Comments",
@@ -1074,45 +982,6 @@
     "model efficiency"
    ],
    "published": "2026-08-04T18:47:25Z"
-  },
-  {
-   "title": "Google Search Is Dying. What Comes Next Is Worse",
-   "url": "https://thewalrus.ca/google-search-is-dying/",
-   "summary": "115 points, 100 comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "search",
-    "ai",
-    "future"
-   ],
-   "published": ""
-  },
-  {
-   "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-   "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-   "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "chatgpt",
-    "customer-journey",
-    "decision-making"
-   ],
-   "published": ""
-  },
-  {
-   "title": "How Zapier transformed core marketing processes with ChatGPT Work",
-   "url": "https://openai.com/index/zapier",
-   "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "chatgpt",
-    "marketing",
-    "automation"
-   ],
-   "published": ""
   },
   {
    "title": "Letter to Governor Abbott on responsible AI infrastructure in Texas",
