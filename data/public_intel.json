@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-17T19:31:14+00:00",
- "count": 100,
+ "generated_at": "2026-08-18T02:18:56+00:00",
+ "count": 98,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -1008,31 +1008,6 @@
     "skill-anchored latent distillation"
    ],
    "published": "2026-08-10T16:43:18Z"
-  },
-  {
-   "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
-   "url": "https://www.stoaexchange.com",
-   "summary": "Comments",
-   "score": 7,
-   "category": "startup",
-   "tags": [
-    "gpu-marketplace",
-    "ai-servers"
-   ],
-   "published": "2026-08-10T16:35:27Z"
-  },
-  {
-   "title": "Infleqtion Selected by Eaton to Explore Quantum Computing for Power Grid Resilience",
-   "url": "https://thequantuminsider.com/2026/08/10/infleqtion-eaton-quantum-computing-power-grid-resilience/",
-   "summary": "Insider Brief Press release – Infleqtion, a global leader in quantum computing and quantum sensing powered by neutral-atom technology, announced that Eaton, a global power management company, selected Infleqtion to support new research evaluating how quantum computing can improv…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "power grid",
-    "resilience",
-    "quantum computing"
-   ],
-   "published": "2026-08-10T14:38:28Z"
   },
   {
    "title": "How Europe can prevent a repeat of this year’s devastating wildfires",
