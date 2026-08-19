@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-19T07:44:05+00:00",
- "count": 71,
+ "generated_at": "2026-08-19T13:40:27+00:00",
+ "count": 67,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -754,19 +754,6 @@
    "published": "2026-08-12T09:46:18Z"
   },
   {
-   "title": "The lifesaving secret hidden inside a horseshoe crab's blue blood",
-   "url": "https://whdh.com/news/the-lifesaving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/",
-   "summary": "Comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "biotechnology",
-    "medical-research",
-    "innovation"
-   ],
-   "published": "2026-08-12T01:45:51Z"
-  },
-  {
    "title": "Giant balloon gives rise to new view of the Milky Way’s centre",
    "url": "https://www.nature.com/articles/d41586-026-02463-y",
    "summary": "Nature, Published online: 12 August 2026; doi:10.1038/d41586-026-02463-y Airborne camera gathers data about the high-energy particles emanating from the core of our Galaxy.",
@@ -778,45 +765,6 @@
     "astronomy"
    ],
    "published": "2026-08-12T00:00:00Z"
-  },
-  {
-   "title": "AI Could Help Fossil Fuel Companies Create More Emissions",
-   "url": "https://www.wired.com/story/ai-could-help-fossil-fuel-companies-create-more-emissions/",
-   "summary": "New research finds that by making the fossil fuel industry more productive, AI could help increase carbon emissions by up to nearly 5 percent—vastly outpacing the impact of data centers.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "fossil fuel",
-    "emissions",
-    "ai impact"
-   ],
-   "published": "2026-08-11T13:45:02Z"
-  },
-  {
-   "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
-   "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
-   "summary": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat lands…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "ddos-attacks",
-    "cloudflare",
-    "cyber-threats"
-   ],
-   "published": "2026-08-11T13:00:00Z"
-  },
-  {
-   "title": "‘Mismatched’ vaccine being rolled out against Ebola outbreak",
-   "url": "https://www.science.org/content/article/mismatched-vaccine-being-rolled-out-against-ebola-outbreak",
-   "summary": "Amid ethical questions, DRC proceeds with shot that may offer some protection against the Bundibugyo virus",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "vaccine",
-    "ebola",
-    "outbreak"
-   ],
-   "published": "2026-08-11T05:00:35Z"
   },
   {
    "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
