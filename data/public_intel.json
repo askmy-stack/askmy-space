@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-19T13:40:27+00:00",
- "count": 67,
+ "generated_at": "2026-08-19T19:26:49+00:00",
+ "count": 63,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -699,59 +699,6 @@
     "middle class"
    ],
    "published": "2026-08-12T13:20:05Z"
-  },
-  {
-   "title": "Alice & Bob Joins European Quantum Error Correction Doctoral Network",
-   "url": "https://thequantuminsider.com/2026/08/12/alice-bob-partners-europe-first-doctoral-network-quantum-error-correction/",
-   "summary": "Insider Brief Press release – Alice & Bob, a leader in fault-tolerant quantum computing, is contributing its expertise in cat-qubit error correction to QuBriC, Europe’s first Marie Skłodowska-Curie Actions (MSCA) Doctoral Network dedicated to quantum error correction (QEC). QuBr…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "quantum-error-correction",
-    "alice-and-bob",
-    "european-doctoral-network"
-   ],
-   "published": "2026-08-12T12:10:48Z"
-  },
-  {
-   "title": "Exclusive: ClearJet raises $25M to build the ‘Uber of Cargo’",
-   "url": "https://news.crunchbase.com/transportation/clearjet-raises-25m-logistics-ai-seriesb/",
-   "summary": "Austin-based ClearJet, an AI-enabled logistics technology startup connects shippers with unused cargo capacity on commercial flights, has raised a $25 million Edison Partners-led Series B, it tells Crunchbase News exclusively.",
-   "score": 7,
-   "category": "startup",
-   "tags": [
-    "funding",
-    "logistics",
-    "cargo",
-    "series b"
-   ],
-   "published": "2026-08-12T12:00:18Z"
-  },
-  {
-   "title": "What sort of maths are LLMs good at?",
-   "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
-   "summary": "Comments",
-   "score": 7,
-   "category": "idea",
-   "tags": [
-    "llms",
-    "mathematics",
-    "capabilities"
-   ],
-   "published": "2026-08-12T10:04:25Z"
-  },
-  {
-   "title": "Advice for transition from design to data analyst without a degree",
-   "url": "https://www.reddit.com/r/MLQuestions/comments/1vm9jop/advice_for_transition_from_design_to_data_analyst/",
-   "summary": "hi , i completed my 12th(or PUC) then joined a 6 month diploma in design and currently having a 1.5 years of experience in design field . i tried to get into core ai ml but it looks like too much competition for degree holders only, so is it possible to get a data analyst job wi…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "career transition",
-    "data analyst",
-    "no degree"
-   ],
-   "published": "2026-08-12T09:46:18Z"
   },
   {
    "title": "Giant balloon gives rise to new view of the Milky Way’s centre",
