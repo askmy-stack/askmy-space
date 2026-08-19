@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-18T19:29:18+00:00",
- "count": 77,
+ "generated_at": "2026-08-19T02:20:46+00:00",
+ "count": 74,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -806,19 +806,6 @@
    "published": "2026-08-11T15:23:09Z"
   },
   {
-   "title": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
-   "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
-   "summary": "Article URL: https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md Comments URL: https://news.ycombinator.com/item?id=49259339 Points: 252 # Comments: 39",
-   "score": 7,
-   "category": "tool",
-   "tags": [
-    "apple silicon",
-    "macos vms",
-    "llama.cpp"
-   ],
-   "published": "2026-08-11T14:50:33Z"
-  },
-  {
    "title": "AI Could Help Fossil Fuel Companies Create More Emissions",
    "url": "https://www.wired.com/story/ai-could-help-fossil-fuel-companies-create-more-emissions/",
    "summary": "New research finds that by making the fossil fuel industry more productive, AI could help increase carbon emissions by up to nearly 5 percent—vastly outpacing the impact of data centers.",
@@ -856,32 +843,6 @@
     "outbreak"
    ],
    "published": "2026-08-11T05:00:35Z"
-  },
-  {
-   "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
-   "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
-   "summary": "120 points, 13 comments",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "github-copilot",
-    "mitm-proxy",
-    "ai-security"
-   ],
-   "published": ""
-  },
-  {
-   "title": "Tech leaders say AI means less work – staff say they work up to 90 hours a week",
-   "url": "https://www.bbc.com/news/articles/cvgx4yd1gl2o",
-   "summary": "123 points, 47 comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "work-life-balance",
-    "ai-impact",
-    "staff-burnout"
-   ],
-   "published": ""
   },
   {
    "title": "Faster floating point math with Rust's new API",
