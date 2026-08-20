@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-19T19:26:49+00:00",
- "count": 63,
+ "generated_at": "2026-08-20T02:20:10+00:00",
+ "count": 59,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -672,59 +672,6 @@
     "parameter efficiency"
    ],
    "published": "2026-08-12T15:48:36Z"
-  },
-  {
-   "title": "ORIENTOM and softwareQ Partner on Quantum Computing Applications for Finance",
-   "url": "https://thequantuminsider.com/2026/08/12/orientom-softwareq-quantum-computing-finance-applications/",
-   "summary": "Insider Brief Press release – ORIENTOM Co., Ltd. and softwareQ Inc. have signed a Memorandum of Understanding (MoU) to explore joint research, development and innovation opportunities in quantum and quantum-inspired computing for the financial services, banking, and insurance se…",
-   "score": 7,
-   "category": "startup",
-   "tags": [
-    "orientom",
-    "softwareq",
-    "quantum computing",
-    "finance"
-   ],
-   "published": "2026-08-12T14:07:29Z"
-  },
-  {
-   "title": "AI is removing the middle class of software engineering",
-   "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-   "summary": "Article URL: https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html Comments URL: https://news.ycombinator.com/item?id=49271994 Points: 535 # Comments: 449",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai",
-    "software engineering",
-    "middle class"
-   ],
-   "published": "2026-08-12T13:20:05Z"
-  },
-  {
-   "title": "Giant balloon gives rise to new view of the Milky Way’s centre",
-   "url": "https://www.nature.com/articles/d41586-026-02463-y",
-   "summary": "Nature, Published online: 12 August 2026; doi:10.1038/d41586-026-02463-y Airborne camera gathers data about the high-energy particles emanating from the core of our Galaxy.",
-   "score": 7,
-   "category": "research-highlight",
-   "tags": [
-    "space-exploration",
-    "milky-way",
-    "astronomy"
-   ],
-   "published": "2026-08-12T00:00:00Z"
-  },
-  {
-   "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
-   "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
-   "summary": "203 points, 191 comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "artificial-intelligence",
-    "grok",
-    "ai-benchmark"
-   ],
-   "published": ""
   },
   {
    "title": "Lovable raises $400M Series C",
