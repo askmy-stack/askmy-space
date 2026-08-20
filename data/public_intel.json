@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-20T02:20:10+00:00",
- "count": 59,
+ "generated_at": "2026-08-20T07:46:45+00:00",
+ "count": 55,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -92,19 +92,6 @@
     "ai regulation"
    ],
    "published": "2026-08-15T21:29:19Z"
-  },
-  {
-   "title": "German advocacy group lodges criminal complaint over Meta AI glasses",
-   "url": "https://www.reuters.com/legal/government/german-advocacy-group-lodges-criminal-complaint-over-meta-ai-glasses-2026-08-12/",
-   "summary": "108 points, 46 comments",
-   "score": 8,
-   "category": "top-news",
-   "tags": [
-    "ai-ethics",
-    "regulation",
-    "meta"
-   ],
-   "published": ""
   },
   {
    "title": "Understanding is the new bottleneck",
@@ -647,43 +634,6 @@
     "co2 levels"
    ],
    "published": "2026-08-13T00:00:00Z"
-  },
-  {
-   "title": "Towards Automated Domain Model Extraction from Source Code using Heuristics and Open-Source LLMs",
-   "url": "https://arxiv.org/abs/2608.12228v1",
-   "summary": "Large language models (LLMs) have recently shown strong capabilities for code understanding, making them promising for reverse engineering domain models from source code. However, state-ofthe- art proprietary LLMs cannot be used in many industrial contexts due to privacy and con…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "domain model extraction",
-    "open-source llms"
-   ],
-   "published": "2026-08-12T16:25:54Z"
-  },
-  {
-   "title": "HYDRA: Hyperbolic Dynamic Representation Architecture for Kolmogorov-Arnold Networks",
-   "url": "https://arxiv.org/abs/2608.12194v1",
-   "summary": "Kolmogorov-Arnold Networks (KANs) enhance nonlinear function approximation by replacing scalar weights with learnable univariate functions. However, assigning an independent function to every connection results in substantial parameter redundancy, limiting their scalability and…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "kolmogorov-arnold networks",
-    "hyperbolic representation",
-    "parameter efficiency"
-   ],
-   "published": "2026-08-12T15:48:36Z"
-  },
-  {
-   "title": "Lovable raises $400M Series C",
-   "url": "https://lovable.dev/blog/series-c",
-   "summary": "102 points, 97 comments",
-   "score": 7,
-   "category": "funding",
-   "tags": [
-    "series c",
-    "investment"
-   ],
-   "published": ""
   },
   {
    "title": "I built a 500k-domain search engine for makers in a weekend for $10",
