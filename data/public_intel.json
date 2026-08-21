@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-21T07:48:40+00:00",
- "count": 36,
+ "generated_at": "2026-08-21T13:42:33+00:00",
+ "count": 31,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -349,19 +349,6 @@
    "published": "2026-08-14T10:00:14Z"
   },
   {
-   "title": "Are supervised and unsupervised learning still relevant today? [D]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1vo08wd/are_supervised_and_unsupervised_learning_still/",
-   "summary": "Hey everyone, I'm trying to get a better sense of where classic ML fits in the current landscape, dominated by LLMs and deep learning. Are supervised and unsupervised learning still considered important skills/topics to learn in 2026, or have they become mostly a \"foundations\" s…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "machine learning",
-    "foundations",
-    "education"
-   ],
-   "published": "2026-08-14T07:14:31Z"
-  },
-  {
    "title": "Drought may have driven Brazil’s first yellow fever outbreak in nearly 80 years",
    "url": "https://www.science.org/content/article/drought-may-have-driven-brazil-s-first-yellow-fever-outbreak-nearly-80-years",
    "summary": "Dry conditions forced forest-dwelling primates into the cities, bringing with them mosquitoes—and disease",
@@ -373,58 +360,6 @@
     "yellow fever"
    ],
    "published": "2026-08-14T02:00:00Z"
-  },
-  {
-   "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
-   "url": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
-   "summary": "The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and parts, too. He's going to try to make th…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "tariffs",
-    "drones",
-    "trade policy"
-   ],
-   "published": "2026-08-14T01:06:15Z"
-  },
-  {
-   "title": "Youth poll: Thumbs down on everything",
-   "url": "https://www.axios.com/2026/08/13/youth-poll-thumbs-down-on-everything",
-   "summary": "Data: Generation Lab; Chart: Danielle Alberti/Axios More than a quarter of younger Americans (27%) believe they or someone they know has lost a job because their employer replaced them with AI, according to a new Axios-Generation Lab poll of 18- to 34-year-olds. Why it matters:…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "ai",
-    "job market",
-    "gen z"
-   ],
-   "published": "2026-08-13T09:30:06Z"
-  },
-  {
-   "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
-   "url": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
-   "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition—and help stop it—early enough to save lives.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "medical-research",
-    "ai-for-health",
-    "liver-disease"
-   ],
-   "published": "2026-08-13T09:00:00Z"
-  },
-  {
-   "title": "Ancient rise in CO<sub>2</sub> was catastrophic for forests: what that means for today’s plants",
-   "url": "https://www.nature.com/articles/d41586-026-02544-y",
-   "summary": "Nature, Published online: 13 August 2026; doi:10.1038/d41586-026-02544-y A widespread dieback of forests due to climate change 56 million years ago has parallels with today.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "climate change",
-    "deforestation",
-    "co2 levels"
-   ],
-   "published": "2026-08-13T00:00:00Z"
   },
   {
    "title": "AI by Hand",
