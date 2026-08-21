@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-21T02:26:13+00:00",
- "count": 46,
+ "generated_at": "2026-08-21T07:48:40+00:00",
+ "count": 36,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -92,19 +92,6 @@
     "ai regulation"
    ],
    "published": "2026-08-15T21:29:19Z"
-  },
-  {
-   "title": "Understanding is the new bottleneck",
-   "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
-   "summary": "229 points, 125 comments",
-   "score": 8,
-   "category": "opinion",
-   "tags": [
-    "understanding",
-    "bottleneck",
-    "community"
-   ],
-   "published": ""
   },
   {
    "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
@@ -401,111 +388,6 @@
    "published": "2026-08-14T01:06:15Z"
   },
   {
-   "title": "llm-gemini 0.33",
-   "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-   "summary": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001 . The pl…",
-   "score": 7,
-   "category": "tool",
-   "tags": [
-    "llm-gemini",
-    "gemini-3.7-flash",
-    "release",
-    "personal-relevant"
-   ],
-   "published": "2026-08-13T19:37:34Z"
-  },
-  {
-   "title": "Defensive Boosting for Online Probabilistic Forecasting",
-   "url": "https://arxiv.org/abs/2608.13554v1",
-   "summary": "We study online probabilistic forecasting of binary outcomes chosen by an adaptive adversary. Given an online learning algorithm for a weak hypothesis class $H$, we would like to efficiently obtain two incomparable guarantees that existing online boosting techniques provide sepa…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "online-forecasting",
-    "defensive-boosting"
-   ],
-   "published": "2026-08-13T17:59:35Z"
-  },
-  {
-   "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
-   "url": "https://arxiv.org/abs/2608.13545v1",
-   "summary": "Modern language models are trained on heterogeneous web-scale text corpora. Consequently, studying knowledge and skill acquisition is difficult, as prior exposure to related content is hard to characterize. To address this challenge, we introduce LITTLECURRICULUM, a curated 88B-…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "language models",
-    "pedagogical control",
-    "knowledge exposure"
-   ],
-   "published": "2026-08-13T17:56:12Z"
-  },
-  {
-   "title": "Safety vs. Social Image: Co-Designing Protection Mechanisms Against Ableist Harassment with People with Disabilities in Social Virtual Reality",
-   "url": "https://arxiv.org/abs/2608.13532v1",
-   "summary": "People with disabilities (PWD) increasingly use avatars to express disability identities in social virtual reality (VR), but greater visibility also invites targeted harassment. Existing safety features are often insufficient, overlooking PWD's experiences and needs. To address…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "social-vr",
-    "accessibility",
-    "harassment-protection"
-   ],
-   "published": "2026-08-13T17:49:00Z"
-  },
-  {
-   "title": "Sparse Orthogonal Regression Technique: A Spectral Framework for Equation Discovery, Approximation, and Integration",
-   "url": "https://arxiv.org/abs/2608.13504v1",
-   "summary": "We develop the Sparse Orthogonal Regression Technique (SORT), a sparse spectral framework for learning orthonormal-basis expansions from noisy and irregularly sampled data. SORT estimates expansion coefficients directly from observations using L1-regularized regression, avoiding…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "sparse orthogonal regression",
-    "equation discovery",
-    "spectral framework"
-   ],
-   "published": "2026-08-13T17:31:27Z"
-  },
-  {
-   "title": "Toward a Gricean Retreat: Probing LLMs for Knowledge Boundaries and Referent Specificity",
-   "url": "https://arxiv.org/abs/2608.13484v1",
-   "summary": "When asked about entities outside their knowledge boundary, LLMs routinely fabricate plausible-sounding details rather than backing off to safer, more general claims. We frame this failure through a Gricean lens: a cooperative speaker who is uncertain about a referent retreats u…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "knowledge-boundaries",
-    "referent-specificity",
-    "gricean-retreat"
-   ],
-   "published": "2026-08-13T17:13:41Z"
-  },
-  {
-   "title": "LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles",
-   "url": "https://arxiv.org/abs/2608.13450v1",
-   "summary": "Autonomous vehicles depend on large safety-critical software stacks, where weaknesses reachable from adversarial inputs may affect steering, braking, or other control decisions. Static analysis can identify candidate sites, but dynamically confirming exploitability requires exec…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "llm",
-    "autonomous-vehicles",
-    "cybersecurity",
-    "threat-analysis"
-   ],
-   "published": "2026-08-13T16:33:44Z"
-  },
-  {
-   "title": "ContactGuard: Pre-Contact Execution Monitoring with Action-Conditioned Latent World Models",
-   "url": "https://arxiv.org/abs/2608.13438v1",
-   "summary": "Contact-rich manipulation failures are often detected only after the robot has committed to contact. This is especially limiting in wrist-camera setups: close gripper--object views help observe contact, but a poor approach may already push, miss, slip, or disturb the object befo…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "robotics",
-    "pre-contact execution monitoring",
-    "latent world models"
-   ],
-   "published": "2026-08-13T16:25:54Z"
-  },
-  {
    "title": "Youth poll: Thumbs down on everything",
    "url": "https://www.axios.com/2026/08/13/youth-poll-thumbs-down-on-everything",
    "summary": "Data: Generation Lab; Chart: Danielle Alberti/Axios More than a quarter of younger Americans (27%) believe they or someone they know has lost a job because their employer replaced them with AI, according to a new Axios-Generation Lab poll of 18- to 34-year-olds. Why it matters:…",
@@ -543,19 +425,6 @@
     "co2 levels"
    ],
    "published": "2026-08-13T00:00:00Z"
-  },
-  {
-   "title": "Where did the old web go? We followed 657,607 links to find out",
-   "url": "https://0.mk/blog/link-rot",
-   "summary": "141 points, 126 comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "web history",
-    "link rot",
-    "internet archive"
-   ],
-   "published": ""
   },
   {
    "title": "AI by Hand",
