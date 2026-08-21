@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-21T13:42:33+00:00",
- "count": 31,
+ "generated_at": "2026-08-21T19:30:04+00:00",
+ "count": 30,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -309,18 +309,6 @@
     "demographic parity"
    ],
    "published": "2026-08-14T15:39:10Z"
-  },
-  {
-   "title": "Quantum Australia Reports $83.1M Economic Impact and Growth of 15 Quantum Companies",
-   "url": "https://thequantuminsider.com/2026/08/14/quantum-australia-reveals-83-million-economic-impact-15-new-quantum-companies/",
-   "summary": "Insider Brief Press release – New independent modelling has been released that shows Quantum Australia‘s national programs have created $83.1 million in economic value while supporting more than six times the public investment in economy-wide activity. This figure, calculated by…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "economic impact",
-    "growth"
-   ],
-   "published": "2026-08-14T11:21:38Z"
   },
   {
    "title": "LLM-Generated GraphQL Mocks Arrive at Airbnb and Expedia, While the Spec Lags Behind",
