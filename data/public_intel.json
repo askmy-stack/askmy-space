@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-20T19:32:14+00:00",
- "count": 53,
+ "generated_at": "2026-08-21T02:26:13+00:00",
+ "count": 46,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -415,20 +415,6 @@
    "published": "2026-08-13T19:37:34Z"
   },
   {
-   "title": "IBM partners with OpenAI to bolster enterprise AI push",
-   "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
-   "summary": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "ibm",
-    "openai",
-    "partnership",
-    "enterprise"
-   ],
-   "published": "2026-08-13T19:19:49Z"
-  },
-  {
    "title": "Defensive Boosting for Online Probabilistic Forecasting",
    "url": "https://arxiv.org/abs/2608.13554v1",
    "summary": "We study online probabilistic forecasting of binary outcomes chosen by an adaptive adversary. Given an online learning algorithm for a weak hypothesis class $H$, we would like to efficiently obtain two incomparable guarantees that existing online boosting techniques provide sepa…",
@@ -480,18 +466,6 @@
    "published": "2026-08-13T17:31:27Z"
   },
   {
-   "title": "Gemini 3.7 Flash",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-   "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas... Comments URL: https://news.ycombinator.com/item?id=49289112 Points: 274 # Comments: 183",
-   "score": 7,
-   "category": "big-tech",
-   "tags": [
-    "gemini 3.7",
-    "google"
-   ],
-   "published": "2026-08-13T17:23:22Z"
-  },
-  {
    "title": "Toward a Gricean Retreat: Probing LLMs for Knowledge Boundaries and Referent Specificity",
    "url": "https://arxiv.org/abs/2608.13484v1",
    "summary": "When asked about entities outside their knowledge boundary, LLMs routinely fabricate plausible-sounding details rather than backing off to safer, more general claims. We frame this failure through a Gricean lens: a cooperative speaker who is uncertain about a referent retreats u…",
@@ -503,18 +477,6 @@
     "gricean-retreat"
    ],
    "published": "2026-08-13T17:13:41Z"
-  },
-  {
-   "title": "UrgenT Help Detecting Performance Regressions Using Machine Learning and Hardware Counters [P]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1vngjmv/urgent_help_detecting_performance_regressions/",
-   "summary": "I’m working on performance regression detection using machine learning/anomaly detection. My setup is basically: Healthy runs are used to learn normal behaviour Regression runs are used to see whether the model detects the anomaly For each counter group I only have about 10 heal…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "anomaly detection",
-    "performance regression"
-   ],
-   "published": "2026-08-13T17:01:27Z"
   },
   {
    "title": "LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles",
@@ -544,20 +506,6 @@
    "published": "2026-08-13T16:25:54Z"
   },
   {
-   "title": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
-   "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
-   "summary": "Nvidia has a plan to make sure its GPUs won't lose value. It wants to convince a new crop of financiers to keep lending for AI buildouts.",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "nvidia",
-    "gpus",
-    "ai",
-    "financing"
-   ],
-   "published": "2026-08-13T15:08:00Z"
-  },
-  {
    "title": "Youth poll: Thumbs down on everything",
    "url": "https://www.axios.com/2026/08/13/youth-poll-thumbs-down-on-everything",
    "summary": "Data: Generation Lab; Chart: Danielle Alberti/Axios More than a quarter of younger Americans (27%) believe they or someone they know has lost a job because their employer replaced them with AI, according to a new Axios-Generation Lab poll of 18- to 34-year-olds. Why it matters:…",
@@ -584,20 +532,6 @@
    "published": "2026-08-13T09:00:00Z"
   },
   {
-   "title": "Why China should reassess how it rewards young scientists",
-   "url": "https://www.nature.com/articles/d41586-026-02525-1",
-   "summary": "Nature, Published online: 13 August 2026; doi:10.1038/d41586-026-02525-1 Talent schemes helped to propel China to the forefront of global science. But the system places undue emphasis on prestigious titles as a means to secure career prospects, putting pressure on young research…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "china",
-    "science",
-    "research",
-    "policy"
-   ],
-   "published": "2026-08-13T00:00:00Z"
-  },
-  {
    "title": "Ancient rise in CO<sub>2</sub> was catastrophic for forests: what that means for today’s plants",
    "url": "https://www.nature.com/articles/d41586-026-02544-y",
    "summary": "Nature, Published online: 13 August 2026; doi:10.1038/d41586-026-02544-y A widespread dieback of forests due to climate change 56 million years ago has parallels with today.",
@@ -609,32 +543,6 @@
     "co2 levels"
    ],
    "published": "2026-08-13T00:00:00Z"
-  },
-  {
-   "title": "I built a 500k-domain search engine for makers in a weekend for $10",
-   "url": "https://alexmorleyfinch.github.io/marlin/history/v1/article/the_birth.html",
-   "summary": "106 points, 59 comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "search",
-    "engine",
-    "makers"
-   ],
-   "published": ""
-  },
-  {
-   "title": "Heart aerospace completes first flight of largest electric aircraft",
-   "url": "https://www.heartaerospace.com/newsroom/heart-aerospace-completes-first-flight-of-world-s-largest-electric-aircraft",
-   "summary": "106 points, 102 comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "electric-aircraft",
-    "aviation",
-    "sustainability"
-   ],
-   "published": ""
   },
   {
    "title": "Where did the old web go? We followed 657,607 links to find out",
