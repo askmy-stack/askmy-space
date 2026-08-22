@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-21T19:30:04+00:00",
- "count": 30,
+ "generated_at": "2026-08-22T02:17:46+00:00",
+ "count": 27,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -222,32 +222,6 @@
    "published": "2026-08-15T09:50:05Z"
   },
   {
-   "title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
-   "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
-   "summary": "Indonesia is taking charge of its AI future. This week, the Ministry of Communication and Digital Affairs (Komdigi), Indosat Ooredoo Hutchison (Indosat or IOH), NVIDIA and Universitas Gadjah Mada (UGM) launched the UGM Indosat NVIDIA AI Technology Center (NVAITC) in Yogyakarta —…",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "ai-center",
-    "indonesia",
-    "nvidia"
-   ],
-   "published": "2026-08-14T17:13:05Z"
-  },
-  {
-   "title": "Open-source Python library + no-code web dashboard for evaluating oncology AI models at clinical decision thresholds. [P]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1vod2c8/opensource_python_library_nocode_web_dashboard/",
-   "summary": "Most classification metrics for oncology AI models (AUC, ICC, MAE) measure global agreement. They don't answer the question that actually matters at the point of care: how reliable is this model at the exact cutoff that decides whether a patient gets flagged, biopsied, or treate…",
-   "score": 7,
-   "category": "tool",
-   "tags": [
-    "oncology",
-    "ai-model-evaluation",
-    "no-code-dashboard"
-   ],
-   "published": "2026-08-14T17:06:09Z"
-  },
-  {
    "title": "Ensuring Safe Physical AI in Urban Mobility via Hazard-Informed Synthesized Envelopes",
    "url": "https://arxiv.org/abs/2608.14481v1",
    "summary": "As heterogeneous robotic systems deploy across diverse urban zones, maintaining safety amid complex human-robot interactions remains a critical challenge. We present a unified framework that bridges systematic hazard analysis and runtime enforcement using hazard-informed safety…",
@@ -348,19 +322,6 @@
     "yellow fever"
    ],
    "published": "2026-08-14T02:00:00Z"
-  },
-  {
-   "title": "AI by Hand",
-   "url": "https://www.byhand.ai/",
-   "summary": "209 points, 18 comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai",
-    "handmade",
-    "machine learning"
-   ],
-   "published": ""
   },
   {
    "title": "Ntfy – open-source Push to Mobile",
