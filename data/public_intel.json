@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-22T13:28:17+00:00",
- "count": 24,
+ "generated_at": "2026-08-22T19:24:00+00:00",
+ "count": 22,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -183,19 +183,6 @@
    "published": "2026-08-15T19:12:53Z"
   },
   {
-   "title": "Semaglutide linked to 26% lower 5-year predicted dementia risk",
-   "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
-   "summary": "Comments",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "healthcare",
-    "dementia",
-    "semaglutide"
-   ],
-   "published": "2026-08-15T15:58:53Z"
-  },
-  {
    "title": "College loses its monopoly on the American Dream",
    "url": "https://www.axios.com/2026/08/15/college-bachelors-degree-shift-ai-america",
    "summary": "Whether framed on an office wall, collecting dust in a box or still a distant dream, the college diploma is getting a hard reappraisal. Why it matters: College was once sold as a ticket to the American dream. But students today are taking a tougher look at the college tradeoff:…",
@@ -283,18 +270,6 @@
     "demographic parity"
    ],
    "published": "2026-08-14T15:39:10Z"
-  },
-  {
-   "title": "Ntfy – open-source Push to Mobile",
-   "url": "https://ntfy.sh/",
-   "summary": "106 points, 50 comments",
-   "score": 7,
-   "category": "tool",
-   "tags": [
-    "open-source",
-    "push-to-mobile"
-   ],
-   "published": ""
   },
   {
    "title": "What happens when an LLM never sees material beyond fifth grade?",
