@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-22T02:17:46+00:00",
- "count": 27,
+ "generated_at": "2026-08-22T07:38:00+00:00",
+ "count": 24,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -283,45 +283,6 @@
     "demographic parity"
    ],
    "published": "2026-08-14T15:39:10Z"
-  },
-  {
-   "title": "LLM-Generated GraphQL Mocks Arrive at Airbnb and Expedia, While the Spec Lags Behind",
-   "url": "https://www.infoq.com/news/2026/08/graphql-llm-mocking-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Expedia Group has open-sourced mockql-rs, a Rust CLI that fills @mock-annotated GraphQL fields with LLM-generated data at request time. It follows Airbnb's @generateMock in April and a GraphQL Foundation RFC opened in February. All three solve the same problem with different arc…",
-   "score": 7,
-   "category": "tool",
-   "tags": [
-    "graphql",
-    "llm",
-    "mocking"
-   ],
-   "published": "2026-08-14T10:01:00Z"
-  },
-  {
-   "title": "Inside Nanovel’s bid to crack robotic citrus harvesting",
-   "url": "https://agfundernews.com/inside-nanovels-bid-to-crack-robotic-citrus-harvesting",
-   "summary": "In the US, says Isaac Mazor, “manual citrus harvesting costs around $42–43 per 900-lb field bin, versus $25-30 using our technology.” The post Inside Nanovel’s bid to crack robotic citrus harvesting appeared first on AgFunderNews .",
-   "score": 7,
-   "category": "top-news",
-   "tags": [
-    "agricultural-robotics",
-    "harvesting",
-    "efficiency"
-   ],
-   "published": "2026-08-14T10:00:14Z"
-  },
-  {
-   "title": "Drought may have driven Brazil’s first yellow fever outbreak in nearly 80 years",
-   "url": "https://www.science.org/content/article/drought-may-have-driven-brazil-s-first-yellow-fever-outbreak-nearly-80-years",
-   "summary": "Dry conditions forced forest-dwelling primates into the cities, bringing with them mosquitoes—and disease",
-   "score": 7,
-   "category": "research-highlight",
-   "tags": [
-    "drought",
-    "public health",
-    "yellow fever"
-   ],
-   "published": "2026-08-14T02:00:00Z"
   },
   {
    "title": "Ntfy – open-source Push to Mobile",
