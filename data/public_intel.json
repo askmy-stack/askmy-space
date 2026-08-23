@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-22T19:24:00+00:00",
- "count": 22,
+ "generated_at": "2026-08-23T02:26:23+00:00",
+ "count": 21,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -79,19 +79,6 @@
     "agent-tool-calls"
    ],
    "published": "2026-08-16T07:26:00Z"
-  },
-  {
-   "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
-   "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
-   "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
-   "score": 8,
-   "category": "top-news",
-   "tags": [
-    "ai ethics",
-    "child safety",
-    "ai regulation"
-   ],
-   "published": "2026-08-15T21:29:19Z"
   },
   {
    "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
