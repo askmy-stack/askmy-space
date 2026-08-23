@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-23T02:26:23+00:00",
- "count": 21,
+ "generated_at": "2026-08-23T07:39:46+00:00",
+ "count": 18,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -156,44 +156,6 @@
     "resale economy"
    ],
    "published": "2026-08-16T14:44:55Z"
-  },
-  {
-   "title": "AI in drug discovery – what it is, where we stand and the path forward",
-   "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
-   "summary": "Comments",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "drug-discovery",
-    "ai-in-healthcare"
-   ],
-   "published": "2026-08-15T19:12:53Z"
-  },
-  {
-   "title": "College loses its monopoly on the American Dream",
-   "url": "https://www.axios.com/2026/08/15/college-bachelors-degree-shift-ai-america",
-   "summary": "Whether framed on an office wall, collecting dust in a box or still a distant dream, the college diploma is getting a hard reappraisal. Why it matters: College was once sold as a ticket to the American dream. But students today are taking a tougher look at the college tradeoff:…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai",
-    "education",
-    "future-of-work"
-   ],
-   "published": "2026-08-15T10:00:05Z"
-  },
-  {
-   "title": "\"There's no point\": AI forces college students to rethink their major",
-   "url": "https://www.axios.com/2026/08/15/college-major-ai-skills-job-search",
-   "summary": "Students — and their parents — are searching for future-proof college majors for an AI -powered world. Why it matters: AI is changing the skills employers expect from entry-level workers, while colleges are rethinking how to prepare students for the transition. The big picture:…",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "ai",
-    "education",
-    "future-of-work"
-   ],
-   "published": "2026-08-15T09:50:05Z"
   },
   {
    "title": "Ensuring Safe Physical AI in Urban Mobility via Hazard-Informed Synthesized Envelopes",
