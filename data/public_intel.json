@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-23T07:39:46+00:00",
- "count": 18,
+ "generated_at": "2026-08-23T13:28:33+00:00",
+ "count": 17,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -219,19 +219,6 @@
     "demographic parity"
    ],
    "published": "2026-08-14T15:39:10Z"
-  },
-  {
-   "title": "What happens when an LLM never sees material beyond fifth grade?",
-   "url": "https://littlelearner-ll.github.io/",
-   "summary": "181 points, 141 comments",
-   "score": 7,
-   "category": "opinion",
-   "tags": [
-    "llm",
-    "education",
-    "human-centric"
-   ],
-   "published": ""
   }
  ]
 }
