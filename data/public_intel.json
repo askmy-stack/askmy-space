@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-23T19:24:43+00:00",
- "count": 14,
+ "generated_at": "2026-08-24T02:24:53+00:00",
+ "count": 7,
  "items": [
   {
    "title": "On A.I. regulation and messaging",
@@ -81,31 +81,6 @@
    "published": "2026-08-16T07:26:00Z"
   },
   {
-   "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
-   "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
-   "summary": "110 points, 35 comments",
-   "score": 8,
-   "category": "top-news",
-   "tags": [
-    "nvidia",
-    "openai",
-    "financing"
-   ],
-   "published": ""
-  },
-  {
-   "title": "[R] SineKAN: Kolmogorov-Arnold Networks Using Sinusoidal Activation Functions",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1vqdode/r_sinekan_kolmogorovarnold_networks_using/",
-   "summary": "I couldn't sleep because I couldn't stop wondering if anyone had tried using sinusoids instead of B-splines as activation in a KAN, and fortunately/unfortunately that was already the case. I could not find it posted here, so I though I would share in the hope of some insightful…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "kolmogorov-arnold networks",
-    "sinusoidal activation functions"
-   ],
-   "published": "2026-08-17T00:46:26Z"
-  },
-  {
    "title": "Trump's views can factor into prosecutions, Attorney General Todd Blanche says",
    "url": "https://www.axios.com/2026/08/16/todd-blanche-doj-independence-trump",
    "summary": "Attorney General Todd Blanche refused Sunday to pledge the Justice Department's independence from the White House, saying he would consider President Trump's views on individual prosecutions. Why it matters: Trump has remade the DOJ , ousting longtime staffers , urging prosecuti…",
@@ -116,69 +91,6 @@
     "justice department"
    ],
    "published": "2026-08-16T19:38:33Z"
-  },
-  {
-   "title": "Ensuring Safe Physical AI in Urban Mobility via Hazard-Informed Synthesized Envelopes",
-   "url": "https://arxiv.org/abs/2608.14481v1",
-   "summary": "As heterogeneous robotic systems deploy across diverse urban zones, maintaining safety amid complex human-robot interactions remains a critical challenge. We present a unified framework that bridges systematic hazard analysis and runtime enforcement using hazard-informed safety…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "safety",
-    "urban mobility"
-   ],
-   "published": "2026-08-14T16:57:54Z"
-  },
-  {
-   "title": "Expected Free Energy-based Informative Path Planning for Robotic Mars Exploration",
-   "url": "https://arxiv.org/abs/2608.14466v1",
-   "summary": "An autonomous robot efficiently exploring an unknown environment, such as looking for water sources on Mars, faces two simultaneous demands: building an accurate information map while quickly finding the regions of greatest value, and paying for every meter of travel and the cos…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "robotic exploration",
-    "informative path planning",
-    "expected free energy"
-   ],
-   "published": "2026-08-14T16:46:18Z"
-  },
-  {
-   "title": "Information Satisfaction: A Reader-Centered Axis for Summarization Evaluation",
-   "url": "https://arxiv.org/abs/2608.14457v1",
-   "summary": "The majority of work on summarization evaluation focuses on general summary quality (e.g., ROUGE, BERTScore) or specific desired properties (e.g., readability, factuality). However, these metrics fail to measure the utility of a summary to an individual user. For example, a biom…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "summarization evaluation",
-    "reader-centered axis"
-   ],
-   "published": "2026-08-14T16:41:23Z"
-  },
-  {
-   "title": "STINER: Automated Extraction of Strategic Cyber Threat Intelligence from X",
-   "url": "https://arxiv.org/abs/2608.14418v1",
-   "summary": "Strategic Cyber Threat Intelligence (CTI) focuses on high-level insights, such as identifying targeted industries, attributing attacks to specific ransomware groups, and assessing the scale of data loss. Today, X (formerly Twitter) has become the fastest source for this intellig…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "strategic cyber threat intelligence",
-    "named entity recognition",
-    "social media"
-   ],
-   "published": "2026-08-14T15:59:56Z"
-  },
-  {
-   "title": "Whose doctor does the AI recommend? An algorithm audit of reputation and demographic signals in large language model-assisted physician choice",
-   "url": "https://arxiv.org/abs/2608.14399v1",
-   "summary": "Patients increasingly ask large language model (LLM) assistants which doctor to see, making these systems AI infomediaries: algorithms that intermediate one person's choice among other people and thereby decide, silently and at scale, which physicians become visible. We report a…",
-   "score": 7,
-   "category": "paper",
-   "tags": [
-    "algorithm audit",
-    "reputation signals",
-    "demographic parity"
-   ],
-   "published": "2026-08-14T15:39:10Z"
   }
  ]
 }
