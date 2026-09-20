@@ -18,7 +18,7 @@ npm run dev
 npm run lint
 npm run test          # Vitest (terminal engine)
 npm run build
-npm run test:e2e      # Playwright route smoke (/ , /signals)
+npm run test:e2e      # Playwright route smoke (/ , /work/cortex)
 PW_SNAPSHOTS=1 npm run test:e2e:update   # optional local screenshot baselines
 ```
 

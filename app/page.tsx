@@ -10,15 +10,13 @@ import NowBlock from "@/components/now/NowBlock";
 import OpenSource from "@/components/open-source/OpenSource";
 import Contact from "@/components/contact/Contact";
 import ReportIssue from "@/components/report/ReportIssue";
-import { getIntelFeed } from "@/lib/intel";
 
 export default function HomePage() {
-  const feed = getIntelFeed();
   return (
     <>
       <ScrollScene />
       <div className="relative z-10">
-        <Hero intel={{ generatedAt: feed.generated_at, count: feed.count }} />
+        <Hero />
         <SocialProofBar />
         <CapabilitiesStrip />
         <SelectedWork />

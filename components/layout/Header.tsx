@@ -67,10 +67,10 @@ export default function Header(): JSX.Element {
             )}
             <span
               className="hidden items-center gap-2 px-3 font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--fg-muted)] lg:inline-flex"
-              title="The intelligence pipeline behind /signals is running"
+              title="Open to research and product collaborations"
             >
               <span className="live-dot" aria-hidden="true" />
-              live
+              open
             </span>
           </nav>
 

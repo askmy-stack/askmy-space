@@ -77,7 +77,7 @@ npm run dev          # → http://localhost:3000
 | `npm run start` | Serve production build locally |
 | `npm run lint` | ESLint across all source files |
 | `npm run test` | Vitest (terminal engine) |
-| `npm run test:e2e` | Playwright route smoke (`/`, `/signals`) |
+| `npm run test:e2e` | Playwright route smoke (`/`, `/work/cortex`) |
 
 ---
 

@@ -51,7 +51,7 @@ export default function Footer(): JSX.Element {
             <p className="t-label mb-4">Status</p>
             <div className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-[var(--accent)] rounded-full animate-pulse-dot" />
-              <span className="t-caption text-[var(--fg)]">Open to collaborations · Building big</span>
+              <span className="t-caption text-[var(--fg)]">Open to research collaborations · Building big</span>
             </div>
           </div>
         </div>

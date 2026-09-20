@@ -25,7 +25,7 @@ Use Node 20 (see `.nvmrc` / Netlify `NODE_VERSION`).
 |------|---------|
 | `/` | Home sections (hero → work → skills → about/terminal → experience → now → contact → report) |
 | `/work/[slug]` | Case studies from `content/projects.ts` |
-| `/signals` | Signals feed |
+| `/signals` | Optional signals feed (not linked from primary nav) |
 
 ### Content & data
 
