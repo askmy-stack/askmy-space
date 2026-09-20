@@ -55,7 +55,9 @@ export default function Hero({ intel }: HeroProps): JSX.Element {
           <span className="inline-flex items-center gap-2.5 rounded-full border border-[var(--border)] bg-[var(--bg-elevated)]/80 px-4 py-2 font-mono text-[11px] tracking-[0.06em] text-[var(--fg-muted)]">
             <span className="live-dot" aria-hidden="true" />
             {intel
-              ? `Pipeline live · run ${runLabel(intel.generatedAt)} · ${intel.count} signals briefed`
+              ? intel.count > 0
+                ? `Pipeline live · run ${runLabel(intel.generatedAt)} · ${intel.count} signals briefed`
+                : `Pipeline live · run ${runLabel(intel.generatedAt)}`
               : `Pipeline live · ${siteConfig.location}`}
           </span>
         </motion.div>
@@ -78,7 +80,7 @@ export default function Hero({ intel }: HeroProps): JSX.Element {
           transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.8 }}
           className="mt-8 font-display italic text-2xl md:text-3xl text-[var(--fg)]/80 max-w-2xl leading-snug"
         >
-          Building AI/ML systems that ship to real users.
+          AI Engineer · Research · Product.
         </motion.p>
 
         {/* Platform CTAs — route into the product */}
@@ -89,10 +91,10 @@ export default function Hero({ intel }: HeroProps): JSX.Element {
           className="mt-10 flex flex-wrap gap-3"
         >
           <a
-            href="/ask"
+            href="/#work"
             className="inline-flex min-h-[44px] items-center gap-2 rounded-full bg-[var(--accent)] px-6 py-3 text-sm font-semibold text-white transition-transform duration-200 hover:scale-[1.02] active:scale-[0.97]"
           >
-            Ask my agent →
+            View work →
           </a>
           <a
             href="/signals"
@@ -110,7 +112,7 @@ export default function Hero({ intel }: HeroProps): JSX.Element {
           className="mt-16 pt-6 border-t border-[var(--border)] max-w-3xl"
         >
           <p className="font-[family-name:var(--font-display)] italic text-[0.9375rem] md:text-[1.125rem] text-[var(--fg)] tracking-wide">
-            Research <span className="text-[var(--fg-muted)]">·</span> Engineering{" "}
+            AI Engineer <span className="text-[var(--fg-muted)]">·</span> Research{" "}
             <span className="text-[var(--fg-muted)]">·</span> Product
           </p>
         </motion.div>

@@ -6,19 +6,19 @@ import { siteConfig } from "@/content/site";
 
 const repos = [
   {
-    name: "askmy-brain",
-    desc: "Daily intelligence pipeline — ingest, LLM triage, knowledge graph, morning brief",
-    meta: "python · pipeline",
+    name: "cortex",
+    desc: "Organizational memory for AI agents — Kafka ingest, Neo4j + Qdrant, served over MCP",
+    meta: "python · typescript · mcp",
   },
   {
-    name: "askmy-space",
-    desc: "This site — portfolio, agent, and signals on one surface",
-    meta: "typescript · next.js",
+    name: "parallax",
+    desc: "Agent reliability and LLM evaluation — failure benches, judges, OpenTelemetry",
+    meta: "python · observability",
   },
   {
-    name: "Autonomous-System-Kernel",
-    desc: "Agent runtime on home infrastructure, reachable only over the tailnet",
-    meta: "python · fastapi",
+    name: "meridian",
+    desc: "Supply-chain risk intelligence — Kafka, Neo4j, XGBoost, SHAP, MLflow",
+    meta: "python · graph · mlops",
   },
 ] as const;
 
@@ -33,7 +33,7 @@ export default function OpenSource(): JSX.Element {
           <div>
             <h2 className="t-display">Built in the open.</h2>
             <p className="t-body mt-6 max-w-[42ch]" style={{ color: "var(--fg-muted)" }}>
-              The pipeline, the agent, and this site are all public. Fork them,
+              Cortex, Parallax, Meridian, and this site are public. Fork them,
               file issues, or steal the patterns — contributions that survive
               the test suite are welcome.
             </p>

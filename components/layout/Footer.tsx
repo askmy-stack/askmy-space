@@ -32,16 +32,16 @@ export default function Footer(): JSX.Element {
           <div>
             <p className="t-label mb-4">Site</p>
             <div className="flex flex-col gap-2">
-              <a href="#work" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+              <a href="/#work" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 Work
               </a>
-              <a href="#about" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+              <a href="/#about" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 About
               </a>
-              <a href="#now" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+              <a href="/#now" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 Now
               </a>
-              <a href="#report" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+              <a href="/#report" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 Report an issue
               </a>
             </div>

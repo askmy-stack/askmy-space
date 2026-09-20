@@ -1,11 +1,11 @@
 export const siteConfig = {
   name: "Abhinaysai Kamineni",
   alias: "ABHINAYSAI",
-  role: "AI/ML Engineer",
+  role: "AI Engineer",
   /** Short, brand-led tagline used in tab titles + social cards. */
-  tagShort: "Research · Engineering · Product",
+  tagShort: "AI Engineer · Research · Product",
   tagline:
-    "Abhinaysai Kamineni. AI/ML Engineer and researcher. Computer vision (mAP@50 0.948), clinical EEG benchmarking (AUROC 0.740), production MLOps at Jio Platforms. GWU MS Data Science, Global Leaders Award. Open to research collaborations and applied ML builds.",
+    "Abhinaysai Kamineni. AI Engineer focused on Research and Product. Organizational memory for agents (Cortex), agent reliability evaluation (Parallax), supply-chain risk intelligence (Meridian), and production MLOps at Jio Platforms. GWU MS Data Science, Global Leaders Award.",
   email: "kamineniabhinaysai@gmail.com",
   location: "Arlington, VA",
   url: "https://askmystack.space",
@@ -14,14 +14,11 @@ export const siteConfig = {
     github: "https://github.com/askmy-stack",
     medium: "https://medium.com/@kamineniabhinaysai",
   },
-  /** TODO: replace with real Calendly URL */
-  calendly: "https://calendly.com/abhinaysai/20min",
 } as const;
 
 export const navLinks = [
   { label: "Work", href: "/#work" },
   { label: "Signals", href: "/signals" },
-  { label: "Ask", href: "/ask" },
   { label: "About", href: "/#about" },
   { label: "Contact", href: "/#contact" },
 ] as const;

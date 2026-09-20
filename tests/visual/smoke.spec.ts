@@ -1,9 +1,8 @@
 import { expect, test } from "@playwright/test";
 
 const routes = [
-  { path: "/", name: "home", expectText: /Research|Engineering|Product|Work/i },
+  { path: "/", name: "home", expectText: /Research|Product|Work/i },
   { path: "/signals", name: "signals", expectText: /Signal/i },
-  { path: "/ask", name: "ask", expectText: /Ask/i },
 ] as const;
 
 for (const route of routes) {

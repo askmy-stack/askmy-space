@@ -2,14 +2,15 @@ import type { Experience } from "@/lib/types";
 
 export const experience: readonly Experience[] = [
   {
-    title: "Sales Operations Analyst",
-    company: "Follett Higher Education Group",
-    dates: "May 2025 — Present",
+    title: "System Operations Analyst",
+    company: "Follett Higher Education",
+    dates: "May 2025 — May 2026",
     location: "Washington, DC",
     bullets: [
-      "Operate fulfillment and inventory data workflows during peak academic cycles. Online and on-campus. Maintaining process-level data integrity for hundreds of SKUs per cycle.",
-      "Apply CourseTracks adoption analytics for demand planning, check-in accuracy, and inventory reconciliation across multiple enterprise data sources.",
-      "Adhere to PCI-compliant processes and IAM-aligned access control. Zero security incidents across all operational periods.",
+      "Reengineered forecasting and inventory data validation with role-based IAM, schema controls, and business-rule checks before downstream ML consumption; reduced inventory exposure by 25% across 50+ delivery sprints.",
+      "Automated exception reporting and real-time KPI dashboards across fulfillment and inventory workflows; eliminated 10+ hours of weekly manual effort and accelerated customer turnaround by 40%.",
+      "Configured SLA-driven telemetry, health checks, and escalation criteria for enterprise inventory databases; reduced operational downtime by 35%.",
+      "Translated forecasting and fulfillment requirements into acceptance criteria, KPI definitions, and a prioritized data/ML backlog across 50+ Agile sprints.",
     ],
   },
   {
@@ -18,23 +19,32 @@ export const experience: readonly Experience[] = [
     dates: "Jul 2023 — Jul 2024",
     location: "Navi Mumbai, India",
     bullets: [
-      "Engineered CI/CD automation for ML deployment across AWS/Azure/GCP using Jenkins, Docker, Kubernetes. Cut time-to-production 85% and release failures 60%.",
-      "Deployed Kubernetes-based ML inference microservices, reducing model-serving downtime 40% and enabling auto-scaling under real-time traffic.",
-      "Built 100+ Airflow DAGs with Vault-secured auth for ML and data workloads, achieving 99.9% reliability across multi-terabyte daily volume.",
-      "Optimized Spark Streaming for real-time feature pipelines, cutting data latency 40% under high-velocity workloads.",
-      "Provisioned cloud infrastructure via Terraform on AWS and Azure, achieving 30% cost reduction through right-sizing.",
-      "Integrated Prometheus + Grafana observability with automated alerting, cutting MTTD 45%.",
+      "Standardized multi-cloud ML deployment with reusable Jenkins pipelines, Docker images, Kubernetes manifests, and rollback patterns across AWS, Azure, and GCP; cut model time-to-production by 85% and release failures by 60% while supporting 20 engineers.",
+      "Orchestrated 100+ Airflow DAGs and Spark Streaming feature pipelines across 30+ sources and 50M+ events/day; improved reliability and reduced feature-freshness latency by 40%.",
+      "Instrumented production pipelines and model-serving services with Prometheus and Grafana; reduced mean time to detect by 45% and mean time to recovery by 50% across three cloud environments.",
+      "Deployed auto-scaling Kubernetes inference services with health probes, resource policies, and controlled rollouts; reduced serving downtime by 40% under high-velocity traffic.",
     ],
   },
   {
     title: "Data Analyst",
     company: "PHN Technologies",
-    dates: "Mar 2023 — Jun 2023",
+    dates: "May 2022 — Jun 2023",
     location: "Pune, India",
     bullets: [
-      "Engineered data pipelines in BigQuery achieving 30% efficiency gains and 40% latency reduction. Enabling faster ML feature computation for downstream model serving.",
-      "Built 10+ real-time monitoring dashboards surfacing data quality issues and model drift signals. Enabling the team to catch performance regressions before they reached users.",
-      "Implemented key-based authentication in Airflow, securing 75% of critical data and ML pipelines while maintaining CI/CD velocity.",
+      "Engineered parameterized BigQuery ETL pipelines and authenticated Airflow orchestration for feature preparation; accelerating ML feature delivery by 40% across 50 production workflows while securing 75% of critical data and ML pipelines.",
+      "Standardized Terraform provisioning and Airflow recovery practices; reduced production workflow failures by 40% and eliminated 40 hours of repetitive manual operations each week.",
+      "Built 10+ monitoring dashboards and data-quality controls spanning freshness, SLA, pipeline failure, anomaly, and model-drift signals.",
+    ],
+  },
+  {
+    title: "Data/ML Intern",
+    company: "Tetra Pak",
+    dates: "Mar 2021 — Jun 2021",
+    location: "Pune, India",
+    bullets: [
+      "Prepared industrial sensor time-series for predictive maintenance with pandas and scikit-learn for reproducible failure modeling.",
+      "Trained and benchmarked Random Forest and Gradient Boosting equipment-failure models with cross-validation and repeatable Azure ML scoring workloads.",
+      "Evaluated model behavior with precision, recall, F1, and feature-importance analysis; tuned classification thresholds for practical maintenance alerts.",
     ],
   },
 ] as const;

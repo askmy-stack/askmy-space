@@ -19,10 +19,10 @@ export const metadata: Metadata = {
   description: siteConfig.tagline,
   keywords: [
     "AI Engineer",
-    "ML Engineer",
+    "Research",
+    "Product",
     "MLOps",
-    "Computer Vision",
-    "Deep Learning",
+    "Agentic AI",
     "Abhinaysai Kamineni",
     "Portfolio",
   ],
@@ -68,8 +68,8 @@ const personJsonLd = {
     "Artificial Intelligence",
     "Machine Learning",
     "MLOps",
-    "Computer Vision",
-    "Deep Learning",
+    "Agentic Systems",
+    "LLM Evaluation",
     "Cloud Infrastructure",
   ],
 };
@@ -87,15 +87,10 @@ export default function RootLayout({
     >
       <body>
         <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem('theme');if(t==='light'||(t===null&&window.matchMedia('(prefers-color-scheme:light)').matches)){document.documentElement.classList.add('light')}}catch(e){}})();`,
-          }}
-        />
-        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
         />
-        <a href="#work" className="skip-to-content">
+        <a href="/#work" className="skip-to-content">
           Skip to work
         </a>
         <SmoothScroll>

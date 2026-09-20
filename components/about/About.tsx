@@ -33,10 +33,10 @@ export default function About(): JSX.Element {
 
         {/* Stat counters — animate when in view */}
         <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 pt-12 border-t border-[var(--border)]">
-          <StatCounter end={0.948} decimals={3} label="mAP@50 — BYU cryo-ET" />
-          <StatCounter end={916} decimals={0} label="Hours of clinical EEG" />
-          <StatCounter end={94} decimals={0} suffix="%" label="Pipeline reliability" />
           <StatCounter end={85} decimals={0} suffix="%" label="Faster model deploys" />
+          <StatCounter end={100} decimals={0} suffix="+" label="Airflow DAGs" />
+          <StatCounter end={50} decimals={0} suffix="M+" label="Events per day" />
+          <StatCounter end={45} decimals={0} suffix="%" label="Lower MTTD" />
         </div>
 
         <Principles />

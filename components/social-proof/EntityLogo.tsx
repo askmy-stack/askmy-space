@@ -63,27 +63,6 @@ function PHNMark({ className }: IconProps): JSX.Element {
   );
 }
 
-// TEDx — bold square bracket mark
-function TEDxMark({ className }: IconProps): JSX.Element {
-  return (
-    <svg {...common} className={className}>
-      <rect x="2.5" y="3.5" width="11" height="9" rx="1" />
-      <path d="M5.5 6.5h5M8 6.5v4" />
-    </svg>
-  );
-}
-
-// Google Developer Club — "G" with dev brackets
-function GDCMark({ className }: IconProps): JSX.Element {
-  return (
-    <svg {...common} className={className}>
-      <path d="M5 4.5L2.5 8 5 11.5" />
-      <path d="M11 4.5L13.5 8 11 11.5" />
-      <path d="M9.5 5L6.5 11" />
-    </svg>
-  );
-}
-
 // AWS — stylized cloud cube
 function AWSMark({ className }: IconProps): JSX.Element {
   return (
@@ -133,8 +112,7 @@ const registry: Record<string, (p: IconProps) => JSX.Element> = {
   "George Washington University": GWUMark,
   "Follett Higher Education": BookMark,
   "PHN Technologies": PHNMark,
-  "TEDx": TEDxMark,
-  "Google Developer Club": GDCMark,
+  "Tetra Pak": ChartMark,
   "AWS AI Practitioner": AWSMark,
   "Global Leaders Award": GlobeMark,
   "Red Hat Certified": RedHatMark,

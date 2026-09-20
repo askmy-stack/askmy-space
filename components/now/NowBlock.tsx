@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import { easeOutExpo } from "@/lib/motion";
 
 const nowItems = [
-  { label: "Building", text: "Agentic research assistant with tool-use + RAG" },
-  { label: "Finishing", text: "EEG seizure detection paper draft for publication" },
-  { label: "Open to", text: "Collaborations at the research-to-product boundary" },
+  { label: "Building", text: "Cortex — organizational memory for AI agents over MCP" },
+  { label: "Shipping", text: "Parallax agent reliability benches + Meridian risk scoring" },
+  { label: "Open to", text: "Roles at the Research · Product boundary for AI systems" },
   { label: "Reading", text: "The Pragmatic Programmer (re-read for taste)" },
   { label: "Based in", text: "Arlington, VA" },
 ] as const;

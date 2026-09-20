@@ -56,22 +56,6 @@
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* ─── LIGHT MODE TOKENS ─── */
-html.light {
-  color-scheme: light;
-  --bg: #F9F7F4;
-  --bg-elevated: #F0EDE8;
-  --base: #F9F7F4;
-  --surface: #EAE6E0;
-  --fg: #1A1816;
-  --fg-muted: #6B6560;
-  --muted: #C8C4BF;
-  --accent: #E85D20;
-  --accent-soft: rgba(232, 93, 32, 0.10);
-  --border: #D8D4CE;
-  --mono: #16a34a;
-}
-
 /* ═══════════════════════════════════════════════════════════════════
    BASE
    ═══════════════════════════════════════════════════════════════════ */

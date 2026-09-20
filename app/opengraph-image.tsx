@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Abhinaysai Kamineni — AI/ML Engineer";
+export const alt = "Abhinaysai Kamineni — AI Engineer · Research · Product";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -60,7 +60,7 @@ export default async function Image() {
               fontFamily: "monospace",
             }}
           >
-            AI/ML Engineer
+            AI Engineer
           </div>
           <div
             style={{
@@ -72,16 +72,16 @@ export default async function Image() {
               letterSpacing: "2px",
             }}
           >
-            CV · TIME-SERIES · MLOPS · AGENTIC AI
+            RESEARCH · PRODUCT · MLOPS · AGENTIC AI
           </div>
         </div>
 
         <div style={{ display: "flex", gap: "48px" }}>
           {[
-            { value: "0.948", label: "MAP@50" },
-            { value: "916h", label: "EEG DATA" },
-            { value: "99.9%", label: "RELIABILITY" },
             { value: "85%", label: "FASTER DEPLOYS" },
+            { value: "100+", label: "AIRFLOW DAGS" },
+            { value: "50M+", label: "EVENTS / DAY" },
+            { value: "45%", label: "LOWER MTTD" },
           ].map((stat) => (
             <div
               key={stat.label}

@@ -58,8 +58,7 @@ export default function SignalField(): JSX.Element {
 
     const readTokens = () => {
       const styles = getComputedStyle(document.documentElement);
-      const light = document.documentElement.classList.contains("light");
-      fg = light ? "20,20,20" : "255,255,255";
+      fg = "255,255,255";
       accent = rgb(styles.getPropertyValue("--accent") || "#FF6B35");
     };
 

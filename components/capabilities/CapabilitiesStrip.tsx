@@ -12,28 +12,28 @@ interface Capability {
 
 const capabilities: readonly Capability[] = [
   {
-    label: "Computer Vision",
+    label: "Organizational Memory",
     description:
-      "3D object detection on cryo-electron tomography. mAP@50 of 0.948. Built for structural biologists who need results they can trust.",
-    tag: "VISION",
+      "MCP-based memory that ingests Slack, GitHub, Jira, and Linear through Kafka and serves hybrid Neo4j + Qdrant context to agents.",
+    tag: "AGENTS",
   },
   {
-    label: "Time-Series + Signals",
+    label: "Agent Reliability",
     description:
-      "Benchmarking clinical EEG across 15+ architectures on 916 hours of real patient data. Honest evaluation over paper metrics.",
+      "Failure benches, LLM-as-judge baselines, and OpenTelemetry traces that measure detection lead time and recovery — not just pass/fail.",
     tag: "SIGNALS",
   },
   {
-    label: "MLOps + Infrastructure",
+    label: "Supply-Chain Risk",
+    description:
+      "Real-time risk intelligence over Kafka streams, Neo4j graphs, and explainable XGBoost scoring with SHAP.",
+    tag: "VISION",
+  },
+  {
+    label: "Production MLOps",
     description:
       "The infrastructure that ships models and keeps them running. 100+ Airflow DAGs, Docker, K8s, Terraform, AWS/Azure/GCP. Observable at 3am.",
     tag: "MLOPS",
-  },
-  {
-    label: "Agentic AI",
-    description:
-      "AI agents that route work between local and frontier. Privacy where it matters, reasoning where it counts.",
-    tag: "AGENTS",
   },
 ];
 

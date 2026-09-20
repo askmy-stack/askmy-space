@@ -18,6 +18,4 @@ Security fixes land on `main`. There are no long-lived release branches yet.
 ## Notes for this project
 
 - Do not commit `.env`, API keys, or credentials.
-- The public Ask agent (`/api/assistant/chat`) is rate-limited; treat prompts
-  as untrusted input.
-- Resume and project media under `public/` are intentionally public assets.
+- Project media under `public/` are intentionally public assets.
