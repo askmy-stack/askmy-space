@@ -32,16 +32,16 @@ export default function Footer(): JSX.Element {
           <div>
             <p className="t-label mb-4">Site</p>
             <div className="flex flex-col gap-2">
-              <a href="#work" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+              <a href="/#work" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 Work
               </a>
-              <a href="#about" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+              <a href="/#about" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 About
               </a>
-              <a href="#now" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+              <a href="/#now" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 Now
               </a>
-              <a href="#report" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+              <a href="/#report" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 Report an issue
               </a>
             </div>
@@ -51,7 +51,7 @@ export default function Footer(): JSX.Element {
             <p className="t-label mb-4">Status</p>
             <div className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-[var(--accent)] rounded-full animate-pulse-dot" />
-              <span className="t-caption text-[var(--fg)]">Open to collaborations · Building big</span>
+              <span className="t-caption text-[var(--fg)]">Open to research collaborations · Building big</span>
             </div>
           </div>
         </div>

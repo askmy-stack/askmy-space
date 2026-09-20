@@ -12,15 +12,13 @@ npm ci
 npm run dev
 ```
 
-Optional for the Ask agent: set `GROQ_API_KEY` in `.env.local`.
-
 ## Checks
 
 ```bash
 npm run lint
 npm run test          # Vitest (terminal engine)
 npm run build
-npm run test:e2e      # Playwright route smoke (/ , /signals, /ask)
+npm run test:e2e      # Playwright route smoke (/ , /work/cortex)
 PW_SNAPSHOTS=1 npm run test:e2e:update   # optional local screenshot baselines
 ```
 

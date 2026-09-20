@@ -15,14 +15,9 @@ npm run start    # Production server
 
 Use Node 20 (see `.nvmrc` / Netlify `NODE_VERSION`).
 
-## Environment
-
-- `GROQ_API_KEY` — optional; powers `/api/assistant/chat` and the Ask agent UI.
-  Set in `.env.local`. Without it, Ask degrades gracefully.
-
 ## Architecture
 
-**Next.js 14 App Router** portfolio — TypeScript, Tailwind CSS v4, Framer Motion.
+**Next.js 14 App Router** portfolio — TypeScript, Tailwind CSS v4, Framer Motion. Dark theme only.
 
 ### Routes
 
@@ -30,13 +25,11 @@ Use Node 20 (see `.nvmrc` / Netlify `NODE_VERSION`).
 |------|---------|
 | `/` | Home sections (hero → work → skills → about/terminal → experience → now → contact → report) |
 | `/work/[slug]` | Case studies from `content/projects.ts` |
-| `/signals` | Signals feed |
-| `/ask` | Conversational Ask agent (`components/ask/AskAgent.tsx`) |
-| `/api/assistant/chat` | Groq-backed chat API with rate limiting |
+| `/signals` | Optional signals feed (not linked from primary nav) |
 
 ### Content & data
 
-- `content/site.ts` — site config, nav, resume path
+- `content/site.ts` — site config, nav
 - `content/projects.ts` — featured projects + case-study prose
 - `content/experience.ts`, `content/about.ts`, `content/certifications.ts`
 - `data/` — skills and other structured lists
@@ -52,7 +45,7 @@ Deterministic, offline terminal — **no LLM**:
 
 ### Theming & motion
 
-- CSS variables in `app/globals.css` (`--bg`, `--fg`, `--accent`, …)
+- CSS variables in `app/globals.css` (`--bg`, `--fg`, `--accent`, …) — dark only
 - Fonts: Fraunces + Geist Sans + Geist Mono (`lib/fonts.ts`)
 - `hooks/useReducedMotion.ts` gates Framer / canvas motion
 - Ambient `SignalField` in root layout; `ScrollScene` / `NeuralLattice` for hero storytelling
@@ -67,3 +60,4 @@ Deterministic, offline terminal — **no LLM**:
 - Prefer editing `content/` over hardcoding copy
 - Keep PRs scoped; link issues with `Fixes #N`
 - Never commit secrets
+- Visible metrics must match the current resume / `content/` (no invented percentages)

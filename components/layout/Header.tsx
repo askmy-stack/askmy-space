@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { navLinks, siteConfig } from "@/content/site";
 import { cn } from "@/lib/utils";
-import ThemeToggle from "@/components/ui/ThemeToggle";
 
 export default function Header(): JSX.Element {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -68,14 +67,12 @@ export default function Header(): JSX.Element {
             )}
             <span
               className="hidden items-center gap-2 px-3 font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--fg-muted)] lg:inline-flex"
-              title="The intelligence pipeline behind /signals is running"
+              title="Open to research and product collaborations"
             >
               <span className="live-dot" aria-hidden="true" />
-              live
+              open
             </span>
           </nav>
-
-          <ThemeToggle />
 
           <button
             type="button"
@@ -138,7 +135,7 @@ export default function Header(): JSX.Element {
                 className="text-display-md text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
               >
                 <span className="font-mono text-sm text-[var(--fg-muted)] mr-4">
-                  06
+                  0{navLinks.length + 1}
                 </span>
                 Writing ↗
               </a>

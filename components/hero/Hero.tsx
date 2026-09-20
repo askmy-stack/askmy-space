@@ -6,24 +6,7 @@ import { siteConfig } from "@/content/site";
 import { easeOutExpo } from "@/lib/motion";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 
-interface HeroProps {
-  intel?: { generatedAt: string; count: number };
-}
-
-function runLabel(iso: string): string {
-  const t = new Date(iso);
-  if (Number.isNaN(t.getTime())) return "recently";
-  return (
-    t.toLocaleString("en-US", {
-      hour: "2-digit",
-      minute: "2-digit",
-      timeZone: "UTC",
-      hour12: false,
-    }) + " UTC"
-  );
-}
-
-export default function Hero({ intel }: HeroProps): JSX.Element {
+export default function Hero(): JSX.Element {
   const reduced = useReducedMotion();
 
   const handleMouseMove = (e: React.MouseEvent<HTMLHeadingElement>) => {
@@ -39,13 +22,11 @@ export default function Hero({ intel }: HeroProps): JSX.Element {
 
   return (
     <section className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
-      {/* 3D placeholder blob (CP2: swap for R3F HeroSphere) */}
       <div className="absolute inset-0 z-0">
         <HeroScene />
       </div>
 
       <div className="container-editorial relative z-10">
-        {/* Top meta */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -54,13 +35,10 @@ export default function Hero({ intel }: HeroProps): JSX.Element {
         >
           <span className="inline-flex items-center gap-2.5 rounded-full border border-[var(--border)] bg-[var(--bg-elevated)]/80 px-4 py-2 font-mono text-[11px] tracking-[0.06em] text-[var(--fg-muted)]">
             <span className="live-dot" aria-hidden="true" />
-            {intel
-              ? `Pipeline live · run ${runLabel(intel.generatedAt)} · ${intel.count} signals briefed`
-              : `Pipeline live · ${siteConfig.location}`}
+            {siteConfig.location} · Open to collaborations
           </span>
         </motion.div>
 
-        {/* Name — display xl, glitch once on mount, cursor-reactive blur */}
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -71,55 +49,48 @@ export default function Hero({ intel }: HeroProps): JSX.Element {
           {siteConfig.alias}
         </motion.h1>
 
-        {/* Subtitle — single line, fixed copy */}
         <motion.p
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.8 }}
-          className="mt-8 font-display italic text-2xl md:text-3xl text-[var(--fg)]/80 max-w-2xl leading-snug"
+          transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.75 }}
+          className="mt-6 font-mono text-[11px] uppercase tracking-[0.18em] text-[var(--accent)]"
         >
-          Building AI/ML systems that ship to real users.
+          AI Engineer · Research · Product
         </motion.p>
 
-        {/* Platform CTAs — route into the product */}
+        <motion.p
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.85 }}
+          className="mt-5 font-display italic text-2xl md:text-3xl text-[var(--fg)]/80 max-w-2xl leading-snug"
+        >
+          Agent memory, reliability systems, and production MLOps that survive real traffic.
+        </motion.p>
+
         <motion.div
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.9 }}
+          transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.95 }}
           className="mt-10 flex flex-wrap gap-3"
         >
           <a
-            href="/ask"
+            href="/#work"
             className="inline-flex min-h-[44px] items-center gap-2 rounded-full bg-[var(--accent)] px-6 py-3 text-sm font-semibold text-white transition-transform duration-200 hover:scale-[1.02] active:scale-[0.97]"
           >
-            Ask my agent →
+            View work →
           </a>
           <a
-            href="/signals"
+            href="/#contact"
             className="inline-flex min-h-[44px] items-center rounded-full border border-[var(--border)] px-6 py-3 text-sm font-medium text-[var(--fg)] transition-colors duration-200 hover:border-[var(--accent)]/50"
           >
-            Read today&apos;s signals
+            Get in touch
           </a>
         </motion.div>
 
-        {/* Pillar strip — the three-pillar brand statement */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: easeOutExpo, delay: 1 }}
-          className="mt-16 pt-6 border-t border-[var(--border)] max-w-3xl"
-        >
-          <p className="font-[family-name:var(--font-display)] italic text-[0.9375rem] md:text-[1.125rem] text-[var(--fg)] tracking-wide">
-            Research <span className="text-[var(--fg-muted)]">·</span> Engineering{" "}
-            <span className="text-[var(--fg-muted)]">·</span> Product
-          </p>
-        </motion.div>
-
-        {/* Scroll cue */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 1.6 }}
+          transition={{ duration: 0.6, delay: 1.5 }}
           className="absolute bottom-8 right-6 md:right-12 flex flex-col items-center gap-3"
           aria-hidden="true"
         >

@@ -25,7 +25,6 @@ import { useReducedMotion } from "@/hooks/useReducedMotion";
 
 const TINT_RESEARCH = "163,177,138"; // sage / --mono
 const TINT_ENGINEERING = "255,107,53"; // orange / --accent
-const TINT_PRODUCT_LIGHT = "20,20,22";
 const TINT_PRODUCT_DARK = "245,242,236";
 
 // Linear interpolate between two "r,g,b" strings
@@ -42,7 +41,7 @@ export default function ScrollScene(): JSX.Element | null {
   const reduced = useReducedMotion();
   const [mounted, setMounted] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const [productTint, setProductTint] = useState(TINT_PRODUCT_DARK);
+  const productTint = TINT_PRODUCT_DARK;
   const [tint, setTint] = useState(TINT_ENGINEERING);
 
   useEffect(() => {
@@ -52,22 +51,8 @@ export default function ScrollScene(): JSX.Element | null {
     update();
     mq.addEventListener("change", update);
 
-    const detectTheme = () => {
-      const theme =
-        document.documentElement.getAttribute("data-theme") ||
-        (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-      setProductTint(theme === "light" ? TINT_PRODUCT_LIGHT : TINT_PRODUCT_DARK);
-    };
-    detectTheme();
-    const themeObs = new MutationObserver(detectTheme);
-    themeObs.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["data-theme"],
-    });
-
     return () => {
       mq.removeEventListener("change", update);
-      themeObs.disconnect();
     };
   }, []);
 
