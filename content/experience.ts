@@ -14,6 +14,17 @@ export const experience: readonly Experience[] = [
     ],
   },
   {
+    title: "Graduate Research Assistant",
+    company: "The George Washington University",
+    dates: "Mar 2025 — Aug 2025",
+    location: "Washington, DC · Hybrid",
+    bullets: [
+      "Analyzed over 5,000 ecological and species-interaction data points across 50+ global ecoregions to model species responses to climate change.",
+      "Developed AI-assisted Python workflows utilizing NLP and machine learning, reducing manual research processing time by approximately 40%.",
+      "Supported a large-scale meta-analysis on invasive species interactions, contributing to the understanding of ecosystem-level effects.",
+    ],
+  },
+  {
     title: "Data Operations Engineer",
     company: "Jio Platforms Limited",
     dates: "Jul 2023 — Jul 2024",

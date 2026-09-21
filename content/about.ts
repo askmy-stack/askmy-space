@@ -1,5 +1,5 @@
 export const aboutParagraphs: readonly string[] = [
-  "MS in Data Science at George Washington University. Global Leaders Award, 3.71 GPA, graduating May 2026. Before grad school: multi-cloud MLOps at Jio Platforms. The through-line is systems that stay honest under evaluation and survive contact with real traffic.",
+  "MS in Data Science at George Washington University. Global Leaders Award, 3.71 GPA, graduating May 2026. Graduate research on climate-driven species interactions with AI-assisted NLP workflows. Before grad school: multi-cloud MLOps at Jio Platforms. The through-line is systems that stay honest under evaluation and survive contact with real traffic.",
   "I care about the parts most engineers skip. Context that agents can trust. Evaluation that catches silent failure. Containerized training. Observability that works at 3am. Infrastructure-as-code so the experiment you ran six months ago still runs today.",
   "Right now: Cortex for organizational memory, Parallax for agent runtime reliability, clinical EEG benchmarking, and tool-semantics for MCP interface contracts.",
 ] as const;
