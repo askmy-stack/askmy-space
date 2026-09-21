@@ -12,54 +12,51 @@ interface Capability {
 
 const capabilities: readonly Capability[] = [
   {
-    label: "Organizational Memory",
+    label: "Reliable Agents",
     description:
-      "MCP-based memory that ingests Slack, GitHub, Jira, and Linear through Kafka and serves hybrid Neo4j + Qdrant context to agents.",
+      "Runtime failure benches, judges, and recovery signals — so agent systems degrade into diagnosis, not silence.",
     tag: "AGENTS",
   },
   {
-    label: "Agent Reliability",
+    label: "Context Engineering",
     description:
-      "Failure benches, LLM-as-judge baselines, and OpenTelemetry traces that measure detection lead time and recovery — not just pass/fail.",
+      "Organizational memory over MCP: ingest, retrieve, provenance, and access control for agent tool-use.",
     tag: "SIGNALS",
   },
   {
-    label: "Supply-Chain Risk",
+    label: "Evaluation",
     description:
-      "Real-time risk intelligence over Kafka streams, Neo4j graphs, and explainable XGBoost scoring with SHAP.",
+      "Behavioral contracts for tools and agents. Schema validity is not enough when the agent path has shifted.",
     tag: "VISION",
   },
   {
-    label: "Production MLOps",
+    label: "ML Infrastructure",
     description:
-      "The infrastructure that ships models and keeps them running. 100+ Airflow DAGs, Docker, K8s, Terraform, AWS/Azure/GCP. Observable at 3am.",
+      "Training, serving, and observability that survive real traffic — containers, CI/CD, and infrastructure-as-code.",
     tag: "MLOPS",
   },
 ];
 
 export default function CapabilitiesStrip(): JSX.Element {
   return (
-    <section className="py-[120px] border-b border-[var(--border)]">
+    <section className="py-24 md:py-28 border-b border-[var(--border)]">
       <div className="container-editorial">
         <span className="t-label block mb-8">
-          What I build
+          Focus areas
         </span>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-[var(--border)]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-[var(--border)] border border-[var(--border)]">
           {capabilities.map((cap, i) => (
             <motion.div
               key={cap.label}
-              className="bg-[var(--bg)] hover:bg-[var(--surface)] p-8 group cursor-default transition-colors duration-300"
-              initial={{ opacity: 0, y: 20 }}
+              className="bg-[var(--bg)] hover:bg-[var(--surface)] p-7 md:p-8 group cursor-default transition-colors duration-300"
+              initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-80px" }}
-              transition={{ duration: 0.5, delay: i * 0.1, ease: easeOutExpo }}
+              viewport={{ once: true, margin: "-60px" }}
+              transition={{ duration: 0.4, delay: i * 0.06, ease: easeOutExpo }}
             >
               <div className="mb-5 text-[var(--accent)] group-hover:text-[var(--fg)] transition-colors duration-200">
                 <CapabilityIcon tag={cap.tag} />
               </div>
-              <span className="t-label text-[var(--accent)] mb-4 block">
-                {cap.tag}
-              </span>
               <h3 className="t-headline mb-3 group-hover:text-[var(--accent)] transition-colors duration-200">
                 {cap.label}
               </h3>

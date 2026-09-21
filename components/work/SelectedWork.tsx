@@ -8,11 +8,11 @@ export default function SelectedWork(): JSX.Element {
       <div className="container-editorial">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-20">
           <AnimatedHeading as="h2" className="t-display">
-            Systems that shipped.
+            Selected systems.
           </AnimatedHeading>
           <p className="t-body max-w-xs md:max-w-[22rem] md:pb-1">
-            Agent memory, reliability evaluation, and supply-chain risk systems —
-            each one grounded in honest evaluation and a real user at the end.
+            Agent memory, runtime reliability, clinical EEG research, and MCP
+            tool contracts — evidence over demos.
           </p>
         </div>
 

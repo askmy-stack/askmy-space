@@ -8,8 +8,8 @@ export default function About(): JSX.Element {
   return (
     <section id="about" className="pt-16 pb-16 md:pt-20 md:pb-20">
       <div className="container-editorial">
-        <AnimatedHeading as="h2" className="t-display mb-16 max-w-[18ch]">
-          Rigorous engineer with taste.
+        <AnimatedHeading as="h2" className="t-display mb-16 max-w-[20ch]">
+          Systems engineer with judgment.
         </AnimatedHeading>
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-16">

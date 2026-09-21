@@ -20,13 +20,13 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
 
   const x = useMotionValue(0);
   const y = useMotionValue(0);
-  const rotateX = useSpring(useTransform(y, [-100, 100], [3, -3]), {
+  const rotateX = useSpring(useTransform(y, [-100, 100], [1.5, -1.5]), {
     stiffness: 200,
-    damping: 20,
+    damping: 24,
   });
-  const rotateY = useSpring(useTransform(x, [-100, 100], [-3, 3]), {
+  const rotateY = useSpring(useTransform(x, [-100, 100], [-1.5, 1.5]), {
     stiffness: 200,
-    damping: 20,
+    damping: 24,
   });
 
   function handleMouseMove(e: React.MouseEvent<HTMLAnchorElement>) {
@@ -43,10 +43,10 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 40 }}
+      initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.6, delay: index * 0.1, ease: easeOutExpo }}
+      viewport={{ once: true, margin: "-80px" }}
+      transition={{ duration: 0.45, delay: index * 0.06, ease: easeOutExpo }}
       className="group relative"
     >
       <MotionLink

@@ -160,22 +160,22 @@ svg {
 /* ─── DISPLAY — section hero headlines ─── */
 .t-display {
   font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 300;
-  font-size: clamp(2.25rem, 4.5vw, 4.5rem);
-  line-height: 1.05;
-  letter-spacing: -0.025em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(2rem, 4vw, 3.75rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
   color: var(--fg);
 }
 
 /* ─── HEADLINE — card titles, project names ─── */
 .t-headline {
   font-family: var(--font-display);
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
-  font-size: clamp(1.125rem, 2vw, 1.5rem);
-  line-height: 1.25;
-  letter-spacing: -0.01em;
+  font-size: clamp(1.125rem, 1.8vw, 1.375rem);
+  line-height: 1.3;
+  letter-spacing: -0.015em;
   color: var(--fg);
 }
 
@@ -271,7 +271,7 @@ svg {
 
 /* ─── CAPTION — small helper text, dates, locations ─── */
 .t-caption {
-  font-family: var(--font-mono);
+  font-family: var(--font-body);
   font-weight: 400;
   font-size: 0.8125rem;
   line-height: 1.6;

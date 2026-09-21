@@ -45,7 +45,7 @@ export default function Header(): JSX.Element {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="rounded-full px-3.5 py-2 text-[13px] font-medium text-[var(--fg-muted)] transition-colors hover:text-[var(--fg)]"
+                  className="rounded-sm px-3.5 py-2 text-[13px] font-medium text-[var(--fg-muted)] transition-colors hover:text-[var(--fg)]"
                 >
                   {link.label}
                 </a>
@@ -55,7 +55,7 @@ export default function Header(): JSX.Element {
                   href={link.href}
                   aria-current={isActive(link.href) ? "page" : undefined}
                   className={cn(
-                    "rounded-full px-3.5 py-2 text-[13px] font-medium transition-colors",
+                    "rounded-sm px-3.5 py-2 text-[13px] font-medium transition-colors",
                     isActive(link.href)
                       ? "bg-[var(--accent-soft)] font-semibold text-[var(--accent)]"
                       : "text-[var(--fg-muted)] hover:text-[var(--fg)]",
@@ -65,13 +65,6 @@ export default function Header(): JSX.Element {
                 </Link>
               ),
             )}
-            <span
-              className="hidden items-center gap-2 px-3 font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--fg-muted)] lg:inline-flex"
-              title="Open to research and product collaborations"
-            >
-              <span className="live-dot" aria-hidden="true" />
-              open
-            </span>
           </nav>
 
           <button

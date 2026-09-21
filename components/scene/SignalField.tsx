@@ -28,8 +28,8 @@ interface Pulse {
   t: number;
 }
 
-const LINK = 130;
-const PULSE_EVERY_MS = 2200;
+const LINK = 120;
+const PULSE_EVERY_MS = 4800;
 
 function rgb(hex: string): string {
   const h = hex.trim().replace("#", "");
@@ -98,7 +98,7 @@ export default function SignalField(): JSX.Element {
           const dy = a.y - b.y;
           const d2 = dx * dx + dy * dy;
           if (d2 < LINK * LINK) {
-            const o = (1 - Math.sqrt(d2) / LINK) * 0.05;
+            const o = (1 - Math.sqrt(d2) / LINK) * 0.03;
             ctx.strokeStyle = `rgba(${fg},${o.toFixed(3)})`;
             ctx.lineWidth = 1;
             ctx.beginPath();
@@ -109,7 +109,7 @@ export default function SignalField(): JSX.Element {
         }
       }
       for (const p of nodes) {
-        ctx.fillStyle = `rgba(${fg},0.11)`;
+        ctx.fillStyle = `rgba(${fg},0.07)`;
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r, 0, 7);
         ctx.fill();

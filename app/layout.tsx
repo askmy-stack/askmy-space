@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   },
   description: siteConfig.tagline,
   keywords: [
-    "AI Engineer",
-    "Research",
-    "Product",
-    "MLOps",
-    "Agentic AI",
+    "AI Systems Engineer",
+    "Agentic Systems",
+    "Context Engineering",
+    "LLM Evaluation",
+    "ML Infrastructure",
     "Abhinaysai Kamineni",
     "Portfolio",
   ],
@@ -66,11 +66,11 @@ const personJsonLd = {
   sameAs: [siteConfig.social.linkedin, siteConfig.social.github],
   knowsAbout: [
     "Artificial Intelligence",
-    "Machine Learning",
-    "MLOps",
     "Agentic Systems",
+    "Context Engineering",
     "LLM Evaluation",
-    "Cloud Infrastructure",
+    "MLOps",
+    "Machine Learning Infrastructure",
   ],
 };
 

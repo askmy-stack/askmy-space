@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Abhinaysai Kamineni — AI Engineer · Research · Product";
+export const alt = "Abhinaysai Kamineni — AI Systems Engineer";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -19,35 +19,25 @@ export default async function Image() {
           padding: "80px",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-          <div
-            style={{
-              width: "10px",
-              height: "10px",
-              borderRadius: "50%",
-              background: "#4ADE80",
-            }}
-          />
-          <span
-            style={{
-              color: "#4ADE80",
-              fontFamily: "monospace",
-              fontSize: "14px",
-              letterSpacing: "4px",
-            }}
-          >
-            AVAILABLE · SUMMER 2026 · OPT
-          </span>
+        <div
+          style={{
+            color: "#8A8680",
+            fontFamily: "monospace",
+            fontSize: "14px",
+            letterSpacing: "3px",
+          }}
+        >
+          ARLINGTON, VA
         </div>
 
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div
             style={{
               color: "#F5F1EA",
-              fontSize: "84px",
-              fontWeight: 700,
-              lineHeight: 1,
-              marginBottom: "24px",
+              fontSize: "72px",
+              fontWeight: 600,
+              lineHeight: 1.05,
+              marginBottom: "20px",
               letterSpacing: "-0.03em",
             }}
           >
@@ -56,58 +46,38 @@ export default async function Image() {
           <div
             style={{
               color: "#FF6B35",
-              fontSize: "32px",
-              fontFamily: "monospace",
+              fontSize: "28px",
+              letterSpacing: "-0.01em",
             }}
           >
-            AI Engineer
+            AI Systems Engineer
           </div>
           <div
             style={{
               color: "#F5F1EA",
-              opacity: 0.5,
+              opacity: 0.55,
               fontSize: "18px",
-              marginTop: "16px",
-              fontFamily: "monospace",
-              letterSpacing: "2px",
+              marginTop: "18px",
+              maxWidth: "720px",
+              lineHeight: 1.4,
             }}
           >
-            RESEARCH · PRODUCT · MLOPS · AGENTIC AI
+            Reliable agents · Context engineering · Evaluation · ML infrastructure
           </div>
         </div>
 
-        <div style={{ display: "flex", gap: "48px" }}>
-          {[
-            { value: "85%", label: "FASTER DEPLOYS" },
-            { value: "100+", label: "AIRFLOW DAGS" },
-            { value: "50M+", label: "EVENTS / DAY" },
-            { value: "45%", label: "LOWER MTTD" },
-          ].map((stat) => (
+        <div style={{ display: "flex", gap: "40px" }}>
+          {["Cortex", "Parallax", "EEG", "tool-semantics"].map((label) => (
             <div
-              key={stat.label}
-              style={{ display: "flex", flexDirection: "column" }}
+              key={label}
+              style={{
+                color: "#8A8680",
+                fontFamily: "monospace",
+                fontSize: "14px",
+                letterSpacing: "1px",
+              }}
             >
-              <div
-                style={{
-                  color: "#F5F1EA",
-                  fontSize: "28px",
-                  fontFamily: "monospace",
-                }}
-              >
-                {stat.value}
-              </div>
-              <div
-                style={{
-                  color: "#F5F1EA",
-                  opacity: 0.3,
-                  fontSize: "11px",
-                  fontFamily: "monospace",
-                  letterSpacing: "2px",
-                  marginTop: "6px",
-                }}
-              >
-                {stat.label}
-              </div>
+              {label}
             </div>
           ))}
         </div>

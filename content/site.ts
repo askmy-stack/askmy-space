@@ -1,11 +1,11 @@
 export const siteConfig = {
   name: "Abhinaysai Kamineni",
   alias: "ABHINAYSAI",
-  role: "AI Engineer",
+  role: "AI Systems Engineer",
   /** Short, brand-led tagline used in tab titles + social cards. */
-  tagShort: "AI Engineer · Research · Product",
+  tagShort: "AI Systems Engineer",
   tagline:
-    "Abhinaysai Kamineni. AI Engineer focused on Research and Product. Organizational memory for agents (Cortex), agent reliability evaluation (Parallax), supply-chain risk intelligence (Meridian), and production MLOps at Jio Platforms. GWU MS Data Science, Global Leaders Award.",
+    "Abhinaysai Kamineni. AI Systems Engineer building reliable agents, context engineering, evaluation, and ML infrastructure. Cortex, Parallax, clinical EEG research, and tool-semantics. GWU MS Data Science, Global Leaders Award.",
   email: "kamineniabhinaysai@gmail.com",
   location: "Arlington, VA",
   url: "https://askmystack.space",
