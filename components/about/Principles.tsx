@@ -19,14 +19,10 @@ export default function Principles(): JSX.Element {
           <span className="t-label text-[var(--accent)]">
             {p.pillar}
           </span>
-          <p
-            className="text-[var(--fg)] leading-snug text-[clamp(1.05rem,1.3vw,1.25rem)]"
-          >
+          <p className="t-lede">
             {p.lead}
           </p>
-          <p
-            className="t-body-lg"
-          >
+          <p className="t-body">
             {p.follow}
           </p>
         </motion.div>

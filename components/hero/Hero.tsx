@@ -14,90 +14,78 @@ export default function Hero(): JSX.Element {
     const rect = e.currentTarget.getBoundingClientRect();
     const x = (e.clientX - rect.left) / rect.width - 0.5;
     const target = e.currentTarget;
-    target.style.filter = `blur(${Math.abs(x) * 2}px)`;
+    target.style.filter = `blur(${Math.abs(x) * 1.1}px)`;
     window.setTimeout(() => {
       target.style.filter = "blur(0px)";
-    }, 150);
+    }, 120);
   };
 
   return (
-    <section className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
-      <div className="absolute inset-0 z-0">
+    <section className="relative min-h-[90vh] flex items-center justify-center pt-28 pb-20 overflow-hidden">
+      <div className="absolute inset-0 z-0 opacity-85">
         <HeroScene />
       </div>
 
-      <div className="container-editorial relative z-10">
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
+      <div className="container-editorial relative z-10 max-w-4xl text-center flex flex-col items-center">
+        <motion.p
+          initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.2 }}
-          className="mb-10"
+          transition={{ duration: 0.45, ease: easeOutExpo, delay: 0.12 }}
+          className="t-label mb-5"
         >
-          <span className="inline-flex items-center gap-2.5 rounded-full border border-[var(--border)] bg-[var(--bg-elevated)]/80 px-4 py-2 font-mono text-[11px] tracking-[0.06em] text-[var(--fg-muted)]">
-            <span className="live-dot" aria-hidden="true" />
-            {siteConfig.location} · Open to collaborations
-          </span>
-        </motion.div>
+          {siteConfig.location}
+        </motion.p>
 
         <motion.h1
-          initial={{ opacity: 0, y: 40 }}
+          initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.2, ease: easeOutExpo, delay: 0.3 }}
+          transition={{ duration: 0.8, ease: easeOutExpo, delay: 0.2 }}
           onMouseMove={handleMouseMove}
-          className="text-display-xl text-[var(--fg)] leading-[0.9] glitch-once transition-[filter] duration-150 will-change-[filter]"
+          className="t-hero glitch-once transition-[filter] duration-150 will-change-[filter]"
         >
-          {siteConfig.alias}
+          <span className="block">Abhinaysai</span>
+          <span className="block">Kamineni</span>
         </motion.h1>
 
         <motion.p
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.75 }}
-          className="mt-6 font-mono text-[11px] uppercase tracking-[0.18em] text-[var(--accent)]"
+          transition={{ duration: 0.45, ease: easeOutExpo, delay: 0.45 }}
+          className="mt-7 t-lede"
+          style={{ color: "var(--accent)" }}
         >
-          AI Engineer · Research · Product
+          {siteConfig.role}
         </motion.p>
 
         <motion.p
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.85 }}
-          className="mt-5 font-display italic text-2xl md:text-3xl text-[var(--fg)]/80 max-w-2xl leading-snug"
+          transition={{ duration: 0.45, ease: easeOutExpo, delay: 0.55 }}
+          className="mt-3 t-body max-w-[40rem]"
         >
-          Agent memory, reliability systems, and production MLOps that survive real traffic.
+          Reliable agents · Harness engineering · Context engineering ·
+          Evaluation · ML infrastructure
         </motion.p>
 
         <motion.div
-          initial={{ opacity: 0, y: 14 }}
+          initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.95 }}
-          className="mt-10 flex flex-wrap gap-3"
+          transition={{ duration: 0.45, ease: easeOutExpo, delay: 0.7 }}
+          className="mt-11 flex flex-wrap justify-center gap-3"
         >
           <a
             href="/#work"
-            className="inline-flex min-h-[44px] items-center gap-2 rounded-full bg-[var(--accent)] px-6 py-3 text-sm font-semibold text-white transition-transform duration-200 hover:scale-[1.02] active:scale-[0.97]"
+            className="inline-flex min-h-[44px] items-center gap-2 rounded-sm bg-[var(--accent)] px-6 py-3 t-caption font-medium transition-colors duration-200 hover:bg-[var(--fg)] hover:text-[var(--bg)]"
+            style={{ color: "#fff" }}
           >
-            View work →
+            Featured work
           </a>
           <a
             href="/#contact"
-            className="inline-flex min-h-[44px] items-center rounded-full border border-[var(--border)] px-6 py-3 text-sm font-medium text-[var(--fg)] transition-colors duration-200 hover:border-[var(--accent)]/50"
+            className="inline-flex min-h-[44px] items-center rounded-sm border border-[var(--border)] px-6 py-3 t-caption font-medium text-[var(--fg)] transition-colors duration-200 hover:border-[var(--accent)]"
           >
-            Get in touch
+            Contact
           </a>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 1.5 }}
-          className="absolute bottom-8 right-6 md:right-12 flex flex-col items-center gap-3"
-          aria-hidden="true"
-        >
-          <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--fg-muted)] rotate-90 origin-center translate-y-6">
-            scroll
-          </span>
-          <span className="w-px h-12 bg-gradient-to-b from-[var(--accent)] to-transparent" />
         </motion.div>
       </div>
     </section>

@@ -26,6 +26,22 @@ export default function Footer(): JSX.Element {
               >
                 GitHub ↗
               </a>
+              <a
+                href={siteConfig.social.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
+              >
+                Twitter / X ↗
+              </a>
+              <a
+                href={siteConfig.social.medium}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
+              >
+                Medium ↗
+              </a>
             </div>
           </div>
 
@@ -50,8 +66,10 @@ export default function Footer(): JSX.Element {
           <div>
             <p className="t-label mb-4">Status</p>
             <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 bg-[var(--accent)] rounded-full animate-pulse-dot" />
-              <span className="t-caption text-[var(--fg)]">Open to research collaborations · Building big</span>
+              <span className="w-1.5 h-1.5 bg-[var(--accent)] rounded-full" />
+              <span className="t-caption text-[var(--fg)]">
+                Agents · harnesses · infrastructure
+              </span>
             </div>
           </div>
         </div>

@@ -71,11 +71,23 @@ function AgentsIcon({ className }: IconProps): JSX.Element {
   );
 }
 
+// HARNESS — checklist / gate frame for eval loops
+function HarnessIcon({ className }: IconProps): JSX.Element {
+  return (
+    <svg {...common} className={className}>
+      <rect x="4" y="3.5" width="16" height="17" rx="1.5" />
+      <path d="M8 8h8M8 12h8M8 16h5" />
+      <path d="M16.5 15.5l1.5 1.5 3-3" />
+    </svg>
+  );
+}
+
 const registry: Record<string, (p: IconProps) => JSX.Element> = {
   VISION: VisionIcon,
   SIGNALS: SignalsIcon,
   MLOPS: MLOpsIcon,
   AGENTS: AgentsIcon,
+  HARNESS: HarnessIcon,
 };
 
 export default function CapabilityIcon({

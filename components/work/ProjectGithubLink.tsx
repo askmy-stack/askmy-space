@@ -14,7 +14,7 @@ export default function ProjectGithubLink({
   href,
   slug,
   children = "View on GitHub ↗",
-  className = "font-mono text-sm text-[var(--accent)] hover:text-[var(--fg)] transition-colors",
+  className = "t-caption font-medium text-[var(--accent)] hover:text-[var(--fg)] transition-colors",
 }: Props): JSX.Element {
   return (
     <a

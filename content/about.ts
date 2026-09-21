@@ -1,7 +1,7 @@
 export const aboutParagraphs: readonly string[] = [
-  "MS in Data Science at George Washington University. Global Leaders Award, 3.71 GPA, graduating May 2026. Before grad school: multi-cloud MLOps at Jio Platforms. Same thread throughout — agent platforms, honest evaluation, production-ready engineering, a real user at the end.",
-  "I care about the parts most engineers skip. Containerized training. Version-pinned environments. Observability that works at 3am. Infrastructure-as-code so the experiment you ran six months ago still runs today. These are what separate a notebook model from a system someone actually depends on.",
-  "Right now: shipping organizational memory for AI agents (Cortex), agent reliability evaluation (Parallax), and supply-chain risk intelligence (Meridian). Preparing for what comes after May 2026.",
+  "MS in Data Science at George Washington University. Global Leaders Award, 3.71 GPA, graduating May 2026. Graduate research on climate-driven species interactions with AI-assisted NLP workflows. Before grad school: multi-cloud MLOps at Jio Platforms. The through-line is systems that stay honest under evaluation and survive contact with real traffic.",
+  "I care about the parts most engineers skip. Context that agents can trust. Evaluation that catches silent failure. Containerized training. Observability that works at 3am. Infrastructure-as-code so the experiment you ran six months ago still runs today.",
+  "Right now: Cortex for organizational memory, Parallax for agent runtime reliability, clinical EEG benchmarking, and tool-semantics for MCP interface contracts.",
 ] as const;
 
 export interface PhilosophyCell {
@@ -12,21 +12,21 @@ export interface PhilosophyCell {
 
 export const principles: readonly PhilosophyCell[] = [
   {
-    pillar: "Research",
-    lead: "Define the intelligence.",
+    pillar: "Systems",
+    lead: "Build the substrate.",
     follow:
-      "Grounding complex algorithms in robust logic, reproducible experimentation, and uncompromising evaluation.",
+      "Memory, tools, evaluation, and infrastructure — the layers that make agent behavior reproducible under real constraints.",
   },
   {
-    pillar: "Engineering",
-    lead: "Scale the execution.",
+    pillar: "Evaluation",
+    lead: "Measure what breaks.",
     follow:
-      "Building the automated, self-healing cloud architectures that allow models to survive contact with real-time traffic.",
+      "Failure benches, behavioral contracts, and observability that catch silent regressions before users do.",
   },
   {
     pillar: "Product",
-    lead: "Deliver the experience.",
+    lead: "Ship the consequence.",
     follow:
-      "Bridging the gap between an engineering breakthrough and a tangible solution that solves a real human problem.",
+      "Research that ends in a system someone can run, inspect, and depend on — not a notebook that dies in a week.",
   },
 ] as const;
