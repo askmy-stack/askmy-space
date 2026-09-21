@@ -14,34 +14,34 @@ export default function Hero(): JSX.Element {
     const rect = e.currentTarget.getBoundingClientRect();
     const x = (e.clientX - rect.left) / rect.width - 0.5;
     const target = e.currentTarget;
-    target.style.filter = `blur(${Math.abs(x) * 1.25}px)`;
+    target.style.filter = `blur(${Math.abs(x) * 1.1}px)`;
     window.setTimeout(() => {
       target.style.filter = "blur(0px)";
     }, 120);
   };
 
   return (
-    <section className="relative min-h-[92vh] flex items-center pt-28 pb-20 overflow-hidden">
-      <div className="absolute inset-0 z-0 opacity-90">
+    <section className="relative min-h-[90vh] flex items-center pt-28 pb-20 overflow-hidden">
+      <div className="absolute inset-0 z-0 opacity-85">
         <HeroScene />
       </div>
 
-      <div className="container-editorial relative z-10">
+      <div className="container-editorial relative z-10 max-w-5xl">
         <motion.p
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: easeOutExpo, delay: 0.15 }}
-          className="t-label mb-8"
+          transition={{ duration: 0.45, ease: easeOutExpo, delay: 0.12 }}
+          className="t-label mb-6"
         >
           {siteConfig.location}
         </motion.p>
 
         <motion.h1
-          initial={{ opacity: 0, y: 28 }}
+          initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, ease: easeOutExpo, delay: 0.25 }}
+          transition={{ duration: 0.8, ease: easeOutExpo, delay: 0.2 }}
           onMouseMove={handleMouseMove}
-          className="text-display-xl uppercase text-[var(--fg)] leading-[0.9] glitch-once transition-[filter] duration-150 will-change-[filter]"
+          className="t-hero glitch-once transition-[filter] duration-150 will-change-[filter]"
         >
           {siteConfig.name}
         </motion.h1>
@@ -49,8 +49,9 @@ export default function Hero(): JSX.Element {
         <motion.p
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: easeOutExpo, delay: 0.55 }}
-          className="mt-8 t-headline text-[var(--accent)]"
+          transition={{ duration: 0.45, ease: easeOutExpo, delay: 0.45 }}
+          className="mt-6 t-body-lg font-medium"
+          style={{ color: "var(--accent)" }}
         >
           {siteConfig.role}
         </motion.p>
@@ -58,9 +59,8 @@ export default function Hero(): JSX.Element {
         <motion.p
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: easeOutExpo, delay: 0.7 }}
-          className="mt-4 t-body-lg max-w-xl"
-          style={{ color: "var(--fg)" }}
+          transition={{ duration: 0.45, ease: easeOutExpo, delay: 0.55 }}
+          className="mt-3 t-body max-w-xl"
         >
           Reliable agents · Context engineering · Evaluation · ML infrastructure
         </motion.p>
@@ -68,18 +68,19 @@ export default function Hero(): JSX.Element {
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: easeOutExpo, delay: 0.85 }}
+          transition={{ duration: 0.45, ease: easeOutExpo, delay: 0.7 }}
           className="mt-10 flex flex-wrap gap-3"
         >
           <a
             href="/#work"
-            className="inline-flex min-h-[44px] items-center gap-2 rounded-sm bg-[var(--accent)] px-6 py-3 text-sm font-medium text-white transition-colors duration-200 hover:bg-[var(--fg)] hover:text-[var(--bg)]"
+            className="inline-flex min-h-[44px] items-center gap-2 rounded-sm bg-[var(--accent)] px-6 py-3 t-caption font-medium text-white transition-colors duration-200 hover:bg-[var(--fg)] hover:text-[var(--bg)]"
+            style={{ color: "#fff" }}
           >
             Selected systems
           </a>
           <a
             href="/#contact"
-            className="inline-flex min-h-[44px] items-center rounded-sm border border-[var(--border)] px-6 py-3 text-sm font-medium text-[var(--fg)] transition-colors duration-200 hover:border-[var(--accent)]"
+            className="inline-flex min-h-[44px] items-center rounded-sm border border-[var(--border)] px-6 py-3 t-caption font-medium text-[var(--fg)] transition-colors duration-200 hover:border-[var(--accent)]"
           >
             Contact
           </a>

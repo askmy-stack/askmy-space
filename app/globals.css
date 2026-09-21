@@ -45,12 +45,15 @@
   --duration-base: 400ms;
   --duration-slow: 800ms;
 
-  --fs-display-xl: clamp(4rem, 12vw, 12rem);
-  --fs-display-lg: clamp(2.5rem, 6vw, 6rem);
-  --fs-display-md: clamp(1.75rem, 3vw, 3rem);
+  /* Heading ladder (Fraunces only) */
+  --fs-display-xl: clamp(2.75rem, 6.5vw, 5.25rem);
+  --fs-display-lg: clamp(2rem, 4vw, 3.25rem);
+  --fs-display-md: clamp(1.35rem, 2.2vw, 1.75rem);
+  /* Body ladder (Geist Sans only) */
   --fs-body-lg: 1.125rem;
   --fs-body: 1rem;
   --fs-caption: 0.875rem;
+  --fs-label: 0.6875rem;
 
   --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
@@ -96,10 +99,11 @@ body {
   color: var(--fg);
   font-family: var(--font-body);
   font-size: var(--fs-body);
-  line-height: 1.6;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: -0.005em;
   min-height: 100vh;
   overflow-x: hidden;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 ::selection {
@@ -116,67 +120,89 @@ svg {
 }
 
 /* ═══════════════════════════════════════════════════════════════════
-   TYPOGRAPHY
+   TYPOGRAPHY — two voices only
+   Heading = Fraunces (hero / section / title)
+   Body    = Geist Sans (lede / body / caption / label)
+   Mono    = Geist Mono for code chips + metrics only
    ═══════════════════════════════════════════════════════════════════ */
 
-.text-display-xl {
+.text-display-xl,
+.t-hero {
   font-family: var(--font-display);
   font-size: var(--fs-display-xl);
-  font-weight: 400;
-  line-height: 0.95;
-  letter-spacing: -0.04em;
+  font-weight: 450;
+  font-variation-settings: "SOFT" 30, "opsz" 72;
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+  color: var(--fg);
 }
 
-.text-display-lg {
-  font-family: var(--font-display);
-  font-size: var(--fs-display-lg);
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: -0.03em;
-}
-
-.text-display-md {
-  font-family: var(--font-display);
-  font-size: var(--fs-display-md);
-  font-weight: 400;
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-}
-
-.text-body-lg {
-  font-size: var(--fs-body-lg);
-  line-height: 1.65;
-}
-
-.text-caption {
-  font-size: var(--fs-caption);
-  line-height: 1.5;
-}
-
-.font-mono {
-  font-family: var(--font-mono);
-}
-
-/* ─── DISPLAY — section hero headlines ─── */
+.text-display-lg,
 .t-display {
   font-family: var(--font-display);
   font-style: normal;
   font-weight: 400;
-  font-size: clamp(2rem, 4vw, 3.75rem);
-  line-height: 1.08;
-  letter-spacing: -0.03em;
+  font-variation-settings: "SOFT" 20, "opsz" 48;
+  font-size: var(--fs-display-lg);
+  line-height: 1.1;
+  letter-spacing: -0.022em;
   color: var(--fg);
 }
 
-/* ─── HEADLINE — card titles, project names ─── */
+.text-display-md,
 .t-headline {
   font-family: var(--font-display);
   font-style: normal;
   font-weight: 400;
-  font-size: clamp(1.125rem, 1.8vw, 1.375rem);
-  line-height: 1.3;
+  font-variation-settings: "SOFT" 15, "opsz" 28;
+  font-size: var(--fs-display-md);
+  line-height: 1.25;
   letter-spacing: -0.015em;
   color: var(--fg);
+}
+
+.text-body-lg,
+.t-body-lg {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--fs-body-lg);
+  line-height: 1.65;
+  letter-spacing: -0.01em;
+  color: var(--fg-muted);
+}
+
+.t-body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--fs-body);
+  line-height: 1.7;
+  letter-spacing: -0.005em;
+  color: var(--fg-muted);
+}
+
+.text-caption,
+.t-caption {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--fs-caption);
+  line-height: 1.55;
+  letter-spacing: 0;
+  color: var(--fg-muted);
+}
+
+/* Section / meta labels — body voice, not a third font */
+.t-label {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--fs-label);
+  line-height: 1.2;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
 }
 
 /* ─── SKELETON — geometry-matched loading shimmer ─── */
@@ -218,39 +244,10 @@ svg {
   .live-dot::after { animation: none; opacity: 0; }
 }
 
-/* ─── BODY — paragraphs, descriptions ─── */
-.t-body {
-  font-family: var(--font-body);
-  font-weight: 400;
-  font-size: clamp(0.875rem, 1.2vw, 0.9375rem);
-  line-height: 1.85;
-  color: var(--fg-muted);
-}
-
-/* ─── BODY LARGE — intro paragraphs only ─── */
-.t-body-lg {
-  font-family: var(--font-body);
-  font-weight: 400;
-  font-size: clamp(1rem, 1.4vw, 1.0625rem);
-  line-height: 1.8;
-  color: var(--fg-muted);
-}
-
-/* ─── LABEL — mono caps: section numbers, tags, badges ─── */
-.t-label {
-  font-family: var(--font-mono);
-  font-weight: 400;
-  font-size: 0.6875rem;
-  line-height: 1;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--fg-muted);
-}
-
-/* ─── METRIC — big numbers: AUROC, mAP, percentages ─── */
+/* Metrics + code chips — mono reserved for technical data only */
 .t-metric {
   font-family: var(--font-mono);
-  font-weight: 400;
+  font-weight: 500;
   font-size: clamp(1.5rem, 2.5vw, 2.25rem);
   line-height: 1;
   letter-spacing: -0.02em;
@@ -258,32 +255,22 @@ svg {
   color: var(--mono);
 }
 
-/* ─── METRIC LABEL — below big numbers ─── */
 .t-metric-label {
-  font-family: var(--font-mono);
-  font-weight: 400;
-  font-size: 0.625rem;
-  line-height: 1;
-  letter-spacing: 0.1em;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--fs-label);
+  line-height: 1.2;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--fg-muted);
 }
 
-/* ─── CAPTION — small helper text, dates, locations ─── */
-.t-caption {
-  font-family: var(--font-body);
-  font-weight: 400;
-  font-size: 0.8125rem;
-  line-height: 1.6;
-  color: var(--fg-muted);
-}
-
-/* ─── MONO — inline code, stack tags ─── */
 .t-mono {
   font-family: var(--font-mono);
   font-weight: 400;
   font-size: 0.75rem;
-  line-height: 1.5;
+  line-height: 1.45;
+  letter-spacing: 0.02em;
   color: var(--fg-muted);
 }
 

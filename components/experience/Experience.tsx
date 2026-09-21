@@ -29,7 +29,7 @@ export default function Experience(): JSX.Element {
                   <h3 className="t-headline">
                     {job.title}
                   </h3>
-                  <p className="t-body mt-2">
+                  <p className="t-body mt-2" style={{ color: "var(--fg)" }}>
                     {job.company}
                   </p>
                   <ul className="mt-6 space-y-3">
@@ -64,7 +64,7 @@ export default function Experience(): JSX.Element {
                 className="flex items-start justify-between gap-4 py-3 border-b border-[var(--border)]"
               >
                 <span className="t-body text-[var(--fg)]">{c.name}</span>
-                <span className="t-mono shrink-0">
+                <span className="t-caption shrink-0">
                   {c.issuer}
                 </span>
               </li>

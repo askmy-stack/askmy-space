@@ -34,7 +34,7 @@ export default function Header(): JSX.Element {
           <Link
             href="/"
             aria-label="Home — Abhinaysai Kamineni"
-            className="px-3 font-mono text-sm font-bold tracking-[0.08em] text-[var(--fg)] transition-colors hover:text-[var(--accent)]"
+            className="px-3 text-sm font-semibold tracking-[0.06em] text-[var(--fg)] transition-colors hover:text-[var(--accent)]"
           >
             ASK<span className="text-[var(--accent)]">.</span>
           </Link>
@@ -45,7 +45,7 @@ export default function Header(): JSX.Element {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="rounded-sm px-3.5 py-2 text-[13px] font-medium text-[var(--fg-muted)] transition-colors hover:text-[var(--fg)]"
+                  className="rounded-sm px-3.5 py-2 t-caption font-medium text-[var(--fg-muted)] transition-colors hover:text-[var(--fg)]"
                 >
                   {link.label}
                 </a>
@@ -55,7 +55,7 @@ export default function Header(): JSX.Element {
                   href={link.href}
                   aria-current={isActive(link.href) ? "page" : undefined}
                   className={cn(
-                    "rounded-sm px-3.5 py-2 text-[13px] font-medium transition-colors",
+                    "rounded-sm px-3.5 py-2 t-caption font-medium transition-colors",
                     isActive(link.href)
                       ? "bg-[var(--accent-soft)] font-semibold text-[var(--accent)]"
                       : "text-[var(--fg-muted)] hover:text-[var(--fg)]",
@@ -93,7 +93,7 @@ export default function Header(): JSX.Element {
                 href="/"
                 onClick={() => setMenuOpen(false)}
                 aria-label="Home"
-                className="font-mono font-bold text-lg tracking-[0.12em] text-[var(--fg)] leading-none"
+                className="text-sm font-semibold tracking-[0.06em] text-[var(--fg)] leading-none"
               >
                 ASK<span className="text-[var(--accent)]">.</span>
               </Link>
@@ -101,20 +101,20 @@ export default function Header(): JSX.Element {
                 type="button"
                 onClick={() => setMenuOpen(false)}
                 aria-label="Close menu"
-                className="font-mono text-xs uppercase tracking-[0.2em] text-[var(--fg-muted)]"
+                className="t-label"
               >
                 Close
               </button>
             </div>
-            <nav className="flex-1 container-editorial flex flex-col justify-center gap-8">
+            <nav className="flex-1 container-editorial flex flex-col justify-center gap-6">
               {navLinks.map((link, i) => (
                 <a
                   key={link.href}
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className="text-display-md text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
+                  className="t-display text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
                 >
-                  <span className="font-mono text-sm text-[var(--fg-muted)] mr-4">
+                  <span className="t-label mr-4 align-middle">
                     0{i + 1}
                   </span>
                   {link.label}
@@ -125,9 +125,9 @@ export default function Header(): JSX.Element {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMenuOpen(false)}
-                className="text-display-md text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
+                className="t-display text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
               >
-                <span className="font-mono text-sm text-[var(--fg-muted)] mr-4">
+                <span className="t-label mr-4 align-middle">
                   0{navLinks.length + 1}
                 </span>
                 Writing ↗

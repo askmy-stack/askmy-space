@@ -74,7 +74,7 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
                 {project.pillars.map((p) => (
                   <span
                     key={p}
-                    className="t-mono uppercase tracking-[0.15em] px-2.5 py-1 border border-[var(--mono)]/40 text-[var(--mono)]"
+                    className="t-label px-2.5 py-1 border border-[var(--border)] text-[var(--accent)]"
                   >
                     {p}
                   </span>
@@ -82,7 +82,7 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="t-mono uppercase tracking-[0.15em] px-2.5 py-1 border border-[var(--border)] text-[var(--fg-muted)]"
+                    className="t-mono px-2.5 py-1 border border-[var(--border)]"
                   >
                     {tag}
                   </span>
@@ -92,10 +92,10 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
           </div>
 
           {/* Right: metrics + year + arrow */}
-          <div className="shrink-0 md:text-right md:min-w-[260px]">
+          <div className="shrink-0 md:text-right md:min-w-[240px]">
             <div className="flex flex-col gap-1.5 mb-5">
               {project.metrics.map((m) => (
-                <span key={m} className="t-mono">
+                <span key={m} className="t-caption">
                   {m}
                 </span>
               ))}
