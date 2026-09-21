@@ -51,7 +51,7 @@ export default function WorkCaseStudyPage({ params }: Props) {
             <span>{project.year}</span>
           </div>
           <h1 className="t-display mb-5">{project.title}</h1>
-          <p className="t-body-lg max-w-2xl mb-8" style={{ color: "var(--fg)" }}>
+          <p className="t-lede max-w-2xl mb-8">
             {project.subtitle}
           </p>
           <div className="flex flex-wrap gap-2">
@@ -87,7 +87,7 @@ export default function WorkCaseStudyPage({ params }: Props) {
 
         <section className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 mb-16">
           <p className="md:col-span-3 t-label text-[var(--accent)]">Problem</p>
-          <p className="md:col-span-9 t-body-lg" style={{ color: "var(--fg)" }}>
+          <p className="md:col-span-9 t-lede">
             {project.problem}
           </p>
         </section>
@@ -106,7 +106,7 @@ export default function WorkCaseStudyPage({ params }: Props) {
         <section className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 mb-16">
           <p className="md:col-span-3 t-label text-[var(--accent)]">Results</p>
           <div className="md:col-span-9">
-            <p className="t-headline mb-8">{project.heroMetric}</p>
+            <p className="t-lede mb-8">{project.heroMetric}</p>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
               {project.results.map((r) => (
                 <li key={r} className="t-body flex gap-3" style={{ color: "var(--fg)" }}>

@@ -46,7 +46,7 @@ export default function SocialProofBar(): JSX.Element {
               >
                 <EntityLogo name={entity.name} />
               </span>
-              <span className="t-label group-hover:text-[var(--fg)] transition-colors duration-200">
+              <span className="t-caption text-[var(--fg-muted)] group-hover:text-[var(--fg)] transition-colors duration-200">
                 {entity.name}
               </span>
             </div>

@@ -10,7 +10,7 @@ export default function Contact(): JSX.Element {
           Contact.
         </AnimatedHeading>
 
-        <p className="t-body-lg max-w-2xl" style={{ color: "var(--fg)" }}>
+        <p className="t-lede max-w-2xl">
           For technical discussions about agent systems, evaluation, or ML
           infrastructure — email is the fastest path.
         </p>

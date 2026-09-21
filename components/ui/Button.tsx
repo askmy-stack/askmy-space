@@ -24,7 +24,7 @@ type ButtonProps = BaseProps & React.ButtonHTMLAttributes<HTMLButtonElement> & {
 type Props = AnchorProps | ButtonProps;
 
 const base =
-  "inline-flex items-center justify-center gap-2 text-sm font-medium tracking-wide px-6 py-3.5 rounded-sm transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--bg)]";
+  "inline-flex items-center justify-center gap-2 t-caption font-medium px-6 py-3.5 rounded-sm transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--bg)]";
 
 const variants: Record<Variant, string> = {
   primary:

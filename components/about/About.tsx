@@ -21,10 +21,7 @@ export default function About(): JSX.Element {
           {/* Narrative */}
           <div className="md:col-span-7 space-y-6">
             {aboutParagraphs.map((p, i) => (
-              <p
-                key={i}
-                className={i === 0 ? "t-body-lg text-[var(--fg)] text-[clamp(1.1rem,1.6vw,1.35rem)] leading-snug" : "t-body-lg"}
-              >
+              <p key={i} className={i === 0 ? "t-lede" : "t-body-lg"}>
                 {p}
               </p>
             ))}

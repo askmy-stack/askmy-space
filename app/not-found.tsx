@@ -13,7 +13,7 @@ export default function NotFound() {
         <h1 className="t-display">
           Lost in <span className="text-[var(--accent)]">latent space.</span>
         </h1>
-        <p className="t-body-lg mt-6 max-w-xl">
+        <p className="t-lede mt-6 max-w-xl">
           This route doesn&apos;t exist — or maybe it hasn&apos;t been trained yet.
           Head home and try another path.
         </p>

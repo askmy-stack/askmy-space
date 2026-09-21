@@ -31,7 +31,7 @@ export default function Hero(): JSX.Element {
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.45, ease: easeOutExpo, delay: 0.12 }}
-          className="t-label mb-6"
+          className="t-label mb-5"
         >
           {siteConfig.location}
         </motion.p>
@@ -43,14 +43,15 @@ export default function Hero(): JSX.Element {
           onMouseMove={handleMouseMove}
           className="t-hero glitch-once transition-[filter] duration-150 will-change-[filter]"
         >
-          {siteConfig.name}
+          <span className="block">Abhinaysai</span>
+          <span className="block">Kamineni</span>
         </motion.h1>
 
         <motion.p
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.45, ease: easeOutExpo, delay: 0.45 }}
-          className="mt-6 t-body-lg font-medium"
+          className="mt-7 t-lede"
           style={{ color: "var(--accent)" }}
         >
           {siteConfig.role}
@@ -60,7 +61,7 @@ export default function Hero(): JSX.Element {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.45, ease: easeOutExpo, delay: 0.55 }}
-          className="mt-3 t-body max-w-xl"
+          className="mt-3 t-body max-w-[36rem]"
         >
           Reliable agents · Context engineering · Evaluation · ML infrastructure
         </motion.p>
@@ -69,11 +70,11 @@ export default function Hero(): JSX.Element {
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.45, ease: easeOutExpo, delay: 0.7 }}
-          className="mt-10 flex flex-wrap gap-3"
+          className="mt-11 flex flex-wrap gap-3"
         >
           <a
             href="/#work"
-            className="inline-flex min-h-[44px] items-center gap-2 rounded-sm bg-[var(--accent)] px-6 py-3 t-caption font-medium text-white transition-colors duration-200 hover:bg-[var(--fg)] hover:text-[var(--bg)]"
+            className="inline-flex min-h-[44px] items-center gap-2 rounded-sm bg-[var(--accent)] px-6 py-3 t-caption font-medium transition-colors duration-200 hover:bg-[var(--fg)] hover:text-[var(--bg)]"
             style={{ color: "#fff" }}
           >
             Selected systems

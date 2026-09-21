@@ -34,7 +34,7 @@ export default function Header(): JSX.Element {
           <Link
             href="/"
             aria-label="Home — Abhinaysai Kamineni"
-            className="px-3 text-sm font-semibold tracking-[0.06em] text-[var(--fg)] transition-colors hover:text-[var(--accent)]"
+            className="t-brand px-3 transition-colors hover:text-[var(--accent)]"
           >
             ASK<span className="text-[var(--accent)]">.</span>
           </Link>
@@ -45,7 +45,7 @@ export default function Header(): JSX.Element {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="rounded-sm px-3.5 py-2 t-caption font-medium text-[var(--fg-muted)] transition-colors hover:text-[var(--fg)]"
+                  className="t-nav rounded-sm px-3.5 py-2 transition-colors hover:text-[var(--fg)]"
                 >
                   {link.label}
                 </a>
@@ -55,10 +55,10 @@ export default function Header(): JSX.Element {
                   href={link.href}
                   aria-current={isActive(link.href) ? "page" : undefined}
                   className={cn(
-                    "rounded-sm px-3.5 py-2 t-caption font-medium transition-colors",
+                    "t-nav rounded-sm px-3.5 py-2 transition-colors",
                     isActive(link.href)
                       ? "bg-[var(--accent-soft)] font-semibold text-[var(--accent)]"
-                      : "text-[var(--fg-muted)] hover:text-[var(--fg)]",
+                      : "hover:text-[var(--fg)]",
                   )}
                 >
                   {link.label}
@@ -93,7 +93,7 @@ export default function Header(): JSX.Element {
                 href="/"
                 onClick={() => setMenuOpen(false)}
                 aria-label="Home"
-                className="text-sm font-semibold tracking-[0.06em] text-[var(--fg)] leading-none"
+                className="t-brand"
               >
                 ASK<span className="text-[var(--accent)]">.</span>
               </Link>

@@ -10,7 +10,7 @@ export default function SelectedWork(): JSX.Element {
           <AnimatedHeading as="h2" className="t-display">
             Selected systems.
           </AnimatedHeading>
-          <p className="t-body max-w-xs md:max-w-[22rem] md:pb-1">
+          <p className="t-caption max-w-xs md:max-w-[22rem] md:pb-1.5">
             Agent memory, runtime reliability, clinical EEG research, and MCP
             tool contracts — evidence over demos.
           </p>

@@ -61,11 +61,11 @@ export default function SignalsFeed({ items, generatedAt }: Props): JSX.Element 
     <div>
       <div className="flex flex-wrap items-baseline justify-between gap-4">
         <h1 className="t-display">Today in AI.</h1>
-        <p className="font-mono text-xs uppercase tracking-[0.18em] text-[var(--fg-muted)]">
+        <p className="t-label">
           run {updatedLabel} · {visible.length} of {items.length} signals · refreshes 4×/day
         </p>
       </div>
-      <p className="t-body mt-4 max-w-[52ch]" style={{ color: "var(--fg-muted)" }}>
+      <p className="t-body mt-4 max-w-[52ch]">
         What my pipeline kept this week: 30+ sources ingested every run, scored by an
         LLM triage pass, floor at 7/10. This page is the pipeline&apos;s public output —
         the same data that briefs me each morning.
@@ -79,7 +79,7 @@ export default function SignalsFeed({ items, generatedAt }: Props): JSX.Element 
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search signals…"
             aria-label="Search signals"
-            className="w-full min-h-[44px] rounded-full border border-[var(--border)] bg-[var(--bg-elevated)] px-4 text-sm text-[var(--fg)] placeholder:text-[var(--fg-muted)] focus:border-[var(--accent)] focus:outline-none"
+            className="w-full min-h-[44px] rounded-full border border-[var(--border)] bg-[var(--bg-elevated)] px-4 t-caption text-[var(--fg)] placeholder:text-[var(--fg-muted)] focus:border-[var(--accent)] focus:outline-none"
           />
           <div className="mt-4 flex flex-row flex-wrap gap-1 md:flex-col">
             {[["all", items.length] as [string, number], ...categories].map(([cat, n]) => (
@@ -87,10 +87,10 @@ export default function SignalsFeed({ items, generatedAt }: Props): JSX.Element 
                 key={cat}
                 onClick={() => setCategory(cat)}
                 className={cn(
-                  "active:scale-[0.97] flex min-h-[44px] items-center justify-between gap-3 rounded-xl px-3 text-left font-mono text-xs uppercase tracking-[0.12em] transition-colors md:w-full",
+                  "active:scale-[0.97] flex min-h-[44px] items-center justify-between gap-3 rounded-xl px-3 text-left t-label transition-colors md:w-full",
                   category === cat
                     ? "bg-[var(--accent-soft)] text-[var(--accent)]"
-                    : "text-[var(--fg-muted)] hover:text-[var(--fg)]",
+                    : "hover:text-[var(--fg)]",
                 )}
               >
                 <span>{cat}</span>
@@ -114,10 +114,10 @@ export default function SignalsFeed({ items, generatedAt }: Props): JSX.Element 
                   aria-selected={view === v}
                   onClick={() => setView(v)}
                   className={cn(
-                    "min-h-[36px] rounded-full px-4 font-mono text-[11px] uppercase tracking-[0.12em] transition-colors",
+                    "min-h-[36px] rounded-full px-4 t-label transition-colors",
                     view === v
                       ? "bg-[var(--accent-soft)] text-[var(--accent)]"
-                      : "text-[var(--fg-muted)] hover:text-[var(--fg)]",
+                      : "hover:text-[var(--fg)]",
                   )}
                 >
                   {v === "feed" ? "Feed" : "Graph"}
@@ -146,7 +146,7 @@ export default function SignalsFeed({ items, generatedAt }: Props): JSX.Element 
             </div>
           ) : visible.length === 0 ? (
             <div className="rounded-2xl border border-[var(--border)] p-10 text-center">
-              <p className="t-body" style={{ color: "var(--fg-muted)" }}>
+              <p className="t-body">
                 {items.length === 0
                   ? "Nothing in this window yet — the pipeline publishes after its next run. It runs four times a day."
                   : "No signals match that filter. Clear the search or pick another category."}
@@ -166,23 +166,23 @@ export default function SignalsFeed({ items, generatedAt }: Props): JSX.Element 
                   viewport={{ once: true, margin: "-40px" }}
                   transition={{ duration: 0.4, delay: Math.min(i % 8, 6) * 0.05, ease: easeOutExpo }}
                 >
-                  <div className="flex items-baseline justify-between gap-4 font-mono text-[11px] uppercase tracking-[0.14em] text-[var(--fg-muted)]">
+                  <div className="flex items-baseline justify-between gap-4 t-label">
                     <span>{item.category}</span>
                     <span>{intelAge(item.published)}</span>
                   </div>
-                  <h2 className="text-[15px] font-semibold leading-snug text-[var(--fg)] transition-colors group-hover:text-[var(--accent)]">
+                  <h2 className="t-headline transition-colors group-hover:text-[var(--accent)]">
                     {item.title}
                   </h2>
                   {item.summary && (
-                    <p className="text-sm leading-relaxed" style={{ color: "var(--fg-muted)" }}>
+                    <p className="t-caption">
                       {item.summary}
                     </p>
                   )}
                   <div className="mt-auto flex items-center justify-between pt-1">
-                    <span className="font-mono text-[11px] text-[var(--fg-muted)]">
+                    <span className="t-caption">
                       {new URL(item.url).hostname.replace(/^www\./, "")}
                     </span>
-                    <span className="rounded-full bg-[var(--accent-soft)] px-3 py-1 font-mono text-[11px] font-semibold text-[var(--accent)]">
+                    <span className="t-mono rounded-full bg-[var(--accent-soft)] px-3 py-1 font-medium text-[var(--accent)]">
                       score {item.score.toFixed(1)}
                     </span>
                   </div>

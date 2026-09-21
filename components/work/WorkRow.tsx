@@ -123,7 +123,7 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
           <ProjectGithubLink
             href={project.github}
             slug={project.slug}
-            className="t-mono text-[var(--fg-muted)] hover:text-[var(--accent)] transition-colors"
+            className="t-caption hover:text-[var(--accent)] transition-colors"
           >
             GitHub ↗
           </ProjectGithubLink>

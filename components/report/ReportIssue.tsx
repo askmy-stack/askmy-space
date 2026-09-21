@@ -136,14 +136,14 @@ export default function ReportIssue(): JSX.Element {
             <div className="flex flex-wrap items-center gap-4">
               <button
                 type="submit"
-                className="text-xs uppercase tracking-[0.14em] px-4 py-2 border border-[var(--accent)] text-[var(--accent)] hover:bg-[var(--accent)] hover:text-[var(--bg)] transition-colors"
+                className="t-label px-4 py-2.5 border border-[var(--accent)] text-[var(--accent)] hover:bg-[var(--accent)] hover:text-[var(--bg)] transition-colors"
               >
                 Email draft
               </button>
               <button
                 type="button"
                 onClick={handleCopyAndGithub}
-                className="text-xs uppercase tracking-[0.14em] text-[var(--fg-muted)] hover:text-[var(--fg)] transition-colors underline-offset-4 hover:underline"
+                className="t-label hover:text-[var(--fg)] transition-colors underline-offset-4 hover:underline"
               >
                 Copy + GitHub issue
               </button>
