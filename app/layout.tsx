@@ -18,7 +18,8 @@ export const metadata: Metadata = {
   },
   description: siteConfig.tagline,
   keywords: [
-    "AI Systems Engineer",
+    "Full Stack AI Engineer",
+    "Harness Engineering",
     "Agentic Systems",
     "Context Engineering",
     "LLM Evaluation",
@@ -63,10 +64,16 @@ const personJsonLd = {
     addressRegion: "VA",
     addressCountry: "US",
   },
-  sameAs: [siteConfig.social.linkedin, siteConfig.social.github],
+  sameAs: [
+    siteConfig.social.linkedin,
+    siteConfig.social.github,
+    siteConfig.social.twitter,
+    siteConfig.social.medium,
+  ],
   knowsAbout: [
     "Artificial Intelligence",
     "Agentic Systems",
+    "Harness Engineering",
     "Context Engineering",
     "LLM Evaluation",
     "MLOps",

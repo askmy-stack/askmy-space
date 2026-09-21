@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 const routes = [
-  { path: "/", name: "home", expectText: /AI Systems Engineer|Selected systems|Work/i },
+  { path: "/", name: "home", expectText: /Full Stack AI Engineer|Featured work|Work/i },
   { path: "/work/cortex", name: "work-cortex", expectText: /Cortex/i },
   { path: "/work/tool-semantics", name: "work-tool-semantics", expectText: /tool-semantics|Behavioral/i },
 ] as const;

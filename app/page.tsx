@@ -1,6 +1,5 @@
 import Hero from "@/components/hero/Hero";
 import ScrollScene from "@/components/scene/ScrollScene";
-import SocialProofBar from "@/components/social-proof/SocialProofBar";
 import CapabilitiesStrip from "@/components/capabilities/CapabilitiesStrip";
 import SelectedWork from "@/components/work/SelectedWork";
 import SkillsSection from "@/components/skills/SkillsSection";
@@ -16,7 +15,6 @@ export default function HomePage() {
       <ScrollScene />
       <div className="relative z-10">
         <Hero />
-        <SocialProofBar />
         <CapabilitiesStrip />
         <SelectedWork />
         <SkillsSection />

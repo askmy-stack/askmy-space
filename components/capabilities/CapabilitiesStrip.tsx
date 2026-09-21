@@ -18,16 +18,16 @@ const capabilities: readonly Capability[] = [
     tag: "AGENTS",
   },
   {
+    label: "Harness Engineering",
+    description:
+      "Eval harnesses that pin agent behavior: ground-truth failure cases, LLM-as-judge baselines, and regression gates before ship.",
+    tag: "HARNESS",
+  },
+  {
     label: "Context Engineering",
     description:
       "Organizational memory over MCP: ingest, retrieve, provenance, and access control for agent tool-use.",
     tag: "SIGNALS",
-  },
-  {
-    label: "Evaluation",
-    description:
-      "Behavioral contracts for tools and agents. Schema validity is not enough when the agent path has shifted.",
-    tag: "VISION",
   },
   {
     label: "ML Infrastructure",
@@ -41,9 +41,6 @@ export default function CapabilitiesStrip(): JSX.Element {
   return (
     <section className="py-24 md:py-28 border-b border-[var(--border)]">
       <div className="container-editorial">
-        <span className="t-label block mb-8">
-          Focus areas
-        </span>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-[var(--border)] border border-[var(--border)]">
           {capabilities.map((cap, i) => (
             <motion.div
@@ -60,9 +57,7 @@ export default function CapabilitiesStrip(): JSX.Element {
               <h3 className="t-headline mb-3 group-hover:text-[var(--accent)] transition-colors duration-200">
                 {cap.label}
               </h3>
-              <p className="t-body">
-                {cap.description}
-              </p>
+              <p className="t-body">{cap.description}</p>
             </motion.div>
           ))}
         </div>

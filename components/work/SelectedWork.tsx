@@ -8,7 +8,7 @@ export default function SelectedWork(): JSX.Element {
       <div className="container-editorial">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-20">
           <AnimatedHeading as="h2" className="t-display">
-            Selected systems.
+            Featured work.
           </AnimatedHeading>
           <p className="t-caption max-w-xs md:max-w-[22rem] md:pb-1.5">
             Agent memory, runtime reliability, clinical EEG research, and MCP

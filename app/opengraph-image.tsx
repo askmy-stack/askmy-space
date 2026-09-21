@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Abhinaysai Kamineni — AI Systems Engineer";
+export const alt = "Abhinaysai Kamineni — Full Stack AI Engineer";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -50,7 +50,7 @@ export default async function Image() {
               letterSpacing: "-0.01em",
             }}
           >
-            AI Systems Engineer
+            Full Stack AI Engineer
           </div>
           <div
             style={{
@@ -62,7 +62,7 @@ export default async function Image() {
               lineHeight: 1.4,
             }}
           >
-            Reliable agents · Context engineering · Evaluation · ML infrastructure
+            Reliable agents · Harness engineering · Context engineering · Evaluation · ML infrastructure
           </div>
         </div>
 
