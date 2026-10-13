@@ -10,63 +10,96 @@ type LayerId = "context" | "agents" | "evaluation" | "infra";
 interface Layer {
   id: LayerId;
   label: string;
+  sub: string;
   main: string;
   bottom: string;
-  x: number;
-  y: number;
+  hint: string;
+  position: string;
+  icon: JSX.Element;
 }
+
+const iconClass = "w-[18px] h-[18px]";
 
 const layers: readonly Layer[] = [
   {
     id: "context",
-    label: "Context",
+    label: "Context engineering",
+    sub: "Right information, right time",
     main: "Right context.",
-    bottom: "retrieve. reason. remember",
-    x: 50,
-    y: 18,
+    bottom: "retrieve • reason • remember",
+    hint: "Curated context guides each decision",
+    position: "left-[0%] top-[8%] md:left-[-2%] md:top-[6%]",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className={iconClass}>
+        <rect x="3" y="3" width="7" height="7" rx="1" />
+        <rect x="14" y="3" width="7" height="7" rx="1" />
+        <path d="M6.5 10v4.5H17.5V10M12 14.5V21" />
+      </svg>
+    ),
   },
   {
     id: "agents",
-    label: "Agents",
+    label: "Agent systems",
+    sub: "Plan, act, coordinate",
     main: "Useful action.",
-    bottom: "plan. act. coordinate",
-    x: 22,
-    y: 50,
+    bottom: "plan • act • coordinate",
+    hint: "Agents turn decisions into controlled actions",
+    position: "right-[0%] top-[14%] md:right-[-2%] md:top-[12%]",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={iconClass}>
+        <rect x="3" y="4" width="18" height="16" rx="3" />
+        <path d="M9 10l-3 2 3 2m6-4 3 2-3 2M12.5 9l-1 6" />
+      </svg>
+    ),
   },
   {
     id: "evaluation",
     label: "Evaluation",
+    sub: "Measure, test, improve",
     main: "Earn trust.",
-    bottom: "test. observe. improve",
-    x: 78,
-    y: 50,
+    bottom: "test • observe • improve",
+    hint: "Evaluation makes reliability measurable",
+    position: "right-[-2%] bottom-[12%] md:right-[-4%] md:bottom-[14%]",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className={iconClass}>
+        <path d="M4 19V7m5 12V11m5 8V5m5 14v-8" />
+        <path d="M3 20h18" />
+      </svg>
+    ),
   },
   {
     id: "infra",
-    label: "Infra",
+    label: "Cloud & platform",
+    sub: "Deploy, scale, observe",
     main: "Built to scale.",
-    bottom: "deploy. monitor. adapt",
-    x: 50,
-    y: 82,
+    bottom: "deploy • monitor • adapt",
+    hint: "Reliable infrastructure powers the product",
+    position: "left-[0%] bottom-[10%] md:left-[-2%] md:bottom-[8%]",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={iconClass}>
+        <path d="M7 18h11a4 4 0 0 0 .2-8A6.5 6.5 0 0 0 5.8 11a3.6 3.6 0 0 0 1.2 7Z" />
+        <path d="M9 14h6m-3-3v6" />
+      </svg>
+    ),
   },
 ];
 
 /**
- * Interactive systems stage inspired by the motion reference:
- * orbits, signal paths, selectable layers, core copy swap, pointer parallax.
- * Styled for this portfolio (Fraunces/Geist tokens, no floating cards).
+ * Hero systems stage aligned to the motion reference:
+ * glowing core, orbit tracks, floating layer cards, parallax, pause.
+ * No lattice / prism.
  */
 export default function SystemsDiagram(): JSX.Element {
   const reduced = useReducedMotion();
   const stageRef = useRef<HTMLDivElement>(null);
-  const [active, setActive] = useState<LayerId>("evaluation");
+  const [active, setActive] = useState<LayerId>("agents");
   const [paused, setPaused] = useState(false);
   const mx = useMotionValue(0);
   const my = useMotionValue(0);
   const sx = useSpring(mx, { stiffness: 70, damping: 22, mass: 0.5 });
   const sy = useSpring(my, { stiffness: 70, damping: 22, mass: 0.5 });
 
-  const activeLayer = layers.find((l) => l.id === active) ?? layers[2];
+  const activeLayer = layers.find((l) => l.id === active) ?? layers[1];
   const motionOn = !reduced && !paused;
 
   useEffect(() => {
@@ -89,7 +122,7 @@ export default function SystemsDiagram(): JSX.Element {
   }, [mx, my]);
 
   return (
-    <div className="relative w-full max-w-xl mx-auto lg:mx-0 lg:ml-auto">
+    <div className="relative w-full max-w-[620px] mx-auto">
       <motion.div
         ref={stageRef}
         className="relative aspect-square w-full select-none"
@@ -101,131 +134,130 @@ export default function SystemsDiagram(): JSX.Element {
         transition={riseInTransition(0.2)}
         aria-label="Interactive diagram of four engineering layers"
       >
-        {/* Soft core glow */}
+        {/* Ambient glow behind core */}
         <div
-          className="pointer-events-none absolute inset-[12%] rounded-full"
+          className="pointer-events-none absolute inset-[8%] rounded-full"
           style={{
             background:
-              "radial-gradient(circle, rgba(255,107,53,0.16) 0%, rgba(255,107,53,0.05) 40%, transparent 70%)",
-            filter: "blur(12px)",
+              "radial-gradient(circle, rgba(255,107,53,0.18) 0%, rgba(128,40,10,0.08) 38%, transparent 72%)",
+            filter: "blur(18px)",
           }}
           aria-hidden="true"
         />
 
+        {/* Orbit SVG */}
         <svg
-          viewBox="0 0 100 100"
-          className="absolute inset-0 h-full w-full overflow-visible"
+          className="absolute inset-[4%] h-[92%] w-[92%] overflow-visible"
+          viewBox="0 0 600 600"
           role="presentation"
         >
-          <defs>
-            <linearGradient id="sys-edge" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="var(--accent)" stopOpacity="0" />
-              <stop offset="50%" stopColor="var(--accent)" stopOpacity="0.5" />
-              <stop offset="100%" stopColor="var(--accent)" stopOpacity="0" />
-            </linearGradient>
-          </defs>
+          <circle
+            cx="300"
+            cy="300"
+            r="238"
+            fill="none"
+            stroke="rgba(255,140,84,0.18)"
+            strokeWidth="0.7"
+            strokeDasharray="2 7"
+          />
+          <circle
+            cx="300"
+            cy="300"
+            r="205"
+            fill="none"
+            stroke="rgba(223,229,226,0.10)"
+            strokeWidth="0.7"
+            strokeDasharray="1.5 10"
+          />
+          <circle
+            cx="300"
+            cy="300"
+            r="272"
+            fill="none"
+            stroke="rgba(223,229,226,0.08)"
+            strokeWidth="0.6"
+            strokeDasharray="1.5 10"
+          />
 
-          {/* Orbit tracks */}
-          <g className={motionOn ? "sys-orbit" : undefined}>
-            <circle
-              cx="50"
-              cy="50"
-              r="38"
-              fill="none"
-              stroke="rgba(255,107,53,0.14)"
-              strokeWidth="0.25"
-              strokeDasharray="1.2 2.8"
-            />
-            <circle
-              cx="50"
-              cy="50"
-              r="32"
-              fill="none"
-              stroke="rgba(245,241,234,0.08)"
-              strokeWidth="0.2"
-              strokeDasharray="0.8 3.2"
-            />
-          </g>
-
-          {/* Orbiting electrons */}
           {motionOn && (
             <>
-              <g className="sys-orbit-spin">
-                <circle cx="50" cy="12" r="0.7" fill="var(--accent)" className="sys-electron" />
-                <circle cx="50" cy="88" r="0.45" fill="var(--accent)" opacity="0.7" />
+              <g className="sys-orbit-spin origin-center" style={{ transformOrigin: "300px 300px" }}>
+                <circle cx="300" cy="62" r="4" fill="var(--accent)" className="sys-electron" />
+                <circle cx="300" cy="538" r="2.5" fill="var(--accent)" opacity="0.75" />
               </g>
-              <g className="sys-orbit-spin-rev">
-                <circle cx="82" cy="50" r="0.55" fill="var(--accent)" className="sys-electron" />
+              <g className="sys-orbit-spin-rev" style={{ transformOrigin: "300px 300px" }}>
+                <circle cx="505" cy="300" r="3.5" fill="var(--accent)" className="sys-electron" />
+                <circle cx="95" cy="300" r="2" fill="#c46a41" />
               </g>
+              <path
+                d="M 126 121 Q 300 65 458 160"
+                fill="none"
+                stroke="rgba(239,113,67,0.35)"
+                strokeWidth="1.2"
+                strokeDasharray="5 11"
+                className="sys-signal"
+              />
+              <path
+                d="M 458 160 Q 545 360 454 480"
+                fill="none"
+                stroke="rgba(239,113,67,0.2)"
+                strokeWidth="1.2"
+                strokeDasharray="5 11"
+                className="sys-signal-slow"
+              />
+              <path
+                d="M 454 480 Q 260 561 122 470"
+                fill="none"
+                stroke="rgba(239,113,67,0.35)"
+                strokeWidth="1.2"
+                strokeDasharray="5 11"
+                className="sys-signal"
+              />
+              <path
+                d="M 122 470 Q 54 295 126 121"
+                fill="none"
+                stroke="rgba(239,113,67,0.2)"
+                strokeWidth="1.2"
+                strokeDasharray="5 11"
+                className="sys-signal-slow"
+              />
             </>
           )}
-
-          {/* Signal paths */}
-          <path
-            d="M 22 50 Q 50 18 78 50"
-            fill="none"
-            stroke="rgba(255,107,53,0.28)"
-            strokeWidth="0.3"
-            strokeDasharray="1.2 2.4"
-            className={motionOn ? "sys-signal" : undefined}
-          />
-          <path
-            d="M 78 50 Q 50 82 22 50"
-            fill="none"
-            stroke="rgba(255,107,53,0.18)"
-            strokeWidth="0.3"
-            strokeDasharray="1.2 2.8"
-            className={motionOn ? "sys-signal-slow" : undefined}
-          />
-
-          {/* Spokes to core */}
-          {layers.map((layer) => (
-            <line
-              key={`spoke-${layer.id}`}
-              x1={layer.x}
-              y1={layer.y}
-              x2="50"
-              y2="50"
-              stroke="url(#sys-edge)"
-              strokeWidth={active === layer.id ? 0.45 : 0.25}
-              opacity={active === layer.id ? 1 : 0.55}
-            />
-          ))}
-
-          {/* Core ring */}
-          <circle
-            cx="50"
-            cy="50"
-            r="14"
-            fill="none"
-            stroke="rgba(255,107,53,0.22)"
-            strokeWidth="0.3"
-            className={motionOn ? "sys-core-ring" : undefined}
-          />
-          <circle cx="50" cy="50" r="1.1" fill="var(--accent)" />
         </svg>
 
-        {/* Core label */}
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-          <div className="text-center px-4 max-w-[10rem]">
-            <p className="t-label text-[var(--accent)] mb-2">Systems that</p>
+        {/* Core orb */}
+        <div
+          className={`absolute left-[24%] top-[24%] flex h-[52%] w-[52%] items-center justify-center rounded-full border border-[rgba(255,127,69,0.24)] ${motionOn ? "sys-core-breathe" : ""}`}
+          style={{
+            background:
+              "radial-gradient(circle at 36% 25%, rgba(255,157,96,0.55), rgba(116,44,18,0.5) 21%, rgba(29,19,14,0.94) 49%, #0A0A0B 73%)",
+            boxShadow:
+              "inset -24px -24px 45px rgba(0,0,0,0.92), inset 11px 8px 22px rgba(255,103,53,0.17), 0 0 95px 13px rgba(176,59,22,0.16)",
+          }}
+        >
+          <div className="relative z-[2] px-4 text-center pointer-events-none">
+            <p className="t-label mb-2 text-[rgba(255,211,169,0.83)]">
+              Systems that
+            </p>
             <AnimatePresence mode="wait">
               <motion.p
                 key={activeLayer.main}
-                className="t-headline text-[var(--fg)]"
-                initial={reduced ? false : { opacity: 0, y: 6 }}
+                className="font-[family-name:var(--font-display)] text-[clamp(1.35rem,3.2vw,2.15rem)] leading-none tracking-[-0.02em] text-[#f3ddd0]"
+                initial={reduced ? false : { opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
-                exit={reduced ? undefined : { opacity: 0, y: -6 }}
+                exit={reduced ? undefined : { opacity: 0, y: -8 }}
                 transition={{ duration: 0.35, ease: easeOutExpo }}
               >
                 {activeLayer.main}
               </motion.p>
             </AnimatePresence>
-            <p className="t-caption mt-2">{activeLayer.bottom}</p>
+            <p className="mt-3 t-label uppercase text-[#d6a28b] tracking-[0.14em]">
+              {activeLayer.bottom}
+            </p>
           </div>
         </div>
 
-        {/* Layer hit targets */}
+        {/* Floating layer cards */}
         {layers.map((layer) => {
           const isActive = active === layer.id;
           return (
@@ -233,30 +265,35 @@ export default function SystemsDiagram(): JSX.Element {
               key={layer.id}
               type="button"
               aria-pressed={isActive}
-              aria-label={`${layer.label}: ${layer.main}`}
               onClick={() => setActive(layer.id)}
-              className="absolute -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-1.5 rounded-sm px-2 py-1.5 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
+              className={`absolute z-[3] w-[min(200px,44%)] rounded-xl border px-3.5 py-3.5 text-left backdrop-blur-md transition-[border-color,transform,box-shadow] duration-300 ${layer.position} ${
+                isActive
+                  ? "border-[rgba(255,117,71,0.65)] shadow-[0_0_28px_rgba(255,105,56,0.14),0_14px_28px_rgba(0,0,0,0.28)]"
+                  : "border-[rgba(231,228,221,0.14)] bg-[linear-gradient(145deg,rgba(22,24,26,0.92),rgba(12,14,15,0.88))] hover:-translate-y-1 hover:border-[rgba(255,117,71,0.55)]"
+              } ${motionOn ? "sys-card-float" : ""}`}
               style={{
-                left: `${layer.x}%`,
-                top: `${layer.y}%`,
+                background: isActive
+                  ? "linear-gradient(145deg,rgba(30,22,18,0.96),rgba(14,12,12,0.92))"
+                  : undefined,
+                animationDelay: `${["context", "agents", "infra", "evaluation"].indexOf(layer.id) * 0.6}s`,
               }}
             >
+              <div className="flex items-center gap-2.5">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md border border-[rgba(255,117,71,0.22)] bg-[rgba(255,117,71,0.065)] text-[var(--accent)]">
+                  {layer.icon}
+                </span>
+                <span className="t-caption font-medium text-[var(--fg)] leading-snug">
+                  {layer.label}
+                </span>
+              </div>
+              <p className="mt-2 pl-10 t-caption text-[var(--fg-muted)] leading-snug">
+                {layer.sub}
+              </p>
               <span
-                className="block h-2.5 w-2.5 rounded-full transition-shadow"
-                style={{
-                  background: "var(--accent)",
-                  boxShadow: isActive
-                    ? "0 0 16px rgba(255,107,53,0.55)"
-                    : "0 0 0 transparent",
-                }}
+                className="absolute bottom-0 left-4 h-0.5 bg-[var(--accent)] transition-[width] duration-400"
+                style={{ width: isActive ? "calc(100% - 2rem)" : "1.25rem" }}
+                aria-hidden="true"
               />
-              <span
-                className={`t-label transition-colors ${
-                  isActive ? "text-[var(--accent)]" : "text-[var(--fg-muted)]"
-                }`}
-              >
-                {layer.label}
-              </span>
             </button>
           );
         })}
@@ -266,15 +303,19 @@ export default function SystemsDiagram(): JSX.Element {
             type="button"
             onClick={() => setPaused((p) => !p)}
             aria-pressed={paused}
-            className="absolute bottom-2 right-2 z-10 rounded-full border border-[var(--border)] bg-[var(--bg)]/80 px-3 py-1.5 t-label text-[var(--fg-muted)] backdrop-blur-sm transition-colors hover:border-[var(--accent)] hover:text-[var(--fg)]"
+            className="absolute bottom-3 right-3 z-[5] rounded-full border border-[var(--border)] bg-[rgba(19,21,22,0.86)] px-3.5 py-2 t-label text-[var(--fg-muted)] transition-colors hover:border-[var(--accent)] hover:text-[var(--fg)]"
           >
-            {paused ? "Resume motion" : "Pause motion"}
+            {paused ? "▶ Resume motion" : "Ⅱ Pause motion"}
           </button>
         )}
       </motion.div>
 
-      <p className="t-caption mt-4 text-center lg:text-right">
-        Tap a layer to explore the system
+      <p className="mt-3 flex items-center justify-center gap-2 t-label text-[var(--fg-muted)]">
+        <span
+          className={`inline-block h-1.5 w-1.5 rounded-full bg-[var(--accent)] ${motionOn ? "animate-pulse-dot" : ""}`}
+          aria-hidden="true"
+        />
+        {activeLayer.hint}
       </p>
     </div>
   );

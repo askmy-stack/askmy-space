@@ -454,11 +454,11 @@ svg {
 }
 
 .sys-orbit-spin {
-  transform-origin: 50px 50px;
+  transform-origin: 300px 300px;
   animation: sys-spin 52s linear infinite;
 }
 .sys-orbit-spin-rev {
-  transform-origin: 50px 50px;
+  transform-origin: 300px 300px;
   animation: sys-spin 64s linear infinite reverse;
 }
 .sys-signal {
@@ -471,8 +471,38 @@ svg {
   animation: sys-breathe 8s ease-in-out infinite;
   transform-origin: 50px 50px;
 }
+.sys-core-breathe {
+  animation: sys-core-glow 8s ease-in-out infinite;
+}
+@keyframes sys-core-glow {
+  0%,
+  100% {
+    box-shadow:
+      inset -24px -24px 45px rgba(0, 0, 0, 0.92),
+      inset 11px 8px 22px rgba(255, 103, 53, 0.17),
+      0 0 70px 8px rgba(176, 59, 22, 0.13);
+  }
+  50% {
+    box-shadow:
+      inset -24px -24px 45px rgba(0, 0, 0, 0.92),
+      inset 11px 8px 22px rgba(255, 103, 53, 0.22),
+      0 0 100px 18px rgba(176, 59, 22, 0.2);
+  }
+}
 .sys-electron {
   filter: drop-shadow(0 0 4px rgba(255, 107, 53, 0.7));
+}
+.sys-card-float {
+  animation: sys-card-drift 7.5s ease-in-out infinite;
+}
+@keyframes sys-card-drift {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
 }
 
 /* CTA lift — motion reference hover, portfolio tokens */
@@ -505,7 +535,9 @@ svg {
   .sys-orbit-spin-rev,
   .sys-signal,
   .sys-signal-slow,
-  .sys-core-ring {
+  .sys-core-ring,
+  .sys-core-breathe,
+  .sys-card-float {
     animation: none !important;
   }
 

@@ -1,6 +1,5 @@
 import Hero from "@/components/hero/Hero";
 import ProcessRibbon from "@/components/hero/ProcessRibbon";
-import ScrollScene from "@/components/scene/ScrollScene";
 import CapabilitiesStrip from "@/components/capabilities/CapabilitiesStrip";
 import SelectedWork from "@/components/work/SelectedWork";
 import SkillsSection from "@/components/skills/SkillsSection";
@@ -12,20 +11,17 @@ import ReportIssue from "@/components/report/ReportIssue";
 
 export default function HomePage() {
   return (
-    <>
-      <ScrollScene />
-      <div className="relative z-10">
-        <Hero />
-        <ProcessRibbon />
-        <CapabilitiesStrip />
-        <SelectedWork />
-        <SkillsSection />
-        <About />
-        <Experience />
-        <NowBlock />
-        <Contact />
-        <ReportIssue />
-      </div>
-    </>
+    <div className="relative z-10">
+      <Hero />
+      <ProcessRibbon />
+      <CapabilitiesStrip />
+      <SelectedWork />
+      <SkillsSection />
+      <About />
+      <Experience />
+      <NowBlock />
+      <Contact />
+      <ReportIssue />
+    </div>
   );
 }
