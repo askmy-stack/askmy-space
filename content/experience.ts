@@ -48,14 +48,14 @@ export const experience: readonly Experience[] = [
     ],
   },
   {
-    title: "Data/ML Intern",
+    title: "IT Engineer",
     company: "Tetra Pak",
     dates: "Mar 2021 — Jun 2021",
     location: "Pune, India",
     bullets: [
-      "Prepared industrial sensor time-series for predictive maintenance with pandas and scikit-learn for reproducible failure modeling.",
-      "Trained and benchmarked Random Forest and Gradient Boosting equipment-failure models with cross-validation and repeatable Azure ML scoring workloads.",
-      "Evaluated model behavior with precision, recall, F1, and feature-importance analysis; tuned classification thresholds for practical maintenance alerts.",
+      "Conducted experiments with supervised learning models, including Random Forest and Gradient Boosting, on sensor data for predictive maintenance.",
+      "Designed and deployed scalable cloud infrastructure on Microsoft Azure to support enterprise-grade data and ML workloads.",
+      "Automated data aggregation and reporting workflows using Python and SQL, reducing manual effort by 40%.",
     ],
   },
 ] as const;
