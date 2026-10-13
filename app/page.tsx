@@ -1,4 +1,5 @@
 import Hero from "@/components/hero/Hero";
+import ProcessRibbon from "@/components/hero/ProcessRibbon";
 import ScrollScene from "@/components/scene/ScrollScene";
 import CapabilitiesStrip from "@/components/capabilities/CapabilitiesStrip";
 import SelectedWork from "@/components/work/SelectedWork";
@@ -15,6 +16,7 @@ export default function HomePage() {
       <ScrollScene />
       <div className="relative z-10">
         <Hero />
+        <ProcessRibbon />
         <CapabilitiesStrip />
         <SelectedWork />
         <SkillsSection />

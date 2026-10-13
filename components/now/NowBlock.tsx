@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { easeOutExpo } from "@/lib/motion";
+import { easeOutExpo, revealUp, viewportOnce } from "@/lib/motion";
 import { siteConfig } from "@/content/site";
 
 const nowItems = [
@@ -67,12 +67,12 @@ export default function NowBlock(): JSX.Element {
               <motion.div
                 key={item.label}
                 className="flex gap-6 py-5 border-b border-[var(--border)]"
-                initial={{ opacity: 0, y: 12 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-60px" }}
+                variants={revealUp}
+                initial="hidden"
+                whileInView="visible"
+                viewport={viewportOnce}
                 transition={{
-                  duration: 0.35,
-                  delay: i * 0.05,
+                  delay: i * 0.06,
                   ease: easeOutExpo,
                 }}
               >

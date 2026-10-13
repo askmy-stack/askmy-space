@@ -441,6 +441,54 @@ svg {
   animation: blob-float 18s ease-in-out infinite;
 }
 
+/* Hero systems stage — continuous motion (paused via .motion-paused / reduced) */
+@keyframes sys-spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes sys-dash {
+  to { stroke-dashoffset: -48; }
+}
+@keyframes sys-breathe {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+
+.sys-orbit-spin {
+  transform-origin: 50px 50px;
+  animation: sys-spin 52s linear infinite;
+}
+.sys-orbit-spin-rev {
+  transform-origin: 50px 50px;
+  animation: sys-spin 64s linear infinite reverse;
+}
+.sys-signal {
+  animation: sys-dash 9s linear infinite;
+}
+.sys-signal-slow {
+  animation: sys-dash 13s linear infinite;
+}
+.sys-core-ring {
+  animation: sys-breathe 8s ease-in-out infinite;
+  transform-origin: 50px 50px;
+}
+.sys-electron {
+  filter: drop-shadow(0 0 4px rgba(255, 107, 53, 0.7));
+}
+
+/* CTA lift — motion reference hover, portfolio tokens */
+.btn-lift {
+  transition:
+    transform var(--duration-fast) var(--ease-spring),
+    background-color var(--duration-fast) ease,
+    border-color var(--duration-fast) ease,
+    color var(--duration-fast) ease,
+    box-shadow var(--duration-base) var(--ease-spring);
+}
+.btn-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(255, 107, 53, 0.14);
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -452,7 +500,17 @@ svg {
   }
 
   .animate-pulse-dot,
-  .animate-blob {
+  .animate-blob,
+  .sys-orbit-spin,
+  .sys-orbit-spin-rev,
+  .sys-signal,
+  .sys-signal-slow,
+  .sys-core-ring {
     animation: none !important;
+  }
+
+  .btn-lift:hover {
+    transform: none;
+    box-shadow: none;
   }
 }

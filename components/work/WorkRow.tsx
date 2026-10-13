@@ -20,11 +20,11 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
 
   const x = useMotionValue(0);
   const y = useMotionValue(0);
-  const rotateX = useSpring(useTransform(y, [-100, 100], [1.5, -1.5]), {
+  const rotateX = useSpring(useTransform(y, [-100, 100], [0.8, -0.8]), {
     stiffness: 200,
     damping: 24,
   });
-  const rotateY = useSpring(useTransform(x, [-100, 100], [-1.5, 1.5]), {
+  const rotateY = useSpring(useTransform(x, [-100, 100], [-0.8, 0.8]), {
     stiffness: 200,
     damping: 24,
   });
@@ -43,10 +43,10 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 24 }}
+      initial={{ opacity: 0, y: 28 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-80px" }}
-      transition={{ duration: 0.45, delay: index * 0.06, ease: easeOutExpo }}
+      transition={{ duration: 0.85, delay: index * 0.07, ease: easeOutExpo }}
       className="group relative"
     >
       <MotionLink
@@ -54,6 +54,8 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
         href={`/work/${project.slug}`}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
+        whileHover={{ y: -4 }}
+        transition={{ duration: 0.3, ease: easeOutExpo }}
         className="relative block py-12 md:py-14 border-t border-[var(--border)] group-hover:border-[var(--accent)] transition-colors"
         style={{ rotateX, rotateY, transformStyle: "preserve-3d", perspective: 1000 }}
       >
