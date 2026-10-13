@@ -9,7 +9,7 @@ export default function Hero(): JSX.Element {
   const reduced = useReducedMotion();
 
   return (
-    <section className="relative isolate min-h-[720px] overflow-hidden border-b border-[var(--border)] flex items-center">
+    <section className="relative isolate min-h-[100svh] overflow-hidden border-b border-[var(--border)] flex items-center">
       {/* Soft radial atmosphere — no prism / lattice */}
       <div
         className="pointer-events-none absolute inset-0 -z-10"

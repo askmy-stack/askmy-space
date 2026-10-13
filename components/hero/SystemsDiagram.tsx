@@ -28,7 +28,7 @@ const layers: readonly Layer[] = [
     main: "Right context.",
     bottom: "retrieve • reason • remember",
     hint: "Curated context guides each decision",
-    position: "left-[0%] top-[8%] md:left-[-2%] md:top-[6%]",
+    position: "left-[2%] top-[4%] sm:left-[0%] sm:top-[8%] md:left-[-2%] md:top-[6%]",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className={iconClass}>
         <rect x="3" y="3" width="7" height="7" rx="1" />
@@ -44,7 +44,7 @@ const layers: readonly Layer[] = [
     main: "Useful action.",
     bottom: "plan • act • coordinate",
     hint: "Agents turn decisions into controlled actions",
-    position: "right-[0%] top-[14%] md:right-[-2%] md:top-[12%]",
+    position: "right-[2%] top-[10%] sm:right-[0%] sm:top-[14%] md:right-[-2%] md:top-[12%]",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={iconClass}>
         <rect x="3" y="4" width="18" height="16" rx="3" />
@@ -59,7 +59,7 @@ const layers: readonly Layer[] = [
     main: "Earn trust.",
     bottom: "test • observe • improve",
     hint: "Evaluation makes reliability measurable",
-    position: "right-[-2%] bottom-[12%] md:right-[-4%] md:bottom-[14%]",
+    position: "right-[2%] bottom-[8%] sm:right-[-2%] sm:bottom-[12%] md:right-[-4%] md:bottom-[14%]",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className={iconClass}>
         <path d="M4 19V7m5 12V11m5 8V5m5 14v-8" />
@@ -74,7 +74,7 @@ const layers: readonly Layer[] = [
     main: "Built to scale.",
     bottom: "deploy • monitor • adapt",
     hint: "Reliable infrastructure powers the product",
-    position: "left-[0%] bottom-[10%] md:left-[-2%] md:bottom-[8%]",
+    position: "left-[2%] bottom-[6%] sm:left-[0%] sm:bottom-[10%] md:left-[-2%] md:bottom-[8%]",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={iconClass}>
         <path d="M7 18h11a4 4 0 0 0 .2-8A6.5 6.5 0 0 0 5.8 11a3.6 3.6 0 0 0 1.2 7Z" />
@@ -266,7 +266,7 @@ export default function SystemsDiagram(): JSX.Element {
               type="button"
               aria-pressed={isActive}
               onClick={() => setActive(layer.id)}
-              className={`absolute z-[3] w-[min(200px,44%)] rounded-xl border px-3.5 py-3.5 text-left backdrop-blur-md transition-[border-color,transform,box-shadow] duration-300 ${layer.position} ${
+              className={`absolute z-[3] w-[min(168px,40%)] sm:w-[min(200px,44%)] rounded-xl border px-3 py-3 sm:px-3.5 sm:py-3.5 text-left backdrop-blur-md transition-[border-color,transform,box-shadow] duration-300 ${layer.position} ${
                 isActive
                   ? "border-[rgba(255,117,71,0.65)] shadow-[0_0_28px_rgba(255,105,56,0.14),0_14px_28px_rgba(0,0,0,0.28)]"
                   : "border-[rgba(231,228,221,0.14)] bg-[linear-gradient(145deg,rgba(22,24,26,0.92),rgba(12,14,15,0.88))] hover:-translate-y-1 hover:border-[rgba(255,117,71,0.55)]"
