@@ -20,13 +20,13 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
 
   const x = useMotionValue(0);
   const y = useMotionValue(0);
-  const rotateX = useSpring(useTransform(y, [-100, 100], [3, -3]), {
+  const rotateX = useSpring(useTransform(y, [-100, 100], [0.8, -0.8]), {
     stiffness: 200,
-    damping: 20,
+    damping: 24,
   });
-  const rotateY = useSpring(useTransform(x, [-100, 100], [-3, 3]), {
+  const rotateY = useSpring(useTransform(x, [-100, 100], [-0.8, 0.8]), {
     stiffness: 200,
-    damping: 20,
+    damping: 24,
   });
 
   function handleMouseMove(e: React.MouseEvent<HTMLAnchorElement>) {
@@ -43,10 +43,10 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 40 }}
+      initial={{ opacity: 0, y: 28 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.6, delay: index * 0.1, ease: easeOutExpo }}
+      viewport={{ once: true, margin: "-80px" }}
+      transition={{ duration: 0.85, delay: index * 0.07, ease: easeOutExpo }}
       className="group relative"
     >
       <MotionLink
@@ -54,6 +54,8 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
         href={`/work/${project.slug}`}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
+        whileHover={{ y: -4 }}
+        transition={{ duration: 0.3, ease: easeOutExpo }}
         className="relative block py-12 md:py-14 border-t border-[var(--border)] group-hover:border-[var(--accent)] transition-colors"
         style={{ rotateX, rotateY, transformStyle: "preserve-3d", perspective: 1000 }}
       >
@@ -74,7 +76,7 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
                 {project.pillars.map((p) => (
                   <span
                     key={p}
-                    className="t-mono uppercase tracking-[0.15em] px-2.5 py-1 border border-[var(--mono)]/40 text-[var(--mono)]"
+                    className="t-label px-2.5 py-1 border border-[var(--border)] text-[var(--accent)]"
                   >
                     {p}
                   </span>
@@ -82,7 +84,7 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="t-mono uppercase tracking-[0.15em] px-2.5 py-1 border border-[var(--border)] text-[var(--fg-muted)]"
+                    className="t-mono px-2.5 py-1 border border-[var(--border)]"
                   >
                     {tag}
                   </span>
@@ -92,10 +94,10 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
           </div>
 
           {/* Right: metrics + year + arrow */}
-          <div className="shrink-0 md:text-right md:min-w-[260px]">
+          <div className="shrink-0 md:text-right md:min-w-[240px]">
             <div className="flex flex-col gap-1.5 mb-5">
               {project.metrics.map((m) => (
-                <span key={m} className="t-mono">
+                <span key={m} className="t-caption">
                   {m}
                 </span>
               ))}
@@ -123,7 +125,7 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
           <ProjectGithubLink
             href={project.github}
             slug={project.slug}
-            className="t-mono text-[var(--fg-muted)] hover:text-[var(--accent)] transition-colors"
+            className="t-caption hover:text-[var(--accent)] transition-colors"
           >
             GitHub ↗
           </ProjectGithubLink>
