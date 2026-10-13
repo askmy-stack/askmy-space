@@ -12,7 +12,7 @@ export default function SelectedWork(): JSX.Element {
           </AnimatedHeading>
           <p className="t-caption max-w-xs md:max-w-[22rem] md:pb-1.5">
             Agent memory, runtime reliability, clinical EEG research, and MCP
-            tool contracts — evidence over demos.
+            Tool contracts. Evidence over demos.
           </p>
         </div>
 

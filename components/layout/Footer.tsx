@@ -68,7 +68,7 @@ export default function Footer(): JSX.Element {
             <div className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-[var(--accent)] rounded-full" />
               <span className="t-caption text-[var(--fg)]">
-                Agents · harnesses · infrastructure
+                Agents. Context. Infrastructure
               </span>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function Footer(): JSX.Element {
 
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mt-16 pt-6 border-t border-[var(--border)]">
           <p className="t-label">© {year} {siteConfig.name}</p>
-          <p className="t-label">Next.js · TypeScript · Framer Motion</p>
+          <p className="t-label">Next.js. TypeScript. Framer Motion</p>
         </div>
       </div>
     </footer>

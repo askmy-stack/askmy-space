@@ -1,5 +1,4 @@
 import { experience } from "@/content/experience";
-import { certifications } from "@/content/certifications";
 import AnimatedHeading from "@/components/ui/AnimatedHeading";
 
 export default function Experience(): JSX.Element {
@@ -50,26 +49,6 @@ export default function Experience(): JSX.Element {
               </article>
             ))}
           </div>
-        </div>
-
-        {/* Certifications */}
-        <div className="mt-24 pt-10 border-t border-[var(--border)]">
-          <p className="t-label mb-8">
-            Certifications
-          </p>
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
-            {certifications.map((c) => (
-              <li
-                key={c.name}
-                className="flex items-start justify-between gap-4 py-3 border-b border-[var(--border)]"
-              >
-                <span className="t-body text-[var(--fg)]">{c.name}</span>
-                <span className="t-caption shrink-0">
-                  {c.issuer}
-                </span>
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </section>

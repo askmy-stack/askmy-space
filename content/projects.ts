@@ -9,8 +9,8 @@ export const projects: readonly Project[] = [
       "MCP-based organizational memory that ingests Slack, GitHub, Jira, and Linear through Kafka and serves structured context to agents via FastAPI, Neo4j, and Qdrant.",
     year: 2026,
     updatedAt: "2026-09-19",
-    category: "Context Engineering · MCP · Knowledge Graphs",
-    heroMetric: "MCP memory · hybrid retrieval · provenance",
+    category: "Context Engineering. MCP. Knowledge Graphs",
+    heroMetric: "MCP memory. Hybrid retrieval. Provenance",
     metrics: [
       "MCP agent memory",
       "Kafka event ingest",
@@ -44,11 +44,11 @@ export const projects: readonly Project[] = [
       "Ground-truth failure cases, semantic traces, fault injection, and rule-, ML-, and LLM-judge baselines for autonomous-agent regression testing.",
     year: 2026,
     updatedAt: "2026-08-11",
-    category: "Evaluation · Observability · Agent Reliability",
-    heroMetric: "LLM-as-judge · OpenTelemetry · failure benches",
+    category: "Evaluation. Observability. Agent Reliability",
+    heroMetric: "LLM as judge. OpenTelemetry. Failure benches",
     metrics: [
-      "LLM-as-a-Judge baselines",
-      "OpenTelemetry · Jaeger",
+      "LLM as a Judge baselines",
+      "OpenTelemetry and Jaeger",
       "Agent failure benchmarks",
     ],
     tags: ["LLM Evaluation", "OpenTelemetry", "Agent Reliability"],
@@ -57,7 +57,7 @@ export const projects: readonly Project[] = [
     github: "https://github.com/askmy-stack/parallax",
     gradient: "from-emerald-400/20 via-teal-500/10 to-transparent",
     problem:
-      "Autonomous agents fail in ways unit tests miss — silent tool misuse, degraded reasoning, and recovery paths that never fire. Pass/fail suites do not measure detection lead time or diagnosis quality.",
+      "Autonomous agents fail in ways unit tests miss: silent tool misuse, degraded reasoning, and recovery paths that never fire. Pass/fail suites do not measure detection lead time or diagnosis quality.",
     approach: [
       "Designed ground-truth failure cases, semantic traces, fault injection, and rule-, ML-, and LLM-judge baselines.",
       "Instrumented agent execution with OpenTelemetry and Jaeger to compare detection lead time, diagnosis quality, and recovery behavior.",
@@ -79,8 +79,8 @@ export const projects: readonly Project[] = [
       "Benchmark of 15+ neural architectures on 916 hours of pediatric EEG (CHB-MIT) for seizure detection under subject-independent evaluation.",
     year: 2026,
     updatedAt: "2026-08-10",
-    category: "Research · Neural Signal Processing · Deep Learning",
-    heroMetric: "15+ architectures · 916 hours CHB-MIT",
+    category: "Research. Neural Signal Processing. Deep Learning",
+    heroMetric: "15+ architectures. 916 hours CHB-MIT",
     metrics: [
       "15+ neural architectures",
       "916 hours CHB-MIT EEG",
@@ -92,7 +92,7 @@ export const projects: readonly Project[] = [
     github: "https://github.com/askmy-stack/eeg-seizure-detection",
     gradient: "from-indigo-400/20 via-violet-500/10 to-transparent",
     problem:
-      "Most published seizure-detection models report numbers on a single architecture or subject — leaving open which model class actually generalizes across patients in real conditions.",
+      "Most published seizure detection models report numbers on a single architecture or subject, leaving open which model class actually generalizes across patients in real conditions.",
     approach: [
       "Built a unified preprocessing pipeline on the CHB-MIT corpus using MNE so every architecture trains on byte-identical inputs.",
       "Benchmarked 15+ architectures across recurrent, Transformer, state-space, and Mixture-of-Experts families with patient-disjoint splits.",
@@ -108,18 +108,18 @@ export const projects: readonly Project[] = [
   },
   {
     slug: "tool-semantics",
-    title: "tool-semantics",
+    title: "Tool-semantics",
     subtitle: "Behavioral Compatibility Testing for MCP Tools",
     narrative:
-      "Behavioral compatibility testing for MCP tools and AI-agent interfaces — know when a change breaks the agent, not just the schema.",
+      "Behavioral compatibility testing for MCP Tools and AI agent interfaces. Know when a change breaks the agent, not just the schema.",
     year: 2026,
     updatedAt: "2026-09-18",
-    category: "Evaluation · MCP · Agent Interfaces",
-    heroMetric: "Schema + behavior · MCP tool contracts",
+    category: "Evaluation. MCP. Agent Interfaces",
+    heroMetric: "Schema and behavior. MCP Tool contracts",
     metrics: [
-      "MCP tool interfaces",
+      "MCP Tool interfaces",
       "Behavioral compatibility",
-      "Agent-breaking change detection",
+      "Agent breaking change detection",
     ],
     tags: ["MCP", "Evaluation", "Tool Calling", "TypeScript"],
     pillars: ["Engineering", "Research", "Product"],
@@ -127,19 +127,19 @@ export const projects: readonly Project[] = [
     github: "https://github.com/askmy-stack/tool-semantics",
     gradient: "from-pink-400/20 via-rose-500/10 to-transparent",
     problem:
-      "MCP tool schemas can stay valid while agent behavior breaks — silent contract drift that unit tests and type checks miss.",
+      "MCP Tool schemas can stay valid while agent behavior breaks: silent contract drift that unit tests and type checks miss.",
     approach: [
-      "Defined behavioral compatibility checks for MCP tools and AI-agent interfaces beyond static schema validation.",
-      "Focused on detecting changes that break agent workflows even when the published schema still type-checks.",
-      "Treated tool interfaces as runtime contracts that need regression evidence, not only API documentation.",
+      "Defined behavioral compatibility checks for MCP Tools and AI agent interfaces beyond static schema validation.",
+      "Focused on detecting changes that break agent workflows even when the published schema still type checks.",
+      "Treated Tool interfaces as runtime contracts that need regression evidence, not only API documentation.",
     ],
     results: [
-      "A framework for catching agent-breaking tool changes early",
+      "A framework for catching agent breaking Tool changes early",
       "Clearer separation between schema validity and behavioral compatibility",
-      "Practical evaluation surface for MCP tool evolution",
+      "Practical evaluation surface for MCP Tool evolution",
     ],
     learnings:
-      "For agent systems, the interface is incomplete without behavior. A green schema check is not enough when the agent’s tool-use path has shifted.",
+      "For agent systems, the interface is incomplete without behavior. A green schema check is not enough when the agent’s Tool use path has shifted.",
   },
 ] as const;
 

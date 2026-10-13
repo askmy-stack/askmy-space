@@ -7,19 +7,15 @@ import { siteConfig } from "@/content/site";
 const nowItems = [
   {
     label: "Building",
-    text: "Cortex — organizational memory for agents over MCP",
+    text: "Cortex: organizational memory for agents over MCP",
   },
   {
     label: "Shipping",
-    text: "Parallax harnesses + tool-semantics behavioral contracts",
-  },
-  {
-    label: "Harness",
-    text: "Runtime failure benches, LLM-as-judge, and recovery signals",
+    text: "Parallax reliability and Tool-semantics behavioral contracts",
   },
   {
     label: "Research",
-    text: "EEG seizure-detection benchmark on CHB-MIT",
+    text: "EEG seizure detection benchmark on CHB-MIT",
   },
   {
     label: "Based in",

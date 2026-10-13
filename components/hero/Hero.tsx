@@ -63,8 +63,7 @@ export default function Hero(): JSX.Element {
           transition={{ duration: 0.45, ease: easeOutExpo, delay: 0.55 }}
           className="mt-3 t-body max-w-[40rem]"
         >
-          Reliable agents · Harness engineering · Context engineering ·
-          Evaluation · ML infrastructure
+          Reliable agents. Context engineering. Evaluation.
         </motion.p>
 
         <motion.div

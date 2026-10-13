@@ -12,7 +12,7 @@ export default function Contact(): JSX.Element {
 
         <p className="t-lede max-w-2xl">
           For technical discussions about agent systems, evaluation, or ML
-          infrastructure — email is the fastest path.
+          infrastructure, email is the fastest path.
         </p>
 
         <div className="mt-10 flex flex-wrap gap-3">

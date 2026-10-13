@@ -4,7 +4,7 @@ export const experience: readonly Experience[] = [
   {
     title: "System Operations Analyst",
     company: "Follett Higher Education",
-    dates: "May 2025 — May 2026",
+    dates: "May 2025 to May 2026",
     location: "Washington, DC",
     bullets: [
       "Reengineered forecasting and inventory data validation with role-based IAM, schema controls, and business-rule checks before downstream ML consumption; reduced inventory exposure by 25% across 50+ delivery sprints.",
@@ -16,8 +16,8 @@ export const experience: readonly Experience[] = [
   {
     title: "Graduate Research Assistant",
     company: "The George Washington University",
-    dates: "Mar 2025 — Aug 2025",
-    location: "Washington, DC · Hybrid",
+    dates: "Mar 2025 to Aug 2025",
+    location: "Washington, DC. Hybrid",
     bullets: [
       "Analyzed over 5,000 ecological and species-interaction data points across 50+ global ecoregions to model species responses to climate change.",
       "Developed AI-assisted Python workflows utilizing NLP and machine learning, reducing manual research processing time by approximately 40%.",
@@ -27,7 +27,7 @@ export const experience: readonly Experience[] = [
   {
     title: "Data Operations Engineer",
     company: "Jio Platforms Limited",
-    dates: "Jul 2023 — Jul 2024",
+    dates: "Jul 2023 to Jul 2024",
     location: "Navi Mumbai, India",
     bullets: [
       "Standardized multi-cloud ML deployment with reusable Jenkins pipelines, Docker images, Kubernetes manifests, and rollback patterns across AWS, Azure, and GCP; cut model time-to-production by 85% and release failures by 60% while supporting 20 engineers.",
@@ -39,7 +39,7 @@ export const experience: readonly Experience[] = [
   {
     title: "Data Analyst",
     company: "PHN Technologies",
-    dates: "May 2022 — Jun 2023",
+    dates: "May 2022 to Jun 2023",
     location: "Pune, India",
     bullets: [
       "Engineered parameterized BigQuery ETL pipelines and authenticated Airflow orchestration for feature preparation; accelerating ML feature delivery by 40% across 50 production workflows while securing 75% of critical data and ML pipelines.",
@@ -50,7 +50,7 @@ export const experience: readonly Experience[] = [
   {
     title: "IT Engineer",
     company: "Tetra Pak",
-    dates: "Mar 2021 — Jun 2021",
+    dates: "Mar 2021 to Jun 2021",
     location: "Pune, India",
     bullets: [
       "Conducted experiments with supervised learning models, including Random Forest and Gradient Boosting, on sensor data for predictive maintenance.",

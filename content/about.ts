@@ -1,7 +1,7 @@
 export const aboutParagraphs: readonly string[] = [
-  "Experienced full-stack AI engineer working on product enhancements and research with modern AI/ML stacks — building reliable AI systems, agent workflows, and evaluation that hold up under real traffic.",
-  "MS in Data Science at George Washington University. Global Leaders Award, 3.71 GPA, graduating May 2026. Graduate research on climate-driven species interactions with AI-assisted NLP workflows. Before grad school: multi-cloud MLOps at Jio Platforms and IT engineering at Tetra Pak.",
-  "Right now: Cortex for organizational memory, Parallax for agent runtime reliability, clinical EEG benchmarking, and tool-semantics for MCP interface contracts.",
+  "I build reliable AI systems end to end: agents that recover under failure, evaluation that catches silent regressions, and infrastructure that keeps research honest in production.",
+  "The work spans product enhancements and applied research on modern AI/ML stacks. Cortex for organizational memory. Parallax for agent runtime reliability. Clinical EEG benchmarking. Tool-semantics for MCP interface contracts.",
+  "Experience backs the idea. At Follett I harden forecasting and inventory systems for ML consumption. At GWU I ran graduate research on climate driven species interactions with AI assisted NLP. At Jio I shipped multi cloud MLOps. At Tetra Pak I worked as an IT Engineer on Azure backed predictive maintenance.",
 ] as const;
 
 export interface PhilosophyCell {
@@ -10,23 +10,24 @@ export interface PhilosophyCell {
   follow: string;
 }
 
+/** Alphabetical: Engineering → Product → Research */
 export const principles: readonly PhilosophyCell[] = [
   {
-    pillar: "Systems",
-    lead: "Build the substrate.",
+    pillar: "Engineering",
+    lead: "Build what holds.",
     follow:
-      "Memory, tools, evaluation, and infrastructure — the layers that make agent behavior reproducible under real constraints.",
-  },
-  {
-    pillar: "Evaluation",
-    lead: "Measure what breaks.",
-    follow:
-      "Failure benches, behavioral contracts, and observability that catch silent regressions before users do.",
+      "Memory, Tools, evaluation, and infrastructure. The layers that make agent behavior reproducible under real constraints.",
   },
   {
     pillar: "Product",
     lead: "Ship the consequence.",
     follow:
-      "Research that ends in a system someone can run, inspect, and depend on — not a notebook that dies in a week.",
+      "Research that ends in a system someone can run, inspect, and depend on. Not a notebook that dies in a week.",
+  },
+  {
+    pillar: "Research",
+    lead: "Measure what breaks.",
+    follow:
+      "Failure benches, behavioral contracts, and observability that catch silent regressions before users do.",
   },
 ] as const;

@@ -75,7 +75,7 @@ export default function ReportIssue(): JSX.Element {
               Found something broken?
             </h3>
             <p className="t-body max-w-sm">
-              Layout bug, dead link, typo, or a suggestion — send it over. I read
+              Layout bug, dead link, typo, or a suggestion: send it over. I read
               every one. No mail client? Copy the draft and open a GitHub issue.
             </p>
           </div>

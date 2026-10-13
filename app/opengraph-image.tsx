@@ -62,12 +62,12 @@ export default async function Image() {
               lineHeight: 1.4,
             }}
           >
-            Reliable agents · Harness engineering · Context engineering · Evaluation · ML infrastructure
+            Reliable agents. Context engineering. Evaluation.
           </div>
         </div>
 
         <div style={{ display: "flex", gap: "40px" }}>
-          {["Cortex", "Parallax", "EEG", "tool-semantics"].map((label) => (
+          {["Cortex", "Parallax", "EEG", "Tool-semantics"].map((label) => (
             <div
               key={label}
               style={{

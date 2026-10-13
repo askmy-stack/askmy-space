@@ -5,7 +5,7 @@ export const siteConfig = {
   /** Short, brand-led tagline used in tab titles + social cards. */
   tagShort: "Full Stack AI Engineer",
   tagline:
-    "Abhinaysai Kamineni. Full Stack AI Engineer building reliable agents, harness engineering, context engineering, evaluation, and ML infrastructure. Cortex, Parallax, clinical EEG research, and tool-semantics. GWU MS Data Science, Global Leaders Award.",
+    "Abhinaysai Kamineni. Full Stack AI Engineer building reliable agents, context engineering, evaluation, and ML infrastructure. Cortex, Parallax, clinical EEG research, and Tool-semantics.",
   email: "kamineniabhinaysai@gmail.com",
   location: "Arlington, VA",
   url: "https://askmystack.space",

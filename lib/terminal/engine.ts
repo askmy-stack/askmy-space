@@ -146,14 +146,13 @@ function whoamiResponse(): Response {
     lines: [
       accent(siteConfig.name),
       out(siteConfig.role),
-      muted(`${siteConfig.location} · ${siteConfig.email}`),
+      muted(`${siteConfig.location}. ${siteConfig.email}`),
       divider,
-      out("MS Data Science @ GWU, graduating May 2026."),
-      out("Global Leaders Award. 3.71 GPA."),
-      out("Before grad school: multi-cloud MLOps at Jio Platforms."),
-      out("Now: Cortex, Parallax, EEG research, tool-semantics."),
+      out("Reliable AI systems end to end: agents, evaluation, infrastructure."),
+      out("Work: Follett, GWU research, Jio MLOps, Tetra Pak IT Engineer."),
+      out("Building: Cortex, Parallax, EEG research, Tool-semantics."),
       divider,
-      muted("reliable agents · context · evaluation · infrastructure"),
+      muted("reliable agents. context. evaluation."),
     ],
   };
 }
@@ -173,7 +172,7 @@ function contactResponse(): Response {
       link("linkedin", siteConfig.social.linkedin),
       link("github  ", siteConfig.social.github),
       divider,
-      muted("for technical discussions — email is the fastest path."),
+      muted("for technical discussions, email is the fastest path."),
     ],
     scrollTo: "contact",
   };
