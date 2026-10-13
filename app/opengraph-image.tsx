@@ -19,18 +19,7 @@ export default async function Image() {
           padding: "80px",
         }}
       >
-        <div
-          style={{
-            color: "#8A8680",
-            fontFamily: "monospace",
-            fontSize: "14px",
-            letterSpacing: "3px",
-          }}
-        >
-          ARLINGTON, VA
-        </div>
-
-        <div style={{ display: "flex", flexDirection: "column" }}>
+        <div style={{ display: "flex", flexDirection: "column", marginTop: "40px" }}>
           <div
             style={{
               color: "#F5F1EA",
