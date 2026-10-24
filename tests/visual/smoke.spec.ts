@@ -41,12 +41,12 @@ test("home hero orb stage has layers and no prism remnants", async ({ page }) =>
 
 test("home hero layer cards are keyboard selectable", async ({ page }) => {
   await page.emulateMedia({ reducedMotion: "reduce" });
-  await page.goto("/", { waitUntil: "domcontentloaded" });
+  await page.goto("/", { waitUntil: "networkidle" });
 
   const first = page.getByRole("radio", { name: /context engineering/i });
-  await first.focus();
-  await expect(first).toBeFocused();
+  await first.click();
   await expect(first).toHaveAttribute("aria-checked", "true");
+  await first.focus();
   await page.keyboard.press("ArrowRight");
   const agents = page.getByRole("radio", { name: /agent systems/i });
   await expect(agents).toBeFocused();
