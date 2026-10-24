@@ -20,13 +20,13 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
 
   const x = useMotionValue(0);
   const y = useMotionValue(0);
-  const rotateX = useSpring(useTransform(y, [-100, 100], [0.8, -0.8]), {
-    stiffness: 200,
-    damping: 24,
+  const rotateX = useSpring(useTransform(y, [-100, 100], [0.35, -0.35]), {
+    stiffness: 180,
+    damping: 28,
   });
-  const rotateY = useSpring(useTransform(x, [-100, 100], [-0.8, 0.8]), {
-    stiffness: 200,
-    damping: 24,
+  const rotateY = useSpring(useTransform(x, [-100, 100], [-0.35, 0.35]), {
+    stiffness: 180,
+    damping: 28,
   });
 
   function handleMouseMove(e: React.MouseEvent<HTMLAnchorElement>) {
@@ -54,21 +54,23 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
         href={`/work/${project.slug}`}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
-        whileHover={{ y: -4 }}
+        whileHover={{ y: -2 }}
         transition={{ duration: 0.3, ease: easeOutExpo }}
-        className="relative block py-12 md:py-14 border-t border-[var(--border)] group-hover:border-[var(--accent)] transition-colors"
+        className="relative block py-11 md:py-12 border-t border-[var(--border)] group-hover:border-[var(--accent)] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--bg)]"
         style={{ rotateX, rotateY, transformStyle: "preserve-3d", perspective: 1000 }}
       >
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8">
-          {/* Left: number + title + narrative + tags */}
           <div className="flex items-start gap-6 flex-1">
             <span className="t-label mt-2 w-8 shrink-0 tabular-nums">
               {num}
             </span>
             <div className="flex-1">
-              <h3 className="t-headline group-hover:text-[var(--accent)] transition-colors duration-300 mb-3">
+              <h3 className="t-headline group-hover:text-[var(--accent)] transition-colors duration-300 mb-2">
                 {project.title}
               </h3>
+              <p className="t-caption text-[var(--accent)] mb-3 max-w-xl">
+                {project.heroMetric}
+              </p>
               <p className="t-body max-w-xl">
                 {project.narrative}
               </p>
@@ -81,7 +83,7 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
                     {p}
                   </span>
                 ))}
-                {project.tags.map((tag) => (
+                {project.tags.slice(0, 4).map((tag) => (
                   <span
                     key={tag}
                     className="t-mono px-2.5 py-1 border border-[var(--border)]"
@@ -93,10 +95,9 @@ export default function WorkRow({ project, index }: Props): JSX.Element {
             </div>
           </div>
 
-          {/* Right: metrics + year + arrow */}
-          <div className="shrink-0 md:text-right md:min-w-[240px]">
+          <div className="shrink-0 md:text-right md:min-w-[220px]">
             <div className="flex flex-col gap-1.5 mb-5">
-              {project.metrics.map((m) => (
+              {project.metrics.slice(0, 3).map((m) => (
                 <span key={m} className="t-caption">
                   {m}
                 </span>

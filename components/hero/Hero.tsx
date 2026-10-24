@@ -85,7 +85,7 @@ export default function Hero(): JSX.Element {
             >
               <a
                 href="/#work"
-                className="btn-lift inline-flex min-h-[52px] items-center justify-between gap-6 rounded-sm bg-[var(--accent)] px-5 py-3.5 t-caption font-semibold text-[var(--bg)] transition-colors hover:bg-[#ff8f61]"
+                className="btn-lift inline-flex min-h-[52px] items-center justify-between gap-6 rounded-sm bg-[var(--accent)] px-5 py-3.5 t-caption font-semibold text-[var(--bg)] transition-colors hover:bg-[#ff8f61] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--bg)]"
               >
                 Explore selected work
                 <span aria-hidden="true" className="text-lg leading-none">
@@ -94,7 +94,7 @@ export default function Hero(): JSX.Element {
               </a>
               <a
                 href="/#contact"
-                className="btn-lift inline-flex min-h-[52px] items-center justify-between gap-6 rounded-sm border border-[rgba(255,255,255,0.24)] bg-[rgba(255,255,255,0.018)] px-5 py-3.5 t-caption font-semibold text-[var(--fg)] transition-colors hover:border-[var(--accent)]"
+                className="btn-lift inline-flex min-h-[52px] items-center justify-between gap-6 rounded-sm border border-[rgba(255,255,255,0.24)] bg-[rgba(255,255,255,0.018)] px-5 py-3.5 t-caption font-semibold text-[var(--fg)] transition-colors hover:border-[var(--accent)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--bg)]"
               >
                 Start a conversation
                 <span aria-hidden="true" className="text-lg leading-none">

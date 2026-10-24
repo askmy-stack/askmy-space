@@ -4,18 +4,18 @@ import { siteConfig } from "@/content/site";
 
 export default function Contact(): JSX.Element {
   return (
-    <section id="contact" className="pt-16 pb-20 md:pt-20 md:pb-24">
+    <section id="contact" className="pt-14 pb-16 md:pt-16 md:pb-20">
       <div className="container-editorial">
-        <AnimatedHeading as="h2" className="t-display mb-6">
+        <AnimatedHeading as="h2" className="t-display mb-5">
           Contact.
         </AnimatedHeading>
 
-        <p className="t-lede max-w-2xl">
-          For technical discussions about agent systems, evaluation, or ML
-          infrastructure, email is the fastest path.
+        <p className="t-body max-w-xl text-[var(--fg-muted)]">
+          Technical discussions on agent systems, evaluation, or ML
+          infrastructure—email is the fastest path.
         </p>
 
-        <div className="mt-10 flex flex-wrap gap-3">
+        <div className="mt-8 flex flex-wrap gap-3">
           <Button
             href={`https://mail.google.com/mail/?view=cm&fs=1&to=${siteConfig.email}`}
             external

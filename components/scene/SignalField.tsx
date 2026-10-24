@@ -70,7 +70,7 @@ export default function SignalField(): JSX.Element {
       canvas.style.width = `${W}px`;
       canvas.style.height = `${H}px`;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      const n = Math.min(50, Math.max(16, Math.floor((W * H) / 28000)));
+      const n = Math.min(36, Math.max(12, Math.floor((W * H) / 36000)));
       nodes = Array.from({ length: n }, () => ({
         x: Math.random() * W,
         y: Math.random() * H,
@@ -144,15 +144,36 @@ export default function SignalField(): JSX.Element {
       }
     };
 
+    let running = false;
+    const stop = () => {
+      if (!running) return;
+      running = false;
+      cancelAnimationFrame(raf);
+    };
+    const start = () => {
+      if (reduced || document.hidden || running) return;
+      // Pause ambient field once the hero is well offscreen.
+      if (window.scrollY > window.innerHeight * 1.35) return;
+      running = true;
+      raf = requestAnimationFrame(loop);
+    };
+
     const loop = (ts: number) => {
+      if (!running) return;
       draw(ts);
       raf = requestAnimationFrame(loop);
     };
 
     const onVisibility = () => {
       if (reduced) return;
-      if (document.hidden) cancelAnimationFrame(raf);
-      else raf = requestAnimationFrame(loop);
+      if (document.hidden) stop();
+      else start();
+    };
+
+    const onScroll = () => {
+      if (reduced) return;
+      if (window.scrollY > window.innerHeight * 1.35) stop();
+      else start();
     };
 
     const themeObserver = new MutationObserver(readTokens);
@@ -164,13 +185,15 @@ export default function SignalField(): JSX.Element {
     readTokens();
     resize();
     window.addEventListener("resize", resize);
+    window.addEventListener("scroll", onScroll, { passive: true });
     document.addEventListener("visibilitychange", onVisibility);
     if (reduced) draw(0);
-    else raf = requestAnimationFrame(loop);
+    else start();
 
     return () => {
-      cancelAnimationFrame(raf);
+      stop();
       window.removeEventListener("resize", resize);
+      window.removeEventListener("scroll", onScroll);
       document.removeEventListener("visibilitychange", onVisibility);
       themeObserver.disconnect();
     };

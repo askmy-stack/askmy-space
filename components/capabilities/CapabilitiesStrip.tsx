@@ -15,19 +15,19 @@ const capabilities: readonly Capability[] = [
   {
     label: "Reliable Agents",
     description:
-      "Runtime failure benches, judges, and recovery signals. Agent systems degrade into diagnosis, not silence.",
+      "Failure benches, judges, and recovery so agents degrade into diagnosis—not silence.",
     tag: "AGENTS",
   },
   {
     label: "Context Engineering",
     description:
-      "Organizational memory over MCP. Ingest, retrieve, provenance, and access control for agent Tools.",
+      "MCP memory with ingest, retrieval, provenance, and access control for agent Tools.",
     tag: "SIGNALS",
   },
   {
     label: "ML Infrastructure",
     description:
-      "Training, serving, and observability that survive real traffic. Containers, CI/CD, and infrastructure as code.",
+      "Training, serving, and observability that hold under real traffic.",
     tag: "MLOPS",
   },
 ];

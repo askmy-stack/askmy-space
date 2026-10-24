@@ -148,11 +148,11 @@ function whoamiResponse(): Response {
       out(siteConfig.role),
       muted(`${siteConfig.location}. ${siteConfig.email}`),
       divider,
-      out("Reliable AI systems end to end: agents, evaluation, infrastructure."),
+      out("Full Stack AI Engineer. Reliable agents, context, evaluation, infra."),
       out("Work: Follett, GWU research, Jio MLOps, Tetra Pak IT Engineer."),
       out("Building: Cortex, Parallax, EEG research, Tool-semantics."),
       divider,
-      muted("reliable agents. context. evaluation."),
+      muted("making AI reliable is the engineering."),
     ],
   };
 }

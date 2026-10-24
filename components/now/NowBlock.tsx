@@ -39,15 +39,15 @@ export default function NowBlock(): JSX.Element {
   return (
     <section
       id="now"
-      className="pt-24 md:pt-28 pb-10 md:pb-12 border-t border-[var(--border)]"
+      className="pt-20 md:pt-24 pb-8 md:pb-10 border-t border-[var(--border)]"
     >
       <div className="container-editorial">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-14 items-start">
           <div className="md:col-span-4">
             <h2 className="t-display">Current focus.</h2>
-            <p className="t-body mt-4">Updated {updated}</p>
-            <div className="mt-10 flex flex-col gap-3">
-              <p className="t-label mb-1">Elsewhere</p>
+            <p className="t-caption mt-3 text-[var(--fg-muted)]">Updated {updated}</p>
+            <div className="mt-8 flex flex-col gap-2.5">
+              <p className="t-label mb-1 text-[var(--fg-muted)]">Elsewhere</p>
               {socialLinks.map((link) => (
                 <a
                   key={link.href}
@@ -66,7 +66,7 @@ export default function NowBlock(): JSX.Element {
             {nowItems.map((item, i) => (
               <motion.div
                 key={item.label}
-                className="flex gap-6 py-5 border-b border-[var(--border)]"
+                className="flex gap-5 py-4 border-b border-[var(--border)]"
                 variants={revealUp}
                 initial="hidden"
                 whileInView="visible"
