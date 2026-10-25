@@ -7,7 +7,7 @@ export const siteConfig = {
   tagline:
     "Abhinaysai Kamineni. Full Stack AI Engineer building reliable agents, context engineering, evaluation, and ML infrastructure. Cortex, Parallax, clinical EEG research, and Tool-semantics.",
   email: "kamineniabhinaysai@gmail.com",
-  location: "Arlington, VA",
+  location: "Washington, DC",
   url: "https://askmystack.space",
   social: {
     linkedin: "https://linkedin.com/in/abhinaysai-kamineni",

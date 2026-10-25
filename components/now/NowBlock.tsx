@@ -19,7 +19,7 @@ const nowItems = [
   },
   {
     label: "Based in",
-    text: "Arlington, VA",
+    text: "Washington, DC",
   },
 ] as const;
 

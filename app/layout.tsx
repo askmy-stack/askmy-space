@@ -60,8 +60,8 @@ const personJsonLd = {
   email: `mailto:${siteConfig.email}`,
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Arlington",
-    addressRegion: "VA",
+    addressLocality: "Washington",
+    addressRegion: "DC",
     addressCountry: "US",
   },
   sameAs: [

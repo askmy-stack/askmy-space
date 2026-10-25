@@ -149,7 +149,7 @@ function whoamiResponse(): Response {
       muted(`${siteConfig.location}. ${siteConfig.email}`),
       divider,
       out("Full Stack AI Engineer. Reliable agents, context, evaluation, infra."),
-      out("Work: Follett, GWU research, Jio MLOps, Tetra Pak IT Engineer."),
+      out("Work: Follett, GWU research, Jio MLOps, Tetra Pak ML intern."),
       out("Building: Cortex, Parallax, EEG research, Tool-semantics."),
       divider,
       muted("making AI reliable is the engineering."),
