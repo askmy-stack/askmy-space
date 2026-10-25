@@ -28,11 +28,11 @@ const base =
 
 const variants: Record<Variant, string> = {
   primary:
-    "bg-[var(--accent)] text-[var(--bg)] hover:bg-[var(--accent)]/90",
+    "bg-[var(--accent)] text-white hover:bg-[var(--accent)]/90",
   ghost:
-    "bg-transparent text-[var(--fg)] hover:bg-[var(--bg-elevated)]",
+    "bg-transparent text-white hover:bg-[var(--bg-elevated)]",
   outline:
-    "border border-[var(--border)] text-[var(--fg)] hover:border-[var(--accent)] hover:text-[var(--accent)]",
+    "border border-[rgba(255,255,255,0.35)] text-white hover:border-[var(--accent)] hover:text-white",
 };
 
 export const Button = forwardRef<HTMLElement, Props>(function Button(

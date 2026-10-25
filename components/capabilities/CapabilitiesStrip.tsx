@@ -25,7 +25,7 @@ const capabilities: readonly Capability[] = [
     tag: "SIGNALS",
   },
   {
-    label: "ML Infrastructure",
+    label: "AI Infrastructure",
     description:
       "Training, serving, and observability that hold under real traffic.",
     tag: "MLOPS",
@@ -52,10 +52,10 @@ export default function CapabilitiesStrip(): JSX.Element {
               <div className="mb-2 text-[var(--accent)] group-hover:text-[var(--fg)] transition-colors duration-200">
                 <CapabilityIcon tag={cap.tag} />
               </div>
-              <h3 className="t-headline group-hover:text-[var(--accent)] transition-colors duration-200">
+              <h3 className="t-headline text-white group-hover:text-[var(--accent)] transition-colors duration-200">
                 {cap.label}
               </h3>
-              <p className="t-body">{cap.description}</p>
+              <p className="t-body text-white/85">{cap.description}</p>
             </motion.div>
           ))}
         </motion.div>

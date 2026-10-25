@@ -56,7 +56,7 @@ export const experience: readonly Experience[] = [
     location: "Pune, India",
     bullets: [
       "Conducted experiments with supervised learning models, including Random Forest and Gradient Boosting, on sensor data for predictive maintenance.",
-      "Designed and deployed scalable cloud infrastructure on Microsoft Azure to support enterprise-grade data and ML workloads.",
+      "Designed and deployed scalable cloud infrastructure on Microsoft Azure to support enterprise-grade data and AI workloads.",
       "Automated data aggregation and reporting workflows using Python and SQL, reducing manual effort by 40%.",
     ],
   },

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "Agentic Systems",
     "Context Engineering",
     "LLM Evaluation",
-    "ML Infrastructure",
+    "AI Infrastructure",
     "Abhinaysai Kamineni",
     "Portfolio",
   ],

@@ -10,8 +10,8 @@ export default function Contact(): JSX.Element {
           Contact.
         </AnimatedHeading>
 
-        <p className="t-body max-w-xl text-[var(--fg-muted)]">
-          Technical discussions on agent systems, evaluation, or ML
+        <p className="t-body max-w-xl text-white/85">
+          Technical discussions on agent systems, evaluation, or AI
           infrastructure—email is the fastest path.
         </p>
 
@@ -28,6 +28,12 @@ export default function Contact(): JSX.Element {
           </Button>
           <Button href={siteConfig.social.github} external variant="outline">
             GitHub
+          </Button>
+          <Button href={siteConfig.social.twitter} external variant="outline">
+            X
+          </Button>
+          <Button href={siteConfig.social.medium} external variant="outline">
+            Medium
           </Button>
         </div>
       </div>
