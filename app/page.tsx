@@ -4,7 +4,6 @@ import SelectedWork from "@/components/work/SelectedWork";
 import SkillsSection from "@/components/skills/SkillsSection";
 import About from "@/components/about/About";
 import Experience from "@/components/experience/Experience";
-import NowBlock from "@/components/now/NowBlock";
 import Contact from "@/components/contact/Contact";
 import ReportIssue from "@/components/report/ReportIssue";
 
@@ -17,7 +16,6 @@ export default function HomePage() {
       <SkillsSection />
       <About />
       <Experience />
-      <NowBlock />
       <Contact />
       <ReportIssue />
     </div>

@@ -54,8 +54,8 @@ export default function Footer(): JSX.Element {
               <a href="/#about" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 About
               </a>
-              <a href="/#now" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
-                Now
+              <a href="/#experience" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+                Experience
               </a>
               <a href="/#report" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 Report an issue
