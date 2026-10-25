@@ -66,7 +66,6 @@ const KNOWN_SECTIONS = [
   "skills",
   "about",
   "experience",
-  "now",
   "contact",
 ] as const;
 
