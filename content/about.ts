@@ -1,6 +1,6 @@
 export const aboutParagraphs: readonly string[] = [
   "I build reliable AI systems end to end: agents that recover under failure, evaluation that catches silent regressions, and infrastructure that keeps research honest in production.",
-  "The work spans product enhancements and applied research on modern AI/ML stacks. Cortex for organizational memory. Parallax for agent runtime reliability. Clinical EEG benchmarking. Tool-semantics for MCP interface contracts.",
+  "The work spans product enhancements and applied research on modern AI/ML stacks. Meridian for supply chain risk intelligence. Cortex for organizational memory. Parallax for agent runtime reliability. Clinical EEG benchmarking. Tool-semantics for MCP interface contracts.",
   "Experience backs the idea. At Follett I ran enterprise fulfillment operations at scale. At GWU I ran graduate research on climate driven species interactions with AI assisted NLP. At Jio I shipped multi cloud MLOps. At Tetra Pak I interned on Azure backed predictive maintenance as a Data Machine Learning Intern.",
 ] as const;
 

@@ -7,15 +7,15 @@ import { siteConfig } from "@/content/site";
 const nowItems = [
   {
     label: "Building",
-    text: "Cortex: organizational memory for agents over MCP",
+    text: "Meridian: supply chain risk intelligence on a live knowledge graph",
   },
   {
     label: "Shipping",
-    text: "Parallax reliability and Tool-semantics behavioral contracts",
+    text: "Cortex memory, Parallax reliability, and Tool-semantics contracts",
   },
   {
     label: "Research",
-    text: "EEG seizure detection benchmark on CHB-MIT",
+    text: "EEG seizure detection benchmark on CHB-MIT (AUROC 0.740)",
   },
   {
     label: "Based in",

@@ -11,8 +11,8 @@ export default function SelectedWork(): JSX.Element {
             Featured work.
           </AnimatedHeading>
           <p className="t-caption max-w-xs md:max-w-[22rem] md:pb-1.5 text-[var(--fg-muted)]">
-            Memory, reliability harnesses, clinical EEG, and Tool-semantics
-            contracts. Evidence over demos.
+            Supply-chain risk, agent memory, reliability harnesses, clinical
+            EEG, and Tool-semantics contracts. Evidence over demos.
           </p>
         </div>
 
