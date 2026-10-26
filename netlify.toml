@@ -1,3 +1,7 @@
+# LEGACY / OPTIONAL — Production hosts on Vercel (askmystack.space).
+# Keep this file only if you still want Netlify preview builds.
+# Prefer Vercel project settings + Node 20 for the live site.
+
 [build]
   command = "npm run build"
 
