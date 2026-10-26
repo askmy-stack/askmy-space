@@ -1,8 +1,10 @@
 import { expect, test } from "@playwright/test";
 
 const routes = [
-  { path: "/", name: "home", expectText: /Research|Product|Work/i },
+  { path: "/", name: "home", expectText: /Full Stack AI Engineer|Featured work|Meridian/i },
+  { path: "/work/meridian", name: "work-meridian", expectText: /Meridian|supply chain/i },
   { path: "/work/cortex", name: "work-cortex", expectText: /Cortex/i },
+  { path: "/work/tool-semantics", name: "work-tool-semantics", expectText: /Tool-semantics|Behavioral/i },
 ] as const;
 
 for (const route of routes) {
@@ -22,3 +24,33 @@ for (const route of routes) {
     }
   });
 }
+
+test("home hero orb stage has layers and no prism remnants", async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await page.goto("/", { waitUntil: "domcontentloaded" });
+
+  await expect(page.getByRole("heading", { level: 1 })).toContainText(/reliable/i);
+  await expect(page.getByRole("radiogroup", { name: /engineering layers/i })).toBeVisible();
+  await expect(page.getByRole("radio", { name: /context engineering/i })).toBeVisible();
+  await expect(page.getByRole("radio", { name: /agent systems/i })).toBeVisible();
+  await expect(page.getByRole("radio", { name: /cloud & platform/i })).toBeVisible();
+  await expect(page.getByRole("radio", { name: /evaluation/i })).toBeVisible();
+
+  await expect(page.locator("body")).not.toContainText(/NeuralLattice|ScrollScene/i);
+  await expect(page.locator("[data-prism], .neural-lattice")).toHaveCount(0);
+});
+
+test("home hero layer cards are keyboard selectable", async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await page.goto("/", { waitUntil: "networkidle" });
+
+  const first = page.getByRole("radio", { name: /context engineering/i });
+  await first.click();
+  await expect(first).toHaveAttribute("aria-checked", "true");
+  await first.focus();
+  await page.keyboard.press("ArrowRight");
+  const agents = page.getByRole("radio", { name: /agent systems/i });
+  await expect(agents).toBeFocused();
+  await expect(agents).toHaveAttribute("aria-checked", "true");
+  await expect(page.getByText(/Useful action/i).first()).toBeVisible();
+});

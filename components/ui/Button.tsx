@@ -24,15 +24,15 @@ type ButtonProps = BaseProps & React.ButtonHTMLAttributes<HTMLButtonElement> & {
 type Props = AnchorProps | ButtonProps;
 
 const base =
-  "inline-flex items-center justify-center gap-2 font-mono text-sm tracking-wide px-6 py-3.5 rounded-sm transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--bg)]";
+  "inline-flex items-center justify-center gap-2 t-caption font-medium px-6 py-3.5 rounded-sm transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--bg)]";
 
 const variants: Record<Variant, string> = {
   primary:
-    "bg-[var(--accent)] text-[var(--bg)] hover:bg-[var(--accent)]/90",
+    "bg-[var(--accent)] text-white hover:bg-[var(--accent)]/90",
   ghost:
-    "bg-transparent text-[var(--fg)] hover:bg-[var(--bg-elevated)]",
+    "bg-transparent text-white hover:bg-[var(--bg-elevated)]",
   outline:
-    "border border-[var(--border)] text-[var(--fg)] hover:border-[var(--accent)] hover:text-[var(--accent)]",
+    "border border-[rgba(255,255,255,0.35)] text-white hover:border-[var(--accent)] hover:text-white",
 };
 
 export const Button = forwardRef<HTMLElement, Props>(function Button(

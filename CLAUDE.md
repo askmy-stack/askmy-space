@@ -13,7 +13,7 @@ npm run test:e2e # Playwright visual smoke (optional locally)
 npm run start    # Production server
 ```
 
-Use Node 20 (see `.nvmrc` / Netlify `NODE_VERSION`).
+Use Node 20 (see `.nvmrc`). Production hosts on **Vercel**; `netlify.toml` is legacy/optional.
 
 ## Architecture
 
@@ -23,16 +23,15 @@ Use Node 20 (see `.nvmrc` / Netlify `NODE_VERSION`).
 
 | Path | Purpose |
 |------|---------|
-| `/` | Home sections (hero → work → skills → about/terminal → experience → now → contact → report) |
+| `/` | Home (hero → capabilities → work → skills → about/terminal → experience → contact → report) |
 | `/work/[slug]` | Case studies from `content/projects.ts` |
-| `/signals` | Optional signals feed (not linked from primary nav) |
 
 ### Content & data
 
-- `content/site.ts` — site config, nav
+- `content/site.ts` — site config, nav, social links
 - `content/projects.ts` — featured projects + case-study prose
-- `content/experience.ts`, `content/about.ts`, `content/certifications.ts`
-- `data/` — skills and other structured lists
+- `content/experience.ts`, `content/education.ts`, `content/about.ts`
+- `data/skills.ts` — skill groups
 
 ### Interactive terminal (About)
 
@@ -48,7 +47,7 @@ Deterministic, offline terminal — **no LLM**:
 - CSS variables in `app/globals.css` (`--bg`, `--fg`, `--accent`, …) — dark only
 - Fonts: Fraunces + Geist Sans + Geist Mono (`lib/fonts.ts`)
 - `hooks/useReducedMotion.ts` gates Framer / canvas motion
-- Ambient `SignalField` in root layout; `ScrollScene` / `NeuralLattice` for hero storytelling
+- Ambient `SignalField` in root layout; hero uses `SystemsDiagram` (SVG/CSS orb stage)
 
 ### Analytics
 
@@ -61,3 +60,4 @@ Deterministic, offline terminal — **no LLM**:
 - Keep PRs scoped; link issues with `Fixes #N`
 - Never commit secrets
 - Visible metrics must match the current resume / `content/` (no invented percentages)
+- Branch names for cloud agents: `cursor/<descriptive-name>-f279`

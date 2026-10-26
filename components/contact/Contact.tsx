@@ -4,40 +4,36 @@ import { siteConfig } from "@/content/site";
 
 export default function Contact(): JSX.Element {
   return (
-    <section id="contact" className="pt-10 pb-16 md:pt-12 md:pb-20">
+    <section id="contact" className="pt-14 pb-16 md:pt-16 md:pb-20">
       <div className="container-editorial">
-        <AnimatedHeading
-          as="h2"
-          className="t-display mb-4"
-        >
-          Let’s build
-        </AnimatedHeading>
-        <AnimatedHeading
-          as="h2"
-          className="t-display text-[var(--accent)] mb-12"
-          delay={0.15}
-        >
-          something real.
+        <AnimatedHeading as="h2" className="t-display mb-5">
+          Contact.
         </AnimatedHeading>
 
-        <p className="t-body-lg max-w-2xl">
-          Open to research collaborations and product-ML builds at the Research · Product
-          boundary. If the problem is hard and the work is honest — reach out.
+        <p className="t-body max-w-xl text-white/85">
+          Technical discussions on agent systems, evaluation, or AI
+          infrastructure—email is the fastest path.
         </p>
 
-        <div className="mt-12 flex flex-wrap gap-3">
+        <div className="mt-8 flex flex-wrap gap-3">
           <Button
             href={`https://mail.google.com/mail/?view=cm&fs=1&to=${siteConfig.email}`}
             external
             variant="primary"
           >
-            Email ↗
+            Email
           </Button>
           <Button href={siteConfig.social.linkedin} external variant="outline">
-            LinkedIn ↗
+            LinkedIn
           </Button>
           <Button href={siteConfig.social.github} external variant="outline">
-            GitHub ↗
+            GitHub
+          </Button>
+          <Button href={siteConfig.social.twitter} external variant="outline">
+            X
+          </Button>
+          <Button href={siteConfig.social.medium} external variant="outline">
+            Medium
           </Button>
         </div>
       </div>

@@ -41,11 +41,6 @@ export interface Experience {
   bullets: readonly string[];
 }
 
-export interface Certification {
-  name: string;
-  issuer: string;
-}
-
 export interface Principle {
   title: string;
 }

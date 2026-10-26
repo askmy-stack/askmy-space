@@ -1,18 +1,19 @@
 export const siteConfig = {
   name: "Abhinaysai Kamineni",
   alias: "ABHINAYSAI",
-  role: "AI Engineer",
+  role: "Full Stack AI Engineer",
   /** Short, brand-led tagline used in tab titles + social cards. */
-  tagShort: "AI Engineer · Research · Product",
+  tagShort: "Full Stack AI Engineer",
   tagline:
-    "Abhinaysai Kamineni. AI Engineer focused on Research and Product. Organizational memory for agents (Cortex), agent reliability evaluation (Parallax), supply-chain risk intelligence (Meridian), and production MLOps at Jio Platforms. GWU MS Data Science, Global Leaders Award.",
+    "Abhinaysai Kamineni. Full Stack AI Engineer building reliable agents, context engineering, evaluation, and AI infrastructure. Meridian, Cortex, Parallax, clinical EEG research, and Tool-semantics.",
   email: "kamineniabhinaysai@gmail.com",
-  location: "Arlington, VA",
+  location: "Washington, DC",
   url: "https://askmystack.space",
   social: {
     linkedin: "https://linkedin.com/in/abhinaysai-kamineni",
     github: "https://github.com/askmy-stack",
     medium: "https://medium.com/@kamineniabhinaysai",
+    twitter: "https://x.com/ask_my_stack",
   },
 } as const;
 

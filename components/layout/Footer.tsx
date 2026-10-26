@@ -26,6 +26,22 @@ export default function Footer(): JSX.Element {
               >
                 GitHub ↗
               </a>
+              <a
+                href={siteConfig.social.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
+              >
+                Twitter / X ↗
+              </a>
+              <a
+                href={siteConfig.social.medium}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors"
+              >
+                Medium ↗
+              </a>
             </div>
           </div>
 
@@ -38,8 +54,8 @@ export default function Footer(): JSX.Element {
               <a href="/#about" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 About
               </a>
-              <a href="/#now" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
-                Now
+              <a href="/#experience" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
+                Experience
               </a>
               <a href="/#report" className="t-caption text-[var(--fg)] hover:text-[var(--accent)] transition-colors">
                 Report an issue
@@ -50,15 +66,17 @@ export default function Footer(): JSX.Element {
           <div>
             <p className="t-label mb-4">Status</p>
             <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 bg-[var(--accent)] rounded-full animate-pulse-dot" />
-              <span className="t-caption text-[var(--fg)]">Open to research collaborations · Building big</span>
+              <span className="w-1.5 h-1.5 bg-[var(--accent)] rounded-full" />
+              <span className="t-caption text-[var(--fg)]">
+                Agents. Context. Infrastructure
+              </span>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mt-16 pt-6 border-t border-[var(--border)]">
           <p className="t-label">© {year} {siteConfig.name}</p>
-          <p className="t-label">Next.js · TypeScript · Framer Motion</p>
+          <p className="t-label">Next.js. TypeScript. Framer Motion</p>
         </div>
       </div>
     </footer>
