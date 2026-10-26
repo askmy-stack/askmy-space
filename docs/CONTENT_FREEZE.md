@@ -24,7 +24,7 @@ Canonical copy for the portfolio baseline. Prefer editing `content/` only when L
 2. The George Washington University — Graduate Research Assistant (Mar 2025–Aug 2025)
 3. Jio Platforms Limited — Data Ops Engineer (Jul 2023–Jul 2024)
 4. PHN Technology Pvt Ltd — Data Analyst (May 2022–Jun 2023)
-5. Tetra Pak — Data Machine Learning Intern (Mar 2021–Jun 2021)
+5. Tetra Pak — Information Technology Engineer (Jun 2021–May 2022)
 
 ## Education
 

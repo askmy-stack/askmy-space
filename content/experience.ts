@@ -50,9 +50,9 @@ export const experience: readonly Experience[] = [
     ],
   },
   {
-    title: "Data Machine Learning Intern",
+    title: "Information Technology Engineer",
     company: "Tetra Pak",
-    dates: "Mar 2021 to Jun 2021",
+    dates: "Jun 2021 to May 2022",
     location: "Pune, India",
     bullets: [
       "Conducted experiments with supervised learning models, including Random Forest and Gradient Boosting, on sensor data for predictive maintenance.",
