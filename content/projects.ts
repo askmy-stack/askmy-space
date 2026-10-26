@@ -2,7 +2,7 @@ import type { Project } from "@/lib/types";
 
 /**
  * Featured work — LinkedIn project order for newest first (Meridian),
- * then Cortex / Parallax / EEG / Tool-semantics.
+ * then Cortex / EEG / Tool-semantics.
  * Metrics and narratives aligned to LinkedIn project writeups where present.
  */
 export const projects: readonly Project[] = [
@@ -25,6 +25,7 @@ export const projects: readonly Project[] = [
     pillars: ["Engineering", "Product", "Research"],
     color: "#818CF8",
     github: "https://github.com/askmy-stack/meridian",
+    image: "/info/projects/meridian.png",
     gradient: "from-indigo-400/20 via-violet-500/10 to-transparent",
     problem:
       "Supply chain disruption signals arrive as multi-source noise. Operators need scored risk, graph context, and explanations—not another offline notebook forecast.",
@@ -60,6 +61,7 @@ export const projects: readonly Project[] = [
     pillars: ["Product", "Engineering", "Research"],
     color: "#FF6B35",
     github: "https://github.com/askmy-stack/cortex",
+    image: "/info/projects/cortex.png",
     gradient: "from-orange-500/20 via-rose-500/10 to-transparent",
     problem:
       "Enterprise knowledge is fragmented across Slack, GitHub, and Jira. Agents that only see one silo invent context, lose provenance, and cannot be trusted across sessions.",
@@ -75,41 +77,6 @@ export const projects: readonly Project[] = [
     ],
     learnings:
       "Agent memory is an infrastructure problem before it is a prompting problem. Provenance and access control decide whether teams trust what the agent recalls.",
-  },
-  {
-    slug: "parallax",
-    title: "Parallax",
-    subtitle: "Runtime Reliability for Autonomous Agents",
-    narrative:
-      "Ground-truth failure cases, semantic traces, fault injection, and rule-, ML-, and LLM-judge baselines for autonomous-agent regression testing.",
-    year: 2026,
-    updatedAt: "2026-08-11",
-    category: "Evaluation. Observability. Agent Reliability",
-    heroMetric: "LLM as judge. OpenTelemetry. Failure benches",
-    metrics: [
-      "LLM as a Judge baselines",
-      "OpenTelemetry and Jaeger",
-      "Agent failure benchmarks",
-    ],
-    tags: ["LLM Evaluation", "OpenTelemetry", "Agent Reliability"],
-    pillars: ["Research", "Engineering"],
-    color: "#4ADE80",
-    github: "https://github.com/askmy-stack/parallax",
-    gradient: "from-emerald-400/20 via-teal-500/10 to-transparent",
-    problem:
-      "Autonomous agents fail in ways unit tests miss: silent tool misuse, degraded reasoning, and recovery paths that never fire. Pass/fail suites do not measure detection lead time or diagnosis quality.",
-    approach: [
-      "Designed ground-truth failure cases, semantic traces, fault injection, and rule-, ML-, and LLM-judge baselines.",
-      "Instrumented agent execution with OpenTelemetry and Jaeger to compare detection lead time, diagnosis quality, and recovery behavior.",
-      "Established repeatable reliability benchmarks across failure scenarios beyond simple pass/fail evaluation.",
-    ],
-    results: [
-      "Repeatable agent reliability benchmarks across injected failure scenarios",
-      "Measurable observability signals for detection lead time and recovery",
-      "Comparable rule, ML, and LLM-judge baselines on the same harness",
-    ],
-    learnings:
-      "Reliability for agents is an evidence problem. Traces, judges, and recovery metrics matter more than a green checkmark on the happy path.",
   },
   {
     slug: "eeg-seizure-detection",
@@ -130,6 +97,7 @@ export const projects: readonly Project[] = [
     pillars: ["Research", "Engineering"],
     color: "#A78BFA",
     github: "https://github.com/askmy-stack/eeg-seizure-detection",
+    image: "/info/projects/eeg-seizure-detection.png",
     gradient: "from-violet-400/20 via-indigo-500/10 to-transparent",
     problem:
       "Most published seizure detection models report numbers on a single architecture or subject, leaving open which model class actually generalizes across patients in real conditions.",
@@ -165,6 +133,7 @@ export const projects: readonly Project[] = [
     pillars: ["Engineering", "Research", "Product"],
     color: "#F472B6",
     github: "https://github.com/askmy-stack/tool-semantics",
+    image: "/info/projects/tool-semantics.png",
     gradient: "from-pink-400/20 via-rose-500/10 to-transparent",
     problem:
       "MCP Tool schemas can stay valid while agent behavior breaks: silent contract drift that unit tests and type checks miss.",

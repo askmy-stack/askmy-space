@@ -17,7 +17,7 @@ Content-driven Next.js portfolio. Copy, projects, experience, education, and sit
 |---|---|
 | **Hero** | Two-column landing: brand copy + interactive systems orb (Context, Agents, Cloud, Evaluation) |
 | **Capabilities** | Context engineering · Agent systems · Evaluation · AI Infrastructure |
-| **Featured work** | Meridian, Cortex, Parallax, EEG Seizure Detection, Tool-semantics → `/work/[slug]` |
+| **Featured work** | Meridian, Cortex, EEG Seizure Detection, Tool-semantics → `/work/[slug]` |
 | **Skills** | Generative AI & Agents, ML & Data Science, Data Eng & APIs, Cloud & MLOps, Observability, Languages |
 | **About** | Interactive terminal (`~ /abhinaysai — zsh`), bio, principles |
 | **Experience** | Follett, GWU research, Jio, PHN, Tetra Pak + education (GWU M.S., SPPU B.E.) |
@@ -30,7 +30,6 @@ Content-driven Next.js portfolio. Copy, projects, experience, education, and sit
 |---|---|
 | **Meridian** | Supply-chain risk · GDELT/ACLED/AIS · Neo4j · XGBoost + SHAP |
 | **Cortex** | MCP organizational memory · Kafka · Neo4j + Qdrant · ~120ms retrieval |
-| **Parallax** | Agent reliability · LLM-as-judge · OpenTelemetry |
 | **EEG Seizure Detection** | Subject-independent CHB-MIT · AUROC 0.740 |
 | **Tool-semantics** | Behavioral tool-use evaluation for agents |
 

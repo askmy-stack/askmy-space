@@ -33,7 +33,7 @@ Canonical copy for the portfolio baseline. Prefer editing `content/` only when L
 
 ## Featured projects (order)
 
-1. Meridian · 2. Cortex · 3. Parallax · 4. EEG Seizure Detection · 5. Tool-semantics
+1. Meridian · 2. Cortex · 3. EEG Seizure Detection · 4. Tool-semantics
 
 ## Frozen out of baseline
 

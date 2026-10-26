@@ -56,7 +56,7 @@ export default async function Image() {
         </div>
 
         <div style={{ display: "flex", gap: "40px" }}>
-          {["Cortex", "Parallax", "EEG", "Tool-semantics"].map((label) => (
+          {["Meridian", "Cortex", "EEG", "Tool-semantics"].map((label) => (
             <div
               key={label}
               style={{
